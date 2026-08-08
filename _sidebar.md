@@ -6,6 +6,7 @@
 * 二、工具与产品
   * [ViMax：多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md)
   * [黑石写作助手·中长篇小说版](02-tools/2026-08-08-blackstone-longform-fiction.md)
+  * [NVIDIA Build：100+ AI模型免费API](02-tools/2026-08-08-nvidia-build-nim-api.md)
 
 * 三、行业动态
 
