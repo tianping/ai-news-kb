@@ -7,6 +7,8 @@
   * [ViMax：多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md)
   * [黑石写作助手·中长篇小说版](02-tools/2026-08-08-blackstone-longform-fiction.md)
   * [NVIDIA Build：100+ AI模型免费API](02-tools/2026-08-08-nvidia-build-nim-api.md)
+  * [NVIDIA Build Skills 总览](02-tools/2026-08-08-nvidia-build-skills-overview.md)
+  * [NVIDIA RAG Blueprint 详解](02-tools/2026-08-08-nvidia-rag-blueprint.md)
 
 * 三、行业动态
 

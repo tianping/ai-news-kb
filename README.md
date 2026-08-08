@@ -17,6 +17,8 @@
 - [ViMax：香港大学开源多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md) — 一个想法生成一部完整视频，导演+编剧+制片+生成器一体化
 - [黑石写作助手·中长篇小说版](02-tools/2026-08-08-blackstone-longform-fiction.md) — OpenClaw Skill，六项写作技能覆盖从灵感到正文全流程
 - [NVIDIA Build：100+ AI模型免费API平台](02-tools/2026-08-08-nvidia-build-nim-api.md) — 免费100+模型，免信用卡，OpenAI兼容，中国直连
+- [NVIDIA Build Skills 总览](02-tools/2026-08-08-nvidia-build-skills-overview.md) — 163+ Agent Skills，覆盖RAG/数据科学/优化/训练/推理/视觉等
+- [NVIDIA RAG Blueprint 详解](02-tools/2026-08-08-nvidia-rag-blueprint.md) — ⭐ 科研检索增强生成指南，RAG流水线/Agentic RAG/评估方法/部署教程
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
