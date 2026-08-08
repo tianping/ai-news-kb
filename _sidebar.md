@@ -4,6 +4,7 @@
   * [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md)
 
 * 二、工具与产品
+  * [ViMax：多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md)
 
 * 三、行业动态
 

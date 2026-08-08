@@ -14,6 +14,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [ViMax：香港大学开源多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md) — 一个想法生成一部完整视频，导演+编剧+制片+生成器一体化
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
