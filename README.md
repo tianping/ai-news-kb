@@ -19,6 +19,10 @@
 - [NVIDIA Build：100+ AI模型免费API平台](02-tools/2026-08-08-nvidia-build-nim-api.md) — 免费100+模型，免信用卡，OpenAI兼容，中国直连
 - [NVIDIA Build Skills 总览](02-tools/2026-08-08-nvidia-build-skills-overview.md) — 163+ Agent Skills，覆盖RAG/数据科学/优化/训练/推理/视觉等
 - [NVIDIA RAG Blueprint 详解](02-tools/2026-08-08-nvidia-rag-blueprint.md) — ⭐ 科研检索增强生成指南，RAG流水线/Agentic RAG/评估方法/部署教程
+- [AiPy 短视频脚本生成器](02-tools/2026-08-09-aipy-video-script-generator.md) — 用 AiPy 一分钟生成短视频脚本
+- [咪蒙爆文开头写作 Skill 拆解](02-tools/2026-08-09-mimeng-skill-analysis.md) — 拆解咪蒙911篇文章的开头写法
+- [story-to-handdrawn-video：中文故事生成手绘动画](02-tools/2026-08-09-story-to-handdrawn-video.md) — Remotion 驱动，20种手绘风格，文字→黑白画稿→彩色插画揭示动效
+- [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md) — Agnes AI + O4OpenAI + ArcReel 三件套，零成本批量生成短视频
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -54,6 +58,15 @@
 | 分类 | 笔记 | 日期 |
 |------|------|------|
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
+| 02-tools | ViMax：多智能体视频生成框架 | 2026-08-08 |
+| 02-tools | 黑石写作助手·中长篇小说版 | 2026-08-08 |
+| 02-tools | NVIDIA Build：100+ AI模型免费API | 2026-08-08 |
+| 02-tools | NVIDIA Build Skills 总览 | 2026-08-08 |
+| 02-tools | NVIDIA RAG Blueprint 详解 | 2026-08-08 |
+| 02-tools | AiPy 短视频脚本生成器 | 2026-08-09 |
+| 02-tools | 咪蒙爆文开头写作 Skill 拆解 | 2026-08-09 |
+| 02-tools | story-to-handdrawn-video：中文故事生成手绘动画 | 2026-08-09 |
+| 02-tools | Agnes Video 全免费短视频工厂 | 2026-08-09 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 
 ---
