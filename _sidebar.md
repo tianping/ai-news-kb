@@ -31,5 +31,6 @@
   * [OpenClaw+Claude Code 论文写作与分析训练营](06-academic/2026-08-10-openclaw-claudecode-academic-writing-course.md)
   * [Academic Research Skills 深度拆解](06-academic/2026-08-10-academic-research-skills-deep-dive.md)
   * [AI赋能社科计量研究：Codex+Stata实证工作流课程](06-academic/2026-08-10-ai-stata-econometrics-course.md)
+  * [Gemini辅助国社科基金申请书写作：5个Skill](06-academic/2026-08-10-gemini-ssh-fund-application-skills.md)
 
 * [inbox（待整理）](inbox/)
