@@ -16,6 +16,7 @@
   * [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md)
   * [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md)
   * [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md)
+  * [科研绘图 Skill Top 10 榜单](02-tools/2026-08-10-research-figure-skills-top10.md)
 
 * 三、行业动态
 

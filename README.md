@@ -26,6 +26,7 @@
 - [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md) — Agnes AI + O4OpenAI + ArcReel 三件套，零成本批量生成短视频
 - [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md) — GitHub 45K+ Star，12条流水线+100+工具+700+技能文件，自然语言→完整视频
 - [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md) — 提交标题→AI生成文案生图→Coze排版→公众号草稿箱，全自动化
+- [科研绘图 Skill Top 10 榜单](02-tools/2026-08-10-research-figure-skills-top10.md) — GitHub 最热门10个科研绘图 Agent Skill，覆盖论文图件/多面板排版/期刊投稿格式
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -73,6 +74,7 @@
 | 02-tools | Agnes Video 全免费短视频工厂 | 2026-08-09 |
 | 02-tools | OpenMontage：开源Agentic视频生产系统 | 2026-08-10 |
 | 02-tools | n8n+Coze自动复刻老纪先生漫画 | 2026-08-10 |
+| 02-tools | 科研绘图 Skill Top 10 榜单 | 2026-08-10 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 
 ---
