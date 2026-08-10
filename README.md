@@ -62,6 +62,7 @@
 - [Academic Research Skills 深度拆解](06-academic/2026-08-10-academic-research-skills-deep-dive.md) — GitHub 35K+ Star，四条工作流（Deep Research/Paper/Reviewer/Pipeline），AI处理检索格式核验，研究者掌握方向盘
 - [AI赋能社科计量研究：Codex+Stata实证工作流课程](06-academic/2026-08-10-ai-stata-econometrics-course.md) — Codex+Stata组合工作流，DID政策评估/DML因果机器学习/空间计量+ArcGIS可视化
 - [Gemini辅助国社科基金申请书写作：5个Skill](06-academic/2026-08-10-gemini-ssh-fund-application-skills.md) — 选题凝练→论证依据→研究设计→思路方法→提炼创新，5个独立Prompt覆盖申请书全流程
+- [Zotero+Codex+Obsidian文献阅读工作流](06-academic/2026-08-10-zotero-codex-obsidian-literature-workflow.md) — Zotero收藏批注→Codex结构化整理→Obsidian知识沉淀，可复用的文献阅读流水线
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -95,6 +96,7 @@
 | 06-academic | Academic Research Skills 深度拆解 | 2026-08-10 |
 | 06-academic | AI赋能社科计量研究：Codex+Stata课程 | 2026-08-10 |
 | 06-academic | Gemini辅助国社科基金申请书写作：5个Skill | 2026-08-10 |
+| 06-academic | Zotero+Codex+Obsidian文献阅读工作流 | 2026-08-10 |
 
 ---
 
