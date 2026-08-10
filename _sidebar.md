@@ -33,5 +33,6 @@
   * [AI赋能社科计量研究：Codex+Stata实证工作流课程](06-academic/2026-08-10-ai-stata-econometrics-course.md)
   * [Gemini辅助国社科基金申请书写作：5个Skill](06-academic/2026-08-10-gemini-ssh-fund-application-skills.md)
   * [Zotero+Codex+Obsidian文献阅读工作流](06-academic/2026-08-10-zotero-codex-obsidian-literature-workflow.md)
+  * [经管实证论文写作6步法](06-academic/2026-08-10-econometrics-paper-writing-6steps.md)
 
 * [inbox（待整理）](inbox/)
