@@ -25,4 +25,7 @@
 * 五、事件与评论
   * [2026年8月4日 AI日报](05-events/2026-08-04-ai-daily.md)
 
+* 六、AI学术应用
+  * [Gemini 学术写作助手：8步指令集](06-academic/2026-08-10-gemini-academic-writing-prompts.md)
+
 * [inbox（待整理）](inbox/)
