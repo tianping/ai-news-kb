@@ -27,5 +27,6 @@
 
 * 六、AI学术应用
   * [Gemini 学术写作助手：8步指令集](06-academic/2026-08-10-gemini-academic-writing-prompts.md)
+  * [Gemini 3.0 学术指令集：从选题到返修全流程](06-academic/2026-08-10-gemini3-academic-full-workflow-prompts.md)
 
 * [inbox（待整理）](inbox/)
