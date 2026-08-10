@@ -27,6 +27,7 @@
 - [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md) — GitHub 45K+ Star，12条流水线+100+工具+700+技能文件，自然语言→完整视频
 - [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md) — 提交标题→AI生成文案生图→Coze排版→公众号草稿箱，全自动化
 - [科研绘图 Skill Top 10 榜单](02-tools/2026-08-10-research-figure-skills-top10.md) — GitHub 最热门10个科研绘图 Agent Skill，覆盖论文图件/多面板排版/期刊投稿格式
+- [2026年最佳免费 LLM API 盘点](02-tools/2026-08-10-best-free-llm-apis.md) — 16个提供商110个免费模型，按可用性分4层，Groq/Cerebras/Mistral/OpenRouter推荐
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -91,6 +92,7 @@
 | 02-tools | OpenMontage：开源Agentic视频生产系统 | 2026-08-10 |
 | 02-tools | n8n+Coze自动复刻老纪先生漫画 | 2026-08-10 |
 | 02-tools | 科研绘图 Skill Top 10 榜单 | 2026-08-10 |
+| 02-tools | 2026年最佳免费 LLM API 盘点 | 2026-08-10 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
 | 06-academic | Gemini 3.0 学术指令集：从选题到返修全流程 | 2026-08-10 |
