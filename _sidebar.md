@@ -30,5 +30,6 @@
   * [Gemini 3.0 学术指令集：从选题到返修全流程](06-academic/2026-08-10-gemini3-academic-full-workflow-prompts.md)
   * [OpenClaw+Claude Code 论文写作与分析训练营](06-academic/2026-08-10-openclaw-claudecode-academic-writing-course.md)
   * [Academic Research Skills 深度拆解](06-academic/2026-08-10-academic-research-skills-deep-dive.md)
+  * [AI赋能社科计量研究：Codex+Stata实证工作流课程](06-academic/2026-08-10-ai-stata-econometrics-course.md)
 
 * [inbox（待整理）](inbox/)
