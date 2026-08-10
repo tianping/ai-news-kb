@@ -59,6 +59,7 @@
 - [Gemini 学术写作助手：8步指令集](06-academic/2026-08-10-gemini-academic-writing-prompts.md) — 标题→摘要→大纲→写作指导→续写→纠错→润色→评审，全流程学术指令模板
 - [Gemini 3.0 学术指令集：从选题到返修全流程](06-academic/2026-08-10-gemini3-academic-full-workflow-prompts.md) — 适配Gemini 3.0/3.1 Pro，选题→文献→大纲→撰写→图表→润色→返修→参考文献
 - [OpenClaw+Claude Code 论文写作与分析训练营](06-academic/2026-08-10-openclaw-claudecode-academic-writing-course.md) — 双核心平台科研工作流实战课程，4天覆盖选题到投稿全链条
+- [Academic Research Skills 深度拆解](06-academic/2026-08-10-academic-research-skills-deep-dive.md) — GitHub 35K+ Star，四条工作流（Deep Research/Paper/Reviewer/Pipeline），AI处理检索格式核验，研究者掌握方向盘
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -89,6 +90,7 @@
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
 | 06-academic | Gemini 3.0 学术指令集：从选题到返修全流程 | 2026-08-10 |
 | 06-academic | OpenClaw+Claude Code 论文写作与分析训练营 | 2026-08-10 |
+| 06-academic | Academic Research Skills 深度拆解 | 2026-08-10 |
 
 ---
 
