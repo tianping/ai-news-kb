@@ -24,6 +24,8 @@
 - [story-to-handdrawn-video：中文故事生成手绘动画](02-tools/2026-08-09-story-to-handdrawn-video.md) — Remotion 驱动，20种手绘风格，文字→黑白画稿→彩色插画揭示动效
 - [story-to-handdrawn-video 实测评测](02-tools/2026-08-10-story-to-handdrawn-video-review.md) — 本地跑通实测、踩坑记录、分人群使用建议
 - [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md) — Agnes AI + O4OpenAI + ArcReel 三件套，零成本批量生成短视频
+- [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md) — GitHub 45K+ Star，12条流水线+100+工具+700+技能文件，自然语言→完整视频
+- [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md) — 提交标题→AI生成文案生图→Coze排版→公众号草稿箱，全自动化
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -69,6 +71,8 @@
 | 02-tools | story-to-handdrawn-video：中文故事生成手绘动画 | 2026-08-09 |
 | 02-tools | story-to-handdrawn-video 实测评测 | 2026-08-10 |
 | 02-tools | Agnes Video 全免费短视频工厂 | 2026-08-09 |
+| 02-tools | OpenMontage：开源Agentic视频生产系统 | 2026-08-10 |
+| 02-tools | n8n+Coze自动复刻老纪先生漫画 | 2026-08-10 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 
 ---

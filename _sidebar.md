@@ -14,6 +14,8 @@
   * [story-to-handdrawn-video：中文故事生成手绘动画](02-tools/2026-08-09-story-to-handdrawn-video.md)
   * [story-to-handdrawn-video 实测评测](02-tools/2026-08-10-story-to-handdrawn-video-review.md)
   * [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md)
+  * [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md)
+  * [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md)
 
 * 三、行业动态
 
