@@ -22,6 +22,7 @@
 - [AiPy 短视频脚本生成器](02-tools/2026-08-09-aipy-video-script-generator.md) — 用 AiPy 一分钟生成短视频脚本
 - [咪蒙爆文开头写作 Skill 拆解](02-tools/2026-08-09-mimeng-skill-analysis.md) — 拆解咪蒙911篇文章的开头写法
 - [story-to-handdrawn-video：中文故事生成手绘动画](02-tools/2026-08-09-story-to-handdrawn-video.md) — Remotion 驱动，20种手绘风格，文字→黑白画稿→彩色插画揭示动效
+- [story-to-handdrawn-video 实测评测](02-tools/2026-08-10-story-to-handdrawn-video-review.md) — 本地跑通实测、踩坑记录、分人群使用建议
 - [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md) — Agnes AI + O4OpenAI + ArcReel 三件套，零成本批量生成短视频
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
@@ -66,6 +67,7 @@
 | 02-tools | AiPy 短视频脚本生成器 | 2026-08-09 |
 | 02-tools | 咪蒙爆文开头写作 Skill 拆解 | 2026-08-09 |
 | 02-tools | story-to-handdrawn-video：中文故事生成手绘动画 | 2026-08-09 |
+| 02-tools | story-to-handdrawn-video 实测评测 | 2026-08-10 |
 | 02-tools | Agnes Video 全免费短视频工厂 | 2026-08-09 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 

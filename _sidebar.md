@@ -12,6 +12,7 @@
   * [AIPY 视频脚本生成器](02-tools/2026-08-09-aipy-video-script-generator.md)
   * [觅橙 Skill 分析](02-tools/2026-08-09-mimeng-skill-analysis.md)
   * [story-to-handdrawn-video：中文故事生成手绘动画](02-tools/2026-08-09-story-to-handdrawn-video.md)
+  * [story-to-handdrawn-video 实测评测](02-tools/2026-08-10-story-to-handdrawn-video-review.md)
   * [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md)
 
 * 三、行业动态
