@@ -56,6 +56,7 @@
 
 ### 五、事件与评论
 - [2026年8月4日 AI日报](05-events/2026-08-04-ai-daily.md) — Qwen3.8-Max发布、MiniMax H3开源、白宫AI安全会议、AI价格战
+- [斯坦福AI设计出完整可存活病毒](05-events/2026-08-11-stanford-ai-designed-virus-genome.md) — 全球首次AI设计可存活病毒基因组，Evo模型生成16种噬菌体，生物安全治理引关注
 - 重要发布会与演讲
 - 行业争议与讨论
 - 趋势分析与预测
@@ -105,6 +106,7 @@
 | 02-tools | Suno V5 实测：一条Prompt生成Vaporwave R&B | 2026-08-11 |
 | 02-tools | StorySmith AI：9 Agent协作的互动短剧工厂 | 2026-08-11 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
+| 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
 | 06-academic | Gemini 3.0 学术指令集：从选题到返修全流程 | 2026-08-10 |
 | 06-academic | OpenClaw+Claude Code 论文写作与分析训练营 | 2026-08-10 |
