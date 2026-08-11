@@ -36,6 +36,7 @@
 - [music-dance-video Skill：给Codex一首歌自动生成舞蹈视频](02-tools/2026-08-11-music-dance-video-skill.md) — 六步流程从音乐理解到成片交付，Codex规划+用户决策，开源可复用
 - [开源AI音乐提示词手册：ACE-Step/HeartMuLa/Stable Audio 3](02-tools/2026-08-11-open-source-ai-music-prompt-guide.md) — 三大开源音乐模型提示词完全拆解：8维标签公式+歌词段标+纯Prompt乐器描述，含翻车诊断表和高频标签清单
 - [Codex + ChatCut：AI视频剪辑外贸获客实战](02-tools/2026-08-11-codex-chatcut-foreign-trade-video.md) — 10天55条外贸视频获23个咨询，五步流程从脚本到多平台导出，Codex做决策ChatCut做执行
+- [Agnes AI：免费全模态API（文本+图片+视频）](02-tools/2026-08-11-agnes-ai-free-multimodal-api.md) — 三款模型无限期免费，OpenAI兼容接口，单周4.11万亿Token，可接入Claude Code/Cursor
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -111,6 +112,7 @@
 | 02-tools | music-dance-video Skill：给Codex一首歌自动生成舞蹈视频 | 2026-08-11 |
 | 02-tools | 开源AI音乐提示词手册：ACE-Step/HeartMuLa/Stable Audio 3 | 2026-08-11 |
 | 02-tools | Codex + ChatCut：AI视频剪辑外贸获客实战 | 2026-08-11 |
+| 02-tools | Agnes AI：免费全模态API（文本+图片+视频） | 2026-08-11 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
