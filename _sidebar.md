@@ -18,6 +18,7 @@
   * [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md)
   * [科研绘图 Skill Top 10 榜单](02-tools/2026-08-10-research-figure-skills-top10.md)
   * [2026年最佳免费 LLM API 盘点](02-tools/2026-08-10-best-free-llm-apis.md)
+  * [用AI创作《洛神赋》歌曲：古风音乐生成实践](02-tools/2026-08-11-luo-shen-fu-ai-song-creation.md)
 
 * 三、行业动态
 
