@@ -31,6 +31,7 @@
 - [用AI创作《洛神赋》歌曲：古风音乐生成实践](02-tools/2026-08-11-luo-shen-fu-ai-song-creation.md) — Suno古风歌曲创作全流程，情感曲线设计+歌词结构+生僻字处理经验
 - [Suno Music Agent 问答与技术解析](02-tools/2026-08-11-suno-music-agent-qa.md) — Suno音乐生成桌面软件10个问答：为何优于LLM、版权、Tauri架构、免费策略
 - [Google Lyria 3.5 vs Suno：AI音乐横评与中文短板](02-tools/2026-08-11-lyria-3-vs-suno-ai-music-review.md) — Lyria音质降维打击但中文未纳入优化，版权pending，Suno功能生态仍领先
+- [Suno V5 实测：一条Prompt生成Vaporwave R&B](02-tools/2026-08-11-suno-v5-vaporwave-rb-prompt-test.md) — 描述歌曲发展轨迹比堆标签更有效，V5已能理解风格/空间感/编曲变化
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -100,6 +101,7 @@
 | 02-tools | 用AI创作《洛神赋》歌曲：古风音乐生成实践 | 2026-08-11 |
 | 02-tools | Suno Music Agent 问答与技术解析 | 2026-08-11 |
 | 02-tools | Google Lyria 3.5 vs Suno：AI音乐横评与中文短板 | 2026-08-11 |
+| 02-tools | Suno V5 实测：一条Prompt生成Vaporwave R&B | 2026-08-11 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
 | 06-academic | Gemini 3.0 学术指令集：从选题到返修全流程 | 2026-08-10 |
