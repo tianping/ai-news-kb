@@ -22,6 +22,7 @@
   * [Suno Music Agent 问答与技术解析](02-tools/2026-08-11-suno-music-agent-qa.md)
   * [Google Lyria 3.5 vs Suno：AI音乐横评与中文短板](02-tools/2026-08-11-lyria-3-vs-suno-ai-music-review.md)
   * [Suno V5 实测：一条Prompt生成Vaporwave R&B](02-tools/2026-08-11-suno-v5-vaporwave-rb-prompt-test.md)
+  * [StorySmith AI：9 Agent协作的互动短剧工厂](02-tools/2026-08-11-storysmith-ai-interactive-short-drama.md)
 
 * 三、行业动态
 
