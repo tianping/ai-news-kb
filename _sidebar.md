@@ -36,5 +36,6 @@
   * [Zotero+Codex+Obsidian文献阅读工作流](06-academic/2026-08-10-zotero-codex-obsidian-literature-workflow.md)
   * [经管实证论文写作6步法](06-academic/2026-08-10-econometrics-paper-writing-6steps.md)
   * [AutoResearchClaw：全自主研究系统](06-academic/2026-08-10-autoresearchclaw-autonomous-research.md)
+  * [科研"活数据"管理：让AI能读懂、能复算](06-academic/2026-08-11-research-data-management-living-data.md)
 
 * [inbox（待整理）](inbox/)

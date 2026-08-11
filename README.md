@@ -66,6 +66,7 @@
 - [Zotero+Codex+Obsidian文献阅读工作流](06-academic/2026-08-10-zotero-codex-obsidian-literature-workflow.md) — Zotero收藏批注→Codex结构化整理→Obsidian知识沉淀，可复用的文献阅读流水线
 - [经管实证论文写作6步法](06-academic/2026-08-10-econometrics-paper-writing-6steps.md) — 选题→文献→模型→数据→实证→结论，6步每步配可用的Prompt模板
 - [AutoResearchClaw：全自主研究系统](06-academic/2026-08-10-autoresearchclaw-autonomous-research.md) — 23阶段全自主研究流水线，从想法到会议级论文，支持Co-Pilot协作模式，OpenClaw兼容
+- [科研"活数据"管理：让AI能读懂、能复算](06-academic/2026-08-11-research-data-management-living-data.md) — FAIR原则+RO-Crate+AGENTS.md，5条原则7步实操，附完整AI提示词模板
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -103,6 +104,7 @@
 | 06-academic | Zotero+Codex+Obsidian文献阅读工作流 | 2026-08-10 |
 | 06-academic | 经管实证论文写作6步法 | 2026-08-10 |
 | 06-academic | AutoResearchClaw：全自主研究系统 | 2026-08-10 |
+| 06-academic | 科研"活数据"管理：让AI能读懂、能复算 | 2026-08-11 |
 
 ---
 
