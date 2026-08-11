@@ -20,6 +20,7 @@
   * [2026年最佳免费 LLM API 盘点](02-tools/2026-08-10-best-free-llm-apis.md)
   * [用AI创作《洛神赋》歌曲：古风音乐生成实践](02-tools/2026-08-11-luo-shen-fu-ai-song-creation.md)
   * [Suno Music Agent 问答与技术解析](02-tools/2026-08-11-suno-music-agent-qa.md)
+  * [Google Lyria 3.5 vs Suno：AI音乐横评与中文短板](02-tools/2026-08-11-lyria-3-vs-suno-ai-music-review.md)
 
 * 三、行业动态
 
