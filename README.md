@@ -40,6 +40,7 @@
 - [MV导演开源Skill：Codex+H3一首歌生成226秒完整MV](02-tools/2026-08-12-mv-storyboard-director-codex-h3.md) — 导演+制片双Skill，音频精确切片→并发生成→无缝合片，断点续传，HTML制作档案
 - [ppt-master Skill：丢进原材料生成能讲能改的真PPT](02-tools/2026-08-12-ppt-master-skill.md) — Claude Code Skill，先判断演示场景再拆页，输出可编辑PPT非图片，四类场景最适合
 - [IndexTTS-2.5：可导演可控情绪的工业级TTS](02-tools/2026-08-12-indextts-2-5-controllable-tts.md) — 8维情感向量调控、语速精准对齐镜头、多音字拼音标注、跨语种音素纠错
+- [两天手搓一条AI剧情短片（新手跟练版）](02-tools/2026-08-12-ai-drama-short-film-tutorial.md) — DeepSeek写剧本→LibTV分镜→角色设计→视频生成→剪辑，总成本不到300元，附5条视频生成实操经验
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -120,6 +121,7 @@
 | 02-tools | MV导演开源Skill：Codex+H3一首歌生成226秒完整MV | 2026-08-12 |
 | 02-tools | ppt-master Skill：丢进原材料生成能讲能改的真PPT | 2026-08-12 |
 | 02-tools | IndexTTS-2.5：可导演可控情绪的工业级TTS | 2026-08-12 |
+| 02-tools | 两天手搓一条AI剧情短片（新手跟练版） | 2026-08-12 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
