@@ -84,6 +84,7 @@
 - [AutoResearchClaw：全自主研究系统](06-academic/2026-08-10-autoresearchclaw-autonomous-research.md) — 23阶段全自主研究流水线，从想法到会议级论文，支持Co-Pilot协作模式，OpenClaw兼容
 - [科研"活数据"管理：让AI能读懂、能复算](06-academic/2026-08-11-research-data-management-living-data.md) — FAIR原则+RO-Crate+AGENTS.md，5条原则7步实操，附完整AI提示词模板
 - [GitHub Star Top 10 科研学术 Skill 排行榜](06-academic/2026-08-11-github-top10-research-skills.md) — 41K+到4.7K，十大科研写作Skill详解，覆盖论文规划/写作/审校/引用核验/全流程自主研究
+- [GitHub科研Skill热榜：10个项目按流程环节推荐](06-academic/2026-08-12-github-research-skills-by-workflow.md) — 按选题→文献→出图→写作→投稿→汇报全流程推荐Skill组合，含sci-brain/nature-skills/ARS等，附速查表
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -140,6 +141,7 @@
 | 06-academic | AutoResearchClaw：全自主研究系统 | 2026-08-10 |
 | 06-academic | 科研"活数据"管理：让AI能读懂、能复算 | 2026-08-11 |
 | 06-academic | GitHub Star Top 10 科研学术 Skill 排行榜 | 2026-08-11 |
+| 06-academic | GitHub科研Skill热榜：10个项目按流程环节推荐 | 2026-08-12 |
 
 ---
 

@@ -55,5 +55,6 @@
   * [AutoResearchClaw：全自主研究系统](06-academic/2026-08-10-autoresearchclaw-autonomous-research.md)
   * [科研"活数据"管理：让AI能读懂、能复算](06-academic/2026-08-11-research-data-management-living-data.md)
   * [GitHub Star Top 10 科研学术 Skill 排行榜](06-academic/2026-08-11-github-top10-research-skills.md)
+  * [GitHub科研Skill热榜：10个项目按流程环节推荐](06-academic/2026-08-12-github-research-skills-by-workflow.md)
 
 * [inbox（待整理）](inbox/)
