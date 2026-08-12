@@ -128,6 +128,7 @@
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
+| 05-events | UCSD谢澎涛创业：AIBuildAI Science Agent 4小时交付顶刊水平 | 2026-08-12 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
 | 06-academic | Gemini 3.0 学术指令集：从选题到返修全流程 | 2026-08-10 |
 | 06-academic | OpenClaw+Claude Code 论文写作与分析训练营 | 2026-08-10 |
