@@ -28,6 +28,7 @@
   * [Codex + ChatCut：AI视频剪辑外贸获客实战](02-tools/2026-08-11-codex-chatcut-foreign-trade-video.md)
   * [Agnes AI：免费全模态API（文本+图片+视频）](02-tools/2026-08-11-agnes-ai-free-multimodal-api.md)
   * [MV导演开源Skill：Codex+H3一首歌生成226秒完整MV](02-tools/2026-08-12-mv-storyboard-director-codex-h3.md)
+  * [ppt-master Skill：丢进原材料生成能讲能改的真PPT](02-tools/2026-08-12-ppt-master-skill.md)
 
 * 三、行业动态
 
