@@ -37,6 +37,7 @@
 - [开源AI音乐提示词手册：ACE-Step/HeartMuLa/Stable Audio 3](02-tools/2026-08-11-open-source-ai-music-prompt-guide.md) — 三大开源音乐模型提示词完全拆解：8维标签公式+歌词段标+纯Prompt乐器描述，含翻车诊断表和高频标签清单
 - [Codex + ChatCut：AI视频剪辑外贸获客实战](02-tools/2026-08-11-codex-chatcut-foreign-trade-video.md) — 10天55条外贸视频获23个咨询，五步流程从脚本到多平台导出，Codex做决策ChatCut做执行
 - [Agnes AI：免费全模态API（文本+图片+视频）](02-tools/2026-08-11-agnes-ai-free-multimodal-api.md) — 三款模型无限期免费，OpenAI兼容接口，单周4.11万亿Token，可接入Claude Code/Cursor
+- [MV导演开源Skill：Codex+H3一首歌生成226秒完整MV](02-tools/2026-08-12-mv-storyboard-director-codex-h3.md) — 导演+制片双Skill，音频精确切片→并发生成→无缝合片，断点续传，HTML制作档案
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -114,6 +115,7 @@
 | 02-tools | 开源AI音乐提示词手册：ACE-Step/HeartMuLa/Stable Audio 3 | 2026-08-11 |
 | 02-tools | Codex + ChatCut：AI视频剪辑外贸获客实战 | 2026-08-11 |
 | 02-tools | Agnes AI：免费全模态API（文本+图片+视频） | 2026-08-11 |
+| 02-tools | MV导演开源Skill：Codex+H3一首歌生成226秒完整MV | 2026-08-12 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 06-academic | Gemini 学术写作助手：8步指令集 | 2026-08-10 |
