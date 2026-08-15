@@ -33,6 +33,7 @@
   * [两天手搓一条AI剧情短片（新手跟练版）](02-tools/2026-08-12-ai-drama-short-film-tutorial.md)
   * [2026最佳Ollama模型Top15：编程/推理/聊天全覆盖](02-tools/2026-08-12-best-ollama-models-2026.md)
   * [Hermes + Blender MCP：自然语言跑通第一个 3D 任务](02-tools/2026-08-15-hermes-blender-mcp-3d-task.md)
+  * [MiniMax Music 3.0 开源：8B 参数、5 分钟完整歌曲](02-tools/2026-08-15-minimax-music-3-open-source.md)
 
 * 三、行业动态
 
