@@ -42,6 +42,7 @@
 - [IndexTTS-2.5：可导演可控情绪的工业级TTS](02-tools/2026-08-12-indextts-2-5-controllable-tts.md) — 8维情感向量调控、语速精准对齐镜头、多音字拼音标注、跨语种音素纠错
 - [两天手搓一条AI剧情短片（新手跟练版）](02-tools/2026-08-12-ai-drama-short-film-tutorial.md) — DeepSeek写剧本→LibTV分镜→角色设计→视频生成→剪辑，总成本不到300元，附5条视频生成实操经验
 - [2026最佳Ollama模型Top15：编程/推理/聊天全覆盖](02-tools/2026-08-12-best-ollama-models-2026.md) — Qwen3.6-27B登顶单卡全能，MoE新趋势qwen3-coder:30b仅激活3B，按VRAM/任务完整选型表
+- [Hermes + Blender MCP：自然语言跑通第一个 3D 任务](02-tools/2026-08-15-hermes-blender-mcp-3d-task.md) — 一行命令安装Blender MCP，Agent直接操作Blender创建/渲染3D场景，附完整提示词模板和验收清单
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -126,6 +127,7 @@
 | 02-tools | IndexTTS-2.5：可导演可控情绪的工业级TTS | 2026-08-12 |
 | 02-tools | 两天手搓一条AI剧情短片（新手跟练版） | 2026-08-12 |
 | 02-tools | 2026最佳Ollama模型Top15：编程/推理/聊天全覆盖 | 2026-08-12 |
+| 02-tools | Hermes + Blender MCP：自然语言跑通第一个 3D 任务 | 2026-08-15 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
