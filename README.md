@@ -44,6 +44,7 @@
 - [2026最佳Ollama模型Top15：编程/推理/聊天全覆盖](02-tools/2026-08-12-best-ollama-models-2026.md) — Qwen3.6-27B登顶单卡全能，MoE新趋势qwen3-coder:30b仅激活3B，按VRAM/任务完整选型表
 - [Hermes + Blender MCP：自然语言跑通第一个 3D 任务](02-tools/2026-08-15-hermes-blender-mcp-3d-task.md) — 一行命令安装Blender MCP，Agent直接操作Blender创建/渲染3D场景，附完整提示词模板和验收清单
 - [MiniMax Music 3.0 开源：8B 参数、5 分钟完整歌曲](02-tools/2026-08-15-minimax-music-3-open-source.md) — 8B+0.6B双模型分工，原生支持5分钟完整歌曲（人声+编曲+结构），CC-BY-SA 4.0开源，附架构解析、部署要求、Prompt Enhancement工具
+- [story-video-director：一键从故事生成视频的 AI 导演 Skill](02-tools/2026-08-15-story-video-director-skill.md) — 输入故事自动选角、生成资产图、写视频提示词、调API出视频、自动剪辑成片，开源免费，默认用MiniMax H3（~0.1元/秒）
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -130,6 +131,7 @@
 | 02-tools | 2026最佳Ollama模型Top15：编程/推理/聊天全覆盖 | 2026-08-12 |
 | 02-tools | Hermes + Blender MCP：自然语言跑通第一个 3D 任务 | 2026-08-15 |
 | 02-tools | MiniMax Music 3.0 开源：8B 参数、5 分钟完整歌曲 | 2026-08-15 |
+| 02-tools | story-video-director：一键从故事生成视频的 AI 导演 Skill | 2026-08-15 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |

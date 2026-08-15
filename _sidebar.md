@@ -34,6 +34,7 @@
   * [2026最佳Ollama模型Top15：编程/推理/聊天全覆盖](02-tools/2026-08-12-best-ollama-models-2026.md)
   * [Hermes + Blender MCP：自然语言跑通第一个 3D 任务](02-tools/2026-08-15-hermes-blender-mcp-3d-task.md)
   * [MiniMax Music 3.0 开源：8B 参数、5 分钟完整歌曲](02-tools/2026-08-15-minimax-music-3-open-source.md)
+  * [story-video-director：一键从故事生成视频的 AI 导演 Skill](02-tools/2026-08-15-story-video-director-skill.md)
 
 * 三、行业动态
 
