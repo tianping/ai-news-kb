@@ -50,6 +50,7 @@
 - [ComfyUI LoRA 一键批量换装商用工作流](02-tools/2026-08-16-comfyui-lora-batch-outfit-change.md) — 三大方案对比、预处理关键步、批量生产策略、常见问题解决，覆盖Flux Klein/ACE++/Qwen
 - [MiniMax H3 本地部署保姆级教程](02-tools/2026-08-16-minimax-h3-local-deploy.md) — 硬件门槛分级、双模型分支、ComfyUI/SGLang双部署、2K成片组合方案、显存优化、商用授权
 - [Drama Skills：AI 短剧创作技能包](02-tools/2026-08-16-drama-skills-ai-short-drama-workflow.md) — 8个技能覆盖剧本→资产→分镜→视频提示词全流程，刻意不直接生成只产文本防烧预算，Claude Code/Codex适配
+- [团伙 Skill：犯罪组织高级调查 AI 战法](02-tools/2026-08-16-tuanhuo-skill-criminal-investigation.md) — 九步流水线从材料到研判报告，七维关系+内置刑法库+离线情报工作台，30分钟直出可回溯结果，面向公检法实战
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -142,6 +143,7 @@
 | 02-tools | ComfyUI LoRA 一键批量换装商用工作流 | 2026-08-16 |
 | 02-tools | MiniMax H3 本地部署保姆级教程 | 2026-08-16 |
 | 02-tools | Drama Skills：AI 短剧创作技能包 | 2026-08-16 |
+| 02-tools | 团伙 Skill：犯罪组织高级调查 AI 战法 | 2026-08-16 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
