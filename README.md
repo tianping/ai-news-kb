@@ -47,6 +47,8 @@
 - [story-video-director：一键从故事生成视频的 AI 导演 Skill](02-tools/2026-08-15-story-video-director-skill.md) — 输入故事自动选角、生成资产图、写视频提示词、调API出视频、自动剪辑成片，开源免费，默认用MiniMax H3（~0.1元/秒）
 - [99%硕博生都该收藏的科研绘图 Codex Skill](02-tools/2026-08-16-99硕博生科研绘图-codex-skill.md) — 4大科研绘图Skill深度对比：选图统计图/论文配图统一/机制示意图/全流程科研Agent，覆盖scipilot/nature-figure/GPT-Image2/scientific-agent-skills
 - [modly：拍照生成 3D 模型，全程本地显卡跑](02-tools/2026-08-16-modly-photo-to-3d-local.md) — 开源桌面软件，图生3D完全离线跑在本地显卡，支持Hunyuan3D 2 Mini/TripoSG/Trellis2等模型切换，内置平滑减面导出GLB，免账号免API key
+- [ComfyUI LoRA 一键批量换装商用工作流](02-tools/2026-08-16-comfyui-lora-batch-outfit-change.md) — 三大方案对比、预处理关键步、批量生产策略、常见问题解决，覆盖Flux Klein/ACE++/Qwen
+- [MiniMax H3 本地部署保姆级教程](02-tools/2026-08-16-minimax-h3-local-deploy.md) — 硬件门槛分级、双模型分支、ComfyUI/SGLang双部署、2K成片组合方案、显存优化、商用授权
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -136,6 +138,8 @@
 | 02-tools | story-video-director：一键从故事生成视频的 AI 导演 Skill | 2026-08-15 |
 | 02-tools | 99%硕博生都该收藏的科研绘图 Codex Skill | 2026-08-16 |
 | 02-tools | modly：拍照生成 3D 模型，全程本地显卡跑 | 2026-08-16 |
+| 02-tools | ComfyUI LoRA 一键批量换装商用工作流 | 2026-08-16 |
+| 02-tools | MiniMax H3 本地部署保姆级教程 | 2026-08-16 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
