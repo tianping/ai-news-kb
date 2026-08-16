@@ -5,3 +5,4 @@
 * [MiniMax H3 本地部署保姆级教程](02-tools/2026-08-16-minimax-h3-local-deploy.md)
 * [Drama Skills：AI 短剧创作技能包](02-tools/2026-08-16-drama-skills-ai-short-drama-workflow.md)
 * [团伙 Skill：犯罪组织高级调查 AI 战法](02-tools/2026-08-16-tuanhuo-skill-criminal-investigation.md)
+* [video-skills-toolkit：把文章变成视频，声音钉在时间线上](02-tools/2026-08-16-video-skills-toolkit-article-to-video.md)
