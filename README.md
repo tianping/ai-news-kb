@@ -52,6 +52,7 @@
 - [Drama Skills：AI 短剧创作技能包](02-tools/2026-08-16-drama-skills-ai-short-drama-workflow.md) — 8个技能覆盖剧本→资产→分镜→视频提示词全流程，刻意不直接生成只产文本防烧预算，Claude Code/Codex适配
 - [团伙 Skill：犯罪组织高级调查 AI 战法](02-tools/2026-08-16-tuanhuo-skill-criminal-investigation.md) — 九步流水线从材料到研判报告，七维关系+内置刑法库+离线情报工作台，30分钟直出可回溯结果，面向公检法实战
 - [video-skills-toolkit：把文章变成视频，声音钉在时间线上](02-tools/2026-08-16-video-skills-toolkit-article-to-video.md) — 10个核心Skill覆盖爆款调研→转写→二创→配音→字幕→导演稿→HyperFrames口播→BGM→抖音封面，声音定稿后才做画面
+- [img2threejs：图片秒变 Three.js 代码](02-tools/2026-08-16-img2threejs-photo-to-threejs-code.md) — 上传图片→AI拆解结构→生成可编辑TypeScript+Three.js代码，不是黑盒模型而是开发者能改的代码，适用产品展示/Web 3D/AI Agent
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -146,6 +147,7 @@
 | 02-tools | Drama Skills：AI 短剧创作技能包 | 2026-08-16 |
 | 02-tools | 团伙 Skill：犯罪组织高级调查 AI 战法 | 2026-08-16 |
 | 02-tools | video-skills-toolkit：把文章变成视频，声音钉在时间线上 | 2026-08-16 |
+| 02-tools | img2threejs：图片秒变 Three.js 代码 | 2026-08-16 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
