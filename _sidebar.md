@@ -3,3 +3,4 @@
 * [modly：拍照生成 3D 模型，全程本地显卡跑](02-tools/2026-08-16-modly-photo-to-3d-local.md)
 * [ComfyUI LoRA 一键批量换装商用工作流](02-tools/2026-08-16-comfyui-lora-batch-outfit-change.md)
 * [MiniMax H3 本地部署保姆级教程](02-tools/2026-08-16-minimax-h3-local-deploy.md)
+* [Drama Skills：AI 短剧创作技能包](02-tools/2026-08-16-drama-skills-ai-short-drama-workflow.md)
