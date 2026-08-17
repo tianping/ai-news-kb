@@ -6,6 +6,7 @@
 
 ### 一、模型发布
 - [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md) — 中国开源模型全球登顶、GPT-5.6三变体、万亿参数时代
+- [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md) — AMD Token Factory 免费送 DeepSeek V4 Flash 等 13 款模型 API，OpenAI 兼容，每日 $10 额度
 - 大语言模型（GPT/Claude/Gemini/Llama/Qwen/DeepSeek 等）
 - 图像生成模型（SD/FLUX/Midjourney/DALL-E 等）
 - 视频生成模型（Sora/Runway/Kling/Hailuo/Seedance 等）
@@ -119,6 +120,7 @@
 | 分类 | 笔记 | 日期 |
 |------|------|------|
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
+| 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
 | 02-tools | ViMax：多智能体视频生成框架 | 2026-08-08 |
 | 02-tools | 黑石写作助手·中长篇小说版 | 2026-08-08 |
 | 02-tools | NVIDIA Build：100+ AI模型免费API | 2026-08-08 |
