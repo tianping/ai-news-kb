@@ -53,6 +53,13 @@
 - [团伙 Skill：犯罪组织高级调查 AI 战法](02-tools/2026-08-16-tuanhuo-skill-criminal-investigation.md) — 九步流水线从材料到研判报告，七维关系+内置刑法库+离线情报工作台，30分钟直出可回溯结果，面向公检法实战
 - [video-skills-toolkit：把文章变成视频，声音钉在时间线上](02-tools/2026-08-16-video-skills-toolkit-article-to-video.md) — 10个核心Skill覆盖爆款调研→转写→二创→配音→字幕→导演稿→HyperFrames口播→BGM→抖音封面，声音定稿后才做画面
 - [img2threejs：图片秒变 Three.js 代码](02-tools/2026-08-16-img2threejs-photo-to-threejs-code.md) — 上传图片→AI拆解结构→生成可编辑TypeScript+Three.js代码，不是黑盒模型而是开发者能改的代码，适用产品展示/Web 3D/AI Agent
+- [ComfyUI 本地跑 Z-Image-Turbo：8 步出图](02-tools/2026-08-17-comfyui-zimage-turbo.md) — 本地跑 Z-Image-Turbo 实测，三个关键参数对效果影响大
+- [白嫖实测：MiniMax-Music3 三分钟出一首完整歌](02-tools/2026-08-17-minimax-music3-free-music-generation-test.md) — MiniMax Music 3 免费音乐生成实测
+- [MiniMax Music 3 开源实测：ComfyUI 仅需 91 秒出一首 60 秒歌](02-tools/2026-08-17-minimax-music3-comfyui-91s-local-test.md) — 本地 ComfyUI 部署实测，架构拆解+生成速度基准
+- [女团 MV Skill：AI 视频工作流](02-tools/2026-08-17-ai-girl-group-mv-skill.md) — 六模块提示词公式，把 AI 女团 MV 制作收敛成「丢图 + 一句话」
+- [Suno Studio 2.0 接上 MIDI，音乐能细改了](02-tools/2026-08-17-suno-studio-2-0-midi.md) — MIDI 导入/编辑、Studio Chat、分轨导出，AI 音乐走向传统 DAW 编辑流程
+- [Novelix：10 Agent 写审改流水线](02-tools/2026-08-17-novelix-ai-novel-writing-agent-pipeline.md) — 33 维连续性审计，去 AI 味过朱雀
+- [开源 AI 视频开始补齐完整流水线了](02-tools/2026-08-17-opensource-ai-video-pipeline.md) — 开源 AI 视频流水线现状
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -148,6 +155,9 @@
 | 02-tools | 团伙 Skill：犯罪组织高级调查 AI 战法 | 2026-08-16 |
 | 02-tools | video-skills-toolkit：把文章变成视频，声音钉在时间线上 | 2026-08-16 |
 | 02-tools | img2threejs：图片秒变 Three.js 代码 | 2026-08-16 |
+| 02-tools | MiniMax Music 3 开源实测：ComfyUI 仅需 91 秒出一首 60 秒歌 | 2026-08-17 |
+| 02-tools | 女团 MV Skill：AI 视频工作流 | 2026-08-17 |
+| 02-tools | Suno Studio 2.0 接上 MIDI，音乐能细改了 | 2026-08-17 |
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
