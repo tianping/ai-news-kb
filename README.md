@@ -57,6 +57,7 @@
 - [ComfyUI 本地跑 Z-Image-Turbo：8 步出图](02-tools/2026-08-17-comfyui-zimage-turbo.md) — 本地跑 Z-Image-Turbo 实测，三个关键参数对效果影响大
 - [白嫖实测：MiniMax-Music3 三分钟出一首完整歌](02-tools/2026-08-17-minimax-music3-free-music-generation-test.md) — MiniMax Music 3 免费音乐生成实测
 - [MiniMax Music 3 开源实测：ComfyUI 仅需 91 秒出一首 60 秒歌](02-tools/2026-08-17-minimax-music3-comfyui-91s-local-test.md) — 本地 ComfyUI 部署实测，架构拆解+生成速度基准
+- [MiniMax Music 3 权重开源实测：57G 只用下一半，单卡就能跑](02-tools/2026-08-17-minimax-music3-weight-review.md) — 57.4G 文件拆解、硬件门槛四份文档四说法、Hybrid-LM 架构、拍速/调性实测（官方示范曲拍速差 28%）
 - [女团 MV Skill：AI 视频工作流](02-tools/2026-08-17-ai-girl-group-mv-skill.md) — 六模块提示词公式，把 AI 女团 MV 制作收敛成「丢图 + 一句话」
 - [Suno Studio 2.0 接上 MIDI，音乐能细改了](02-tools/2026-08-17-suno-studio-2-0-midi.md) — MIDI 导入/编辑、Studio Chat、分轨导出，AI 音乐走向传统 DAW 编辑流程
 - [Novelix：10 Agent 写审改流水线](02-tools/2026-08-17-novelix-ai-novel-writing-agent-pipeline.md) — 33 维连续性审计，去 AI 味过朱雀
@@ -158,6 +159,7 @@
 | 02-tools | video-skills-toolkit：把文章变成视频，声音钉在时间线上 | 2026-08-16 |
 | 02-tools | img2threejs：图片秒变 Three.js 代码 | 2026-08-16 |
 | 02-tools | MiniMax Music 3 开源实测：ComfyUI 仅需 91 秒出一首 60 秒歌 | 2026-08-17 |
+| 02-tools | MiniMax Music 3 权重开源实测：57G 只用下一半，单卡就能跑 | 2026-08-17 |
 | 02-tools | 女团 MV Skill：AI 视频工作流 | 2026-08-17 |
 | 02-tools | Suno Studio 2.0 接上 MIDI，音乐能细改了 | 2026-08-17 |
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |

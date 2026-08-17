@@ -12,6 +12,7 @@
 * [Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀](02-tools/2026-08-17-novelix-ai-novel-writing-agent-pipeline.md)
 * [白嫖实测：MiniMax-Music3 三分钟出一首完整歌，编曲费直接省了](02-tools/2026-08-17-minimax-music3-free-music-generation-test.md)
 * [MiniMax Music 3 开源实测：ComfyUI 仅需 91 秒出一首 60 秒歌](02-tools/2026-08-17-minimax-music3-comfyui-91s-local-test.md)
+* [MiniMax Music 3 权重开源实测：57G 只用下一半，单卡就能跑，和作者那句"不保证"](02-tools/2026-08-17-minimax-music3-weight-review.md)
 * [女团 MV Skill：AI 视频工作流](02-tools/2026-08-17-ai-girl-group-mv-skill.md)
 * [Suno Studio 2.0 接上 MIDI，音乐能细改了](02-tools/2026-08-17-suno-studio-2-0-midi.md)
 * [开源 AI 视频开始补齐完整流水线了](02-tools/2026-08-17-opensource-ai-video-pipeline.md)
