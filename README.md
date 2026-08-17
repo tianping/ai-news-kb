@@ -62,6 +62,7 @@
 - [Suno Studio 2.0 接上 MIDI，音乐能细改了](02-tools/2026-08-17-suno-studio-2-0-midi.md) — MIDI 导入/编辑、Studio Chat、分轨导出，AI 音乐走向传统 DAW 编辑流程
 - [Novelix：10 Agent 写审改流水线](02-tools/2026-08-17-novelix-ai-novel-writing-agent-pipeline.md) — 33 维连续性审计，去 AI 味过朱雀
 - [开源 AI 视频开始补齐完整流水线了](02-tools/2026-08-17-opensource-ai-video-pipeline.md) — 开源 AI 视频流水线现状
+- [Punk IP Illustrations：个人 IP 配图终于能反复用了](02-tools/2026-08-17-punk-ip-illustrations-personal-ip.md) — 开源 Skill，照片建个人 IP 角色资产包，确认后用同一角色为每篇文章生成配图，核心动作/流程拆解双模式，自动回填插入位置
 - AI 编程工具（Copilot/Cursor/Windsurf 等）
 - AI Agent 平台与框架
 - RAG 与知识库工具
@@ -163,6 +164,7 @@
 | 02-tools | 女团 MV Skill：AI 视频工作流 | 2026-08-17 |
 | 02-tools | Suno Studio 2.0 接上 MIDI，音乐能细改了 | 2026-08-17 |
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
+| 02-tools | Punk IP Illustrations：个人 IP 配图终于能反复用了 | 2026-08-17 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |

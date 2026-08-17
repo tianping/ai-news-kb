@@ -16,3 +16,4 @@
 * [女团 MV Skill：AI 视频工作流](02-tools/2026-08-17-ai-girl-group-mv-skill.md)
 * [Suno Studio 2.0 接上 MIDI，音乐能细改了](02-tools/2026-08-17-suno-studio-2-0-midi.md)
 * [开源 AI 视频开始补齐完整流水线了](02-tools/2026-08-17-opensource-ai-video-pipeline.md)
+* [Punk IP Illustrations：个人 IP 配图终于能反复用了](02-tools/2026-08-17-punk-ip-illustrations-personal-ip.md)
