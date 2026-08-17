@@ -49,6 +49,7 @@
 - [modly：拍照生成 3D 模型，全程本地显卡跑](02-tools/2026-08-16-modly-photo-to-3d-local.md) — 开源桌面软件，图生3D完全离线跑在本地显卡，支持Hunyuan3D 2 Mini/TripoSG/Trellis2等模型切换，内置平滑减面导出GLB，免账号免API key
 - [ComfyUI LoRA 一键批量换装商用工作流](02-tools/2026-08-16-comfyui-lora-batch-outfit-change.md) — 三大方案对比、预处理关键步、批量生产策略、常见问题解决，覆盖Flux Klein/ACE++/Qwen
 - [MiniMax H3 本地部署保姆级教程](02-tools/2026-08-16-minimax-h3-local-deploy.md) — 硬件门槛分级、双模型分支、ComfyUI/SGLang双部署、2K成片组合方案、显存优化、商用授权
+- [MiniMax H3 + Comfy Desktop 本地部署全攻略：2K 视频 + 原生音效](02-tools/2026-08-17-minimax-h3-comfy-desktop-deploy.md) — Comfy Desktop 桌面版零代码安装、T2V/I2V/R2V 三工作流、2K 直出原生音效
 - [Drama Skills：AI 短剧创作技能包](02-tools/2026-08-16-drama-skills-ai-short-drama-workflow.md) — 8个技能覆盖剧本→资产→分镜→视频提示词全流程，刻意不直接生成只产文本防烧预算，Claude Code/Codex适配
 - [团伙 Skill：犯罪组织高级调查 AI 战法](02-tools/2026-08-16-tuanhuo-skill-criminal-investigation.md) — 九步流水线从材料到研判报告，七维关系+内置刑法库+离线情报工作台，30分钟直出可回溯结果，面向公检法实战
 - [video-skills-toolkit：把文章变成视频，声音钉在时间线上](02-tools/2026-08-16-video-skills-toolkit-article-to-video.md) — 10个核心Skill覆盖爆款调研→转写→二创→配音→字幕→导演稿→HyperFrames口播→BGM→抖音封面，声音定稿后才做画面
@@ -151,6 +152,7 @@
 | 02-tools | modly：拍照生成 3D 模型，全程本地显卡跑 | 2026-08-16 |
 | 02-tools | ComfyUI LoRA 一键批量换装商用工作流 | 2026-08-16 |
 | 02-tools | MiniMax H3 本地部署保姆级教程 | 2026-08-16 |
+| 02-tools | MiniMax H3 + Comfy Desktop 本地部署全攻略：2K 视频 + 原生音效 | 2026-08-17 |
 | 02-tools | Drama Skills：AI 短剧创作技能包 | 2026-08-16 |
 | 02-tools | 团伙 Skill：犯罪组织高级调查 AI 战法 | 2026-08-16 |
 | 02-tools | video-skills-toolkit：把文章变成视频，声音钉在时间线上 | 2026-08-16 |
