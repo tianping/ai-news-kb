@@ -8,6 +8,7 @@
 - [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md) — 中国开源模型全球登顶、GPT-5.6三变体、万亿参数时代
 - [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md) — AMD Token Factory 免费送 DeepSeek V4 Flash 等 13 款模型 API，OpenAI 兼容，每日 $10 额度
 - [微软出手！VibeVoice：90分钟4人对话TTS+60分钟长音频ASR](01-models/2026-08-17-microsoft-vibevoice-speech-ai.md) — 统一 Next-Token Diffusion 框架同时搞定超长 ASR、多人 TTS、实时 TTS，ICLR 2026 Oral
+- [DeepSeek-V4-Flash 本地部署完整实操教程](01-models/2026-08-17-deepseek-v4-flash-local-deploy-guide.md) — Unsloth GGUF 量化权重本地跑，128GB 起，两套部署方案+选型表
 - 大语言模型（GPT/Claude/Gemini/Llama/Qwen/DeepSeek 等）
 - 图像生成模型（SD/FLUX/Midjourney/DALL-E 等）
 - 视频生成模型（Sora/Runway/Kling/Hailuo/Seedance 等）
@@ -123,6 +124,7 @@
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
 | 01-models | 微软出手！VibeVoice：音音 AI 天花板开源 | 2026-08-17 |
+| 01-models | DeepSeek-V4-Flash 本地部署完整实操教程 | 2026-08-17 |
 | 02-tools | ViMax：多智能体视频生成框架 | 2026-08-08 |
 | 02-tools | 黑石写作助手·中长篇小说版 | 2026-08-08 |
 | 02-tools | NVIDIA Build：100+ AI模型免费API | 2026-08-08 |

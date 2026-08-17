@@ -2,6 +2,7 @@
 * [全球首款原生全模态交互式世界模型](01-models/2026-08-17-全球首款原生全模态交互式世界模型.md)
 * [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md)
 * [微软出手！VibeVoice：90分钟4人对话TTS+60分钟长音频ASR](01-models/2026-08-17-microsoft-vibevoice-speech-ai.md)
+* [DeepSeek-V4-Flash 本地部署完整实操教程](01-models/2026-08-17-deepseek-v4-flash-local-deploy-guide.md)
 * [99%硕博生都该收藏的科研绘图 Codex Skill](02-tools/2026-08-16-99硕博生科研绘图-codex-skill.md)
 * [modly：拍照生成 3D 模型，全程本地显卡跑](02-tools/2026-08-16-modly-photo-to-3d-local.md)
 * [ComfyUI LoRA 一键批量换装商用工作流](02-tools/2026-08-16-comfyui-lora-batch-outfit-change.md)
