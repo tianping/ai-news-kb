@@ -6,6 +6,7 @@
 
 ### 一、模型发布
 - [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md) — 中国开源模型全球登顶、GPT-5.6三变体、万亿参数时代
+- [DeepSeek 涨价后免费模型 API 盘点](01-models/2026-08-20-deepseek-free-api-alternatives.md) — 商汤 Token Plan + AMD GPU Cloud 双渠道，含接入参数与使用建议
 - [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md) — AMD Token Factory 免费送 DeepSeek V4 Flash 等 13 款模型 API，OpenAI 兼容，每日 $10 额度
 - [微软出手！VibeVoice：90分钟4人对话TTS+60分钟长音频ASR](01-models/2026-08-17-microsoft-vibevoice-speech-ai.md) — 统一 Next-Token Diffusion 框架同时搞定超长 ASR、多人 TTS、实时 TTS，ICLR 2026 Oral
 - [DeepSeek-V4-Flash 本地部署完整实操教程](01-models/2026-08-17-deepseek-v4-flash-local-deploy-guide.md) — Unsloth GGUF 量化权重本地跑，128GB 起，两套部署方案+选型表
@@ -138,7 +139,7 @@
 | 02-tools | OpenMontage：开源Agentic视频生产系统 | 2026-08-10 |
 | 02-tools | n8n+Coze自动复刻老纪先生漫画 | 2026-08-10 |
 | 02-tools | 科研绘图 Skill Top 10 榜单 | 2026-08-10 |
-| 02-tools | 2026年最佳免费 LLM API 盘点 | 2026-08-10 |
+| 02-tools | 商汤日日新 Token Plan：GLM-5.2 免费不限 Token | 2026-08-20 |
 | 02-tools | 用AI创作《洛神赋》歌曲：古风音乐生成实践 | 2026-08-11 |
 | 02-tools | Suno Music Agent 问答与技术解析 | 2026-08-11 |
 | 02-tools | Google Lyria 3.5 vs Suno：AI音乐横评与中文短板 | 2026-08-11 |
