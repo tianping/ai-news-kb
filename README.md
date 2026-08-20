@@ -171,6 +171,7 @@
 | 02-tools | Suno Studio 2.0 接上 MIDI，音乐能细改了 | 2026-08-17 |
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
 | 02-tools | Punk IP Illustrations：个人 IP 配图终于能反复用了 | 2026-08-17 |
+| 02-tools | Google 面向高校学生免费送一年 AI 订阅 | 2026-08-20 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
 | 05-events | 斯坦福AI设计出完整可存活病毒 | 2026-08-11 |
 | 05-events | Suno下载限速：生成免费但搬走要计数了 | 2026-08-12 |
