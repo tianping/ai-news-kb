@@ -170,6 +170,7 @@
 | 02-tools | 女团 MV Skill：AI 视频工作流 | 2026-08-17 |
 | 02-tools | Suno Studio 2.0 接上 MIDI，音乐能细改了 | 2026-08-17 |
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
+| 02-tools | chinese-poetry：从唐诗到元曲，37 万首古诗词，一键接入你的代码 | 2026-08-20
 | 02-tools | Punk IP Illustrations：个人 IP 配图终于能反复用了 | 2026-08-17 |
 | 02-tools | Google 面向高校学生免费送一年 AI 订阅 | 2026-08-20 |
 | 05-events | 2026年8月4日 AI日报 | 2026-08-04 |
