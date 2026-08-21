@@ -1,3 +1,5 @@
+* [WorkBuddy 接入商汤 SenseNova 免费 API 教程](02-tools/2026-08-21-workbuddy-sensenova-free-api.md)
+* [Qwen3.8-27B 本地部署实测：无显卡也能跑，22 TPS](01-models/2026-08-21-qwen38-27b-local-deploy-test.md)
 * [Qwen3.8 开源：2.4万亿旗舰+27B平民版+副业路径全解析](01-models/2026-08-21-qwen38-open-source-business-guide.md)
 * [FastMetal：Mac 本地30秒生成视频](01-models/2026-08-21-fastmetal-mac-video.md)
 * [SenseNova U1.5 Lite 正式版发布：8B 原生统一多模态](01-models/2026-08-21-sensenova-u15-lite.md)
