@@ -128,6 +128,7 @@
 | 01-models | SenseNova-U1 全面解析：NEO-unify 架构与选型指南 | 2026-08-21 |
 | 01-models | Qwen3.8-27B 本地部署实测：无显卡也能跑，22 TPS | 2026-08-21 |
 | 01-models | Qwen3.8 开源：2.4万亿旗舰+27B平民版+副业路径全解析 | 2026-08-21 |
+| 01-models | 这个本地模型，让我 token 自由了（Qwen3.8-27B 实测） | 2026-08-21 |
 | 01-models | FastMetal：Mac 本地30秒视频生成 | 2026-08-21 |
 | 01-models | SenseNova U1.5 Lite 正式版：8B 原生统一多模态 | 2026-08-21 |
 | 01-models | 微软出手！VibeVoice：音音 AI 天花板开源 | 2026-08-17 |
