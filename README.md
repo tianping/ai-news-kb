@@ -125,6 +125,7 @@
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
 | 01-models | DeepSeek 涨价后免费模型 API 盘点 | 2026-08-20 |
+| 01-models | SenseNova-U1 全面解析：NEO-unify 架构与选型指南 | 2026-08-21 |
 | 01-models | Qwen3.8-27B 本地部署实测：无显卡也能跑，22 TPS | 2026-08-21 |
 | 01-models | Qwen3.8 开源：2.4万亿旗舰+27B平民版+副业路径全解析 | 2026-08-21 |
 | 01-models | FastMetal：Mac 本地30秒视频生成 | 2026-08-21 |
