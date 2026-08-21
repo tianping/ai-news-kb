@@ -1,3 +1,4 @@
+* [SenseNova U1.5 Lite 正式版发布：8B 原生统一多模态](01-models/2026-08-21-sensenova-u15-lite.md)
 * [2026-08-20-圆你歌手梦_圆你歌手梦！MiniMax_Music_3.0.md](01-models/2026-08-20-圆你歌手梦_圆你歌手梦！MiniMax_Music_3.0.md)
 * [DeepSeek 涨价后免费模型 API 盘点](01-models/2026-08-20-deepseek-free-api-alternatives.md)
 * [Google 面向高校学生免费送一年 AI 订阅](02-tools/2026-08-20-google-ai-student-free-year.md)

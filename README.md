@@ -124,6 +124,8 @@
 |------|------|------|
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
+| 01-models | DeepSeek 涨价后免费模型 API 盘点 | 2026-08-20 |
+| 01-models | SenseNova U1.5 Lite 正式版：8B 原生统一多模态 | 2026-08-21 |
 | 01-models | 微软出手！VibeVoice：音音 AI 天花板开源 | 2026-08-17 |
 | 01-models | DeepSeek-V4-Flash 本地部署完整实操教程 | 2026-08-17 |
 | 02-tools | ViMax：多智能体视频生成框架 | 2026-08-08 |
