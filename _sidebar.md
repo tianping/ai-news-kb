@@ -1,3 +1,5 @@
+* [Math-To-Manim：一句话把数学题做成动画](02-tools/2026-08-22-math-to-manim.md)
+* [FreeToken：单卡5090跑满血DeepSeek V4 Flash](02-tools/2026-08-22-freetoken-deepseek-v4-flash.md)
 * [3天做AI漫剧踩了30个坑](02-tools/2026-08-22-ai-comic-drama-pitfalls.md) — 81镜7分47秒成片，从帧图到视频到全片拼接全流程踩坑复盘，核心经验：音频主导原则+text2img改顽固特征
 * [用完 Manim，再也回不去 PPT 动画了！免费开源还丝滑](02-tools/2026-08-22-manim-animation-engine.md)
 * [商汤 Token Plan 免费额度实测：4模型任选](02-tools/2026-08-21-sensenova-token-plan-free-test.md)
