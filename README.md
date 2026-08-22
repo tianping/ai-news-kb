@@ -184,6 +184,7 @@
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
 | 02-tools | chinese-poetry：从唐诗到元曲，37 万首古诗词，一键接入你的代码 | 2026-08-20
 | 02-tools | Punk IP Illustrations：个人 IP 配图终于能反复用了 | 2026-08-17 |
+| 02-tools | 用完 Manim，再也回不去 PPT 动画了！免费开源还丝滑 | 2026-08-22 |
 | 02-tools | 商汤 Token Plan 免费额度实测：4模型任选 | 2026-08-21 |
 | 02-tools | WorkBuddy 接入商汤 SenseNova 免费 API 教程 | 2026-08-21 |
 | 02-tools | Google 面向高校学生免费送一年 AI 订阅 | 2026-08-20 |

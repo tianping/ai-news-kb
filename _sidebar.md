@@ -1,3 +1,4 @@
+* [用完 Manim，再也回不去 PPT 动画了！免费开源还丝滑](02-tools/2026-08-22-manim-animation-engine.md)
 * [商汤 Token Plan 免费额度实测：4模型任选](02-tools/2026-08-21-sensenova-token-plan-free-test.md)
 * [WorkBuddy 接入商汤 SenseNova 免费 API 教程](02-tools/2026-08-21-workbuddy-sensenova-free-api.md)
 * [用 AI 做一部手绘动画：从零到 40 分钟漫剧的完整工程实录](02-tools/2026-08-21-ai-hand-drawn-animation-engineering.md)
