@@ -184,7 +184,10 @@
 | 02-tools | Novelix：10 Agent 写审改流水线 + 33 维连续性审计，去 AI 味过朱雀 | 2026-08-17 |
 | 02-tools | chinese-poetry：从唐诗到元曲，37 万首古诗词，一键接入你的代码 | 2026-08-20
 | 02-tools | Punk IP Illustrations：个人 IP 配图终于能反复用了 | 2026-08-17 |
+| 02-tools | 把 AI 装进了 SSH 终端，NyaTerm 开源了 | 2026-08-22 |
 | 02-tools | 3天做AI漫剧踩了30个坑 | 2026-08-22 |
+| 02-tools | Math-To-Manim：一句话把数学题做成动画 | 2026-08-22 |
+| 02-tools | FreeToken：单卡5090跑满血DeepSeek V4 Flash | 2026-08-22 |
 | 02-tools | 用完 Manim，再也回不去 PPT 动画了！免费开源还丝滑 | 2026-08-22 |
 | 02-tools | 商汤 Token Plan 免费额度实测：4模型任选 | 2026-08-21 |
 | 02-tools | WorkBuddy 接入商汤 SenseNova 免费 API 教程 | 2026-08-21 |
