@@ -3,6 +3,7 @@
 * [Math-To-Manim：一句话把数学题做成动画](02-tools/2026-08-22-math-to-manim.md)
 * [FreeToken：单卡5090跑满血DeepSeek V4 Flash](02-tools/2026-08-22-freetoken-deepseek-v4-flash.md)
 * [OpenCut：GitHub 8.4万星的开源视频编辑器](02-tools/2026-08-22-opencut-opensource-video-editor.md) — MIT协议本地剪辑，CapCut免费替代，Rust重写中+MCP Server
+* [我把剪映卸了：Codex 装 ChatCut 插件10分钟出片](02-tools/2026-08-22-codex-chatcut-video-editor.md) — ChatCut插件实测：自然语言生成带画面/配音/字幕完整视频，传统剪辑流水线被一句话替代
 * [3天做AI漫剧踩了30个坑](02-tools/2026-08-22-ai-comic-drama-pitfalls.md) — 81镜7分47秒成片，从帧图到视频到全片拼接全流程踩坑复盘，核心经验：音频主导原则+text2img改顽固特征
 * [用完 Manim，再也回不去 PPT 动画了！免费开源还丝滑](02-tools/2026-08-22-manim-animation-engine.md)
 * [商汤 Token Plan 免费额度实测：4模型任选](02-tools/2026-08-21-sensenova-token-plan-free-test.md)
