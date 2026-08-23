@@ -1,3 +1,4 @@
+* [Agnes AI 三大模型 API 无限期免费开放](02-tools/2026-08-23-agnes-ai-free-api.md) — 文本/图像/视频 API 免费不限额度，RPM≤20，OpenAI 风格接口 + 国内外双站接入
 * [王兴兴是真的笑不出来](03-industry/2026-08-23-unitree-ipo-wangxingxing.md) — 宇树上市首日暴涨629%、静态PE约1596倍：资本时钟vs创新时钟、市值透支、人形机器人赛道拥挤三重忧虑
 * [Codex Router：在 Codex 里用 Anthropic/Kimi/DeepSeek/Grok 等外部模型](02-tools/2026-08-23-codex-router-external-models.md) — 本地路由器把外部模型合并进 Codex 原生模型目录，凭据隔离，一份安装多客户端共享，支持 Kimi/DeepSeek/Claude/Grok/GLM/Qwen/MiniMax/小米 MiMo
 * [把 AI 装进了 SSH 终端，NyaTerm 开源了](02-tools/2026-08-22-nyaterm-ai-terminal.md) — AI 助手原生集成终端，Ask/Agent/@会话多模式，支持多机对比与命令审批

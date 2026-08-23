@@ -18,6 +18,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Agnes AI 三大模型 API 无限期免费开放](02-tools/2026-08-23-agnes-ai-free-api.md) — 文本/图像/视频 API 免费不限额度，RPM≤20，OpenAI 风格接口 + 国内外双站接入
 - [ViMax：香港大学开源多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md) — 一个想法生成一部完整视频，导演+编剧+制片+生成器一体化
 - [黑石写作助手·中长篇小说版](02-tools/2026-08-08-blackstone-longform-fiction.md) — OpenClaw Skill，六项写作技能覆盖从灵感到正文全流程
 - [NVIDIA Build：100+ AI模型免费API平台](02-tools/2026-08-08-nvidia-build-nim-api.md) — 免费100+模型，免信用卡，OpenAI兼容，中国直连
