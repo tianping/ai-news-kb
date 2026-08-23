@@ -30,6 +30,7 @@
 - [Agnes Video 全免费短视频工厂](02-tools/2026-08-09-agnes-video-free-short-video-factory.md) — Agnes AI + O4OpenAI + ArcReel 三件套，零成本批量生成短视频
 - [OpenMontage：开源Agentic视频生产系统](02-tools/2026-08-10-openmontage-agentic-video.md) — GitHub 45K+ Star，12条流水线+100+工具+700+技能文件，自然语言→完整视频
 - [OpenCut：GitHub 8.4万星的开源视频编辑器](02-tools/2026-08-22-opencut-opensource-video-editor.md) — MIT协议本地剪辑，CapCut免费替代，Rust重写中+MCP Server
+- [Toonflow：开源AI短剧操作系统](02-tools/2026-08-23-toonflow-ai-short-drama-os.md) — GitHub 1.44万Star，三层Agent协作+无限画布+持久化记忆，小说转短剧的完整生产线
 - [我把剪映卸了：Codex 装 ChatCut 插件10分钟出片](02-tools/2026-08-22-codex-chatcut-video-editor.md) — ChatCut插件实测：自然语言生成带画面/配音/字幕完整视频，传统剪辑流水线被一句话替代
 - [n8n+Coze自动复刻老纪先生漫画](02-tools/2026-08-10-n8n-coze-laoji-comic.md) — 提交标题→AI生成文案生图→Coze排版→公众号草稿箱，全自动化
 - [科研绘图 Skill Top 10 榜单](02-tools/2026-08-10-research-figure-skills-top10.md) — GitHub 最热门10个科研绘图 Agent Skill，覆盖论文图件/多面板排版/期刊投稿格式
