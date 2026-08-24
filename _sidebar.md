@@ -1,3 +1,4 @@
+* [Agnes 2.5 Flash 免费接入 WorkBuddy](01-models/2026-08-24-agnes-25-flash-workbuddy.md) — 免费文本模型 + 独立配额生图/生视频，OpenAI 兼容接口，512K 上下文，五档思考强度，Claw-Eval Agent 榜超 Gemini 3 Flash
 * [天工"捂脸跑"夺冠：机器人自己想出来的跑姿](03-industry/2026-08-23-tiangong-face-covering-run.md) — 世界人形机器人运动会400米45.66秒夺冠，仿真迭代涌现的非拟人步态，运控终点是效率不是像人
 * [Agnes AI 三大模型 API 无限期免费开放](02-tools/2026-08-23-agnes-ai-free-api.md) — 文本/图像/视频 API 免费不限额度，RPM≤20，OpenAI 风格接口 + 国内外双站接入
 * [王兴兴是真的笑不出来](03-industry/2026-08-23-unitree-ipo-wangxingxing.md) — 宇树上市首日暴涨629%、静态PE约1596倍：资本时钟vs创新时钟、市值透支、人形机器人赛道拥挤三重忧虑

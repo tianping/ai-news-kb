@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、模型发布
+- [Agnes 2.5 Flash 免费接入 WorkBuddy](01-models/2026-08-24-agnes-25-flash-workbuddy.md) — 免费文本模型补位 Hy3 限免空缺，OpenAI 兼容接口，512K 上下文，生图/生视频单独配额可打包 Skill 接入
 - [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md) — 中国开源模型全球登顶、GPT-5.6三变体、万亿参数时代
 - [DeepSeek 涨价后免费模型 API 盘点](01-models/2026-08-20-deepseek-free-api-alternatives.md) — 商汤 Token Plan + AMD GPU Cloud 双渠道，含接入参数与使用建议
 - [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md) — AMD Token Factory 免费送 DeepSeek V4 Flash 等 13 款模型 API，OpenAI 兼容，每日 $10 额度
@@ -131,6 +132,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 01-models | Agnes 2.5 Flash 免费接入 WorkBuddy | 2026-08-24 |
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 03-industry | 王兴兴是真的笑不出来（宇树上市观察） | 2026-08-23 |
 | 03-industry | 天工"捂脸跑"夺冠：机器人自己想出来的跑姿 | 2026-08-23 |
