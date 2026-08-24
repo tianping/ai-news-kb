@@ -83,6 +83,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [天工"捂脸跑"夺冠：机器人自己想出来的跑姿](03-industry/2026-08-23-tiangong-face-covering-run.md) — 世界人形机器人运动会400米45.66秒夺冠，仿真迭代涌现的非拟人步态，运控终点是效率不是像人
 - 大公司动向（OpenAI/Anthropic/Google/Meta/百度/字节等）
 - 创业公司融资与产品
 - 政策与监管
@@ -132,6 +133,7 @@
 |------|------|------|
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 03-industry | 王兴兴是真的笑不出来（宇树上市观察） | 2026-08-23 |
+| 03-industry | 天工"捂脸跑"夺冠：机器人自己想出来的跑姿 | 2026-08-23 |
 | 02-tools | Codex Router：在 Codex 里用 Anthropic/Kimi/DeepSeek/Grok 等外部模型 | 2026-08-23 |
 | 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
 | 01-models | DeepSeek 涨价后免费模型 API 盘点 | 2026-08-20 |
