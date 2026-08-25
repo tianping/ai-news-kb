@@ -20,6 +20,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [历经两个月，我跑通了 Codex 自动剪辑，涨粉破千](02-tools/2026-08-25-codex-auto-editing-director-skill.md) — 导演 Skill 总控调度自制粗剪/IP动画 skill + HyperFrames/Remotion，三个月迭代从被限流到涨粉破千
 - [Agnes AI 三大模型 API 无限期免费开放](02-tools/2026-08-23-agnes-ai-free-api.md) — 文本/图像/视频 API 免费不限额度，RPM≤20，OpenAI 风格接口 + 国内外双站接入
 - [ViMax：香港大学开源多智能体视频生成框架](02-tools/2026-08-08-vimax-agentic-video.md) — 一个想法生成一部完整视频，导演+编剧+制片+生成器一体化
 - [黑石写作助手·中长篇小说版](02-tools/2026-08-08-blackstone-longform-fiction.md) — OpenClaw Skill，六项写作技能覆盖从灵感到正文全流程
@@ -133,6 +134,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 历经两个月，我跑通了 Codex 自动剪辑，涨粉破千 | 2026-08-25 |
 | 01-models | Ox Alpha 身世大反转：全网猜智谱小米，它可能是武汉白鹿的 25B 模型 | 2026-08-25 |
 | 01-models | Agnes 2.5 Flash 免费接入 WorkBuddy | 2026-08-24 |
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
