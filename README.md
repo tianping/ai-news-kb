@@ -21,6 +21,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [AI 视频创作最痛的地方，被 LuxReal 解决了](02-tools/2026-08-25-luxreal-agent-canvas.md) — Agent 起稿 + 自由画布精修：3D 片场 + 智能镜头动态预览替代九宫格，节点式修改
 - [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器，635 个免费端点，auto 路由+故障转移，MIT 开源
 - [Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面](02-tools/2026-08-25-free-claude-code-fcc.md) — 本地代理冒充 Anthropic 接口，一份模型目录喂 9 个 agent，自动故障切换；免费额度不是永久饭票
 - [历经两个月，我跑通了 Codex 自动剪辑，涨粉破千](02-tools/2026-08-25-codex-auto-editing-director-skill.md) — 导演 Skill 总控调度自制粗剪/IP动画 skill + HyperFrames/Remotion，三个月迭代从被限流到涨粉破千
@@ -137,6 +138,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | AI 视频创作最痛的地方，被 LuxReal 解决了 | 2026-08-25 |
 | 02-tools | FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens | 2026-08-25 |
 | 02-tools | Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面 | 2026-08-25 |
 | 01-models | Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方 | 2026-08-25 |
