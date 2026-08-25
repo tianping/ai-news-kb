@@ -1,3 +1,4 @@
+* [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业前7月裁员14.9万同比+67%，11.2万岗位明确归因于AI；裁员名单不是技术评测表——努力解决能不能做好，裁员解决还需不需要这么多人
 * [AI 视频创作最痛的地方，被 LuxReal 解决了](02-tools/2026-08-25-luxreal-agent-canvas.md) — Agent 起稿 + 自由画布精修：3D 片场解决多人物站位与机位衔接，智能镜头动态预览替代九宫格关键帧，节点式修改不用整段重跑
 * [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器：635 个免费端点、auto 智能路由、自动故障转移、AES-256 密钥保险箱；MIT 开源，个人实验场定位
 * [Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面](02-tools/2026-08-25-free-claude-code-fcc.md) — 本地代理冒充 Anthropic 接口，一份模型目录喂 9 个 agent，自动故障切换 + 本地优化省九成输出 token；免费额度不是永久饭票
