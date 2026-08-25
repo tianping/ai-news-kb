@@ -1,3 +1,4 @@
+* [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器：635 个免费端点、auto 智能路由、自动故障转移、AES-256 密钥保险箱；MIT 开源，个人实验场定位
 * [Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面](02-tools/2026-08-25-free-claude-code-fcc.md) — 本地代理冒充 Anthropic 接口，一份模型目录喂 9 个 agent，自动故障切换 + 本地优化省九成输出 token；免费额度不是永久饭票
 * [Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方](01-models/2026-08-25-ox-alpha-glm-forensics.md) — Tokenizer 44/44 匹配 GLM-5 代、[1210] 中文报错、14×14 视觉 patch 全对上；但公开 GLM-5.3 是纯文本而 Ox Alpha 能看图——最像未公开的 GLM-5 多模态 checkpoint；大模型数字取证时代来了
 * [历经两个月，我跑通了 Codex 自动剪辑，涨粉破千](02-tools/2026-08-25-codex-auto-editing-director-skill.md) — 导演 Skill 总控调度自制粗剪/IP动画 skill + HyperFrames/Remotion，三个月迭代从被限流到涨粉破千；感悟：工具10%、个人经验90%，粉丝认 IP 不认 skill
