@@ -7,6 +7,7 @@
 ### 一、模型发布
 - [Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方](01-models/2026-08-25-ox-alpha-glm-forensics.md) — Tokenizer 44/44 匹配 GLM-5 代、[1210] 中文报错、14×14 视觉 patch 全对上；但公开 GLM-5.3 是纯文本而 Ox Alpha 能看图——最像未公开的 GLM-5 多模态 checkpoint
 - [Ox Alpha 身世大反转：全网猜智谱小米，它可能是武汉白鹿的 25B 模型](01-models/2026-08-25-ox-alpha-bailu-25b.md) — 1M 上下文/多模态/强制推理免费匿名模型，上线5天冲周调用榜第4；智谱 9/10 指纹 vs 白鹿 25B 博客硬吻合，8/27 免费窗口关闭
+- [智谱确认 Ox Alpha 即 GLM-5.3，今晚发布权重](01-models/2026-08-26-ox-alpha-confirmed-glm53-weights-release.md) — 分词器指纹分析先于官方锁定身份；匿名上线策略成功验证市场竞争力；GLM-5.3 开源改变竞争格局
 - [Agnes 2.5 Flash 免费接入 WorkBuddy](01-models/2026-08-24-agnes-25-flash-workbuddy.md) — 免费文本模型补位 Hy3 限免空缺，OpenAI 兼容接口，512K 上下文，生图/生视频单独配额可打包 Skill 接入
 - [2026年8月 AI大模型进展深度盘点](01-models/2026-08-august-models-roundup.md) — 中国开源模型全球登顶、GPT-5.6三变体、万亿参数时代
 - [DeepSeek 涨价后免费模型 API 盘点](01-models/2026-08-20-deepseek-free-api-alternatives.md) — 商汤 Token Plan + AMD GPU Cloud 双渠道，含接入参数与使用建议
