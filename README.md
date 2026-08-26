@@ -234,6 +234,7 @@
 | 06-academic | 科研"活数据"管理：让AI能读懂、能复算 | 2026-08-11 |
 | 06-academic | GitHub Star Top 10 科研学术 Skill 排行榜 | 2026-08-11 |
 | 06-academic | GitHub科研Skill热榜：10个项目按流程环节推荐 | 2026-08-12 |
+| 06-academic | Nature、Science 是否更偏爱中国环境负面研究？——近十年正刊论文统计 | 2026-08-26 |
 
 ---
 
