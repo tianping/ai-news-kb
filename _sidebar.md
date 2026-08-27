@@ -1,8 +1,10 @@
+* [最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！](01-models/2026-08-27-qwen3-8-flash-benchmark.md) — MoE 125B/激活6B，输入$0.16/M输出$0.47/M，Agent任务成本不到Opus 1%，核心功能逼近Opus 4.8
 * [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业前7月裁员14.9万同比+67%，11.2万岗位明确归因于AI；裁员名单不是技术评测表——努力解决能不能做好，裁员解决还需不需要这么多人
 * [AI 视频创作最痛的地方，被 LuxReal 解决了](02-tools/2026-08-25-luxreal-agent-canvas.md) — Agent 起稿 + 自由画布精修：3D 片场解决多人物站位与机位衔接，智能镜头动态预览替代九宫格关键帧，节点式修改不用整段重跑
 * [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器：635 个免费端点、auto 智能路由、自动故障转移、AES-256 密钥保险箱；MIT 开源，个人实验场定位
 * [Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面](02-tools/2026-08-25-free-claude-code-fcc.md) — 本地代理冒充 Anthropic 接口，一份模型目录喂 9 个 agent，自动故障切换 + 本地优化省九成输出 token；免费额度不是永久饭票
 * [wigolo：本地 Agent 联网神器，不要 API Key](02-tools/2026-08-26-wigolo-local-agent-web-scraper.md) — 搜索/抓取/爬取全在本地跑，18 引擎融合+本地模型重排，MCP Server/REST API/SDK 三种接入；免费零额度限制，AGPL 开源
+* [自写 agnes-ai-studio 第十二版：免费生图/视频/短剧/数字人口播](02-tools/2026-08-26-agnes-ai-studio-v12.md) — 多参考图上传+删除按钮+尺寸调整；Agnes Video 2.5 Flash/M3/H3 默认模型；数字人口播缺动态、短剧去定时刷新
 * [Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方](01-models/2026-08-25-ox-alpha-glm-forensics.md) — Tokenizer 44/44 匹配 GLM-5 代、[1210] 中文报错、14×14 视觉 patch 全对上；但公开 GLM-5.3 是纯文本而 Ox Alpha 能看图——最像未公开的 GLM-5 多模态 checkpoint；大模型数字取证时代来了
 * [历经两个月，我跑通了 Codex 自动剪辑，涨粉破千](02-tools/2026-08-25-codex-auto-editing-director-skill.md) — 导演 Skill 总控调度自制粗剪/IP动画 skill + HyperFrames/Remotion，三个月迭代从被限流到涨粉破千；感悟：工具10%、个人经验90%，粉丝认 IP 不认 skill
 * [Ox Alpha 身世大反转：全网猜智谱小米，它可能是武汉白鹿的 25B 模型](01-models/2026-08-25-ox-alpha-bailu-25b.md) — 1M 上下文/多模态/强制推理免费匿名模型，上线5天冲周调用榜第4；智谱 9/10 指纹 vs 白鹿 25B 博客硬吻合，8/27 免费窗口关闭

@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、模型发布
+- [最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！](01-models/2026-08-27-qwen3-8-flash-benchmark.md) — 双轮Agent任务实测：输入$0.16/M输出$0.47/M，成本不到Opus 1%，核心功能逼近Opus 4.8
 - [Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方](01-models/2026-08-25-ox-alpha-glm-forensics.md) — Tokenizer 44/44 匹配 GLM-5 代、[1210] 中文报错、14×14 视觉 patch 全对上；但公开 GLM-5.3 是纯文本而 Ox Alpha 能看图——最像未公开的 GLM-5 多模态 checkpoint
 - [Ox Alpha 身世大反转：全网猜智谱小米，它可能是武汉白鹿的 25B 模型](01-models/2026-08-25-ox-alpha-bailu-25b.md) — 1M 上下文/多模态/强制推理免费匿名模型，上线5天冲周调用榜第4；智谱 9/10 指纹 vs 白鹿 25B 博客硬吻合，8/27 免费窗口关闭
 - [智谱确认 Ox Alpha 即 GLM-5.3，今晚发布权重](01-models/2026-08-26-ox-alpha-confirmed-glm53-weights-release.md) — 分词器指纹分析先于官方锁定身份；匿名上线策略成功验证市场竞争力；GLM-5.3 开源改变竞争格局
@@ -146,6 +147,8 @@
 | 02-tools | FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens | 2026-08-25 |
 | 02-tools | Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面 | 2026-08-25 |
 | 02-tools | wigolo：本地 Agent 联网神器，不要 API Key | 2026-08-26 |
+| 02-tools | 自写 agnes-ai-studio 第十二版：免费生图/视频/短剧/数字人口播 | 2026-08-26 |
+| 01-models | 最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！ | 2026-08-27 |
 | 01-models | Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方 | 2026-08-25 |
 | 02-tools | 历经两个月，我跑通了 Codex 自动剪辑，涨粉破千 | 2026-08-25 |
 | 01-models | Ox Alpha 身世大反转：全网猜智谱小米，它可能是武汉白鹿的 25B 模型 | 2026-08-25 |
