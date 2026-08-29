@@ -244,6 +244,7 @@
 | 06-academic | Nature、Science 是否更偏爱中国环境负面研究？——近十年正刊论文统计 | 2026-08-26 |
 | 06-academic | Phil S. Baran：从差生到世界顶尖有机合成化学家 | 2026-08-29 |
 | 02-tools | Kimi K3 写学术论文全流程指令集 | 2026-08-29 |
+| 02-tools | Blender 导入 PDB 小分子：Atomic Blender 科研绘图教程 | 2026-08-29 |
 
 ---
 
