@@ -39,5 +39,6 @@
 * [2026-08-20-chinese-poetry-api.md](02-tools/2026-08-20-chinese-poetry-api.md)
 * [商汤日日新 Token Plan：GLM-5.2 免费不限 Token](02-tools/2026-08-20-sensenova-token-plan-glm52-free.md)
 * [Blender 导入 PDB 小分子：Atomic Blender 科研绘图教程](02-tools/2026-08-29-blender-pdb-molecule-import.md) — PyMOL导出→RDKit核对原子编号→修改CONECT双键→Blender导入调整，组氨酸残基全流程示例
+* [情感关系中让对方叫"爸爸"或"妈妈"的心理分析](06-academic/2026-08-29-relationship-psychology-dad-mom.md) — 依赖型/控制型/戏精型三种心理动机；称呼是暗号而非权力工具
 * [Kimi K3 写学术论文全流程指令集](02-tools/2026-08-29-kimi-k3-academic-paper-prompts.md) — 本科/硕士论文专用，全局人设+选题优化+开题报告+三级提纲，Kimi超大上下文+PDF文献解读
 * [Phil S. Baran：从差生到世界顶尖有机合成化学家](06-academic/2026-08-29-phil-baran-organic-chemistry.md) — 博士5年发表34篇论文、28岁终身教授、38岁院士；天然产物全合成保护基自由理念创始人，连续3年每年1篇Science
