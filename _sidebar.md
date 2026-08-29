@@ -1,6 +1,7 @@
 * [当AI短剧的"制片厂"装进个人电脑：Qwen3.8-27B与MiniMax H3合流](01-models/2026-08-28-qwen38-27b-minimax-h3-personal-aigc.md) — 个人影视AIGC工具链闭环：Qwen3.8-27B本地推理+MiniMax H3开源全模态视频生成，0.8元/秒出片，一人公司模式基础设施就位
 * [最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！](01-models/2026-08-27-qwen3-8-flash-benchmark.md) — MoE 125B/激活6B，输入$0.16/M输出$0.47/M，Agent任务成本不到Opus 1%，核心功能逼近Opus 4.8
 * [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业前7月裁员14.9万同比+67%，11.2万岗位明确归因于AI；裁员名单不是技术评测表——努力解决能不能做好，裁员解决还需不需要这么多人
+* [Ollama Modelfile 5种人格：同一个模型改出5种灵魂](02-tools/2026-08-29-ollama-modelfile-5-personas.md) — Qwen2.5:7B 底模创建代码/文案/翻译/评审/咨询5个角色，temperature 0.1 写代码比默认好 50%
 * [AI 视频创作最痛的地方，被 LuxReal 解决了](02-tools/2026-08-25-luxreal-agent-canvas.md) — Agent 起稿 + 自由画布精修：3D 片场解决多人物站位与机位衔接，智能镜头动态预览替代九宫格关键帧，节点式修改不用整段重跑
 * [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器：635 个免费端点、auto 智能路由、自动故障转移、AES-256 密钥保险箱；MIT 开源，个人实验场定位
 * [Free Claude Code：4.8 万 Star，把 50 多个平台的免费 AI 额度收进一个界面](02-tools/2026-08-25-free-claude-code-fcc.md) — 本地代理冒充 Anthropic 接口，一份模型目录喂 9 个 agent，自动故障切换 + 本地优化省九成输出 token；免费额度不是永久饭票
