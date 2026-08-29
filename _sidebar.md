@@ -38,4 +38,4 @@
 * [Google 面向高校学生免费送一年 AI 订阅](02-tools/2026-08-20-google-ai-student-free-year.md)
 * [2026-08-20-chinese-poetry-api.md](02-tools/2026-08-20-chinese-poetry-api.md)
 * [商汤日日新 Token Plan：GLM-5.2 免费不限 Token](02-tools/2026-08-20-sensenova-token-plan-glm52-free.md)
-* [Nature、Science 是否更偏爱中国环境负面研究？——近十年正刊论文统计](06-academic/2026-08-26-nature-science-china-environment-research-statistics.md) — 2016-2026年25篇正刊论文盘点：中国人为活动研究负向33% vs 美国57%，样本小但直觉被推翻
+* [Phil S. Baran：从差生到世界顶尖有机合成化学家](06-academic/2026-08-29-phil-baran-organic-chemistry.md) — 博士5年发表34篇论文、28岁终身教授、38岁院士；天然产物全合成保护基自由理念创始人，连续3年每年1篇Science
