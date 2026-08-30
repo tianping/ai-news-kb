@@ -1,3 +1,4 @@
+* [Claude遭大规模盗号：黑客偷Session Cookie白嫖算力，官方强制注销用户](03-industry/2026-08-30-claude-mass-hack-session-cookie-theft.md) — 六大木马(Vidar/Lumma/StealC/RedLine/Acreed/AMOS)盗Session绕过2FA；黑产套壳分销+API中转白嫖算力；改密码无效，须撤销所有活跃会话
 * [当AI短剧的"制片厂"装进个人电脑：Qwen3.8-27B与MiniMax H3合流](01-models/2026-08-28-qwen38-27b-minimax-h3-personal-aigc.md) — 个人影视AIGC工具链闭环：Qwen3.8-27B本地推理+MiniMax H3开源全模态视频生成，0.8元/秒出片，一人公司模式基础设施就位
 * [最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！](01-models/2026-08-27-qwen3-8-flash-benchmark.md) — MoE 125B/激活6B，输入$0.16/M输出$0.47/M，Agent任务成本不到Opus 1%，核心功能逼近Opus 4.8
 * [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业前7月裁员14.9万同比+67%，11.2万岗位明确归因于AI；裁员名单不是技术评测表——努力解决能不能做好，裁员解决还需不需要这么多人
