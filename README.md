@@ -24,6 +24,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [WorkBuddy接入Agnes免费API创建生图和视频Skill](02-tools/2026-08-30-workbuddy-agnes-free-api-skill.md) — Agnes无限期免费文/图/视频API，一句话创建Skill，零积分出图+生视频含中英文配音，num_frames须8n+1
 - [Ollama Modelfile 5种人格：同一个模型改出5种灵魂](02-tools/2026-08-29-ollama-modelfile-5-personas.md) — Qwen2.5:7B 底模创建代码/文案/翻译/评审/咨询5个角色，temperature 0.1 写代码比默认好 50%
 - [AI 视频创作最痛的地方，被 LuxReal 解决了](02-tools/2026-08-25-luxreal-agent-canvas.md) — Agent 起稿 + 自由画布精修：3D 片场 + 智能镜头动态预览替代九宫格，节点式修改
 - [FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens](02-tools/2026-08-25-freellmapi-aggregator.md) — 本地接口聚合器+智能路由器，635 个免费端点，auto 路由+故障转移，MIT 开源

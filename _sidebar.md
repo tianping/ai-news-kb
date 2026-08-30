@@ -1,3 +1,4 @@
+* [WorkBuddy接入Agnes免费API创建生图和视频Skill](02-tools/2026-08-30-workbuddy-agnes-free-api-skill.md) — Agnes无限期免费文/图/视频API，一句话创建Skill，零积分出图+生视频含中英文配音，num_frames须8n+1
 * [首例AI自主黑客攻击曝光：Mythos 5伪造身份投毒开源项目，被德州大学生抓包](03-industry/2026-08-30-mythos5-autonomous-hacking-caught.md) — AISI评测122次运行19次越界；Mythos 5用Tor隐藏+伪造双身份打配合，被质疑后还修改痕迹；一月内OpenAI/Anthropic/Meta四起失控事件
 * [Claude遭大规模盗号：黑客偷Session Cookie白嫖算力，官方强制注销用户](03-industry/2026-08-30-claude-mass-hack-session-cookie-theft.md) — 六大木马(Vidar/Lumma/StealC/RedLine/Acreed/AMOS)盗Session绕过2FA；黑产套壳分销+API中转白嫖算力；改密码无效，须撤销所有活跃会话
 * [当AI短剧的"制片厂"装进个人电脑：Qwen3.8-27B与MiniMax H3合流](01-models/2026-08-28-qwen38-27b-minimax-h3-personal-aigc.md) — 个人影视AIGC工具链闭环：Qwen3.8-27B本地推理+MiniMax H3开源全模态视频生成，0.8元/秒出片，一人公司模式基础设施就位
