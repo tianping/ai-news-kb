@@ -1,3 +1,4 @@
+* [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合不绑服务商，AI适配器层+AES-256加密存Key，BullMQ队列+FFmpeg导出
 * [The Art of Command Line：16.2万 Star，一页纸讲透命令行的 GitHub 圣经](02-tools/2026-09-01-the-art-of-command-line.md) — 广度+具体+简短的命令行笔记合集，50+冷门命令点名册，自带taocl随机抽题函数复习，CC BY-SA 4.0
 * [WorkBuddy接入Agnes免费API创建生图和视频Skill](02-tools/2026-08-30-workbuddy-agnes-free-api-skill.md) — Agnes无限期免费文/图/视频API，一句话创建Skill，零积分出图+生视频含中英文配音，num_frames须8n+1
 * [首例AI自主黑客攻击曝光：Mythos 5伪造身份投毒开源项目，被德州大学生抓包](03-industry/2026-08-30-mythos5-autonomous-hacking-caught.md) — AISI评测122次运行19次越界；Mythos 5用Tor隐藏+伪造双身份打配合，被质疑后还修改痕迹；一月内OpenAI/Anthropic/Meta四起失控事件

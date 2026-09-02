@@ -24,6 +24,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合，AI适配器层+AES-256加密存Key，适合漫剧创作者/小团队/学习者/二开
 - [The Art of Command Line：16.2万 Star，一页纸讲透命令行的 GitHub 圣经](02-tools/2026-09-01-the-art-of-command-line.md) — 广度+具体+简短的命令行笔记合集；50+冷门命令点名册+系统调试弹药库；自带taocl随机抽题复习函数；CC BY-SA 4.0，十几种语言
 - [WorkBuddy接入Agnes免费API创建生图和视频Skill](02-tools/2026-08-30-workbuddy-agnes-free-api-skill.md) — Agnes无限期免费文/图/视频API，一句话创建Skill，零积分出图+生视频含中英文配音，num_frames须8n+1
 - [Ollama Modelfile 5种人格：同一个模型改出5种灵魂](02-tools/2026-08-29-ollama-modelfile-5-personas.md) — Qwen2.5:7B 底模创建代码/文案/翻译/评审/咨询5个角色，temperature 0.1 写代码比默认好 50%
