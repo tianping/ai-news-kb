@@ -25,6 +25,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 每句字幕对应元素依次出场，笔尖连续落墨ink→color；annotation.json按字幕事件排序元素（场景铺垫→人物→动作→反应），protectedRegions防提前露出；预览台逐步确认再渲染；MIT
 - [硕博常用 Codex 科研指令集（公开10条）](02-tools/2026-09-03-codex-research-prompts.md) — 三步流程：先让AI整理文献而非代写综述；文献综述/论文写作/研究设计10条指令全录；完整22条需关注领取；指令通用不限Codex
 - [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合，AI适配器层+AES-256加密存Key，适合漫剧创作者/小团队/学习者/二开
 - [The Art of Command Line：16.2万 Star，一页纸讲透命令行的 GitHub 圣经](02-tools/2026-09-01-the-art-of-command-line.md) — 广度+具体+简短的命令行笔记合集；50+冷门命令点名册+系统调试弹药库；自带taocl随机抽题复习函数；CC BY-SA 4.0，十几种语言
