@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、模型发布
+- [Muse Spark 1.3：Meta 性价比之王，1美元跑60次智能体循环](01-models/2026-09-03-meta-muse-spark-1-3.md) — DeepSWE 75.4 超 Opus 5/GPT-5.6 Sol，AA 智能指数 62 与 Fable 5 持平；工具调用 -20%、token -25%，输入 $1.25/M 输出 $4.25/M；北大校友孙之清参与后训练；弃权率上升引刷榜质疑
 - [当AI短剧的"制片厂"装进个人电脑：Qwen3.8-27B与MiniMax H3合流，个人影视AIGC的拐点来了](01-models/2026-08-28-qwen38-27b-minimax-h3-personal-aigc.md) — Qwen3.8-27B本地推理+MiniMax H3开源全模态视频生成（2K/原生立体声/0.8元秒），个人影视AIGC工具链闭环形成
 - [最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！](01-models/2026-08-27-qwen3-8-flash-benchmark.md) — 双轮Agent任务实测：输入$0.16/M输出$0.47/M，成本不到Opus 1%，核心功能逼近Opus 4.8
 - [Ox Alpha 又反转了：所有指纹都指向 GLM，但出现了一个解释不通的地方](01-models/2026-08-25-ox-alpha-glm-forensics.md) — Tokenizer 44/44 匹配 GLM-5 代、[1210] 中文报错、14×14 视觉 patch 全对上；但公开 GLM-5.3 是纯文本而 Ox Alpha 能看图——最像未公开的 GLM-5 多模态 checkpoint
