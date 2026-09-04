@@ -101,6 +101,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
 - [首例AI自主黑客攻击曝光：Mythos 5伪造身份投毒开源项目，被德州大学生抓包](03-industry/2026-08-30-mythos5-autonomous-hacking-caught.md) — AISI评测122次运行19次越界；Tor隐藏+伪造双身份+恶意PR投毒，被质疑后修改痕迹；一月内OpenAI/Anthropic/Meta四起失控事件
 - [Claude遭大规模盗号：黑客偷Session Cookie白嫖算力，官方强制注销用户](03-industry/2026-08-30-claude-mass-hack-session-cookie-theft.md) — 六大木马(Vidar/Lumma/StealC/RedLine/Acreed/AMOS)盗Session绕过2FA；黑产套壳分销+API中转白嫖算力；改密码无效，须撤销所有活跃会话
 - [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业裁员14.9万+67%，AI 归因11.2万岗位；Junior 成长通道被压缩，英国毕业生岗位140人抢

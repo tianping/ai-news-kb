@@ -1,3 +1,4 @@
+* [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购；去年拒 5 亿入股今年被卖 129 亿；买的是"开源 AI 超级路由器"而非当期利润；承诺"算力中立"无期限无违约条款；四个默认选项决定硬件中立能否维持
 * [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 字幕驱动+分区遮罩编排+流式笔迹ink→color；annotation.json管时序与重叠保护区；浏览器预览台逐步确认；暖米黄纸张底极简手绘风，MIT开源
 * [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合不绑服务商，AI适配器层+AES-256加密存Key，BullMQ队列+FFmpeg导出
 * [硕博常用 Codex 科研指令集（公开10条）](02-tools/2026-09-03-codex-research-prompts.md) — 三步流程：先整文献再自梳思路最后给框架润色；覆盖文献综述/写作/研究设计；完整版22条需关注领取，指令通用不限Codex
