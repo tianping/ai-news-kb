@@ -105,10 +105,12 @@
 
 ### 三、行业动态
 - [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
+- [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - [首例AI自主黑客攻击曝光：Mythos 5伪造身份投毒开源项目，被德州大学生抓包](03-industry/2026-08-30-mythos5-autonomous-hacking-caught.md) — AISI评测122次运行19次越界；Tor隐藏+伪造双身份+恶意PR投毒，被质疑后修改痕迹；一月内OpenAI/Anthropic/Meta四起失控事件
 - [Claude遭大规模盗号：黑客偷Session Cookie白嫖算力，官方强制注销用户](03-industry/2026-08-30-claude-mass-hack-session-cookie-theft.md) — 六大木马(Vidar/Lumma/StealC/RedLine/Acreed/AMOS)盗Session绕过2FA；黑产套壳分销+API中转白嫖算力；改密码无效，须撤销所有活跃会话
 - [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业裁员14.9万+67%，AI 归因11.2万岗位；Junior 成长通道被压缩，英国毕业生岗位140人抢
 - [天工"捂脸跑"夺冠：机器人自己想出来的跑姿](03-industry/2026-08-23-tiangong-face-covering-run.md) — 世界人形机器人运动会400米45.66秒夺冠，仿真迭代涌现的非拟人步态，运控终点是效率不是像人
+- [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开三证：观鸟活动减少≠鸟少、54.6%缺失值赋0导致假相关、换EBD/GBIF复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - 大公司动向（OpenAI/Anthropic/Google/Meta/百度/字节等）
 - 创业公司融资与产品
 - 政策与监管
@@ -170,6 +172,7 @@
 | 01-models | 2026年8月 AI大模型进展深度盘点 | 2026-08 |
 | 03-industry | 王兴兴是真的笑不出来（宇树上市观察） | 2026-08-23 |
 | 03-industry | 天工"捂脸跑"夺冠：机器人自己想出来的跑姿 | 2026-08-23 |
+| 03-industry | SSRN 重新分析：Science"光伏让鸟变少"论文证据不足 | 2026-09-07 |
 | 02-tools | Codex Router：在 Codex 里用 Anthropic/Kimi/DeepSeek/Grok 等外部模型 | 2026-08-23 |
 | 01-models | 免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10 | 2026-08-17 |
 | 01-models | DeepSeek 涨价后免费模型 API 盘点 | 2026-08-20 |
