@@ -30,6 +30,8 @@
 - [huashu-mac-use：Agent Mac电脑操控Skill](02-tools/2026-09-07-huashu-mac-use-agent-computer-control.md) — 任何Agent装后操控Mac/Blender，三层架构（脚本→AX→坐标）优先走接口不点鼠标；"能不看图就不看图"原则；四道闸防抢焦点；每步回读验证
 - [Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0](02-tools/2026-09-07-unorouter-free-glm5-series.md) — 注册即调，6款GLM模型（search/think/thinking/flash）输入输出缓存均$0，1M上下文，OpenAI兼容；付费裸版也极便宜
 - [Codex + MiniMax H3 / Seedance 2.5：不会写分镜也能做 AI 视频](02-tools/2026-09-07-codex-minimax-h3-seedance-video-workflow.md) — 九步工作流：从分析参考视频到局部修错；单场景10-15秒穿搭变装+多分镜喜剧短剧( cuimao_reverse)两套完整例子；含H3/Seedance对比表和完成标准Checklist
+- [Kinema：AI 影像智能体，一条主题出成片](02-tools/2026-09-07-kinema-ai-cinematic-agent.md) — BladeX开源AGPL-3.0，三层架构(agent+engine+studio)贯通策划→分镜→生图→配音→成片；三种渲染模式(kenburns/dubbed/native)；成本内建(--dry-run报价+budget闸)；asset血缘自动标过期；纯CPU即可
+- [GPT-6 Astra 发布后 Blender 为什么抢眼](02-tools/2026-09-07-gpt6-astra-blender-why-prominent.md) — 深度分析Astra+Blender演示为何吸睛：bpy接口让AI能"动手"+命令行循环+一体化流程；Thomas Ricouard房屋案例法线修正迭代；精细渲染vs自由漫游不同门槛；安全提醒脚本有实际执行能力
 - [硕博常用 Codex 科研指令集（公开10条）](02-tools/2026-09-03-codex-research-prompts.md) — 三步流程：先让AI整理文献而非代写综述；文献综述/论文写作/研究设计10条指令全录；完整22条需关注领取；指令通用不限Codex
 - [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合，AI适配器层+AES-256加密存Key，适合漫剧创作者/小团队/学习者/二开
 - [The Art of Command Line：16.2万 Star，一页纸讲透命令行的 GitHub 圣经](02-tools/2026-09-01-the-art-of-command-line.md) — 广度+具体+简短的命令行笔记合集；50+冷门命令点名册+系统调试弹药库；自带taocl随机抽题复习函数；CC BY-SA 4.0，十几种语言
@@ -264,6 +266,8 @@
 | 02-tools | Blender 导入 PDB 小分子：Atomic Blender 科研绘图教程 | 2026-08-29 |
 | 02-tools | huashu-mac-use：Agent Mac电脑操控Skill | 2026-09-07 |
 | 02-tools | Codex + MiniMax H3 / Seedance 2.5：不会写分镜也能做 AI 视频 | 2026-09-07 |
+| 02-tools | Kinema：AI 影像智能体，一条主题出成片 | 2026-09-07 |
+| 02-tools | GPT-6 Astra 发布后 Blender 为什么抢眼 | 2026-09-07 |
 | 02-tools | Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0 | 2026-09-07 |
 | 06-academic | 情感关系中让对方叫"爸爸"或"妈妈"的心理分析 | 2026-08-29 |
 
