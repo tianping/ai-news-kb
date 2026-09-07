@@ -28,6 +28,7 @@
 ### 二、工具与产品
 - [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 每句字幕对应元素依次出场，笔尖连续落墨ink→color；annotation.json按字幕事件排序元素（场景铺垫→人物→动作→反应），protectedRegions防提前露出；预览台逐步确认再渲染；MIT
 - [huashu-mac-use：Agent Mac电脑操控Skill](02-tools/2026-09-07-huashu-mac-use-agent-computer-control.md) — 任何Agent装后操控Mac/Blender，三层架构（脚本→AX→坐标）优先走接口不点鼠标；"能不看图就不看图"原则；四道闸防抢焦点；每步回读验证
+- [Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0](02-tools/2026-09-07-unorouter-free-glm5-series.md) — 注册即调，6款GLM模型（search/think/thinking/flash）输入输出缓存均$0，1M上下文，OpenAI兼容；付费裸版也极便宜
 - [硕博常用 Codex 科研指令集（公开10条）](02-tools/2026-09-03-codex-research-prompts.md) — 三步流程：先让AI整理文献而非代写综述；文献综述/论文写作/研究设计10条指令全录；完整22条需关注领取；指令通用不限Codex
 - [AI-Comic-Video-Generator：全栈开源 AI 漫剧生成平台](02-tools/2026-09-02-ai-comic-video-generator.md) — 输入角色+故事自动分镜/画面/配音/合成，3分钟出草稿；多模型自由组合，AI适配器层+AES-256加密存Key，适合漫剧创作者/小团队/学习者/二开
 - [The Art of Command Line：16.2万 Star，一页纸讲透命令行的 GitHub 圣经](02-tools/2026-09-01-the-art-of-command-line.md) — 广度+具体+简短的命令行笔记合集；50+冷门命令点名册+系统调试弹药库；自带taocl随机抽题复习函数；CC BY-SA 4.0，十几种语言
@@ -257,7 +258,9 @@
 | 06-academic | Phil S. Baran：从差生到世界顶尖有机合成化学家 | 2026-08-29 |
 | 02-tools | Kimi K3 写学术论文全流程指令集 | 2026-08-29 |
 | 02-tools | Blender 导入 PDB 小分子：Atomic Blender 科研绘图教程 | 2026-08-29 |
-| 06-academic | 情感关系中让对方叫“爸爸”或“妈妈”的心理分析 | 2026-08-29 |
+| 02-tools | huashu-mac-use：Agent Mac电脑操控Skill | 2026-09-07 |
+| 02-tools | Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0 | 2026-09-07 |
+| 06-academic | 情感关系中让对方叫"爸爸"或"妈妈"的心理分析 | 2026-08-29 |
 
 ---
 
