@@ -263,6 +263,7 @@
 | 02-tools | Kimi K3 写学术论文全流程指令集 | 2026-08-29 |
 | 02-tools | Blender 导入 PDB 小分子：Atomic Blender 科研绘图教程 | 2026-08-29 |
 | 02-tools | huashu-mac-use：Agent Mac电脑操控Skill | 2026-09-07 |
+| 02-tools | Codex + MiniMax H3 / Seedance 2.5：不会写分镜也能做 AI 视频 | 2026-09-07 |
 | 02-tools | Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0 | 2026-09-07 |
 | 06-academic | 情感关系中让对方叫"爸爸"或"妈妈"的心理分析 | 2026-08-29 |
 
