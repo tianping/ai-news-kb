@@ -272,8 +272,6 @@
 | 02-tools | GPT-6 Astra 发布后 Blender 为什么抢眼 | 2026-09-07 |
 | 02-tools | MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现 | 2026-09-07 |
 | 02-tools | OpenMontage：一句话把 AI 编程助手变成视频工作室 | 2026-09-08 |
-| 02-tools | MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现 | 2026-09-07 |
-| 02-tools | OpenMontage：一句话把 AI 编程助手变成视频工作室 | 2026-09-08 |
 | 02-tools | Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0 | 2026-09-07 |
 | 06-academic | 情感关系中让对方叫"爸爸"或"妈妈"的心理分析 | 2026-08-29 |
 
