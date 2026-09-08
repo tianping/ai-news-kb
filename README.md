@@ -149,6 +149,7 @@
 - [科研"活数据"管理：让AI能读懂、能复算](06-academic/2026-08-11-research-data-management-living-data.md) — FAIR原则+RO-Crate+AGENTS.md，5条原则7步实操，附完整AI提示词模板
 - [GitHub Star Top 10 科研学术 Skill 排行榜](06-academic/2026-08-11-github-top10-research-skills.md) — 41K+到4.7K，十大科研写作Skill详解，覆盖论文规划/写作/审校/引用核验/全流程自主研究
 - [GitHub科研Skill热榜：10个项目按流程环节推荐](06-academic/2026-08-12-github-research-skills-by-workflow.md) — 按选题→文献→出图→写作→投稿→汇报全流程推荐Skill组合，含sci-brain/nature-skills/ARS等，附速查表
+- [GitHub 科研 AI 工具 Star 榜（2026-09-07 更新）：10 个项目把科研交给 Agent](06-academic/2026-09-07-github-research-ai-stars-sept.md) — 8月版Star榜更新：academic-research-skills领跑46.6K，scientific-agent-skills跨100+数据库最宽；ARIS/AI-Scientist-v2新入榜；选工具三维度建议
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -260,6 +261,7 @@
 | 06-academic | 科研"活数据"管理：让AI能读懂、能复算 | 2026-08-11 |
 | 06-academic | GitHub Star Top 10 科研学术 Skill 排行榜 | 2026-08-11 |
 | 06-academic | GitHub科研Skill热榜：10个项目按流程环节推荐 | 2026-08-12 |
+| 06-academic | GitHub 科研 AI 工具 Star 榜（2026-09-07 更新） | 2026-09-07 |
 | 06-academic | Nature、Science 是否更偏爱中国环境负面研究？——近十年正刊论文统计 | 2026-08-26 |
 | 06-academic | Phil S. Baran：从差生到世界顶尖有机合成化学家 | 2026-08-29 |
 | 02-tools | Kimi K3 写学术论文全流程指令集 | 2026-08-29 |

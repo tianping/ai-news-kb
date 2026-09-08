@@ -13,3 +13,4 @@
 - [04 论文与技术突破](04-papers/)
 - [05 事件与评论](05-events/)
 - [06 AI 学术应用](06-academic/)
+- [GitHub 科研 AI 工具 Star 榜（2026-09-07 更新）：10 个项目把科研交给 Agent](06-academic/2026-09-07-github-research-ai-stars-sept.md) — 8月版Star榜更新：academic-research-skills领跑46.6K，scientific-agent-skills跨100+数据库最宽；ARIS/AI-Scientist-v2新入榜；选工具三维度建议
