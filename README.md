@@ -262,6 +262,9 @@
 | 06-academic | GitHub Star Top 10 科研学术 Skill 排行榜 | 2026-08-11 |
 | 06-academic | GitHub科研Skill热榜：10个项目按流程环节推荐 | 2026-08-12 |
 | 06-academic | GitHub 科研 AI 工具 Star 榜（2026-09-07 更新） | 2026-09-07 |
+| 03-industry | 美国拟封堵中国 AI 海外算力通道，东南亚数据中心或受审查 | 2026-09-08 |
+| 03-industry | Linux 终将统治桌面端、手写代码时代终结——DHH Lex Fridman 访谈精华 | 2026-09-08 |
+| 01-models | Agnes 3.0 Flash 实测：免费模型又 +1 | 2026-09-08 |
 | 06-academic | Nature、Science 是否更偏爱中国环境负面研究？——近十年正刊论文统计 | 2026-08-26 |
 | 06-academic | Phil S. Baran：从差生到世界顶尖有机合成化学家 | 2026-08-29 |
 | 02-tools | Kimi K3 写学术论文全流程指令集 | 2026-08-29 |

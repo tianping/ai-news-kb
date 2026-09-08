@@ -16,3 +16,5 @@
 - [05 事件与评论](05-events/)
 - [06 AI 学术应用](06-academic/)
 - [GitHub 科研 AI 工具 Star 榜（2026-09-07 更新）：10 个项目把科研交给 Agent](06-academic/2026-09-07-github-research-ai-stars-sept.md) — 8月版Star榜更新：academic-research-skills领跑46.6K，scientific-agent-skills跨100+数据库最宽；ARIS/AI-Scientist-v2新入榜；选工具三维度建议
+- [Linux 终将统治桌面端、手写代码时代终结——DHH Lex Fridman 访谈精华](03-industry/2026-09-08-dhh-lex-fridman-interview.md) — DHH：过去两个月亲手写代码为零；AI Agent 理解意图而非执行指令；一个人=过去大公司的软件生产力
+- [美国拟封堵中国 AI 海外算力通道，东南亚数据中心或受审查](03-industry/2026-09-08-us-china-ai-compute-export-controls.md) — BIS 拟将远程访问限制写入出口许可证，要求第三国数据中心 KYC 审查；法律定性争议；泰国/新加坡两难
