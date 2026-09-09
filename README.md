@@ -150,6 +150,7 @@
 - [GitHub Star Top 10 科研学术 Skill 排行榜](06-academic/2026-08-11-github-top10-research-skills.md) — 41K+到4.7K，十大科研写作Skill详解，覆盖论文规划/写作/审校/引用核验/全流程自主研究
 - [GitHub科研Skill热榜：10个项目按流程环节推荐](06-academic/2026-08-12-github-research-skills-by-workflow.md) — 按选题→文献→出图→写作→投稿→汇报全流程推荐Skill组合，含sci-brain/nature-skills/ARS等，附速查表
 - [GitHub 科研 AI 工具 Star 榜（2026-09-07 更新）：10 个项目把科研交给 Agent](06-academic/2026-09-07-github-research-ai-stars-sept.md) — 8月版Star榜更新：academic-research-skills领跑46.6K，scientific-agent-skills跨100+数据库最宽；ARIS/AI-Scientist-v2新入榜；选工具三维度建议
+- [科研自动化 Skill 排行榜 Top10（2026-09-09 更新）：榜单零变动](06-academic/2026-09-09-github-research-ai-stars-sept-update.md) — 与09-07版完全一致：同10项目同顺序，Star数全部持平；头部格局固化，第二梯队14K密集区（ARIS/AI-Scientist/AutoResearchClaw）下次可能换位
 - AI 辅助科研写作
 - AI 辅助文献综述
 - AI 辅助数据可视化与科研绘图
@@ -162,6 +163,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 06-academic | 科研自动化 Skill 排行榜 Top10（2026-09-09 更新）：榜单零变动 | 2026-09-09 |
 | 03-industry | 「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过 | 2026-08-25 |
 | 02-tools | AI 视频创作最痛的地方，被 LuxReal 解决了 | 2026-08-25 |
 | 02-tools | FreeLLMAPI：19.9K Star，聚合 34 家 AI 免费额度约每月 74 亿 tokens | 2026-08-25 |
