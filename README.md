@@ -26,6 +26,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可开播；epg/database/api/awesome-iptv分工咬合成完整链路；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里，当检索入口别当服务承诺
 - [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 每句字幕对应元素依次出场，笔尖连续落墨ink→color；annotation.json按字幕事件排序元素（场景铺垫→人物→动作→反应），protectedRegions防提前露出；预览台逐步确认再渲染；MIT
 - [huashu-mac-use：Agent Mac电脑操控Skill](02-tools/2026-09-07-huashu-mac-use-agent-computer-control.md) — 任何Agent装后操控Mac/Blender，三层架构（脚本→AX→坐标）优先走接口不点鼠标；"能不看图就不看图"原则；四道闸防抢焦点；每步回读验证
 - [Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0](02-tools/2026-09-07-unorouter-free-glm5-series.md) — 注册即调，6款GLM模型（search/think/thinking/flash）输入输出缓存均$0，1M上下文，OpenAI兼容；付费裸版也极便宜
@@ -163,6 +164,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接 | 2026-09-09 |
 | 06-academic | 科研自动化 Skill 排行榜 Top10（2026-09-09 更新）：榜单零变动 | 2026-09-09 |
 | 03-industry | 「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过 | 2026-08-25 |
 | 02-tools | AI 视频创作最痛的地方，被 LuxReal 解决了 | 2026-08-25 |

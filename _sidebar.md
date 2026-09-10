@@ -9,6 +9,7 @@
 - [Kinema：AI 影像智能体，一条主题出成片](02-tools/2026-09-07-kinema-ai-cinematic-agent.md) — BladeX开源AGPL-3.0，三层架构(agent+engine+studio)贯通策划→分镜→生图→配音→成片；三种渲染模式(kenburns/dubbed/native)；成本内建(--dry-run报价+budget闸)；asset血缘自动标过期；纯CPU即可
 - [GPT-6 Astra 发布后 Blender 为什么抢眼](02-tools/2026-09-07-gpt6-astra-blender-why-prominent.md) — 深度分析Astra+Blender演示为何吸睛：bpy接口让AI能"动手"+命令行循环+一体化流程；Thomas Ricouard房屋案例法线修正迭代；精细渲染vs自由漫游不同门槛；安全提醒脚本有实际执行能力
 - [OpenMontage：一句话把 AI 编程助手变成视频工作室](02-tools/2026-09-08-openmontage-ai-video-studio.md) — 12条pipeline+52工具+500+agent技能，七步自动化(research→compose)；质量闸门(黑帧/音频/幻灯片风险)+成本控制；Remotion/HyperFrames/FFmpeg三路渲染；与Kinema对比
+- [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
 - [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
