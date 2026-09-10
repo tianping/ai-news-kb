@@ -108,6 +108,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机；AI写得快≠写得好
 - [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - [首例AI自主黑客攻击曝光：Mythos 5伪造身份投毒开源项目，被德州大学生抓包](03-industry/2026-08-30-mythos5-autonomous-hacking-caught.md) — AISI评测122次运行19次越界；Tor隐藏+伪造双身份+恶意PR投毒，被质疑后修改痕迹；一月内OpenAI/Anthropic/Meta四起失控事件
@@ -164,6 +165,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | 「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂 | 2026-09-10 |
 | 02-tools | iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接 | 2026-09-09 |
 | 06-academic | 科研自动化 Skill 排行榜 Top10（2026-09-09 更新）：榜单零变动 | 2026-09-09 |
 | 03-industry | 「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过 | 2026-08-25 |
