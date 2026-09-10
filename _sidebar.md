@@ -3,6 +3,7 @@
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
 - [02 工具与产品](02-tools/)
+- [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
 - [huashu-mac-use：Agent Mac电脑操控Skill](02-tools/2026-09-07-huashu-mac-use-agent-computer-control.md) — 任何Agent装后操控Mac/Blender，三层架构（脚本→AX→坐标）优先走接口不点鼠标；"能不看图就不看图"原则；四道闸防抢焦点；每步回读验证
 - [Uno Router 免费开放 GLM-5.2/5.3 系列：搜索+推理版全 $0](02-tools/2026-09-07-unorouter-free-glm5-series.md) — 注册即调，6款GLM模型（search/think/thinking/flash）输入输出缓存均$0，1M上下文，OpenAI兼容；付费裸版也极便宜
 - [Codex + MiniMax H3 / Seedance 2.5：不会写分镜也能做 AI 视频](02-tools/2026-09-07-codex-minimax-h3-seedance-video-workflow.md) — 九步工作流从分析参考视频到局部修错；多分镜扩展（cuimao_reverse项目）含素材包/四格分镜/Shot State Map；第一条视频标准 Checklist
