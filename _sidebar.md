@@ -3,6 +3,7 @@
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
 - [02 工具与产品](02-tools/)
+- [老黄手撕 Anthropic 辞职研究员：AI 安全之争与菲尔兹奖得主开研究所](03-industry/2026-09-12-ai-safety-jensen-coxon-tsimerman.md) — Coxon 辞职帖"AI 拿全人类命下赌注"、Anthropic 对齐负责人 Hubinger 跟帖十年灭绝概率>10%、菲尔兹奖得主 Tsimerman 创办 MAISI 用零知识证明给 AI 安全出题、老黄回怼"荒诞极不真实"
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
 - [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
