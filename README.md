@@ -26,6 +26,8 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
+- [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
 - [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可开播；epg/database/api/awesome-iptv分工咬合成完整链路；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里，当检索入口别当服务承诺
 - [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 每句字幕对应元素依次出场，笔尖连续落墨ink→color；annotation.json按字幕事件排序元素（场景铺垫→人物→动作→反应），protectedRegions防提前露出；预览台逐步确认再渲染；MIT
