@@ -7,6 +7,7 @@
   * [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强
   * [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star
 - [老黄手撕 Anthropic 辞职研究员：AI 安全之争与菲尔兹奖得主开研究所](03-industry/2026-09-12-ai-safety-jensen-coxon-tsimerman.md) — Coxon 辞职帖"AI 拿全人类命下赌注"、Anthropic 对齐负责人 Hubinger 跟帖十年灭绝概率>10%、菲尔兹奖得主 Tsimerman 创办 MAISI 用零知识证明给 AI 安全出题、老黄回怼"荒诞极不真实"
+  * [1990年三毛与76岁王洛宾同居传闻，核实与三毛/荷西/王洛宾生平](03-industry/2026-09-14-sanmao-wangluobin-story-verification.md) — 自媒体文《追踪未解之谜》称1990年三毛赴新疆与76岁王洛宾同居、王洛宾拒绝发生关系后三毛回台自杀，称死因与王洛宾有关。本笔记核实三毛（1943-1991）、荷西（1955-1979潜水溺亡）、王洛宾（1913-1996）三人时间线，逐条核对自媒体文中的关键断言：三毛赴新疆时间、王洛宾年龄、半碗饭细节、喀什散心、《滚滚红尘》编剧落选、肉色丝袜上吊、王洛宾8瓶烧酒等。给出可核实与存疑部分的对照，并附王洛宾之子王海成 2025 年《新京报》专访、知乎《恋曲1990》、搜狐《三毛死因揭秘》等来源。
   * [首部AI长剧《后西游记》总成本2700万，导演给出10个颠覆性判断](03-industry/2026-09-13-hou-you-xi-ji-ai-drama-2700.md) — 30集×40min，芒果TV 2.6亿播放带动芒果超媒市值+116.5亿；100+人完成传统2000人工作量；3分钟打斗戏400-500万→2-3万；算力仅占总成本1/4~1/5；99%内容将用AIGC、话语权转移到观众
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
 - [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
