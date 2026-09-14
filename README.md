@@ -323,3 +323,5 @@
 - [OpenAI 关停 $200 Pro 套餐，Agnes 3.0 Flash + AgnesCode 全免费实测（新智元软文）](02-tools/2026-09-14-agnes-3-flash-agnescode-free-ai.md) — OpenAI 因 Astra 算力需求关停 ChatGPT Pro $200；Agnes 3.0 Flash 三项 Token 全 $0，AA Index v4.3 得 36 分（官方称与 DeepSeek V4 Pro 0813 max 持平）；AgnesCode 整合本地项目/Skills/MCP/CLI；AGH 计划 9 月底开源 (2026-09-14)
 
 - [1990年三毛与76岁王洛宾同居传闻，核实与三毛/荷西/王洛宾生平](03-industry/2026-09-14-sanmao-wangluobin-story-verification.md) — 自媒体文《追踪未解之谜》称1990年三毛赴新疆与76岁王洛宾同居、王洛宾拒绝发生关系后三毛回台自杀，称死因与王洛宾有关。本笔记核实三毛（1943-1991）、荷西（1955-1979潜水溺亡）、王洛宾（1913-1996）三人时间线，逐条核对自媒体文中的关键断言：三毛赴新疆时间、王洛宾年龄、半碗饭细节、喀什散心、《滚滚红尘》编剧落选、肉色丝袜上吊、王洛宾8瓶烧酒等。给出可核实与存疑部分的对照，并附王洛宾之子王海成 2025 年《新京报》专访、知乎《恋曲1990》、搜狐《三毛死因揭秘》等来源。 (2026-09-14)
+
+- [YuE2 冲上 Trending 榜首：AI 音乐终于有了自己的工作台（AINQO 分析）](02-tools/2026-09-14-yue2-ai-music-workbench.md) — AINQO NOW 005：YuE2 把乐谱（ABC 记谱）放回生成链路，先规划旋律和弦再出声，可检查可修改；改谱=生成新完整录音（非 DAW 式精确编辑）；附 yue2-music Agent Skill，《The Last Train》9 步 14 版本；翻唱走 SheetSage2 转写零样本；WildSongBench best-of-8 榜首但有筛选预算；24GB 显存起点，代码 Apache-2.0 但权重 CC BY-NC 4.0 非商业 (2026-09-14)

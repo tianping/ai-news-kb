@@ -3,6 +3,7 @@
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
 - [02 工具与产品](02-tools/)
+  * [YuE2 冲上 Trending 榜首：AI 音乐终于有了自己的工作台（AINQO 分析）](02-tools/2026-09-14-yue2-ai-music-workbench.md) — AINQO NOW 005：YuE2 把乐谱（ABC 记谱）放回生成链路，先规划旋律和弦再出声，可检查可修改；改谱=生成新完整录音（非 DAW 式精确编辑）；附 yue2-music Agent Skill，《The Last Train》9 步 14 版本；翻唱走 SheetSage2 转写零样本；WildSongBench best-of-8 榜首但有筛选预算；24GB 显存起点，代码 Apache-2.0 但权重 CC BY-NC 4.0 非商业
   * [OpenAI 关停 $200 Pro 套餐，Agnes 3.0 Flash + AgnesCode 全免费实测（新智元软文）](02-tools/2026-09-14-agnes-3-flash-agnescode-free-ai.md) — OpenAI 因 Astra 算力需求关停 ChatGPT Pro $200；Agnes 3.0 Flash 三项 Token 全 $0，AA Index v4.3 得 36 分（官方称与 DeepSeek V4 Pro 0813 max 持平）；AgnesCode 整合本地项目/Skills/MCP/CLI；AGH 计划 9 月底开源
   * [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强
   * [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star
