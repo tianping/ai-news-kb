@@ -317,3 +317,5 @@
 - [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star (2026-09-13)
 
 - [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强 (2026-09-13)
+
+- [首部AI长剧《后西游记》总成本2700万，导演给出10个颠覆性判断](03-industry/2026-09-13-hou-you-xi-ji-ai-drama-2700.md) — 30集×40min，芒果TV 2.6亿播放带动芒果超媒市值+116.5亿；100+人完成传统2000人工作量；3分钟打斗戏400-500万→2-3万；算力仅占总成本1/4~1/5；99%内容将用AIGC、话语权转移到观众 (2026-09-13)
