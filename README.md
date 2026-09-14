@@ -319,3 +319,5 @@
 - [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强 (2026-09-13)
 
 - [首部AI长剧《后西游记》总成本2700万，导演给出10个颠覆性判断](03-industry/2026-09-13-hou-you-xi-ji-ai-drama-2700.md) — 30集×40min，芒果TV 2.6亿播放带动芒果超媒市值+116.5亿；100+人完成传统2000人工作量；3分钟打斗戏400-500万→2-3万；算力仅占总成本1/4~1/5；99%内容将用AIGC、话语权转移到观众 (2026-09-13)
+
+- [OpenAI 关停 $200 Pro 套餐，Agnes 3.0 Flash + AgnesCode 全免费实测（新智元软文）](02-tools/2026-09-14-agnes-3-flash-agnescode-free-ai.md) — OpenAI 因 Astra 算力需求关停 ChatGPT Pro $200；Agnes 3.0 Flash 三项 Token 全 $0，AA Index v4.3 得 36 分（官方称与 DeepSeek V4 Pro 0813 max 持平）；AgnesCode 整合本地项目/Skills/MCP/CLI；AGH 计划 9 月底开源 (2026-09-14)

@@ -3,6 +3,7 @@
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
 - [02 工具与产品](02-tools/)
+  * [OpenAI 关停 $200 Pro 套餐，Agnes 3.0 Flash + AgnesCode 全免费实测（新智元软文）](02-tools/2026-09-14-agnes-3-flash-agnescode-free-ai.md) — OpenAI 因 Astra 算力需求关停 ChatGPT Pro $200；Agnes 3.0 Flash 三项 Token 全 $0，AA Index v4.3 得 36 分（官方称与 DeepSeek V4 Pro 0813 max 持平）；AgnesCode 整合本地项目/Skills/MCP/CLI；AGH 计划 9 月底开源
   * [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强
   * [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star
 - [老黄手撕 Anthropic 辞职研究员：AI 安全之争与菲尔兹奖得主开研究所](03-industry/2026-09-12-ai-safety-jensen-coxon-tsimerman.md) — Coxon 辞职帖"AI 拿全人类命下赌注"、Anthropic 对齐负责人 Hubinger 跟帖十年灭绝概率>10%、菲尔兹奖得主 Tsimerman 创办 MAISI 用零知识证明给 AI 安全出题、老黄回怼"荒诞极不真实"
