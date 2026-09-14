@@ -3,6 +3,7 @@
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
 - [02 工具与产品](02-tools/)
+  * [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强
   * [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star
 - [老黄手撕 Anthropic 辞职研究员：AI 安全之争与菲尔兹奖得主开研究所](03-industry/2026-09-12-ai-safety-jensen-coxon-tsimerman.md) — Coxon 辞职帖"AI 拿全人类命下赌注"、Anthropic 对齐负责人 Hubinger 跟帖十年灭绝概率>10%、菲尔兹奖得主 Tsimerman 创办 MAISI 用零知识证明给 AI 安全出题、老黄回怼"荒诞极不真实"
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿

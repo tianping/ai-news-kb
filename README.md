@@ -315,3 +315,5 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star (2026-09-13)
+
+- [stickman-video-director：Codex Skill 跑通火柴人动画，800万播放/18W粉](02-tools/2026-09-13-stickman-video-director.md) — 文案→导演提案→6条Gemini Omni Flash提示词→逐条渲染10s拼接；无API key/MCP依赖，clone即用；三画幅+黑白高饱和强调色；帧级音频对齐/多语言配音可后期加强 (2026-09-13)
