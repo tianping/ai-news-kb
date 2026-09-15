@@ -331,3 +331,5 @@
 - [算力这么烧钱！AI长剧《后西游记》单集成本 90 万，每分钟 2-3 万（说话不忽悠复盘）](03-industry/2026-09-14-hou-you-xi-ji-90w-per-episode-cost.md) — 单集 90 万/每分钟 2-3 万/总成本 2000 万+，算力占 1/5；成本大头是上百人美术团队逐帧修+算力，不是'零成本出片'；90 万买统一人设稳定画质的上星水准，几千块草根 AI 短剧比不了；AI 降技术门槛拉高审美门槛 (2026-09-14)
 
 - [story-to-handdrawn-video：1.8k Star 的 Agent Skill，一段文案生成手绘风竖屏视频](02-tools/2026-09-14-story-to-handdrawn-video-skill.md) — gnipbao/story-to-handdrawn-video：文案或有序手绘图→3:4竖屏静音手绘动画，一句一拍（字幕→线稿→上色）；内置20种锁定配方风格每次只用一种；翻书效果；720p预览再出1080p；安装 npx skills add ... -g；本机已装同名 skill (2026-09-14)
+
+- [Human Atlas：浏览器里把人体拆成 2234 个 3D 结构（可复用资源）](02-tools/2026-09-14-human-atlas-3d-anatomy.md) — 开源日记：ashemag/human-atlas，2234 结构/15 系统/3432 术语，BodyParts3D 4.0 数据；爆炸图按系统开关拆；搜索→点选→隔离；Node 22.13+ 本地跑或 vercel 在线版；MIT 代码+CC BY 4.0 数据，二发保留署名，非医疗用途 (2026-09-14)
