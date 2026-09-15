@@ -327,3 +327,5 @@
 - [YuE2 冲上 Trending 榜首：AI 音乐终于有了自己的工作台（AINQO 分析）](02-tools/2026-09-14-yue2-ai-music-workbench.md) — AINQO NOW 005：YuE2 把乐谱（ABC 记谱）放回生成链路，先规划旋律和弦再出声，可检查可修改；改谱=生成新完整录音（非 DAW 式精确编辑）；附 yue2-music Agent Skill，《The Last Train》9 步 14 版本；翻唱走 SheetSage2 转写零样本；WildSongBench best-of-8 榜首但有筛选预算；24GB 显存起点，代码 Apache-2.0 但权重 CC BY-NC 4.0 非商业 (2026-09-14)
 
 - [英伟达、Palantir 开始限制 Claude 使用：数据主权成前沿模型进企业的新门槛](03-industry/2026-09-14-nvidia-palantir-restrict-claude.md) — The Information：英伟达专有信息改用 Nemotron、Palantir 要不可撤销 ZDR、Booz Allen 网络安全项目禁用 Anthropic 商业模型；导火索是 Fable 5 默认 30 天数据留存；Anthropic 推 EFS（安全日志存客户自己的 S3/Blob/GCS）；英伟达+Palantir 主权 AI 路线；模型能力与数据控制成两条独立坐标轴 (2026-09-14)
+
+- [算力这么烧钱！AI长剧《后西游记》单集成本 90 万，每分钟 2-3 万（说话不忽悠复盘）](03-industry/2026-09-14-hou-you-xi-ji-90w-per-episode-cost.md) — 单集 90 万/每分钟 2-3 万/总成本 2000 万+，算力占 1/5；成本大头是上百人美术团队逐帧修+算力，不是'零成本出片'；90 万买统一人设稳定画质的上星水准，几千块草根 AI 短剧比不了；AI 降技术门槛拉高审美门槛 (2026-09-14)
