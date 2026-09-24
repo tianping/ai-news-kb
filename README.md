@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、模型发布
+- [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜、值得进一步研究"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
 - [GPT-6 Astra：建筑照片变 Blender 可编辑场景](01-models/2026-09-04-gpt-6-astra-3d-blender.md) — Tom Krcha 演示：房屋照片→20秒→Blender 线框几何，BenchCAD 95.9%，OpenAI 3D 从对象生成转向代理工作流
 - [Muse Spark 1.3：Meta 性价比之王，1美元跑60次智能体循环](01-models/2026-09-03-meta-muse-spark-1-3.md) — DeepSWE 75.4 超 Opus 5/GPT-5.6 Sol，AA 智能指数 62 与 Fable 5 持平；工具调用 -20%、token -25%，输入 $1.25/M 输出 $4.25/M；北大校友孙之清参与后训练；弃权率上升引刷榜质疑
 - [当AI短剧的"制片厂"装进个人电脑：Qwen3.8-27B与MiniMax H3合流，个人影视AIGC的拐点来了](01-models/2026-08-28-qwen38-27b-minimax-h3-personal-aigc.md) — Qwen3.8-27B本地推理+MiniMax H3开源全模态视频生成（2K/原生立体声/0.8元秒），个人影视AIGC工具链闭环形成
@@ -334,3 +335,4 @@
 - [story-to-handdrawn-video：1.8k Star 的 Agent Skill，一段文案生成手绘风竖屏视频](02-tools/2026-09-14-story-to-handdrawn-video-skill.md) — gnipbao/story-to-handdrawn-video：文案或有序手绘图→3:4竖屏静音手绘动画，一句一拍（字幕→线稿→上色）；内置20种锁定配方风格每次只用一种；翻书效果；720p预览再出1080p；安装 npx skills add ... -g；本机已装同名 skill (2026-09-14)
 
 - [Human Atlas：浏览器里把人体拆成 2234 个 3D 结构（可复用资源）](02-tools/2026-09-14-human-atlas-3d-anatomy.md) — 开源日记：ashemag/human-atlas，2234 结构/15 系统/3432 术语，BodyParts3D 4.0 数据；爆炸图按系统开关拆；搜索→点选→隔离；Node 22.13+ 本地跑或 vercel 在线版；MIT 代码+CC BY 4.0 数据，二发保留署名，非医疗用途 (2026-09-14)
+- [新加坡生物数据中心：20台CL1接入活体人类神经元，全球首个独立运营](02-tools/2026-09-24-singapore-biocomputing-data-center.md) — NUS Medicine + DayOne + Cortical Labs 联合项目；20台CL1生物计算机（每台80万干细胞神经元），2026年8月6日揭幕；DayOne以200亿美元估值完成45亿美元C轮；In-Q-Tel关联待核实 (2026-09-24)
