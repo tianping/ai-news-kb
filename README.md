@@ -26,6 +26,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做生成，专补执行型 Agent（Claude Code/Codex）的判断/分析/决策；新户 $5 额度，成本低 40–400 倍输出侧免费，GitHub Skills 一键装
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
 - [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
