@@ -336,3 +336,4 @@
 
 - [Human Atlas：浏览器里把人体拆成 2234 个 3D 结构（可复用资源）](02-tools/2026-09-14-human-atlas-3d-anatomy.md) — 开源日记：ashemag/human-atlas，2234 结构/15 系统/3432 术语，BodyParts3D 4.0 数据；爆炸图按系统开关拆；搜索→点选→隔离；Node 22.13+ 本地跑或 vercel 在线版；MIT 代码+CC BY 4.0 数据，二发保留署名，非医疗用途 (2026-09-14)
 - [新加坡生物数据中心：20台CL1接入活体人类神经元，全球首个独立运营](02-tools/2026-09-24-singapore-biocomputing-data-center.md) — NUS Medicine + DayOne + Cortical Labs 联合项目；20台CL1生物计算机（每台80万干细胞神经元），2026年8月6日揭幕；DayOne以200亿美元估值完成45亿美元C轮；In-Q-Tel关联待核实 (2026-09-24)
+- [OpenClaw triage 命令：专治升级翻车、Doctor 跑不动的诊断修复工具](02-tools/2026-09-24-openclaw-triage-command.md) — configGuard: skip，config 损坏也能跑；5种模式（裸跑/指定agent/--json/--run/--update-result）；脱敏诊断包不含密钥/token/聊天记录；--run 内置修复限一轮10分钟40次调用，修完 Doctor 验证 (2026-09-24)
