@@ -19,6 +19,7 @@
 - [免费 API！DeepSeek V4 Flash 还能白嫖，AMD 日送 $10](01-models/2026-08-17-deepseek-v4-flash-amd-free-api.md) — AMD Token Factory 免费送 DeepSeek V4 Flash 等 13 款模型 API，OpenAI 兼容，每日 $10 额度
 - [微软出手！VibeVoice：90分钟4人对话TTS+60分钟长音频ASR](01-models/2026-08-17-microsoft-vibevoice-speech-ai.md) — 统一 Next-Token Diffusion 框架同时搞定超长 ASR、多人 TTS、实时 TTS，ICLR 2026 Oral
 - [DeepSeek-V4-Flash 本地部署完整实操教程](01-models/2026-08-17-deepseek-v4-flash-local-deploy-guide.md) — Unsloth GGUF 量化权重本地跑，128GB 起，两套部署方案+选型表
+- [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - 大语言模型（GPT/Claude/Gemini/Llama/Qwen/DeepSeek 等）
 - 图像生成模型（SD/FLUX/Midjourney/DALL-E 等）
 - 视频生成模型（Sora/Runway/Kling/Hailuo/Seedance 等）
