@@ -345,3 +345,5 @@
 - [400人维权：ZCode 静默上传全量 Git 历史风波（智谱）](03-industry/2026-09-26-zcode-silent-git-upload-incident.md) — ferstar 发现 ZCode 全仓扫描+加密快照外发（.git 占 86.6%），近400名开发者维权；智谱三天五步整改（致歉/修复/第三方审计/开源/数据政策）；核心未决：历史数据到达与留存无法自证 (2026-09-26)
 
 - [AutoResearchClaw：自主科研 Agent，聊一个 idea 出一篇论文（aiming-lab）](02-tools/2026-09-26-ai-researchclaw.md) — AIMING-Lab/UNC 开源科研 Agent：选题→检索→实验→写作→自评估全流程；OpenClaw 集成 + ARC-Bench + MIT；适合 idea 快速出论文初稿/科研 agent 评测，严肃发表需人工核实 (2026-09-26)
+
+- [Claude Code 最强配置：把 AI 当组织设计，而不是魔法 Prompt](02-tools/2026-09-26-claude-code-strongest-config.md) — 奇点先锋：7层控制体系（CLAUDE.md/rules/skills/agents/Permission+Hooks/Auto memory）+ 可复制模板；规则要可观测、边界用客户端强制；附5步审计清单 (2026-09-26)
