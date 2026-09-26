@@ -339,3 +339,5 @@
 - [新加坡生物数据中心：20台CL1接入活体人类神经元，全球首个独立运营](02-tools/2026-09-24-singapore-biocomputing-data-center.md) — NUS Medicine + DayOne + Cortical Labs 联合项目；20台CL1生物计算机（每台80万干细胞神经元），2026年8月6日揭幕；DayOne以200亿美元估值完成45亿美元C轮；In-Q-Tel关联待核实 (2026-09-24)
 - [OpenClaw triage 命令：专治升级翻车、Doctor 跑不动的诊断修复工具](02-tools/2026-09-24-openclaw-triage-command.md) — configGuard: skip，config 损坏也能跑；5种模式（裸跑/指定agent/--json/--run/--update-result）；脱敏诊断包不含密钥/token/聊天记录；--run 内置修复限一轮10分钟40次调用，修完 Doctor 验证 (2026-09-24)
 - [Vidu S2 实时互动模型首秀：AI主播紫樱中秋直播，50分钟2万人涌入](01-models/2026-09-26-vidu-s2-realtime-interactive-model.md) — 生数科技 Vidu S2（S2-Avatar/S2-Editing）实时视频生成+互动：一致性系统属性、SRF训练、几百毫秒延迟；AI主播紫樱无限重开直播首日营业额过万 (2026-09-26)
+
+- [Opus 5.5 爆火的视频玩法：代码生成视频的方法论（比特心流）](02-tools/2026-09-26-opus55-video-workflows.md) — ohmyopus 108 案例中的 40 个代码生成视频；10 种玩法 + 六层 Prompt 架构（Deliverable/创作权/约束/视觉语法/强 Idea/质量循环）+ 可复制母 Prompt；Explore→Learn→Codify→Automate 方法论 (2026-09-26)
