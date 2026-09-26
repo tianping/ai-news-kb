@@ -6,6 +6,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [AutoResearchClaw：自主科研 Agent，聊一个 idea 出一篇论文（aiming-lab）](02-tools/2026-09-26-ai-researchclaw.md) — AIMING-Lab/UNC 开源科研 Agent：选题→检索→实验→写作→自评估全流程；OpenClaw 集成 + ARC-Bench + MIT；适合 idea 快速出论文初稿/科研 agent 评测，严肃发表需人工核实
   * [Opus 5.5 爆火的视频玩法：代码生成视频的方法论（比特心流）](02-tools/2026-09-26-opus55-video-workflows.md) — ohmyopus 108 案例中的 40 个代码生成视频；10 种玩法 + 六层 Prompt 架构（Deliverable/创作权/约束/视觉语法/强 Idea/质量循环）+ 可复制母 Prompt；Explore→Learn→Codify→Automate 方法论
   * [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做内容生成，专补执行型 Agent（Claude Code/Codex）的架构分析/逻辑判断/技术决策；新户 $5 额度，成本比同类模型低 40–400 倍、输出侧免费，GitHub Skills 一键安装
   * [Human Atlas：浏览器里把人体拆成 2234 个 3D 结构（可复用资源）](02-tools/2026-09-14-human-atlas-3d-anatomy.md) — 开源日记：ashemag/human-atlas，2234 结构/15 系统/3432 术语，BodyParts3D 4.0 数据；爆炸图按系统开关拆；搜索→点选→隔离；Node 22.13+ 本地跑或 vercel 在线版；MIT 代码+CC BY 4.0 数据，二发保留署名，非医疗用途

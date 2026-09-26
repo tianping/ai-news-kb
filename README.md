@@ -343,3 +343,5 @@
 - [Opus 5.5 爆火的视频玩法：代码生成视频的方法论（比特心流）](02-tools/2026-09-26-opus55-video-workflows.md) — ohmyopus 108 案例中的 40 个代码生成视频；10 种玩法 + 六层 Prompt 架构（Deliverable/创作权/约束/视觉语法/强 Idea/质量循环）+ 可复制母 Prompt；Explore→Learn→Codify→Automate 方法论 (2026-09-26)
 
 - [400人维权：ZCode 静默上传全量 Git 历史风波（智谱）](03-industry/2026-09-26-zcode-silent-git-upload-incident.md) — ferstar 发现 ZCode 全仓扫描+加密快照外发（.git 占 86.6%），近400名开发者维权；智谱三天五步整改（致歉/修复/第三方审计/开源/数据政策）；核心未决：历史数据到达与留存无法自证 (2026-09-26)
+
+- [AutoResearchClaw：自主科研 Agent，聊一个 idea 出一篇论文（aiming-lab）](02-tools/2026-09-26-ai-researchclaw.md) — AIMING-Lab/UNC 开源科研 Agent：选题→检索→实验→写作→自评估全流程；OpenClaw 集成 + ARC-Bench + MIT；适合 idea 快速出论文初稿/科研 agent 评测，严肃发表需人工核实 (2026-09-26)
