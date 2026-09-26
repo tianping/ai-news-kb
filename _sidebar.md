@@ -2,6 +2,7 @@
 
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
+  * [Vidu S2 实时互动模型首秀：AI主播紫樱中秋直播，50分钟2万人涌入](01-models/2026-09-26-vidu-s2-realtime-interactive-model.md) — 生数科技 Vidu S2（S2-Avatar/S2-Editing）实时视频生成+互动：一致性系统属性、SRF训练、几百毫秒延迟；AI主播紫樱无限重开直播首日营业额过万
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
