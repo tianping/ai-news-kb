@@ -350,4 +350,3 @@
 
 - [Claude Code 桌面版实操：会话/worktree 分屏 diff、CI 自动修合并、/btw 旁路提问、手机 Dispatch](02-tools/2026-09-26-claude-code-desktop-workflow.md) — 小天探索一周实测：桌面版=同一引擎换工作法；4配置（环境/项目/模型/权限）+ worktree 隔离；diff 行内评论批量提交；CI Auto-fix+Auto-merge 闭环；/btw 旁路提问；手机派活；CLI 双向 /desktop /resume；5个已知坑 (2026-09-26)
 
-- [Claude Code 桌面版一周实测：分屏 diff、Browser 面板、CI 自动修合并、/btw 旁路提问、手机 Dispatch](02-tools/2026-09-26-claude-code-desktop-weekly-test.md) — 小天探索一周实测桌面版：会话+worktree 多任务并行、diff 行内评论、CI Auto-fix/Auto-merge、/btw 不打断主线、手机派活；附 launch.json 配置与 5 个坑 (2026-09-26)
