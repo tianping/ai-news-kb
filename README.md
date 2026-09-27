@@ -350,3 +350,5 @@
 
 - [Claude Code 桌面版实操：会话/worktree 分屏 diff、CI 自动修合并、/btw 旁路提问、手机 Dispatch](02-tools/2026-09-26-claude-code-desktop-workflow.md) — 小天探索一周实测：桌面版=同一引擎换工作法；4配置（环境/项目/模型/权限）+ worktree 隔离；diff 行内评论批量提交；CI Auto-fix+Auto-merge 闭环；/btw 旁路提问；手机派活；CLI 双向 /desktop /resume；5个已知坑 (2026-09-26)
 
+
+- [Agent 架构怎么选：从单一 Agent 到 Graph Workflow 九种主流架构](02-tools/2026-09-27-agent-architecture-selection.md) — 组织AI洞察局：Agent 落地九种架构从轻到重（单 Agent / Pipeline / P2P / ReAct / Plan-Execute / 多 Agent 协作 / Router+Skill / Blackboard / Graph Workflow），各附优缺点与适用场景；结论是选复杂度匹配控制力 (2026-09-27)

@@ -6,6 +6,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Agent 架构怎么选：从单一 Agent 到 Graph Workflow 九种主流架构](02-tools/2026-09-27-agent-architecture-selection.md) — 组织AI洞察局：Agent 落地九种架构从轻到重（单 Agent / Pipeline / P2P / ReAct / Plan-Execute / 多 Agent 协作 / Router+Skill / Blackboard / Graph Workflow），各附优缺点与适用场景；结论是选复杂度匹配控制力
   * [Claude Code 桌面版实操：会话/worktree 分屏 diff、CI 自动修合并、/btw 旁路提问、手机 Dispatch](02-tools/2026-09-26-claude-code-desktop-workflow.md) — 小天探索一周实测：桌面版=同一引擎换工作法；4配置（环境/项目/模型/权限）+ worktree 隔离；diff 行内评论批量提交；CI Auto-fix+Auto-merge 闭环；/btw 旁路提问；手机派活；CLI 双向 /desktop /resume；5个已知坑
   * [Claude Code 最强配置：把 AI 当组织设计，而不是魔法 Prompt](02-tools/2026-09-26-claude-code-strongest-config.md) — 奇点先锋：7层控制体系（CLAUDE.md/rules/skills/agents/Permission+Hooks/Auto memory）+ 可复制模板；规则要可观测、边界用客户端强制；附5步审计清单
   * [AutoResearchClaw：自主科研 Agent，聊一个 idea 出一篇论文（aiming-lab）](02-tools/2026-09-26-ai-researchclaw.md) — AIMING-Lab/UNC 开源科研 Agent：选题→检索→实验→写作→自评估全流程；OpenClaw 集成 + ARC-Bench + MIT；适合 idea 快速出论文初稿/科研 agent 评测，严肃发表需人工核实
