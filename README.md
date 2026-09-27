@@ -347,3 +347,5 @@
 - [AutoResearchClaw：自主科研 Agent，聊一个 idea 出一篇论文（aiming-lab）](02-tools/2026-09-26-ai-researchclaw.md) — AIMING-Lab/UNC 开源科研 Agent：选题→检索→实验→写作→自评估全流程；OpenClaw 集成 + ARC-Bench + MIT；适合 idea 快速出论文初稿/科研 agent 评测，严肃发表需人工核实 (2026-09-26)
 
 - [Claude Code 最强配置：把 AI 当组织设计，而不是魔法 Prompt](02-tools/2026-09-26-claude-code-strongest-config.md) — 奇点先锋：7层控制体系（CLAUDE.md/rules/skills/agents/Permission+Hooks/Auto memory）+ 可复制模板；规则要可观测、边界用客户端强制；附5步审计清单 (2026-09-26)
+
+- [Claude Code 桌面版实操：会话/worktree 分屏 diff、CI 自动修合并、/btw 旁路提问、手机 Dispatch](02-tools/2026-09-26-claude-code-desktop-workflow.md) — 小天探索一周实测：桌面版=同一引擎换工作法；4配置（环境/项目/模型/权限）+ worktree 隔离；diff 行内评论批量提交；CI Auto-fix+Auto-merge 闭环；/btw 旁路提问；手机派活；CLI 双向 /desktop /resume；5个已知坑 (2026-09-26)
