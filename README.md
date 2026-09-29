@@ -354,3 +354,5 @@
 - [Agent 架构怎么选：从单一 Agent 到 Graph Workflow 九种主流架构](02-tools/2026-09-27-agent-architecture-selection.md) — 组织AI洞察局：Agent 落地九种架构从轻到重（单 Agent / Pipeline / P2P / ReAct / Plan-Execute / 多 Agent 协作 / Router+Skill / Blackboard / Graph Workflow），各附优缺点与适用场景；结论是选复杂度匹配控制力 (2026-09-27)
 
 - [生信未来在哪？Nature 同一天三篇 Agent 文章](02-tools/2026-09-29-nature-three-agent-papers-bioinformatics-future.md) — Nature 同日三篇 Agent 论文打通文献阅读—假设生成—数据分析—代码实现链条；生信从业重心从写脚本转向问题拆解、结果校验与假设设计，向 AI+生物解读复合方向转型 (2026-09-29)
+
+- [中科院计算所赵屹团队 BioMedAgent：自进化多智能体让 67 种生信工具自动串成分析流程](02-tools/2026-09-29-biomedagent-nature-biomedical-engineering.md) — Nature Biomedical Engineering：自然语言进、完整分析报告出；三阶段流水线+67 种本地生信工具+记忆检索，自建 327 任务基准 77% 成功率，NSCLC 跨组学/ctDNA ML 复现/病理分割三场景验证 (2026-09-29)
