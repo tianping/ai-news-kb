@@ -352,3 +352,5 @@
 
 
 - [Agent 架构怎么选：从单一 Agent 到 Graph Workflow 九种主流架构](02-tools/2026-09-27-agent-architecture-selection.md) — 组织AI洞察局：Agent 落地九种架构从轻到重（单 Agent / Pipeline / P2P / ReAct / Plan-Execute / 多 Agent 协作 / Router+Skill / Blackboard / Graph Workflow），各附优缺点与适用场景；结论是选复杂度匹配控制力 (2026-09-27)
+
+- [生信未来在哪？Nature 同一天三篇 Agent 文章](02-tools/2026-09-29-nature-three-agent-papers-bioinformatics-future.md) — Nature 同日三篇 Agent 论文打通文献阅读—假设生成—数据分析—代码实现链条；生信从业重心从写脚本转向问题拆解、结果校验与假设设计，向 AI+生物解读复合方向转型 (2026-09-29)
