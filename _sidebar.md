@@ -31,6 +31,7 @@
   * [1990年三毛与76岁王洛宾同居传闻，核实与三毛/荷西/王洛宾生平](03-industry/2026-09-14-sanmao-wangluobin-story-verification.md) — 自媒体文《追踪未解之谜》称1990年三毛赴新疆与76岁王洛宾同居、王洛宾拒绝发生关系后三毛回台自杀，称死因与王洛宾有关。本笔记核实三毛（1943-1991）、荷西（1955-1979潜水溺亡）、王洛宾（1913-1996）三人时间线，逐条核对自媒体文中的关键断言：三毛赴新疆时间、王洛宾年龄、半碗饭细节、喀什散心、《滚滚红尘》编剧落选、肉色丝袜上吊、王洛宾8瓶烧酒等。给出可核实与存疑部分的对照，并附王洛宾之子王海成 2025 年《新京报》专访、知乎《恋曲1990》、搜狐《三毛死因揭秘》等来源。
   * [首部AI长剧《后西游记》总成本2700万，导演给出10个颠覆性判断](03-industry/2026-09-13-hou-you-xi-ji-ai-drama-2700.md) — 30集×40min，芒果TV 2.6亿播放带动芒果超媒市值+116.5亿；100+人完成传统2000人工作量；3分钟打斗戏400-500万→2-3万；算力仅占总成本1/4~1/5；99%内容将用AIGC、话语权转移到观众
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
+  * [哈佛24位数学泰斗：论文已死！AI逼学术界退回苏格拉底时代](03-industry/2026-09-30-harvard-24-mathematicians-phd-oral-defense-reform.md) — 哈佛CMSA峰会24位数学家联合签署：博士论文文本作为"智力证明"已失效；九条建议退回苏格拉底式当面口试；鼓励用顶级AI但须公开细节+负全责；与25位菲尔兹奖得主声明《AI在数学中的严重错位》同链
 - [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
 - [huashu-mac-use：Agent Mac电脑操控Skill](02-tools/2026-09-07-huashu-mac-use-agent-computer-control.md) — 任何Agent装后操控Mac/Blender，三层架构（脚本→AX→坐标）优先走接口不点鼠标；"能不看图就不看图"原则；四道闸防抢焦点；每步回读验证
