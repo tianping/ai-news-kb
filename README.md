@@ -28,6 +28,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
 - [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做生成，专补执行型 Agent（Claude Code/Codex）的判断/分析/决策；新户 $5 额度，成本低 40–400 倍输出侧免费，GitHub Skills 一键装
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
 - [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
@@ -359,4 +360,3 @@
 
 - [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估 (2026-09-29)
 
-- [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
