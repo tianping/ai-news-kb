@@ -356,3 +356,5 @@
 - [生信未来在哪？Nature 同一天三篇 Agent 文章](02-tools/2026-09-29-nature-three-agent-papers-bioinformatics-future.md) — Nature 同日三篇 Agent 论文打通文献阅读—假设生成—数据分析—代码实现链条；生信从业重心从写脚本转向问题拆解、结果校验与假设设计，向 AI+生物解读复合方向转型 (2026-09-29)
 
 - [中科院计算所赵屹团队 BioMedAgent：自进化多智能体让 67 种生信工具自动串成分析流程](02-tools/2026-09-29-biomedagent-nature-biomedical-engineering.md) — Nature Biomedical Engineering：自然语言进、完整分析报告出；三阶段流水线+67 种本地生信工具+记忆检索，自建 327 任务基准 77% 成功率，NSCLC 跨组学/ctDNA ML 复现/病理分割三场景验证 (2026-09-29)
+
+- [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估 (2026-09-29)
