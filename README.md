@@ -360,3 +360,5 @@
 
 - [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估 (2026-09-29)
 
+
+- [实测 Opus 5.5 生成科普动画视频（附提示词）](02-tools/2026-09-30-opus55-dinosaur-sci-animation.md) — 莫影AI：Opus 5.5 High + Cowork 模式，两句话+三个选项自主完成恐龙进化史动画（12 场景/38 句旁白/4479 帧/1080p），全代码无素材；附可复用提示词模板 (2026-09-30)
