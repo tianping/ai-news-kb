@@ -358,3 +358,5 @@
 - [中科院计算所赵屹团队 BioMedAgent：自进化多智能体让 67 种生信工具自动串成分析流程](02-tools/2026-09-29-biomedagent-nature-biomedical-engineering.md) — Nature Biomedical Engineering：自然语言进、完整分析报告出；三阶段流水线+67 种本地生信工具+记忆检索，自建 327 任务基准 77% 成功率，NSCLC 跨组学/ctDNA ML 复现/病理分割三场景验证 (2026-09-29)
 
 - [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估 (2026-09-29)
+
+- [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)

@@ -7,6 +7,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单
   * [中科院计算所赵屹团队 BioMedAgent：自进化多智能体让 67 种生信工具自动串成分析流程](02-tools/2026-09-29-biomedagent-nature-biomedical-engineering.md) — Nature Biomedical Engineering：自然语言进、完整分析报告出；三阶段流水线+67 种本地生信工具+记忆检索，自建 327 任务基准 77% 成功率，NSCLC 跨组学/ctDNA ML 复现/病理分割三场景验证
   * [生信未来在哪？Nature 同一天三篇 Agent 文章](02-tools/2026-09-29-nature-three-agent-papers-bioinformatics-future.md) — Nature 同日三篇 Agent 论文打通文献阅读—假设生成—数据分析—代码实现链条；生信从业重心从写脚本转向问题拆解、结果校验与假设设计，向 AI+生物解读复合方向转型
   * [Agent 架构怎么选：从单一 Agent 到 Graph Workflow 九种主流架构](02-tools/2026-09-27-agent-architecture-selection.md) — 组织AI洞察局：Agent 落地九种架构从轻到重（单 Agent / Pipeline / P2P / ReAct / Plan-Execute / 多 Agent 协作 / Router+Skill / Blackboard / Graph Workflow），各附优缺点与适用场景；结论是选复杂度匹配控制力
