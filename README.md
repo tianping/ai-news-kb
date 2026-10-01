@@ -28,6 +28,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Codex + Excalidraw 一句话出片：手绘白板风格视频流水线](02-tools/2026-09-30-codex-excalidraw-whiteboard-video-skill.md) — 萌巧蓄水池：Codex 生图+Excalidraw 白板式风格出片，选题判断与数字查视为 AI 不可替代环节；流程固化为可复用 Skill (2026-09-30)
 - [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
 - [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做生成，专补执行型 Agent（Claude Code/Codex）的判断/分析/决策；新户 $5 额度，成本低 40–400 倍输出侧免费，GitHub Skills 一键装
 - [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
@@ -116,6 +117,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：行政命令要求在联邦公文/官网/报告中以 Super Intelligence/SI 替换 AI 称呼，法定定义暂沿用第15卷第9401(3)条，总统科技助理 60 天内提交立法建议 (2026-09-30)
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机；AI写得快≠写得好
 - [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
@@ -131,6 +133,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [Cell：列出 15 个 AI 在生物学真正该攻克的问题](04-papers/2026-09-30-cell-fifteen-challenges-generative-ai-cell-biology.md) — 爱读计划：Cell Perspective 梳理生成式 AI 在生物学最值得攻克的 15 个问题 (2026-09-30)
 - 重要论文解读
 - 架构创新（Transformer 变体/MoE/SSM 等）
 - 训练方法进展
@@ -138,6 +141,7 @@
 - 评测榜单动态
 
 ### 五、事件与评论
+- [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：白宫行政命令要求联邦公文以 Super Intelligence/SI 取代 Artificial Intelligence/AI；法定定义暂沿用现有 AI 条款，60 天内提交 SI 联邦定义立法建议 (2026-09-30)
 - [2026年8月4日 AI日报](05-events/2026-08-04-ai-daily.md) — Qwen3.8-Max发布、MiniMax H3开源、白宫AI安全会议、AI价格战
 - [斯坦福AI设计出完整可存活病毒](05-events/2026-08-11-stanford-ai-designed-virus-genome.md) — 全球首次AI设计可存活病毒基因组，Evo模型生成16种噬菌体，生物安全治理引关注
 - [Suno下载限速：生成免费但搬走要计数了](05-events/2026-08-12-suno-download-limits.md) — 9月3日起免费终身7首、Pro月20首、Premier月60首，按歌曲计数，老歌也占额度，商用与合规下载绑定
