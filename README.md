@@ -28,6 +28,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [惊掉下巴，Opus 5.5 已经把视频做到这种地步了（十大案例合集）](02-tools/2026-10-03-opus55-video-10-cases-roundup.md) — Opus 5.5 代码生成视频十大爆款案例（交互式光学实验室/Claude Pop MV/像素神经网络/乐高 Microduck/蜘蛛侠游戏/视频简历/《奇点将至》/芯片简史/定风波/马斯克转发 MV）；核心结论：提示词只占 10%，质量靠 90% 流程迭代 (2026-10-03)
 - [Codex + Excalidraw 一句话出片：手绘白板风格视频流水线](02-tools/2026-09-30-codex-excalidraw-whiteboard-video-skill.md) — 萌巧蓄水池：Codex 生图+Excalidraw 白板式风格出片，选题判断与数字查视为 AI 不可替代环节；流程固化为可复用 Skill (2026-09-30)
 - [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
 - [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做生成，专补执行型 Agent（Claude Code/Codex）的判断/分析/决策；新户 $5 额度，成本低 40–400 倍输出侧免费，GitHub Skills 一键装
