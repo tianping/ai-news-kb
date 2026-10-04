@@ -29,6 +29,7 @@
 
 ### 二、工具与产品
 - [惊掉下巴，Opus 5.5 已经把视频做到这种地步了（十大案例合集）](02-tools/2026-10-03-opus55-video-10-cases-roundup.md) — Opus 5.5 代码生成视频十大爆款案例（交互式光学实验室/Claude Pop MV/像素神经网络/乐高 Microduck/蜘蛛侠游戏/视频简历/《奇点将至》/芯片简史/定风波/马斯克转发 MV）；核心结论：提示词只占 10%，质量靠 90% 流程迭代 (2026-10-03)
+- [Claude Code Mods 正式上线：一句话魔改自己，内置中间件架构 + 三大官方示例 + 企业管控](02-tools/2026-10-02-claude-code-mods-launch.md) — 2.1.287 版本默认开启；事件驱动 hook（观察/改写/接管），能画 UI、替换内置功能、常驻会话保存状态；Token Weather/Blast Radius/Replay Theater 三示例；内置 6 个 Mod（diff/AGENTS.md/安全兕底等）；市场分发 + 企业 sec-default 兕底 (2026-10-02)
 - [389 条精心制作 Prompt，复制粘贴到 Claude Opus 5.5，视频就出来了](02-tools/2026-10-03-awesome-opus5-5-videos-389-prompts.md) — awesome-opus5-5-videos GitHub 清单 389 条代码生成视频提示词（动效 223/3D 51/游戏 68/讲解 47）+ Skillry 展示站；单文件 HTML+MediaRecorder 录制按钮新手三步出片；成本数据（3h/$54、5.5h/$90）；Five 避坑+四个技术点（Three.js+GLSL/GSAP/Web Audio/自查循环） (2026-10-03)
 - [Codex + Excalidraw 一句话出片：手绘白板风格视频流水线](02-tools/2026-09-30-codex-excalidraw-whiteboard-video-skill.md) — 萌巧蓄水池：Codex 生图+Excalidraw 白板式风格出片，选题判断与数字查视为 AI 不可替代环节；流程固化为可复用 Skill (2026-09-30)
 - [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
