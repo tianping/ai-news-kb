@@ -48,6 +48,7 @@
 - [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
 - [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+- [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 付费榜单案例：比第一名多1美元即登顶；X 440万曝光+HN一小时40万访客的事件型流量；7天22万美元；500+山寨站但outbid吃掉68%可测金额
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机(64GB统一内存/AMD Ryzen AI Halo)；AI写得快≠写得好，审核验证更重要
 - [04 论文与技术突破](04-papers/)

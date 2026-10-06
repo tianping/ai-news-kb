@@ -120,6 +120,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 德国程序员 Jonathan Wilke 付费榜单案例；规则一句话、付费为唯一参与方式、榜单即内容；X/HN 事件型流量非SEO；7天22万美元；护城河是「第一个」和受众 (2026-10-06)
 - [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：行政命令要求在联邦公文/官网/报告中以 Super Intelligence/SI 替换 AI 称呼，法定定义暂沿用第15卷第9401(3)条，总统科技助理 60 天内提交立法建议 (2026-09-30)
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机；AI写得快≠写得好
 - [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
