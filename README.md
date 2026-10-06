@@ -377,3 +377,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [微信流 WeChatBridge：微信聊天记录一键转给 Codex/Claude/豆包](02-tools/2026-10-06-wechat-bridge-wechatbridge-ai-chat-forward.md) — AIshape：Mac 微信 4.1.13「转发到其他应用」官方口子 + 开源 Share Extension，把合并转发 ZIP 送进 AI Agent/Obsidian/剪贴板；MIT、不碰数据库、不联网；支持场景提示词、技能包、7 天转发记录 (2026-10-06)
