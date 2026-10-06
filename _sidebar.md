@@ -2,6 +2,7 @@
 
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
+  * [Utopai X：影视公司的视频模型冲上全球第二](01-models/2026-10-06-utopai-x-video-model-rank-2.md) — 机器之心：Utopai X 以 1150 Elo 位列 Artificial Analysis 文生视频榜全球第二，基于 MiniMax H3 后训练，深度集成 PAI 制片智能平台
   * [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估
   * [Vidu S2 实时互动模型首秀：AI主播紫樱中秋直播，50分钟2万人涌入](01-models/2026-09-26-vidu-s2-realtime-interactive-model.md) — 生数科技 Vidu S2（S2-Avatar/S2-Editing）实时视频生成+互动：一致性系统属性、SRF训练、几百毫秒延迟；AI主播紫樱无限重开直播首日营业额过万
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
