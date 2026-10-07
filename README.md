@@ -29,6 +29,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [微信流 WeChatBridge：微信聊天记录一键转给 Codex/Claude/豆包](02-tools/2026-10-06-wechat-bridge-wechatbridge-ai-chat-forward.md) — AIshape：Mac 微信 4.1.13「转发到其他应用」官方口子 + 开源 Share Extension，把合并转发 ZIP 送进 AI Agent/Obsidian/剪贴板；MIT、不碰数据库、不联网；支持场景提示词、技能包、7 天转发记录 (2026-10-06)
 - [惊掉下巴，Opus 5.5 已经把视频做到这种地步了（十大案例合集）](02-tools/2026-10-03-opus55-video-10-cases-roundup.md) — Opus 5.5 代码生成视频十大爆款案例（交互式光学实验室/Claude Pop MV/像素神经网络/乐高 Microduck/蜘蛛侠游戏/视频简历/《奇点将至》/芯片简史/定风波/马斯克转发 MV）；核心结论：提示词只占 10%，质量靠 90% 流程迭代 (2026-10-03)
 - [Claude Code Mods 正式上线：一句话魔改自己，内置中间件架构 + 三大官方示例 + 企业管控](02-tools/2026-10-02-claude-code-mods-launch.md) — 2.1.287 版本默认开启；事件驱动 hook（观察/改写/接管），能画 UI、替换内置功能、常驻会话保存状态；Token Weather/Blast Radius/Replay Theater 三示例；内置 6 个 Mod（diff/AGENTS.md/安全兕底等）；市场分发 + 企业 sec-default 兕底 (2026-10-02)
 - [389 条精心制作 Prompt，复制粘贴到 Claude Opus 5.5，视频就出来了](02-tools/2026-10-03-awesome-opus5-5-videos-389-prompts.md) — awesome-opus5-5-videos GitHub 清单 389 条代码生成视频提示词（动效 223/3D 51/游戏 68/讲解 47）+ Skillry 展示站；单文件 HTML+MediaRecorder 录制按钮新手三步出片；成本数据（3h/$54、5.5h/$90）；Five 避坑+四个技术点（Three.js+GLSL/GSAP/Web Audio/自查循环） (2026-10-03)
@@ -378,4 +379,5 @@
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
 
-- [微信流 WeChatBridge：微信聊天记录一键转给 Codex/Claude/豆包](02-tools/2026-10-06-wechat-bridge-wechatbridge-ai-chat-forward.md) — AIshape：Mac 微信 4.1.13「转发到其他应用」官方口子 + 开源 Share Extension，把合并转发 ZIP 送进 AI Agent/Obsidian/剪贴板；MIT、不碰数据库、不联网；支持场景提示词、技能包、7 天转发记录 (2026-10-06)
+
+- [从写代码到做视频，Claude Opus 5.5 被玩出了新花样（K姐研究社）](02-tools/2026-10-07-opus55-video-how-to-7-scenarios.md) — 代码驱动渲染原理（SVG/Canvas/Three.js→无头浏览器逐帧→FFmpeg）vs 扩散模型；7 场景：产品宣传/儿童绘本/项目介绍/15s 动效/UI 一镜到底变形（seek(t) 纯函数+闭式弹簧+numpy 节拍+Playwright tmix 运动模糊）/科普/电影故事（Opus 统筹 GPT Image 2.5+Seedance 2.5） (2026-10-07)
