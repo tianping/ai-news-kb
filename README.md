@@ -29,6 +29,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude Code 之父 Boris Cherny 的 CLAUDE.md 模板（零一智源.Ai）](02-tools/2026-10-07-boris-cherny-claude-md-template.md) — 13 条：Plan Mode 默认（3 步以上先计划、跑偏重规划）、子代理保持主上下文干净、自我改进循环（纠正后记 tasks/lessons.md、开局回顾）、完成前验证、适度优雅、自主修 bug、todo.md 勾选、简洁/找根因/最小影响面；附「从零生成我的 CLAUDE.md」提示词；正文据图整理 (2026-10-07)
 - [claude-obsidian：让 Claude Code 维护 Obsidian 知识图谱（顾北 AI）](02-tools/2026-10-07-claude-obsidian-knowledge-graph.md) — AgriciDaniel/claude-obsidian（MIT，14.4k Star）：素材→带链接有溯源的本地 Markdown 笔记，知识复利不重置；source/claim 账本+高风险声明双来源、矛盾标 [!contradiction]；写入走 SHA-256 审查授权的可恢复事务；15 个 Skill（wiki/ingest/query/lint/autoresearch/canvas…），支持 LYT/PARA/Zettelkasten (2026-10-07)
 - [一文看懂 Claude Opus 5.5 额度利用：多了 25%，够不够用看轮数（参宿ag）](02-tools/2026-10-07-opus55-subscription-usage-tips.md) — Addy Osmani 原文整理：订阅额度约 +25%、默认 effort 降为 medium、一次额度重置（Settings>Usage）；每轮重发整段对话，缓存 1h（usage credits 下 5min），换模型/MCP/fast mode/压缩会断缓存；四习惯：medium 起步、失败两次换 Fable 5.1、/clear 与休息前 /compact、CLAUDE.md≤200 行；/usage 看 Prompt cache 行 (2026-10-07)
 - [RemoveMacAI：一条命令停用 Apple Intelligence，腾出几十 GB 存储（极客精研社）](02-tools/2026-10-07-removemacai-disable-apple-intelligence.md) — macOS 27 无 AI 总开关、关入口不删模型且会后台重下；omlahore/RemoveMacAI 用 MDM 描述文件锁功能+Asset Service 注销模型+回环端口阻断重下，不关 SIP；--keep 可保留 photos-cleanup/xcode-completion，revert 一键还原；听写与 Spotlight 不受影响 (2026-10-07)
@@ -385,5 +386,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Claude Code 之父 Boris Cherny 的 CLAUDE.md 模板（零一智源.Ai）](02-tools/2026-10-07-boris-cherny-claude-md-template.md) — 13 条：Plan Mode 默认（3 步以上先计划、跑偏重规划）、子代理保持主上下文干净、自我改进循环（纠正后记 tasks/lessons.md、开局回顾）、完成前验证、适度优雅、自主修 bug、todo.md 勾选、简洁/找根因/最小影响面；附「从零生成我的 CLAUDE.md」提示词；正文据图整理 (2026-10-07)
