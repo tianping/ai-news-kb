@@ -116,3 +116,41 @@
 
 - hooks 未废弃，settings 与插件 hooks.json 并存
 - 入门建议：从 Token Weather prompt 改起
+## 实操补充：一段中文做出 Token Weather（参宿ag）
+
+> 收藏自微信公众号「参宿ag」· 2026-10-07 · https://mp.weixin.qq.com/s/QQXOmq_-RdjdjcIZoAzwrA
+> 基于 Addy Osmani《Getting started with Claude Code mods》（2026-10-01，https://claude.dev/blog/getting-started-with-claude-code-mods/）+ 官方文档 https://code.claude.com/docs/en/plugins/mods/overview
+> 实测环境：Claude Code v2.1.289 / Sonnet 5.5 / Claude Pro，2026-10-05
+
+### 正式版相对早期测试的变化
+- 2.1.287+ 默认开启；早期的 `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` 可删，新版忽略它，设 0 也关不掉
+- 判断是否该用 mod：这件事**需要画在界面上**，或**需要在 Claude 动手之前插一脚**吗？
+- `cc-plugin-you-should-know` 补充细节：标签分 *You should know*（需理解的概念）/ *Heads up*（Claude 顺手做、回复没强调的决定，如给 /ask 加缓存反让单次用户多花 25%）；按 2 展开解释；会读整段对话（额外耗额度）并上报选项反馈；旁路 agent 不能读文件/跑命令；`--safe-mode`、`disableAllHooks` 关不掉，只能在 /plugin Installed 里禁用
+- Built-in 插件只能启用/禁用，不能卸载、不能更新
+
+### 六步实测流程
+1. **贴中文描述**：只写「想看到什么」（5 档天气+颜色、百分比+`134.4k / 200k`、12 轮 `▁▂▃▄▅▆▇█` 折线、`▲ +98.3k 上一轮`、每轮结束更新），不写实现
+2. **Claude 自写自验**：自动加载 plugin-authoring skill → 代码写到 `~/.claude/dev-mods/` 临时目录 → `claude plugin validate` 通过、5 个单测通过；主动说明未做的事（没在真会话看效果、没跑 tsc，因类型文件要 mod 加载后才生成）
+3. **热重载**：轮末弹 `Enable hot reloading for this session?` → 选 Enable，带子立刻出现。坑：1M 窗口下 85.4k 只占 8%，天气会一直晴；要更敏感就让它「档位按 200k 算」
+4. **改代码不用重启**：补跑 tsc 修两处 possibly-undefined，显示 `token-weather: reloaded`，数据不丢；`turn.complete` 读用量、`ui.render` 画带子，所以首轮结束前不显示
+5. **补测试**：模拟三轮（36.1k→134.4k→182k）断言 `↯ 即将压缩 91%`；边界：首轮前不显示、压缩后读不到用量不记录、子 agent 轮次不计入；5→9 项全过。人负责肉眼验收颜色/图标
+6. **装成正式插件**（最易漏，dev-mods 目录只当前会话有效、之后会被清理）：复制到插件目录 → 加 `marketplace.json` 注册本地 marketplace → `claude plugin install token-weather@token-weather` → 新位置重跑校验（10 项过）→ **删掉临时旧副本**（否则带子重复）
+   - 以后改代码**必须调高 plugin.json 的 version**，再 `claude plugin marketplace update token-weather` + `claude plugin update token-weather@token-weather`，否则 update 看不到新版
+
+### 试用官方示例
+```bash
+git clone https://github.com/anthropics/claude-code-playground
+cd claude-code-playground/claude-code/mods
+claude --plugin-dir ./blast-radius   # 仅本次会话生效；换 replay-theater / token-weather
+```
+- Blast Radius 官方演示：拦下 `rm -rf build`，列出 9 个文件共 1.1 MB
+
+### 安全补充
+- mod **不在沙箱里**：开了沙箱也只隔离 Claude 执行的 Bash，mod 自己起的进程照样在外面；唯一碰不到的是权限确认弹窗的显示内容
+- 装前 `claude plugin validate ./some-mod`（只读不运行）：看 `hooks:`（监听哪些事件）和 `calls:`（调用哪些能力）；只显示天气却要发网络请求 → 要警惕
+- 分享：GitHub 仓库 + marketplace 文件，或提交到 Claude 插件目录
+
+### 三个练手点子（只写想看到什么）
+- 转圈提示后显示本轮工具调用次数（「Thinking · 工具调用 3 次」，官方入门示例，十几行）
+- 输入框上方显示当前 git 分支 + 未提交文件数，每轮更新
+- 每轮结束显示本轮耗时，超 3 分钟标黄
