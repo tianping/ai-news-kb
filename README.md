@@ -29,6 +29,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [wx-cli：把微信聊天记录变成 AI 能读能搜能订阅的数据源（硅光智读）](02-tools/2026-10-07-wx-cli-wechat-data-for-agents.md) — pandorafuture/wx-cli（MIT/Rust）解密 Mac 微信本地 SQLCipher 库：查询/亚秒全局搜索/跨会话时间线/watch+SSE 订阅/媒体解密，REST API + Agent Skill；只读不发消息；代价是提取密钥需关 SIP，search 不套隐藏规则 (2026-10-07)
 - [macOS 27 Golden Gate：15 个值得立刻开启的隐藏功能（猫果乐园）](02-tools/2026-10-07-macos-27-golden-gate-15-hidden-features.md) — 液态玻璃透明度/窗口描边、Spotlight 自然语言问答（个人语境）、Safari 描述生成插件/标签自动分组/降价提醒、Finder 图片 AI 命名、邮件个性化回复、QuickTime 内录系统声音；视觉智能 Cmd+Shift+6；多项默认关需手动开 (2026-10-07)
 - [Claude Opus 5.5 真正炸裂的生产力在教育领域（附提示词）](02-tools/2026-10-07-opus55-education-video-tts-prompt.md) — 代码生成教学讲解视频（解三角函数/物理压轴题/大气环流）；TTS API 文档存 TTS.md + 密钥放 .env，一句提示词出线稿动画+双语字幕+TTS 解说；token 消耗远低于视频模型 (2026-10-07)
 - [从写代码到做视频，Claude Opus 5.5 被玩出了新花样（K姐研究社）](02-tools/2026-10-07-opus55-video-how-to-7-scenarios.md) — 代码驱动渲染原理（SVG/Canvas/Three.js→无头浏览器逐帧→FFmpeg）vs 扩散模型；7 场景：产品宣传/儿童绘本/项目介绍/15s 动效/UI 一镜到底变形（seek(t) 纯函数+闭式弹簧+numpy 节拍+Playwright tmix 运动模糊）/科普/电影故事（Opus 统筹 GPT Image 2.5+Seedance 2.5） (2026-10-07)
@@ -380,5 +381,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [wx-cli：把微信聊天记录变成 AI 能读能搜能订阅的数据源（硅光智读）](02-tools/2026-10-07-wx-cli-wechat-data-for-agents.md) — pandorafuture/wx-cli（MIT/Rust）解密 Mac 微信本地 SQLCipher 库：查询/亚秒全局搜索/跨会话时间线/watch+SSE 订阅/媒体解密，REST API + Agent Skill；只读不发消息；代价是提取密钥需关 SIP，search 不套隐藏规则 (2026-10-07)
