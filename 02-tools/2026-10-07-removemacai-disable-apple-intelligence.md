@@ -50,3 +50,4 @@ removemacai revert              # 撤销：移除描述文件和重定向规则
 - 适合入门容量的 Mac，以及平时主要用云端模型或第三方本地推理工具的人。1TB 以上、经常用邮件摘要或照片消除的人没必要折腾。
 - 「几十 GB」「上千 Star」「不带追踪代码」都是原文说法，没有逐一核实。`curl | bash` 安装前建议先看一下 install.sh。
 - 相关笔记：[macOS 27 Golden Gate 15 个隐藏功能](2026-10-07-macos-27-golden-gate-15-hidden-features.md)。想用 Spotlight 问答、邮件智能回复、视觉智能这类 AI 功能，就别全关，用 `--keep` 保留需要的项。
+- 相关笔记：[macOS 27 自带 fm 命令行本地模型](2026-10-07-macos27-fm-cli-local-foundation-model.md)。本工具注销 foundation models 后，fm 大概率不可用。
