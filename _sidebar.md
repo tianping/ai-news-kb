@@ -42,6 +42,7 @@
   * [handraw-style：261 种手绘风格 Skill，看图选编号即出图](02-tools/2026-09-13-handraw-style-261-sketch-styles.md) — 开源日记推荐：261 种编号化手绘风格，编号管画风主题管内容，双语 Prompt，参考图限线条/笔触/材质/配色防跑偏；1000+ Star
   * [OpenClaw triage 命令：专治升级翻车、Doctor 跑不动的诊断修复工具](02-tools/2026-09-24-openclaw-triage-command.md) — configGuard: skip，config 损坏也能跑；5种模式（裸跑/指定agent/--json/--run/--update-result）；脱敏诊断包不含密钥/token/聊天记录；--run 内置修复限一轮10分钟40次调用，修完 Doctor 验证 (2026-09-24)
 - [老黄手撕 Anthropic 辞职研究员：AI 安全之争与菲尔兹奖得主开研究所](03-industry/2026-09-12-ai-safety-jensen-coxon-tsimerman.md) — Coxon 辞职帖"AI 拿全人类命下赌注"、Anthropic 对齐负责人 Hubinger 跟帖十年灭绝概率>10%、菲尔兹奖得主 Tsimerman 创办 MAISI 用零知识证明给 AI 安全出题、老黄回怼"荒诞极不真实"
+  * [Claude 新订阅必定触发 KYC：国内用户门槛陡升](03-industry/2026-10-08-claude-new-subscription-kyc.md) — 老号被封申诉无果；新开Max必触发KYC、Pro随机触发（群友经验）；作者拟办护照过验证；Haiku 5.5补发，预计Fable 5.5发布后又一轮封号潮
   * [400人维权：ZCode 静默上传全量 Git 历史风波（智谱）](03-industry/2026-09-26-zcode-silent-git-upload-incident.md) — ferstar 发现 ZCode 全仓扫描+加密快照外发（.git 占 86.6%），近400名开发者维权；智谱三天五步整改（致歉/修复/第三方审计/开源/数据政策）；核心未决：历史数据到达与留存无法自证
   * [算力这么烧钱！AI长剧《后西游记》单集成本 90 万，每分钟 2-3 万（说话不忽悠复盘）](03-industry/2026-09-14-hou-you-xi-ji-90w-per-episode-cost.md) — 单集 90 万/每分钟 2-3 万/总成本 2000 万+，算力占 1/5；成本大头是上百人美术团队逐帧修+算力，不是'零成本出片'；90 万买统一人设稳定画质的上星水准，几千块草根 AI 短剧比不了；AI 降技术门槛拉高审美门槛
   * [英伟达、Palantir 开始限制 Claude 使用：数据主权成前沿模型进企业的新门槛](03-industry/2026-09-14-nvidia-palantir-restrict-claude.md) — The Information：英伟达专有信息改用 Nemotron、Palantir 要不可撤销 ZDR、Booz Allen 网络安全项目禁用 Anthropic 商业模型；导火索是 Fable 5 默认 30 天数据留存；Anthropic 推 EFS（安全日志存客户自己的 S3/Blob/GCS）；英伟达+Palantir 主权 AI 路线；模型能力与数据控制成两条独立坐标轴
