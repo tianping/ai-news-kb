@@ -44,3 +44,4 @@ macOS 27（代号 Golden Gate）正式推送。按作者的说法，这次更新
 - 文中推荐的 CleanMyMac（Space Lens、菜单栏监视器）属于软文植入，与系统功能无关。
 - 菜单名称和快捷键都是自媒体作者的实测描述，可能因版本和地区而不同，以实际系统为准。
 - 默认关闭、建议优先打开的几项：窗口描边（3）、邮件智能回复（9）、Finder 建议文件名（14）、照片高质量（15）。
+- 相关笔记：[RemoveMacAI 停用 Apple Intelligence](2026-10-07-removemacai-disable-apple-intelligence.md)。那个工具会关掉本文的 Spotlight 问答、邮件智能回复等 AI 功能，想保留就用 `--keep`。
