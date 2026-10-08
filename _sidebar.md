@@ -8,6 +8,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [wx-cli：把微信聊天记录变成 AI 能读能搜能订阅的数据源（硅光智读）](02-tools/2026-10-07-wx-cli-wechat-data-for-agents.md) — pandorafuture/wx-cli（MIT/Rust）解密 Mac 微信本地 SQLCipher 库：查询/亚秒全局搜索/跨会话时间线/watch+SSE 订阅/媒体解密，REST API + Agent Skill；只读不发消息；代价是提取密钥需关 SIP，search 不套隐藏规则
   * [macOS 27 Golden Gate：15 个值得立刻开启的隐藏功能（猫果乐园）](02-tools/2026-10-07-macos-27-golden-gate-15-hidden-features.md) — 液态玻璃透明度/窗口描边、Spotlight 自然语言问答（个人语境）、Safari 描述生成插件/标签自动分组/降价提醒、Finder 图片 AI 命名、邮件个性化回复、QuickTime 内录系统声音；视觉智能 Cmd+Shift+6；多项默认关需手动开
   * [Claude Opus 5.5 真正炸裂的生产力在教育领域（附提示词）](02-tools/2026-10-07-opus55-education-video-tts-prompt.md) — 代码生成教学讲解视频（解三角函数/物理压轴题/大气环流）；TTS API 文档存 TTS.md + 密钥放 .env，一句提示词出线稿动画+双语字幕+TTS 解说；token 消耗远低于视频模型
   * [从写代码到做视频，Claude Opus 5.5 被玩出了新花样（K姐研究社）](02-tools/2026-10-07-opus55-video-how-to-7-scenarios.md) — 代码驱动渲染原理（SVG/Canvas/Three.js→无头浏览器逐帧→FFmpeg）vs 扩散模型；7 场景：产品宣传/儿童绘本/项目介绍/15s 动效/UI 一镜到底变形（seek(t) 纯函数+闭式弹簧+numpy 节拍+Playwright tmix 运动模糊）/科普/电影故事（Opus 统筹 GPT Image 2.5+Seedance 2.5）
