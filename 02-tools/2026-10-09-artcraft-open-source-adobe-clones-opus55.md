@@ -48,3 +48,4 @@
 - 文章结论：远谈不上取代 Adobe，"能运行"和"能用"差得很远，但小团队借助 AI 同时启动一整套软件已成现实
 - 参考：[Ars Technica](https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/)、HN [49958850](https://news.ycombinator.com/item?id=49958850)、[49922569](https://news.ycombinator.com/item?id=49922569)
 - 以上均为原文转述，Star 数、团队规模、时间线未独立核实
+- 续集：同团队 10-07 再开 5 个仓库重写 Word/Excel/PPT/CAD/Pro Tools，见 [ArtCraft 又用 Rust 重写 Word/Excel/PPT/CAD/Pro Tools](2026-10-09-artcraft-office-cad-daw-rust-rewrite.md)
