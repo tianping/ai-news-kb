@@ -393,3 +393,5 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
+
+- [用 Opus 5.5 做 Vibe 知识视频起号：完整提示词 + 四条爆款复盘（汤姆CC的AI工具箱）](02-tools/2026-10-09-opus55-vibe-knowledge-video-prompt.md) — 抖音 #Vibe知识大赏 玩法：一段提示词+Opus 5.5 代码生成知识科普短片，两小时做出 10 万+播放、三条涨粉 600+；附纪录片风格提示词全文（锚词机制/第17秒踩重拍/宣纸水墨画风/元素贯穿转场/交付分镜表）；四条复盘：开头视觉锚点、字幕卡小节线+重拍三合一、抛开放式问题拉评论、转场不硬切 (2026-10-09)
