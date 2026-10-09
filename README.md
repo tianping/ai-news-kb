@@ -29,6 +29,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [马斯克放大招：Grok Bot 免费用 Opus 5.5 和 X 全部功能（新智元）](02-tools/2026-10-08-grok-bot-opus55-routing-x-wechat.md) — 动态路由按任务调用Opus 5.5/Midjourney/Suno；主Bot+Cloud Agents分工；原生接入X免API费+Routines后台定时任务；常驻云电脑；网友三步接入微信；营销色彩浓，未独立核实 (2026-10-08)
 - [macOS 27 自带本地 AI：终端敲 fm 就能聊（码上观星）](02-tools/2026-10-07-macos27-fm-cli-local-foundation-model.md) — 预装 fm 命令调用 Apple Foundation Models 端侧模型（约 3B、上下文约 4K）：sudo fm license→fm available→fm chat/fm respond（管道喂文件、--no-stream）、schema 结构化 JSON、fm serve 起 OpenAI 兼容接口；零安装可离线，适合摘要/抽字段/脚本，不适合写代码和长推理；与 RemoveMacAI 冲突 (2026-10-07)
 - [Claude Code 之父 Boris Cherny 的 CLAUDE.md 模板（零一智源.Ai）](02-tools/2026-10-07-boris-cherny-claude-md-template.md) — 13 条：Plan Mode 默认（3 步以上先计划、跑偏重规划）、子代理保持主上下文干净、自我改进循环（纠正后记 tasks/lessons.md、开局回顾）、完成前验证、适度优雅、自主修 bug、todo.md 勾选、简洁/找根因/最小影响面；附「从零生成我的 CLAUDE.md」提示词；正文据图整理 (2026-10-07)
 - [claude-obsidian：让 Claude Code 维护 Obsidian 知识图谱（顾北 AI）](02-tools/2026-10-07-claude-obsidian-knowledge-graph.md) — AgriciDaniel/claude-obsidian（MIT，14.4k Star）：素材→带链接有溯源的本地 Markdown 笔记，知识复利不重置；source/claim 账本+高风险声明双来源、矛盾标 [!contradiction]；写入走 SHA-256 审查授权的可恢复事务；15 个 Skill（wiki/ingest/query/lint/autoresearch/canvas…），支持 LYT/PARA/Zettelkasten (2026-10-07)
@@ -388,5 +389,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [马斯克放大招：Grok Bot 免费用 Opus 5.5 和 X 全部功能（新智元）](02-tools/2026-10-08-grok-bot-opus55-routing-x-wechat.md) — 动态路由按任务调用Opus 5.5/Midjourney/Suno；主Bot+Cloud Agents分工；原生接入X免API费+Routines后台定时任务；常驻云电脑；网友三步接入微信；营销色彩浓，未独立核实 (2026-10-08)
