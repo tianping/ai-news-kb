@@ -169,6 +169,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [丘成桐新论文致谢 GPT 和 Claude：七维怪球正曲率问题](06-academic/2026-10-08-yau-exotic-spheres-positive-curvature-ai-ack.md) — 宣称28种七维球面均有截面曲率严格为正的度量（丘1982问题清单第2题）；双圆盘模型+S³主丛升十维+O'Neill公式+Reiser–Wraith拼接，附SageMath验证；致谢GPT 6 Astra/Claude Pro；丘对AI态度三年转变；尚未同行评审 (2026-10-08)
 - [Gemini 学术写作助手：8步指令集](06-academic/2026-08-10-gemini-academic-writing-prompts.md) — 标题→摘要→大纲→写作指导→续写→纠错→润色→评审，全流程学术指令模板
 - [Gemini 3.0 学术指令集：从选题到返修全流程](06-academic/2026-08-10-gemini3-academic-full-workflow-prompts.md) — 适配Gemini 3.0/3.1 Pro，选题→文献→大纲→撰写→图表→润色→返修→参考文献
 - [OpenClaw+Claude Code 论文写作与分析训练营](06-academic/2026-08-10-openclaw-claudecode-academic-writing-course.md) — 双核心平台科研工作流实战课程，4天覆盖选题到投稿全链条
@@ -389,5 +390,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [丘成桐新论文致谢 GPT 和 Claude：七维怪球正曲率问题](06-academic/2026-10-08-yau-exotic-spheres-positive-curvature-ai-ack.md) — 宣称28种七维球面均有截面曲率严格为正的度量（丘1982问题清单第2题）；双圆盘模型+S³主丛升十维+O'Neill公式+Reiser–Wraith拼接，附SageMath验证；致谢GPT 6 Astra/Claude Pro；丘对AI态度三年转变；尚未同行评审 (2026-10-08)
