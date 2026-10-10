@@ -137,6 +137,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线） (2026-10-09)
 - [Claude 新订阅必定触发 KYC：国内用户门槛陡升](03-industry/2026-10-08-claude-new-subscription-kyc.md) — 老号被封申诉无果；新开Max必触发KYC、Pro随机触发（群友经验）；作者拟办护照过验证；Haiku 5.5补发，预计Fable 5.5发布后又一轮封号潮 (2026-10-08)
 - [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 德国程序员 Jonathan Wilke 付费榜单案例；规则一句话、付费为唯一参与方式、榜单即内容；X/HN 事件型流量非SEO；7天22万美元；护城河是「第一个」和受众 (2026-10-06)
 - [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：行政命令要求在联邦公文/官网/报告中以 Super Intelligence/SI 替换 AI 称呼，法定定义暂沿用第15卷第9401(3)条，总统科技助理 60 天内提交立法建议 (2026-09-30)
@@ -394,5 +395,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线） (2026-10-09)
