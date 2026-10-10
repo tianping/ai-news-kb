@@ -137,7 +137,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
-- [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线） (2026-10-09)
+- [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线）；10-10 补机器之心/The Verge 第二来源：30 余位数学家称需数年消化，719 篇手稿仅 42% 形式化、已撤 3 篇，Lichtman 称有数十个菲尔兹级结果（黎曼推进/霍奇特例/四维 Kakeya），多个研究计划与基金申请被清零、年轻学者受冲击最大；OpenAI 披露试了 4000+ 题但未公开模型与提示词 (2026-10-09)
 - [Claude 新订阅必定触发 KYC：国内用户门槛陡升](03-industry/2026-10-08-claude-new-subscription-kyc.md) — 老号被封申诉无果；新开Max必触发KYC、Pro随机触发（群友经验）；作者拟办护照过验证；Haiku 5.5补发，预计Fable 5.5发布后又一轮封号潮 (2026-10-08)
 - [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 德国程序员 Jonathan Wilke 付费榜单案例；规则一句话、付费为唯一参与方式、榜单即内容；X/HN 事件型流量非SEO；7天22万美元；护城河是「第一个」和受众 (2026-10-06)
 - [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：行政命令要求在联邦公文/官网/报告中以 Super Intelligence/SI 替换 AI 称呼，法定定义暂沿用第15卷第9401(3)条，总统科技助理 60 天内提交立法建议 (2026-09-30)
