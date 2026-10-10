@@ -1,7 +1,7 @@
 # 微信流（WeChatBridge）：微信聊天记录一键转给 Codex/Claude/豆包
 
 - **收藏日期**：2026-10-06
-- **来源**：AIshape（mp.weixin.qq.com/s/3RXNJQJf2WhcwQq7H34bYg）；虾说AI实验室（mp.weixin.qq.com/s/QdCiRiwjjc5uOvBW0nBZxw）同题文章补充
+- **来源**：AIshape（mp.weixin.qq.com/s/3RXNJQJf2WhcwQq7H34bYg）；虾说AI实验室（mp.weixin.qq.com/s/QdCiRiwjjc5uOvBW0nBZxw）同题文章补充；苍何（mp.weixin.qq.com/s/ClhBhOOqDmVG0Mdm12urCw，2026-10-10 Windows 版更新）
 - **分类**：工具与产品
 - **标签**：#工具 #开源 #Mac #微信 #AI工作流
 
@@ -17,7 +17,7 @@
 - Codex、Claude、豆包、Obsidian 没做这一层，微信流替它们补上入口
 
 ### 安装（5 分钟）
-- 要求：Mac（Apple 芯片/Intel 均可）、macOS 14 Sonoma+、微信 Mac 4.1.13+；**仅支持 Mac，Windows「正在构建」**
+- 要求：Mac（Apple 芯片/Intel 均可）、macOS 14 Sonoma+、微信 Mac 4.1.13+；**10-06 时仅支持 Mac；Windows 测试版已于 2026-10-10 发布（见下方更新节）**
 - 下载：官网内测版 v0.1.14 或 GitHub `freestylefly/WeChatBridge` Releases 的 DMG；拖进 Applications 即可
 - 首次引导三步：入口（9 个转发目标默认全关，按需开）→ 权限 → 完成
 - 两个系统权限：
@@ -56,8 +56,21 @@
 - **对比传统做法**：截图/复制 vs 第三方工具读微信数据库（封号与泄露风险）→ 微信流走官方转发更省事也更安全
 - **一句话**：用「转发一次」替代「截图复制粘贴」，微信记录直接进 AI 和 Obsidian
 
+## 更新：Windows 测试版发布（苍何，2026-10-10）
+
+原作者苍何发文（mp.weixin.qq.com/s/ClhBhOOqDmVG0Mdm12urCw）：开源约一个月，GitHub 已 1.2k Star；正式推出 **Windows 测试版**，界面与 Mac 版一致。
+
+- **支持的目标**：Codex / Claude Code / WorkBuddy / 豆包 / 千问办公等主流 Agent（含作者自家产品 WeSight），并可沉淀到 Obsidian；所有入口都能用开关单独启停
+- **安装**：可直接把提示词丢给 Agent 代装——「帮我下载 https://github.com/freestylefly/WeChatBridge 里的 Windows 版本，如果你无法自动安装请你帮我打开安装包所在的文件夹，我来手动安装」
+- **运行引导先做兼容性检测**：微信「转发到其他应用」并非所有 Windows 版本都支持，作者实测只有最新版 Windows 能直接用，旧版需运行兼容层后才能分享。Windows 系统架构与 macOS 完全不同，相当于重写一套，这也是 Windows 版推迟的原因
+- **新增 1：技能中心支持导入技能**——选 skill 压缩包导入即进技能库（示例：反诈技能，用来检测群聊话术）；技能库单独存放，主张按群精细化配置，「留下合适的，丢弃非必须的伪需求」
+- **场景演示**：新建场景 → 勾选可执行的 Agent → 勾选聊天记录转发（演示选豆包），结果中自动调用 skill 分析群聊；场景可绑定到群（如客户群固定「分析客户购买意愿」场景+对应技能），一个群也可绑定多个场景供转发时选
+- **新增 2：超 100 条消息分批收集**——微信勾选超 100 条会弹限制提示；微信流不模拟点击、不破解聊天数据（避免封号风险），而是做了一个「中转台」逐批承接每次 100 条、叠加成一次性数据；每批可定位首尾消息方便找到第 101 条；需先在入口里开启该能力，收集完后转发到 Agent 的流程与单次转发相同
+- 核心贡献者：蜗牛；问题请到 GitHub 提 issue
+- 免责声明：仅限处理本人有权使用或已获授权的聊天记录，转发第三方 AI 前注意隐私保护与脱敏
+
 ## 影响 / 备注
 
 - 核心价值：把微信从「AI 工作流的孤岛」接入 Agent 上下文，且完全走官方口子、零侵入
 - 开发者写的深度安全文章：《把微信聊天记录喂给 AI，到底安不安全？聊聊微信流的底层边界》（mp.weixin.qq.com/s/93dWm36SOnywgitKbVWCUg）
-- 局限：Mac only、手动勾选、语音不转写、单次 100 条上限
+- 局限：手动勾选、语音不转写；单次 100 条上限（10-10 起可用分批收集「中转台」绕过）；Windows 版仍是测试版，旧系统需兼容层
