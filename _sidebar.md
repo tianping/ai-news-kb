@@ -73,6 +73,7 @@
 - [04 论文与技术突破](04-papers/)
 - [05 事件与评论](05-events/)
 - [06 AI 学术应用](06-academic/)
+  * [哈佛教授坦言：我已经不知道该教学生什么了（许LAI）](06-academic/2026-10-10-harvard-schwartz-what-to-teach-students-ai.md) — Matthew Schwartz 三个月与 AI 合写 18 学科 36 篇论文稿，却说仍不知如何培养研究生；贬值的是具体技术活（Python 课、神经网络建模、几周→20 分钟）；PNAS 土耳其高中 RCT：普通 ChatGPT 练习+48%考试−17%，引导式 AI 家教练习+127%考试无损；不贬值五样：品味、选题（400 选 36）、验证、跨界连接（凸包）、动手实验；建议先自己想再用 AI
   * [丘成桐新论文致谢 GPT 和 Claude：七维怪球正曲率问题](06-academic/2026-10-08-yau-exotic-spheres-positive-curvature-ai-ack.md) — 宣称28种七维球面均有截面曲率严格为正的度量（丘1982问题清单第2题）；双圆盘模型+S³主丛升十维+O'Neill公式+Reiser–Wraith拼接，附SageMath验证；致谢GPT 6 Astra/Claude Pro；丘对AI态度三年转变；尚未同行评审
 - [GitHub 科研 AI 工具 Star 榜（2026-09-07 更新）：10 个项目把科研交给 Agent](06-academic/2026-09-07-github-research-ai-stars-sept.md) — 8月版Star榜更新：academic-research-skills领跑46.6K，scientific-agent-skills跨100+数据库最宽；ARIS/AI-Scientist-v2新入榜；选工具三维度建议
 - [科研自动化 Skill 排行榜 Top10（2026-09-09 更新）：榜单零变动](06-academic/2026-09-09-github-research-ai-stars-sept-update.md) — 与09-07版完全一致：同10项目同顺序，Star数全部持平；头部格局固化，第二梯队14K密集区（ARIS/AI-Scientist/AutoResearchClaw）下次可能换位
