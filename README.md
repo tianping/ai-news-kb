@@ -174,6 +174,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [BioRender 介绍 + Leo：专做科研配图的 AI Agent](06-academic/2026-10-11-biorender-leo-ai-figure-agent.md) — 「科学界的 Canva」：400 万科学家在用的图标/模板拖拽绘图平台（多伦多，2017，估值 9 亿美元，图库已接入 Claude for Life Sciences）；10-06 发布 Leo：先提问梳理信息→出草图可手绘批注→生成每个元素可单独编辑的成品图，不保证科学准确需自审；学术个人 $35/月，免费版不能用于发表，AI/Graphing 为附加额度 (2026-10-11)
 - [哈佛教授坦言：我已经不知道该教学生什么了（许LAI）](06-academic/2026-10-10-harvard-schwartz-what-to-teach-students-ai.md) — Matthew Schwartz 三个月与 AI 合写 18 学科 36 篇论文稿，却说仍不知如何培养研究生；贬值的是具体技术活（Python 课、神经网络建模、几周→20 分钟）；PNAS 土耳其高中 RCT：普通 ChatGPT 练习+48%考试−17%，引导式 AI 家教练习+127%考试无损；不贬值五样：品味、选题（400 选 36）、验证、跨界连接（凸包）、动手实验；建议先自己想再用 AI (2026-10-10)
 - [丘成桐新论文致谢 GPT 和 Claude：七维怪球正曲率问题](06-academic/2026-10-08-yau-exotic-spheres-positive-curvature-ai-ack.md) — 宣称28种七维球面均有截面曲率严格为正的度量（丘1982问题清单第2题）；双圆盘模型+S³主丛升十维+O'Neill公式+Reiser–Wraith拼接，附SageMath验证；致谢GPT 6 Astra/Claude Pro；丘对AI态度三年转变；尚未同行评审 (2026-10-08)
 - [Gemini 学术写作助手：8步指令集](06-academic/2026-08-10-gemini-academic-writing-prompts.md) — 标题→摘要→大纲→写作指导→续写→纠错→润色→评审，全流程学术指令模板
