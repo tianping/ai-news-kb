@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、模型发布
+- [Breeze-TTS-2：开源 TTS 一句话造出角色声音](01-models/2026-10-12-breeze-tts-2-voice-design.md) — 开源 TTS 盲测第一（1213 Elo），克隆/语音设计/语音引导三合一，7.7GB 显存；权重非商用 (2026-10-12)
 - [Utopai X：影视公司的视频模型冲上全球第二](01-models/2026-10-06-utopai-x-video-model-rank-2.md) — 机器之心：Utopai X 以 1150 Elo 位列 Artificial Analysis 文生视频榜全球第二，基于 MiniMax H3 后训练，深度集成 PAI 制片智能平台 (2026-10-06)
 - [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜、值得进一步研究"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
 - [GPT-6 Astra：建筑照片变 Blender 可编辑场景](01-models/2026-09-04-gpt-6-astra-3d-blender.md) — Tom Krcha 演示：房屋照片→20秒→Blender 线框几何，BenchCAD 95.9%，OpenAI 3D 从对象生成转向代理工作流
@@ -399,5 +400,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Breeze-TTS-2：开源 TTS 一句话造出角色声音](01-models/2026-10-12-breeze-tts-2-voice-design.md) — 开源 TTS 盲测第一（1213 Elo），克隆/语音设计/语音引导三合一，7.7GB 显存；权重非商用 (2026-10-12)
