@@ -2,6 +2,7 @@
 
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
+  * [Breeze-TTS-2：开源 TTS 一句话造出角色声音](01-models/2026-10-12-breeze-tts-2-voice-design.md) — 开源 TTS 盲测第一（1213 Elo），克隆/语音设计/语音引导三合一，7.7GB 显存；权重非商用
   * [Utopai X：影视公司的视频模型冲上全球第二](01-models/2026-10-06-utopai-x-video-model-rank-2.md) — 机器之心：Utopai X 以 1150 Elo 位列 Artificial Analysis 文生视频榜全球第二，基于 MiniMax H3 后训练，深度集成 PAI 制片智能平台
   * [世界模型的下一个战场：生物医学](01-models/2026-09-29-world-models-biomedicine-cell.md) — Cell《World Models for Biomedicine》：AI 从识别生命状态走向推演干预后果；Lingshu-Cell 模拟单细胞扰动后转录组变化、MeWM 生成治疗后肿瘤影像；现阶段定位是真实实验前的'预演'层，瓶颈在高质量干预数据与误差累积评估
   * [Vidu S2 实时互动模型首秀：AI主播紫樱中秋直播，50分钟2万人涌入](01-models/2026-09-26-vidu-s2-realtime-interactive-model.md) — 生数科技 Vidu S2（S2-Avatar/S2-Editing）实时视频生成+互动：一致性系统属性、SRF训练、几百毫秒延迟；AI主播紫樱无限重开直播首日营业额过万
