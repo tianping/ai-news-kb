@@ -94,5 +94,55 @@ Jev 最有意思的地方是不负责生成内容，而是专门做判断/分析
 
 后续计划：测试 Jev 在真实项目、代码重构、复杂技术决策中的效果。
 
+## 补充：Codex 实测 Jev Choice 做 Agent 决策（2026-10-12 收录）
+
+> 来源：微信公众号「沉默王二」（原文标题：给Codex装上Jev Skill，直接起飞。）
+> 链接：https://mp.weixin.qq.com/s/obgWb4O6XGFhwlACrndGVQ
+> 安装提示词与上文「提示词自动安装」相同；API Key 在 https://typesafe.ai/ 注册获取（作者称约 2 分钟），`export TYPESAFE_API_KEY=...` 写进 `.zshrc`/`.bashrc` 持久化。装好后 Codex 在涉及判断、分类、路由、抽取、排序、验证时会自动调用该 Skill。
+
+### 实测案例：让 Jev 决定 Agent 的下一步
+
+提示词要点：
+- **state**：用户请求「帮我分析今天英伟达股价为什么上涨」，`knownFacts` 为空，可用工具 4 个
+- **候选项**：`answer_directly` / `web_search` / `inspect_code` / `ask_user` / `human_review`
+- **执行规则**：必须实际调用 Jev Choice API；`confidence ≥ 0.8` 才执行 Jev 的选择，否则转 `human_review`；输出模型、Token 用量、完整概率和最终动作；调用失败就停止报告，不许 Codex 自己补判断。阈值可按场景调到 0.9–0.95
+
+Jev 返回（Codex 实际发起了 HTTP 请求）：
+
+```json
+{"model": "jev-1.13.0",
+ "usage": {"input_tokens": 495, "output_tokens": 63},
+ "choice": "web_search", "confidence": 0.99,
+ "probabilities": {"human_review": 0, "ask_user": 0.01, "inspect_code": 0,
+                   "web_search": 0.99, "answer_directly": 0}}
+```
+
+confidence 0.99 超过阈值，Codex 直接执行联网搜索。作者另演示了用 Codex + Jev 填写千问表单，称速度快、效果好。
+
+### 三种决策类型
+
+| 类型 | 输出 | 典型用途 |
+|---|---|---|
+| **Noul** | 是/否的概率（0–1） | 内容审核、垃圾信息检测；工具调用前的安全检查（高于阈值拦截） |
+| **Choice** | 从预定义选项中选一个，附每项概率 | 意图路由、工具选择、任务分发（客服分流、编程 Agent 选工具） |
+| **Score** | 0–1 打分 | RAG 召回片段相关性排序（替代大模型 rerank）；回答质量评估，低分重生成 |
+
+可组合：Choice 选工具 → Noul 检查调用是否安全 → Score 给结果打分，低于阈值重来。
+
+### 成本与性能（TypeSafe 官方数据，作者转述）
+
+- 比同类 LLM 快 40–200 倍、便宜 40–400 倍
+- 输入 $0.042 / 百万 Token，输出免费；延迟 70–500 ms
+- 作者观点：意图识别 GPT-6 Astra 也能做，但 Token 消耗不是一个级别；Jev 能明显省 Codex 额度
+
+### 其他信息
+
+- 命名取自经济学家 William Stanley Jevons（边际效用理论）
+- 网友整理的用例集（意图识别、内容分类、安全审核、优先级排序）：https://github.com/Hiwoniu/Jev-Case
+- 开源复刻 **kev**：基于 Qwen3.5 + LoRA，Jared Palmer 用 Devin 编写，对齐 TypeSafe 官方 System One API，可配官方 Python SDK 本地运行（作者转述，未核实）
+- 作者观点：Jev 是 System 1（直觉），大模型是 System 2（推理）——把 Agent 的「判断」和「执行」拆开；判断模型本身不难做，预计各家大模型会很快跟进
+
+相关笔记：[Jev 模型发布](../01-models/2026-09-20-jev-system-one-model.md)、[Jev 作者访谈](../01-models/2026-09-25-jev-system-one-model-interview.md)
+
 ---
 *本文仅为信息整理，不构成任何推荐。*
