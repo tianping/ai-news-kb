@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [开源专业级作曲编曲 Skills：music-composition-skills](02-tools/2026-10-13-music-composition-skills-arr-spec.md) — 29 个 Claude Code/Codex skill，以 50 本乐理书+62 首实测编曲为底本，先填 ARR-SPEC 规格单再编译成 Suno/YuE2/MIDI (2026-10-13)
 - [开源漫画 Skill：一段故事直接生成一套连续漫画（韩小羽Rolfie）](02-tools/2026-10-13-visual-story-comic-skill-open-source.md) — rolfie-han/hanxiaoyu-visual-story-comic：先拆事件、锁定角色/场景/道具设定，再逐页生成并检查人物道具空间与剧情顺序、单页返修；八题材案例提示词（锁定资产+状态变化顺序+图中不生成伪文字） (2026-10-13)
 - [用 REA 逆向复刻 Microsoft Word（杉森楠）](02-tools/2026-10-13-rea-reverse-engineer-microsoft-word.md) — 无源码用 REA+Codex GPT-6 Astra 一句提示词+2～3 轮迭代，Pro 会员约 20%～30% 额度复刻出界面近像素级、核心功能约八成的 Word；npx rea-agents setup 接 17 个客户端；提出「AI 复刻钱效比」，护城河在用户网络/数据/版权而非代码 (2026-10-13)
 - [REA + Reverse-skill + PentAGI：让 Codex 1:1 复刻任何软件功能（草稿鸭）](02-tools/2026-10-13-rea-reverse-skill-pentagi-clone-pipeline.md) — 逆向≠复刻：REA 看懂（带 Evidence 出处）、Reverse-skill 自动选分析线装工具链、Codex 按理解重写、PentAGI 在 Docker 沙箱做渗透体检；五步流程+可粘贴提示词，只测自己有权测的系统 (2026-10-13)
@@ -405,5 +406,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [开源专业级作曲编曲 Skills：music-composition-skills](02-tools/2026-10-13-music-composition-skills-arr-spec.md) — 29 个 Claude Code/Codex skill，以 50 本乐理书+62 首实测编曲为底本，先填 ARR-SPEC 规格单再编译成 Suno/YuE2/MIDI (2026-10-13)
