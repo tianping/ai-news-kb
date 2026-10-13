@@ -9,6 +9,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [开源漫画 Skill：一段故事直接生成一套连续漫画（韩小羽Rolfie）](02-tools/2026-10-13-visual-story-comic-skill-open-source.md) — rolfie-han/hanxiaoyu-visual-story-comic：先拆事件、锁定角色/场景/道具设定，再逐页生成并检查人物道具空间与剧情顺序、单页返修；八题材案例提示词（锁定资产+状态变化顺序+图中不生成伪文字）
   * [用 REA 逆向复刻 Microsoft Word（杉森楠）](02-tools/2026-10-13-rea-reverse-engineer-microsoft-word.md) — 无源码用 REA+Codex GPT-6 Astra 一句提示词+2～3 轮迭代，Pro 会员约 20%～30% 额度复刻出界面近像素级、核心功能约八成的 Word；npx rea-agents setup 接 17 个客户端；提出「AI 复刻钱效比」，护城河在用户网络/数据/版权而非代码
   * [REA + Reverse-skill + PentAGI：让 Codex 1:1 复刻任何软件功能（草稿鸭）](02-tools/2026-10-13-rea-reverse-skill-pentagi-clone-pipeline.md) — 逆向≠复刻：REA 看懂（带 Evidence 出处）、Reverse-skill 自动选分析线装工具链、Codex 按理解重写、PentAGI 在 Docker 沙箱做渗透体检；五步流程+可粘贴提示词，只测自己有权测的系统
   * [text-to-lottie：把 SVG 交给 AI，几分钟生成 Lottie 动画](02-tools/2026-10-12-text-to-lottie-skill-svg-animation.md) — diffusionstudio/lottie skill，Claude Code/Codex 根据 SVG 或文字描述直接生成 lottie.json，免 AE
