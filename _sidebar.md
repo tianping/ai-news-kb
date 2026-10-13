@@ -76,6 +76,7 @@
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机(64GB统一内存/AMD Ryzen AI Halo)；AI写得快≠写得好，审核验证更重要
 - [04 论文与技术突破](04-papers/)
 - [05 事件与评论](05-events/)
+  * [Claude Code 删光开发者整个 C 盘：跳过权限确认的代价与自动模式之争（CSDN）](05-events/2026-10-13-claude-code-deleted-c-drive-auto-mode.md) — Zac 用 --dangerously-skip-permissions 让 Opus 5.5 无人值守，PowerShell 拼接错误疑致整盘被删，靠每日 NAS 备份恢复 98%；Boris Cherny 推自动模式（内测拦截 89% vs 人类 13.6%）；另有 Linux 用户开自动模式仍因测试代码丢数据——隔离环境+备份才是底线
 - [06 AI 学术应用](06-academic/)
   * [BioRender 介绍 + Leo：专做科研配图的 AI Agent](06-academic/2026-10-11-biorender-leo-ai-figure-agent.md) — 「科学界的 Canva」：400 万科学家在用的图标/模板拖拽绘图平台（多伦多，2017，估值 9 亿美元，图库已接入 Claude for Life Sciences）；10-06 发布 Leo：先提问梳理信息→出草图可手绘批注→生成每个元素可单独编辑的成品图，不保证科学准确需自审；学术个人 $35/月，免费版不能用于发表，AI/Graphing 为附加额度
   * [哈佛教授坦言：我已经不知道该教学生什么了（许LAI）](06-academic/2026-10-10-harvard-schwartz-what-to-teach-students-ai.md) — Matthew Schwartz 三个月与 AI 合写 18 学科 36 篇论文稿，却说仍不知如何培养研究生；贬值的是具体技术活（Python 课、神经网络建模、几周→20 分钟）；PNAS 土耳其高中 RCT：普通 ChatGPT 练习+48%考试−17%，引导式 AI 家教练习+127%考试无损；不贬值五样：品味、选题（400 选 36）、验证、跨界连接（凸包）、动手实验；建议先自己想再用 AI
