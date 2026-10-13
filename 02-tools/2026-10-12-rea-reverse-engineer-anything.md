@@ -44,3 +44,8 @@ REA 是一个开源 CLI + MCP server，本身不做逆向，而是把 Ghidra、H
 - **官方仓库是 `morluto/rea`**（README：可用已安装的 Hopper / Ghidra / IDA 做原生分析，静态 JS 分析不需要原生引擎；setup 会把 REA 的 MCP server 和配套工作流说明写入所选 Agent 的配置，并先备份原有配置）。
 - ⚠️ 搜索结果里另有一个 `github.com/ReverseEngineerAnything/REA`，标题堆满「github rea / official free download / Windows zip」这类关键词，是典型的仿冒 SEO 仓库，很可能借热点分发恶意安装包，**不要从那里下载**。
 - 原文图片是「界面重构示意」，不是剪映等产品的真实分析截图；作者也声明文章不代表对任何软件的完整审计，逆向分析须遵守法律、许可和授权边界。
+
+## 相关笔记
+
+- [REA + Reverse-skill + PentAGI：让 Codex 1:1 复刻任何软件功能（草稿鸭）](2026-10-13-rea-reverse-skill-pentagi-clone-pipeline.md) — 逆向→复刻→安全体检的完整流水线
+- [用 REA 逆向复刻 Microsoft Word（杉森楠）](2026-10-13-rea-reverse-engineer-microsoft-word.md) — 实测：Pro 会员约 20%～30% 额度复刻出界面近像素级的 Word，提出「AI 复刻钱效比」
