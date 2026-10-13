@@ -4,7 +4,7 @@
 - **来源**: 微信公众号「草稿鸭」
 - **分类**: 工具与产品 / AI 编程 Agent / 逆向分析
 - **原文链接**: https://mp.weixin.qq.com/s/dK_p1fHAQA3u-zbn5er7ZA
-- **相关笔记**: 本库 [REA（Reverse Engineer Anything）](2026-10-12-rea-reverse-engineer-anything.md)
+- **相关笔记**: 本库 [REA（Reverse Engineer Anything）](2026-10-12-rea-reverse-engineer-anything.md)、[用 REA 逆向复刻 Microsoft Word（杉森楠）](2026-10-13-rea-reverse-engineer-microsoft-word.md)
 
 ## 概述
 
