@@ -9,6 +9,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [text-to-lottie：把 SVG 交给 AI，几分钟生成 Lottie 动画](02-tools/2026-10-12-text-to-lottie-skill-svg-animation.md) — diffusionstudio/lottie skill，Claude Code/Codex 根据 SVG 或文字描述直接生成 lottie.json，免 AE
   * [288 条 AI 音乐指令：古风专属模板](02-tools/2026-10-12-ai-music-prompts-guofeng.md) — 清冷仙侠/国风流行/悲壮江湖/轻快江南四套 BPM+配器模板，民族乐器只做点缀
   * [REA（Reverse Engineer Anything）：AI Agent + 逆向工具链](02-tools/2026-10-12-rea-reverse-engineer-anything.md) — 开源 MCP 把 Ghidra/IDA/JADX 接给 Claude 等 Agent，闭源客户端逻辑被扒；官方仓库 morluto/rea，警惕仿冒仓库
   * [用 Opus 5.5 做 Vibe 知识视频起号：完整提示词 + 四条爆款复盘（汤姆CC的AI工具箱）](02-tools/2026-10-09-opus55-vibe-knowledge-video-prompt.md) — 抖音 #Vibe知识大赏 玩法：一段提示词+Opus 5.5 代码生成知识科普短片，两小时做出 10 万+播放、三条涨粉 600+；附纪录片风格提示词全文（锚词机制/第17秒踩重拍/宣纸水墨画风/元素贯穿转场/交付分镜表）；四条复盘：开头视觉锚点、字幕卡小节线+重拍三合一、抛开放式问题拉评论、转场不硬切
