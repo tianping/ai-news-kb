@@ -59,4 +59,4 @@
 ## 备注
 
 - 作者金句："好的笔记系统不是效率工具，是河床。水天天流过去，河床留下来，时间久了，方向自己就显出来了。"
-- 相关：本库 [Zotero + Codex + Obsidian 文献工作流](2026-08-10-zotero-codex-obsidian-literature-workflow.md)、[Claude + Obsidian 知识图谱](../02-tools/2026-10-07-claude-obsidian-knowledge-graph.md)。后续各期若收藏，可补进本笔记。
+- 相关：本库 [Zotero + Codex + Obsidian 文献工作流](2026-08-10-zotero-codex-obsidian-literature-workflow.md)、[Claude + Obsidian 知识图谱](../02-tools/2026-10-07-claude-obsidian-knowledge-graph.md)。后续各期若收藏，可补进本笔记。在 Obsidian 里直接调 Claude Code 等 Agent 改笔记，见 [Claudian 插件](../02-tools/2026-10-14-claudian-obsidian-agent-plugin.md)。
