@@ -9,6 +9,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [obsidian-skills：Obsidian CEO 维护的官方 Agent 技能集（盍曰AI）](02-tools/2026-10-14-kepano-obsidian-skills-agent-guide.md) — kepano/obsidian-skills（MIT）5 个 SKILL.md 装在 Agent 侧：obsidian-markdown/bases/json-canvas/obsidian-cli/defuddle，教 AI 写 wikilink、.base、.canvas；三种安装法、渐进披露、自写技能模板、写库三条铁律
   * [HyperFrames：写 HTML 就能出视频，HeyGen 开源渲染引擎（大刘的AGI）](02-tools/2026-10-14-hyperframes-html-to-video-render-engine.md) — heygen-com/hyperframes（Apache-2.0）是渲染引擎非生成模型：无头 Chrome 逐帧 seek+FFmpeg，composition 即 HTML（data-* 时间轨）；21 个 Agent 技能路由懒加载；版本钉住保可复现；与 Remotion 对比许可是关键
   * [Claudian：把 Obsidian 笔记库变成 AI Agent 的工作目录（Nice哥聊AI）](02-tools/2026-10-14-claudian-obsidian-agent-plugin.md) — YishenTu/claudian（MIT，15.5k Star）：调用本机 Claude Code/Codex/Grok/OpenCode/Pi，内联编辑+逐词 diff、@ 引用、/ 技能、fork 子代理；CLI 路径先留空，GUI 拿不到 PATH 报 spawn claude ENOENT 时手填；不做遥测
   * [YuE2-Studio：先出五线谱再演唱，AI 写歌可改谱，6G 显存本地离线](02-tools/2026-10-14-yue2-studio-local-ai-music-score-editing.md) — 包装 M-A-P YuE2：先生成 ABC 乐谱可就地改谱再渲染演唱；Tauri+yue2.cpp 零 Python，GGUF 量化 6GB 起；扒谱翻唱/Demucs 分轨/转 MIDI/本地 LoRA；MCP 162 个工具接 Claude Code
