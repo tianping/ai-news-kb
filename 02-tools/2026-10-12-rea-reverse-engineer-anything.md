@@ -45,6 +45,51 @@ REA 是一个开源 CLI + MCP server，本身不做逆向，而是把 Ghidra、H
 - ⚠️ 搜索结果里另有一个 `github.com/ReverseEngineerAnything/REA`，标题堆满「github rea / official free download / Windows zip」这类关键词，是典型的仿冒 SEO 仓库，很可能借热点分发恶意安装包，**不要从那里下载**。
 - 原文图片是「界面重构示意」，不是剪映等产品的真实分析截图；作者也声明文章不代表对任何软件的完整审计，逆向分析须遵守法律、许可和授权边界。
 
+## 接入教程（2026-10-14 补充）
+
+- **来源**：微信公众号「千秋英雄录」《保姆级教程：把 REA 接入 Claude Code、Cursor、Devin 等 10+ Agent，10 分钟搞定》（https://mp.weixin.qq.com/s/9_PLUnoVmXuAyhGgtqxivA）
+
+**环境**：Node.js 22.x（≥22.19）/ 24.x（≥24.11）/ 26+；macOS 或 Linux（Windows 部分功能仍在完善）。原生二进制深度分析需另装 Hopper（macOS）或 Ghidra（Linux/macOS）；只分析 JS / Electron / .NET / 网站则不需要。
+
+**方式一：自动配置（推荐）**
+
+```bash
+npx rea-agents setup                # 或 npx --yes rea-agents@latest setup 跳过交互
+```
+
+1. setup 扫描本机已装的 Agent，多选要接入的（已配置过的默认勾选，检测到但未配置的需手动勾）
+2. 先展示拟议变更（改哪个文件、写什么），确认后才写入，并**自动备份原配置**
+3. **重启**所选 Agent（MCP 注册必须重启才生效）
+4. 验证：`npx -y @morluto/rea doctor`（检查 Node、npm、Agent 集成）
+
+| Agent | 自动配置 | 写入位置 / 备注 |
+|---|---|---|
+| Claude Code | ✅ | 项目根 `.mcp.json`，hooks 与 slash commands 复制到 `.claude/`，注入引导式工作流指令；重启后 `/mcp` 看到 rea 已连接 |
+| Claude Desktop | ✅ | `claude_desktop_config.json`（通常 `~/Library/Application Support/Claude/`），需完全退出再重启 |
+| Codex | ✅ | 额外 30 秒冷启动容忍（包运行器加载偏慢） |
+| Cursor | ✅ | `~/.cursor/mcp.json` 或项目 `.cursor/mcp.json` |
+| Gemini CLI | ✅ | 对应 MCP 配置，重启终端会话 |
+| Windsurf | ✅ | `mcp_config.json`（Settings → Cascade → MCP Servers） |
+| Devin | ⚠️ 仅检测 | 需手动：用户级 `~/.config/devin/mcp_config.json`（Win：`%APPDATA%\devin\`）、项目级 `.devin/mcp_config.json`、本地级 `.devin/mcp_config.local.json`；项目级覆盖用户级 |
+
+**方式二：手动配置**（任何支持本地 MCP server 的 Agent）
+
+```json
+{
+  "mcpServers": {
+    "rea": { "command": "npx", "args": ["-y", "rea-agents@3.1.0", "mcp"] }
+  }
+}
+```
+
+⚠️ 持久注册**写精确版本号**，不要写 latest——REA 迭代快、版本间可能有破坏性变更；`rea setup` 会自动锁版本并在升级时同步。
+
+**确认接好**：`rea doctor` → `npx -y rea-agents@latest capabilities`（CLI 能列出能力即正常）→ 在 Agent 里问"用 REA 列出当前可用的逆向分析能力"。
+
+**可选全局安装**：`npm install --global rea-agents && rea setup && rea doctor`，之后不用 npx 前缀。
+
+**避坑**：手动配置锁版本号；手改前自己再备份；Devin 必须手动；Agent 看不到 REA 工具时先查是否忘了重启。
+
 ## 相关笔记
 
 - [REA + Reverse-skill + PentAGI：让 Codex 1:1 复刻任何软件功能（草稿鸭）](2026-10-13-rea-reverse-skill-pentagi-clone-pipeline.md) — 逆向→复刻→安全体检的完整流水线
