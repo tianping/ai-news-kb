@@ -116,4 +116,5 @@ npx hyperframes add flash-through-white | instagram-follow | data-chart   # 现�
 ## 备注
 
 - 本库此前多篇笔记提到 HyperFrames 作为下游渲染器：[video-skills-toolkit](2026-08-16-video-skills-toolkit-article-to-video.md)、[Codex 自动剪辑导演 Skill](2026-08-25-codex-auto-editing-director-skill.md)（注意：作者曾因 HyperFrames 同质化模板被限流）、[OpenMontage](2026-09-08-openmontage-ai-video-studio.md)；本篇是 HyperFrames 本身的专门笔记。
+- 同路线、侧重内置画风与解说语法的 Skill：[huashu-art-motion](2026-10-14-huashu-art-motion-code-animation-skill.md)。
 - Star、下载量为作者 10-12 实查数据，未独立复核。

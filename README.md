@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [huashu-art-motion：用代码画动画，35 种艺术风格 + 9 种解说语法（硅基世纪）](02-tools/2026-10-14-huashu-art-motion-code-animation-skill.md) — 花叔开源 Skill（MIT）：智能体写 Canvas 代码/JSON 分镜，无头 Chromium 逐帧+ffmpeg 出 MP4，字不乱码可复现；JSON 片段时长精确便于配音对齐；无 GPU 实测 19 秒竖屏片 15–20 秒渲染；坑：安全区、中文 TTS、单段≤8 秒 (2026-10-14)
 - [obsidian-skills：Obsidian CEO 维护的官方 Agent 技能集（盍曰AI）](02-tools/2026-10-14-kepano-obsidian-skills-agent-guide.md) — kepano/obsidian-skills（MIT）5 个 SKILL.md 装在 Agent 侧：obsidian-markdown/bases/json-canvas/obsidian-cli/defuddle，教 AI 写 wikilink、.base、.canvas；三种安装法、渐进披露、自写技能模板、写库三条铁律 (2026-10-14)
 - [HyperFrames：写 HTML 就能出视频，HeyGen 开源渲染引擎（大刘的AGI）](02-tools/2026-10-14-hyperframes-html-to-video-render-engine.md) — heygen-com/hyperframes（Apache-2.0）是渲染引擎非生成模型：无头 Chrome 逐帧 seek+FFmpeg，composition 即 HTML（data-* 时间轨）；21 个 Agent 技能路由懒加载；版本钉住保可复现；与 Remotion 对比许可是关键 (2026-10-14)
 - [Claudian：把 Obsidian 笔记库变成 AI Agent 的工作目录（Nice哥聊AI）](02-tools/2026-10-14-claudian-obsidian-agent-plugin.md) — YishenTu/claudian（MIT，15.5k Star）：调用本机 Claude Code/Codex/Grok/OpenCode/Pi，内联编辑+逐词 diff、@ 引用、/ 技能、fork 子代理；CLI 路径先留空，GUI 拿不到 PATH 报 spawn claude ENOENT 时手填；不做遥测 (2026-10-14)
@@ -416,5 +417,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [huashu-art-motion：用代码画动画，35 种艺术风格 + 9 种解说语法（硅基世纪）](02-tools/2026-10-14-huashu-art-motion-code-animation-skill.md) — 花叔开源 Skill（MIT）：智能体写 Canvas 代码/JSON 分镜，无头 Chromium 逐帧+ffmpeg 出 MP4，字不乱码可复现；JSON 片段时长精确便于配音对齐；无 GPU 实测 19 秒竖屏片 15–20 秒渲染；坑：安全区、中文 TTS、单段≤8 秒 (2026-10-14)
