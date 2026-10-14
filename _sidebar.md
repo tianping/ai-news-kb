@@ -9,6 +9,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [剪映自动化剪辑技能 jianying-editor-skill v1.7 实测：Mac 正式可用](02-tools/2026-10-14-jianying-editor-skill-v1-7-mac.md) — 一句话需求→Agent 生成剪映草稿时间轴（逐句配音、按真实音频时长对齐字幕、分轨、云端 BGM）；v1.7 素材自包含修复 Mac 媒体丢失，十项能力 Mac 跑九项（自动导出仅 Windows）；附安装提示词与三个坑
   * [DeepLocals：本地大模型 + RAG 知识库，几千个文件随便问（郭震AI）](02-tools/2026-10-13-deeplocals-local-rag-knowledge-base.md) — 自家产品介绍：一卡片一知识库装几千文件、55 种格式保留扫描件公式表格、引用溯源+问答地图、内置 Skills、本地 Qwen3.8:27B 不限次；对比 NotebookLM 单库 300 文件上限与 Karpathy LLM Wiki
   * [开源专业级作曲编曲 Skills：music-composition-skills](02-tools/2026-10-13-music-composition-skills-arr-spec.md) — 29 个 Claude Code/Codex skill，以 50 本乐理书+62 首实测编曲为底本，先填 ARR-SPEC 规格单再编译成 Suno/YuE2/MIDI
   * [开源漫画 Skill：一段故事直接生成一套连续漫画（韩小羽Rolfie）](02-tools/2026-10-13-visual-story-comic-skill-open-source.md) — rolfie-han/hanxiaoyu-visual-story-comic：先拆事件、锁定角色/场景/道具设定，再逐页生成并检查人物道具空间与剧情顺序、单页返修；八题材案例提示词（锁定资产+状态变化顺序+图中不生成伪文字）
