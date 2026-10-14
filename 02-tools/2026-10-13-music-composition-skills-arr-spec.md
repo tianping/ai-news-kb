@@ -88,4 +88,5 @@ brief 里真正起作用的：歌手+歌名、男/女声与音色、出口（Sun
 ## 备注
 
 - 这是"领域知识 → 结构化中间表示（spec）→ 编译到多后端"范式在 AI 音乐上的典型实践，与提示词工程相比可核对、可复现、可 A/B。
+- 本地执行 YuE2 乐谱、可改谱重渲染的前端见 [YuE2-Studio](2026-10-14-yue2-studio-local-ai-music-score-editing.md)。
 - 相关：本库其他 Agent Skill 笔记（漫画 Skill、REA 逆向 Skill、Text-to-Lottie Skill）。
