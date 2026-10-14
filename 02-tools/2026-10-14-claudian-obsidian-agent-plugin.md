@@ -62,4 +62,5 @@ Claudian 是一个 Obsidian 插件，一句话："**你的库就是 Agent 的工
 
 - 与本库 [claude-obsidian：让 Claude Code 维护 Obsidian 知识图谱](2026-10-07-claude-obsidian-knowledge-graph.md) 思路相近但定位不同：claude-obsidian 是在终端里让 Claude Code 维护库；Claudian 把 Agent 嵌进 Obsidian 界面，强调内联编辑与 diff 预览。
 - 科研场景搭配见本库 [科研人的 Obsidian 实战手册（第 1 期）](../06-academic/2026-10-14-obsidian-research-workflow-series-01.md)。
+- 教 Agent 写对 Obsidian 格式（wikilink、.base、.canvas）可配合官方 [obsidian-skills](2026-10-14-kepano-obsidian-skills-agent-guide.md)。
 - Star 数为文章发布时数据，未独立核实。
