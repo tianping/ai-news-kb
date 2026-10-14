@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [剪映自动化剪辑技能 jianying-editor-skill v1.7 实测：Mac 正式可用](02-tools/2026-10-14-jianying-editor-skill-v1-7-mac.md) — 一句话需求→Agent 生成剪映草稿时间轴（逐句配音、按真实音频时长对齐字幕、分轨、云端 BGM）；v1.7 素材自包含修复 Mac 媒体丢失，十项能力 Mac 跑九项（自动导出仅 Windows）；附安装提示词与三个坑 (2026-10-14)
 - [DeepLocals：本地大模型 + RAG 知识库，几千个文件随便问（郭震AI）](02-tools/2026-10-13-deeplocals-local-rag-knowledge-base.md) — 自家产品介绍：一卡片一知识库装几千文件、55 种格式保留扫描件公式表格、引用溯源+问答地图、内置 Skills、本地 Qwen3.8:27B 不限次；对比 NotebookLM 单库 300 文件上限与 Karpathy LLM Wiki (2026-10-13)
 - [开源专业级作曲编曲 Skills：music-composition-skills](02-tools/2026-10-13-music-composition-skills-arr-spec.md) — 29 个 Claude Code/Codex skill，以 50 本乐理书+62 首实测编曲为底本，先填 ARR-SPEC 规格单再编译成 Suno/YuE2/MIDI (2026-10-13)
 - [开源漫画 Skill：一段故事直接生成一套连续漫画（韩小羽Rolfie）](02-tools/2026-10-13-visual-story-comic-skill-open-source.md) — rolfie-han/hanxiaoyu-visual-story-comic：先拆事件、锁定角色/场景/道具设定，再逐页生成并检查人物道具空间与剧情顺序、单页返修；八题材案例提示词（锁定资产+状态变化顺序+图中不生成伪文字） (2026-10-13)
@@ -410,5 +411,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [剪映自动化剪辑技能 jianying-editor-skill v1.7 实测：Mac 正式可用](02-tools/2026-10-14-jianying-editor-skill-v1-7-mac.md) — 一句话需求→Agent 生成剪映草稿时间轴（逐句配音、按真实音频时长对齐字幕、分轨、云端 BGM）；v1.7 素材自包含修复 Mac 媒体丢失，十项能力 Mac 跑九项（自动导出仅 Windows）；附安装提示词与三个坑 (2026-10-14)
