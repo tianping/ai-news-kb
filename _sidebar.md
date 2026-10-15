@@ -91,6 +91,7 @@
 - [05 事件与评论](05-events/)
   * [Claude Code 删光开发者整个 C 盘：跳过权限确认的代价与自动模式之争（CSDN）](05-events/2026-10-13-claude-code-deleted-c-drive-auto-mode.md) — Zac 用 --dangerously-skip-permissions 让 Opus 5.5 无人值守，PowerShell 拼接错误疑致整盘被删，靠每日 NAS 备份恢复 98%；Boris Cherny 推自动模式（内测拦截 89% vs 人类 13.6%）；另有 Linux 用户开自动模式仍因测试代码丢数据——隔离环境+备份才是底线
 - [06 AI 学术应用](06-academic/)
+  * [Obsidian Sidenotes 插件：图夫特风格书边批注（obsidian指南）](06-academic/2026-10-14-obsidian-sidenotes-plugin-margin-notes.md) — 把脚注显示在正文右侧空白处，编辑模式只留小标记；命令面板 Insert sidenote 或兼容 [^1] 脚注模式；推荐设置（隐藏底部脚注/编号、宽度 300–420px、Anchor to text）；适合文献精读
   * [科研人的 Obsidian 实战手册（第 1 期）：把整个科研生涯搬进 Obsidian（知微图苑）](06-academic/2026-10-14-obsidian-research-workflow-series-01.md) — 科研笔记是原材料、要经营关系网而非存文件；本地 .md+Vault+双链；与 Zotero/Pandoc/Word/Notion 分工；十分钟建库+关系图谱；8 期系列预告
   * [丘成桐清华组建千人 AI 数学联盟，隔空回应陶哲轩；陶哲轩 Math 2.0 演讲（APPSO）](06-academic/2026-10-13-yau-tsinghua-ai-math-alliance-tao-math2.md) — 联盟研发数学专用模型+共享形式化库，已用 AI 证伪退化阿诺德猜想、卡拉比猜想 Lean 4 形式化 27.3 万行；同期 AlphaProof Nexus 登 Science；陶哲轩担忧证明丰裕侵蚀理解与人才培养（灯塔比喻）
   * [BioRender 介绍 + Leo：专做科研配图的 AI Agent](06-academic/2026-10-11-biorender-leo-ai-figure-agent.md) — 「科学界的 Canva」：400 万科学家在用的图标/模板拖拽绘图平台（多伦多，2017，估值 9 亿美元，图库已接入 Claude for Life Sciences）；10-06 发布 Leo：先提问梳理信息→出草图可手绘批注→生成每个元素可单独编辑的成品图，不保证科学准确需自审；学术个人 $35/月，免费版不能用于发表，AI/Graphing 为附加额度
