@@ -427,3 +427,5 @@
 
 
 
+
+- [插件、AI 与 Obsidian，打通科研知识系统｜Zotero 科研工具箱 08（知微图苑）](06-academic/2026-10-15-zotero-toolbox-08-plugins-ai-obsidian.md) — 系列终篇：插件只装 Zotero 7+ 且认准官方目录；Better BibTeX/Style/PDF Translate 三件套；AI 三接法 PapersGPT/AIdea/MCP for Zotero（数字引用必回原文）；Zotero 管文献、Obsidian 管思考，ZotLit 架桥；按阶段上工具路线图 (2026-10-15)
