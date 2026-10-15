@@ -431,3 +431,5 @@
 
 
 
+
+- [MusicXML-Jianpu 2.0：五线谱 ⇄ 简谱双向转换，免费在线工具（Lizhou7）](02-tools/2026-10-15-musicxml-jianpu-2-staff-jianpu-converter.md) — lding9-netizen.github.io/musicxml-to-jianpu：新增简谱→五线谱（仿打谱软件选时值+键盘 1–7 输入、自动分小节、一键换调、导出 MusicXML 给 MuseScore/Sibelius/Dorico）；五线谱→简谱支持 SATB 多声部；浏览器本地运行不上传；不做 OMR 图片识别 (2026-10-15)
