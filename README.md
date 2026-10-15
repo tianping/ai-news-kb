@@ -425,3 +425,5 @@
 
 
 
+
+- [chengfeng-video-styles：Opus 5.5 一段话到成片，16 种风格 Skill 免费开源（AI产品自由）](02-tools/2026-10-15-chengfeng-video-styles-opus55-skill.md) — npx -y github:Agentchengfeng/chengfeng-video-styles install；16 种内置风格+拖参考视频逐帧复刻；先出 17 个 3 秒样片在 样片筛选.html 挑选再出全片（省额度）→HTML 成片→导 MP4 约 4.5 分钟→代码合成音效+字幕约 20 分钟，需人工听音指第几秒修 (2026-10-15)
