@@ -429,3 +429,5 @@
 
 
 
+
+- [Apex Dashboard：Obsidian 零代码工作台插件，备忘/待办/项目/日历一页搞定（西湖太极熊）](02-tools/2026-10-15-obsidian-apex-dashboard-plugin.md) — 社区插件市场搜 Apex Dashboard 安装：可拖拽分区聚合待办（截止时间/自动归档/双向同步）、闪念备忘、项目封面进度、文件夹多视图分组；导航栏自定义+日历/番茄钟/倒计时/打卡热力图；结构存于 dashboard.md；新手先用默认六块 (2026-10-15)
