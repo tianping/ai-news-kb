@@ -9,6 +9,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [wechat-local-app-guide：让 Agent 读取本地微信聊天记录、搭建管理工作台（覃木的漂流站）](02-tools/2026-10-14-wechat-local-app-guide-chat-history-skill.md) — yizer-cn/wechat-local-app-guide：只读本地微信好友/群聊/图片/视频/文档，7 问引导搭工作台（未回消息提醒、日报、成交台账、好友 Excel 同步）；红线：禁改微信数据、隐私数据不联网，建议 Ollama 本地模型
   * [huashu-art-motion：用代码画动画，35 种艺术风格 + 9 种解说语法（硅基世纪）](02-tools/2026-10-14-huashu-art-motion-code-animation-skill.md) — 花叔开源 Skill（MIT）：智能体写 Canvas 代码/JSON 分镜，无头 Chromium 逐帧+ffmpeg 出 MP4，字不乱码可复现；JSON 片段时长精确便于配音对齐；无 GPU 实测 19 秒竖屏片 15–20 秒渲染；坑：安全区、中文 TTS、单段≤8 秒
   * [obsidian-skills：Obsidian CEO 维护的官方 Agent 技能集（盍曰AI）](02-tools/2026-10-14-kepano-obsidian-skills-agent-guide.md) — kepano/obsidian-skills（MIT）5 个 SKILL.md 装在 Agent 侧：obsidian-markdown/bases/json-canvas/obsidian-cli/defuddle，教 AI 写 wikilink、.base、.canvas；三种安装法、渐进披露、自写技能模板、写库三条铁律
   * [HyperFrames：写 HTML 就能出视频，HeyGen 开源渲染引擎（大刘的AGI）](02-tools/2026-10-14-hyperframes-html-to-video-render-engine.md) — heygen-com/hyperframes（Apache-2.0）是渲染引擎非生成模型：无头 Chrome 逐帧 seek+FFmpeg，composition 即 HTML（data-* 时间轨）；21 个 Agent 技能路由懒加载；版本钉住保可复现；与 Remotion 对比许可是关键
