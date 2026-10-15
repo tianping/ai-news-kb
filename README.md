@@ -423,3 +423,5 @@
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
 
+
+- [hand-drawn-explainer-video：「边讲边画」手绘讲解视频 Skill 开源（Nikola数说未来）](02-tools/2026-10-15-hand-drawn-explainer-video-skill-nikola.md) — hi-nikola/hand-drawn-explainer-video-nikola：一句话/稿子→Codex 生成逐笔手绘 MP4+字幕+工程文件；两种风格（逐笔故事动画 / HTML-SVG 程序动画），火山引擎 TTS 配音，不吃显卡；1 分钟视频约 20 分钟、几毛钱；X 两天 50 万浏览 (2026-10-15)
