@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [hand-drawn-explainer-video：「边讲边画」手绘讲解视频 Skill 开源（Nikola数说未来）](02-tools/2026-10-15-hand-drawn-explainer-video-skill-nikola.md) — hi-nikola/hand-drawn-explainer-video-nikola：一句话/稿子→Codex 生成逐笔手绘 MP4+字幕+工程文件；两种风格（逐笔故事动画 / HTML-SVG 程序动画），火山引擎 TTS 配音，不吃显卡；1 分钟视频约 20 分钟、几毛钱；X 两天 50 万浏览 (2026-10-15)
 - [WorkBuddy 实操：微信聊天自动归档，工作对话进知识库（我心飞翔903）](02-tools/2026-10-15-workbuddy-wechat-chat-auto-archive-kb.md) — wechat-cli 只读解密微信 4.0 本地库，按白名单每晚 21:15 导出工作会话 Markdown 进收件箱、21:30 AI 清洗出决定/行动项并带来源；macOS 需复制微信重签名（删团队前缀 entitlements 防 163 闪退）；六大风险（隐私授权/对外传播最高）：先定范围再定规则 (2026-10-15)
 - [Homebrew 7.0 发布：速度翻倍，但告别 Intel Mac（极客老哥的抽屉）](02-tools/2026-10-15-homebrew-7-release-intel-mac-drop.md) — 并行下载+智能排队安装、brew vulns 基于 OSV.dev 漏洞扫描、官方 GUI BrewUI；Intel Mac 降 Tier 3 无 Bottles、2027-09-01 移除；弃 macOS ≤10.15；Linux 沙盒换 Landlock（内核 6.1+）；post_install 代码块废弃 (2026-10-15)
 - [wechat-local-app-guide：让 Agent 读取本地微信聊天记录、搭建管理工作台（覃木的漂流站）](02-tools/2026-10-14-wechat-local-app-guide-chat-history-skill.md) — yizer-cn/wechat-local-app-guide：只读本地微信好友/群聊/图片/视频/文档，7 问引导搭工作台（未回消息提醒、日报、成交台账、好友 Excel 同步）；红线：禁改微信数据、隐私数据不联网，建议 Ollama 本地模型 (2026-10-14)
@@ -424,4 +425,3 @@
 
 
 
-- [hand-drawn-explainer-video：「边讲边画」手绘讲解视频 Skill 开源（Nikola数说未来）](02-tools/2026-10-15-hand-drawn-explainer-video-skill-nikola.md) — hi-nikola/hand-drawn-explainer-video-nikola：一句话/稿子→Codex 生成逐笔手绘 MP4+字幕+工程文件；两种风格（逐笔故事动画 / HTML-SVG 程序动画），火山引擎 TTS 配音，不吃显卡；1 分钟视频约 20 分钟、几毛钱；X 两天 50 万浏览 (2026-10-15)
