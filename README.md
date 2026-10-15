@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Apex Dashboard：Obsidian 零代码工作台插件，备忘/待办/项目/日历一页搞定（西湖太极熊）](02-tools/2026-10-15-obsidian-apex-dashboard-plugin.md) — 社区插件市场搜 Apex Dashboard 安装：可拖拽分区聚合待办（截止时间/自动归档/双向同步）、闪念备忘、项目封面进度、文件夹多视图分组；导航栏自定义+日历/番茄钟/倒计时/打卡热力图；结构存于 dashboard.md；新手先用默认六块 (2026-10-15)
 - [chengfeng-video-styles：Opus 5.5 一段话到成片，16 种风格 Skill 免费开源（AI产品自由）](02-tools/2026-10-15-chengfeng-video-styles-opus55-skill.md) — npx -y github:Agentchengfeng/chengfeng-video-styles install；16 种内置风格+拖参考视频逐帧复刻；先出 17 个 3 秒样片在 样片筛选.html 挑选再出全片（省额度）→HTML 成片→导 MP4 约 4.5 分钟→代码合成音效+字幕约 20 分钟，需人工听音指第几秒修 (2026-10-15)
 - [hand-drawn-explainer-video：「边讲边画」手绘讲解视频 Skill 开源（Nikola数说未来）](02-tools/2026-10-15-hand-drawn-explainer-video-skill-nikola.md) — hi-nikola/hand-drawn-explainer-video-nikola：一句话/稿子→Codex 生成逐笔手绘 MP4+字幕+工程文件；两种风格（逐笔故事动画 / HTML-SVG 程序动画），火山引擎 TTS 配音，不吃显卡；1 分钟视频约 20 分钟、几毛钱；X 两天 50 万浏览 (2026-10-15)
 - [WorkBuddy 实操：微信聊天自动归档，工作对话进知识库（我心飞翔903）](02-tools/2026-10-15-workbuddy-wechat-chat-auto-archive-kb.md) — wechat-cli 只读解密微信 4.0 本地库，按白名单每晚 21:15 导出工作会话 Markdown 进收件箱、21:30 AI 清洗出决定/行动项并带来源；macOS 需复制微信重签名（删团队前缀 entitlements 防 163 闪退）；六大风险（隐私授权/对外传播最高）：先定范围再定规则 (2026-10-15)
@@ -430,4 +431,3 @@
 
 
 
-- [Apex Dashboard：Obsidian 零代码工作台插件，备忘/待办/项目/日历一页搞定（西湖太极熊）](02-tools/2026-10-15-obsidian-apex-dashboard-plugin.md) — 社区插件市场搜 Apex Dashboard 安装：可拖拽分区聚合待办（截止时间/自动归档/双向同步）、闪念备忘、项目封面进度、文件夹多视图分组；导航栏自定义+日历/番茄钟/倒计时/打卡热力图；结构存于 dashboard.md；新手先用默认六块 (2026-10-15)
