@@ -30,6 +30,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Homebrew 7.0 发布：速度翻倍，但告别 Intel Mac（极客老哥的抽屉）](02-tools/2026-10-15-homebrew-7-release-intel-mac-drop.md) — 并行下载+智能排队安装、brew vulns 基于 OSV.dev 漏洞扫描、官方 GUI BrewUI；Intel Mac 降 Tier 3 无 Bottles、2027-09-01 移除；弃 macOS ≤10.15；Linux 沙盒换 Landlock（内核 6.1+）；post_install 代码块废弃 (2026-10-15)
 - [wechat-local-app-guide：让 Agent 读取本地微信聊天记录、搭建管理工作台（覃木的漂流站）](02-tools/2026-10-14-wechat-local-app-guide-chat-history-skill.md) — yizer-cn/wechat-local-app-guide：只读本地微信好友/群聊/图片/视频/文档，7 问引导搭工作台（未回消息提醒、日报、成交台账、好友 Excel 同步）；红线：禁改微信数据、隐私数据不联网，建议 Ollama 本地模型 (2026-10-14)
 - [huashu-art-motion：用代码画动画，35 种艺术风格 + 9 种解说语法（硅基世纪）](02-tools/2026-10-14-huashu-art-motion-code-animation-skill.md) — 花叔开源 Skill（MIT）：智能体写 Canvas 代码/JSON 分镜，无头 Chromium 逐帧+ffmpeg 出 MP4，字不乱码可复现；JSON 片段时长精确便于配音对齐；无 GPU 实测 19 秒竖屏片 15–20 秒渲染；坑：安全区、中文 TTS、单段≤8 秒 (2026-10-14)
 - [obsidian-skills：Obsidian CEO 维护的官方 Agent 技能集（盍曰AI）](02-tools/2026-10-14-kepano-obsidian-skills-agent-guide.md) — kepano/obsidian-skills（MIT）5 个 SKILL.md 装在 Agent 侧：obsidian-markdown/bases/json-canvas/obsidian-cli/defuddle，教 AI 写 wikilink、.base、.canvas；三种安装法、渐进披露、自写技能模板、写库三条铁律 (2026-10-14)
@@ -420,4 +421,3 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
-- [Homebrew 7.0 发布：速度翻倍，但告别 Intel Mac（极客老哥的抽屉）](02-tools/2026-10-15-homebrew-7-release-intel-mac-drop.md) — 并行下载+智能排队安装、brew vulns 基于 OSV.dev 漏洞扫描、官方 GUI BrewUI；Intel Mac 降 Tier 3 无 Bottles、2027-09-01 移除；弃 macOS ≤10.15；Linux 沙盒换 Landlock（内核 6.1+）；post_install 代码块废弃 (2026-10-15)
