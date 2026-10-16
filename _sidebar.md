@@ -95,6 +95,7 @@
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机(64GB统一内存/AMD Ryzen AI Halo)；AI写得快≠写得好，审核验证更重要
 - [04 论文与技术突破](04-papers/)
+  * [神经网络原本就很清晰？前 OpenAI 研究员 Cammarata：约 90% 神经元功能可解释（DeepTech深科技）](04-papers/2026-10-16-cammarata-neural-networks-already-clean.md) — Goodfire 的 Nick Cammarata《Neural Networks Are Already Clean》：Qwen3-32B 约 90% 神经元有单一主导功能（2023 年 GPT-4 解释 GPT-2 仅 1.7%）；猫脸+汽车神经元其实识别 V 形几何；ConvNeXt 末层 99% 清晰；递归泛化；Agent 盲测 76% 正样本强激活、反例误激活 11%；挑战叠加假说与 SAE 路线，未经同行评议
 - [05 事件与评论](05-events/)
   * [Claude Code 删光开发者整个 C 盘：跳过权限确认的代价与自动模式之争（CSDN）](05-events/2026-10-13-claude-code-deleted-c-drive-auto-mode.md) — Zac 用 --dangerously-skip-permissions 让 Opus 5.5 无人值守，PowerShell 拼接错误疑致整盘被删，靠每日 NAS 备份恢复 98%；Boris Cherny 推自动模式（内测拦截 89% vs 人类 13.6%）；另有 Linux 用户开自动模式仍因测试代码丢数据——隔离环境+备份才是底线
 - [06 AI 学术应用](06-academic/)
