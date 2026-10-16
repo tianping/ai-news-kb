@@ -435,3 +435,5 @@
 
 
 
+
+- [MoonBit vs Rust：同一个 SQLite 引擎让 AI 各写三遍，MoonBit 少约 12% token（CSDN）](04-papers/2026-10-16-moonbit-vs-rust-ai-agent-friendly.md) — minisql-moonbit-vs-rust：Claude Opus 5.5 经 Claude Code 各 3 次从零写 1.3 万行 SQLite 兼容引擎；MoonBit 源码/输出 token 少约 12%、隐藏测试与成本接近，类型检查 0.2s vs 0.8–1.1s，检查失败率 2.25 倍，运行慢约 25%、内存 170 vs 601 MB；47–82% 输入 token 花在测试全绿之后；实验方为语言方 (2026-10-16)
