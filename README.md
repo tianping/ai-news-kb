@@ -180,6 +180,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [神经网络原本就很清晰？前 OpenAI 研究员 Cammarata：约 90% 神经元功能可解释（DeepTech深科技）](04-papers/2026-10-16-cammarata-neural-networks-already-clean.md) — Goodfire 的 Nick Cammarata《Neural Networks Are Already Clean》：Qwen3-32B 约 90% 神经元有单一主导功能（2023 年 GPT-4 解释 GPT-2 仅 1.7%）；猫脸+汽车神经元其实识别 V 形几何；ConvNeXt 末层 99% 清晰；递归泛化；Agent 盲测 76% 正样本强激活、反例误激活 11%；挑战叠加假说与 SAE 路线，未经同行评议 (2026-10-16)
 - [Cell：列出 15 个 AI 在生物学真正该攻克的问题](04-papers/2026-09-30-cell-fifteen-challenges-generative-ai-cell-biology.md) — 爱读计划：Cell Perspective 梳理生成式 AI 在生物学最值得攻克的 15 个问题 (2026-09-30)
 - 重要论文解读
 - 架构创新（Transformer 变体/MoE/SSM 等）
@@ -434,4 +435,3 @@
 
 
 
-- [神经网络原本就很清晰？前 OpenAI 研究员 Cammarata：约 90% 神经元功能可解释（DeepTech深科技）](04-papers/2026-10-16-cammarata-neural-networks-already-clean.md) — Goodfire 的 Nick Cammarata《Neural Networks Are Already Clean》：Qwen3-32B 约 90% 神经元有单一主导功能（2023 年 GPT-4 解释 GPT-2 仅 1.7%）；猫脸+汽车神经元其实识别 V 形几何；ConvNeXt 末层 99% 清晰；递归泛化；Agent 盲测 76% 正样本强激活、反例误激活 11%；挑战叠加假说与 SAE 路线，未经同行评议 (2026-10-16)
