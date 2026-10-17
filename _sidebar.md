@@ -2,6 +2,7 @@
 
 - [AI 领域进展知识库](README.md)
 - [01 模型发布](01-models/)
+  * [FLUX 3 Image Klein 开源：5.6B 参数、8G 显存可跑、原生 4K（源见卓识）](01-models/2026-10-17-flux-3-image-klein-open-weights.md) — BFL 开源 5.6B 统一生图/改图/多参考模型：0–1000 坐标框排版、无遮罩像素级指令编辑、原生 4K、15 种画幅；Base 与步数蒸馏双版本，Day-0 支持 ComfyUI/Diffusers；年营收 <500 万美元免费商用
   * [Qwen-Image-2.1-Uncensored-GGUF：社区魔改本地生图版，下载破 200 万（高老三聊AI）](01-models/2026-10-17-qwen-image-2-1-uncensored-gguf.md) — 社区（非阿里官方）基于 Qwen-Image-2.1 去生成限制 + GGUF 量化，支持 ComfyUI、适合消费级显卡/统一内存本地跑；HF 下载超 200 万、约 3.8K Likes
   * [Breeze-TTS-2：开源 TTS 一句话造出角色声音](01-models/2026-10-12-breeze-tts-2-voice-design.md) — 开源 TTS 盲测第一（1213 Elo），克隆/语音设计/语音引导三合一，7.7GB 显存；权重非商用
   * [Utopai X：影视公司的视频模型冲上全球第二](01-models/2026-10-06-utopai-x-video-model-rank-2.md) — 机器之心：Utopai X 以 1150 Elo 位列 Artificial Analysis 文生视频榜全球第二，基于 MiniMax H3 后训练，深度集成 PAI 制片智能平台
