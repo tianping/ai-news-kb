@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [PhotoCraft：Rust 净室重写 Photoshop，CLI 无头修图 + 内置 MCP 让 Agent 修图（Kainy）](02-tools/2026-10-17-photocraft-cli-mcp-headless-image-editing.md) — ArtCraft 套件中的 PhotoCraft 把编辑拆成 500+ 条命令，UI/CLI/MCP 共用；convert 无损回环、run 串命令、batch 批处理（CI 友好）、mcp 接 Claude Code，doc_render_preview 让 Agent 看图自调；读写根目录白名单 (2026-10-17)
 - [wechat-corpus-toolkit：把微信聊天记录变成可分析的社会语料（SG AI实验室）](02-tools/2026-10-16-wechat-corpus-toolkit-chat-analysis.md) — Sonnet0524/wechat-corpus-toolkit 基于 wechat-decrypt：勾选会话导出→六表分析库→建图→27 个分析工具出可溯源报告；回合级分析、观点演化、KOL 识别与关系、自述三态验真；「代码备料，LLM 掌勺」；先审计再跑、产物脱离云盘；Windows 本机 (2026-10-16)
 - [MusicXML-Jianpu 2.0：五线谱 ⇄ 简谱双向转换，免费在线工具（Lizhou7）](02-tools/2026-10-15-musicxml-jianpu-2-staff-jianpu-converter.md) — lding9-netizen.github.io/musicxml-to-jianpu：新增简谱→五线谱（仿打谱软件选时值+键盘 1–7 输入、自动分小节、一键换调、导出 MusicXML 给 MuseScore/Sibelius/Dorico）；五线谱→简谱支持 SATB 多声部；浏览器本地运行不上传；不做 OMR 图片识别 (2026-10-15)
 - [Apex Dashboard：Obsidian 零代码工作台插件，备忘/待办/项目/日历一页搞定（西湖太极熊）](02-tools/2026-10-15-obsidian-apex-dashboard-plugin.md) — 社区插件市场搜 Apex Dashboard 安装：可拖拽分区聚合待办（截止时间/自动归档/双向同步）、闪念备忘、项目封面进度、文件夹多视图分组；导航栏自定义+日历/番茄钟/倒计时/打卡热力图；结构存于 dashboard.md；新手先用默认六块 (2026-10-15)
@@ -238,6 +239,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | PhotoCraft：Rust 净室重写 Photoshop，CLI 无头修图 + 内置 MCP 让 Agent 修图 | 2026-10-17 |
 | 01-models | FLUX 3 Image Klein 开源：5.6B 参数、8G 显存可跑、原生 4K | 2026-10-17 |
 | 01-models | Qwen-Image-2.1-Uncensored-GGUF：社区魔改本地生图版，下载破 200 万 | 2026-10-17 |
 | 04-papers | 腾讯开源 StoryEngine：多镜头故事视频生成进入「质检模式」 | 2026-10-17 |
@@ -435,5 +437,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [PhotoCraft：Rust 净室重写 Photoshop，CLI 无头修图 + 内置 MCP 让 Agent 修图（Kainy）](02-tools/2026-10-17-photocraft-cli-mcp-headless-image-editing.md) — ArtCraft 套件中的 PhotoCraft 把编辑拆成 500+ 条命令，UI/CLI/MCP 共用；convert 无损回环、run 串命令、batch 批处理（CI 友好）、mcp 接 Claude Code，doc_render_preview 让 Agent 看图自调；读写根目录白名单 (2026-10-17)
