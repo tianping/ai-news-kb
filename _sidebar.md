@@ -96,6 +96,7 @@
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机(64GB统一内存/AMD Ryzen AI Halo)；AI写得快≠写得好，审核验证更重要
 - [04 论文与技术突破](04-papers/)
+  * [腾讯开源 StoryEngine：多镜头故事视频生成进入「质检模式」（AICV与前沿）](04-papers/2026-10-17-tencent-storyengine-multishot-story-video.md) — 腾讯+NUS：故事状态是权威事实、像素只是可错观察；结构化状态传播+落地渲染合同+尾帧三档门控（reuse/reference/fresh）+预算 3 轮局部修复；60 故事×10 镜头基准 Avg 0.769 vs ViMax 0.627，消融显示视觉落地规划影响最大；依赖多家闭源服务，SPS<0.67 仍是难点
   * [MoonBit vs Rust：同一个 SQLite 引擎让 AI 各写三遍，MoonBit 少约 12% token（CSDN）](04-papers/2026-10-16-moonbit-vs-rust-ai-agent-friendly.md) — minisql-moonbit-vs-rust：Claude Opus 5.5 经 Claude Code 各 3 次从零写 1.3 万行 SQLite 兼容引擎；MoonBit 源码/输出 token 少约 12%、隐藏测试与成本接近，类型检查 0.2s vs 0.8–1.1s，检查失败率 2.25 倍，运行慢约 25%、内存 170 vs 601 MB；47–82% 输入 token 花在测试全绿之后；实验方为语言方
   * [神经网络原本就很清晰？前 OpenAI 研究员 Cammarata：约 90% 神经元功能可解释（DeepTech深科技）](04-papers/2026-10-16-cammarata-neural-networks-already-clean.md) — Goodfire 的 Nick Cammarata《Neural Networks Are Already Clean》：Qwen3-32B 约 90% 神经元有单一主导功能（2023 年 GPT-4 解释 GPT-2 仅 1.7%）；猫脸+汽车神经元其实识别 V 形几何；ConvNeXt 末层 99% 清晰；递归泛化；Agent 盲测 76% 正样本强激活、反例误激活 11%；挑战叠加假说与 SAE 路线，未经同行评议
 - [05 事件与评论](05-events/)

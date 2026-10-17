@@ -439,3 +439,5 @@
 
 
 
+
+- [腾讯开源 StoryEngine：多镜头故事视频生成进入「质检模式」（AICV与前沿）](04-papers/2026-10-17-tencent-storyengine-multishot-story-video.md) — 腾讯+NUS：故事状态是权威事实、像素只是可错观察；结构化状态传播+落地渲染合同+尾帧三档门控（reuse/reference/fresh）+预算 3 轮局部修复；60 故事×10 镜头基准 Avg 0.769 vs ViMax 0.627，消融显示视觉落地规划影响最大；依赖多家闭源服务，SPS<0.67 仍是难点 (2026-10-17)
