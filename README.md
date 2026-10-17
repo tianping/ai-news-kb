@@ -437,3 +437,5 @@
 
 
 
+
+- [wechat-corpus-toolkit：把微信聊天记录变成可分析的社会语料（SG AI实验室）](02-tools/2026-10-16-wechat-corpus-toolkit-chat-analysis.md) — Sonnet0524/wechat-corpus-toolkit 基于 wechat-decrypt：勾选会话导出→六表分析库→建图→27 个分析工具出可溯源报告；回合级分析、观点演化、KOL 识别与关系、自述三态验真；「代码备料，LLM 掌勺」；先审计再跑、产物脱离云盘；Windows 本机 (2026-10-16)
