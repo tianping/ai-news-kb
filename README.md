@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth（智驭视界）](02-tools/2026-10-18-obsidian-5-plugins-templater-dataview-tasks-git-hearth.md) — 按 obsidianstats 下载量选的通用最小集：Templater 动态模板 / Dataview 用 FROM-WHERE-SORT 查库 / Tasks 跨笔记待办与循环任务 / Obsidian Git 版本备份（非实时同步）/ Hearth 零代码拖拽首页；建议装配顺序 (2026-10-18)
 - [Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭](02-tools/2026-10-18-claude-code-v2-1-302-auto-mode-model-idle-compaction.md) — CLAUDE_CODE_AUTO_MODE_MODEL 替换客户端分类器；/config 可关 Idle compaction；claude -p 第三方供应商默认改 default 模式；修压缩导致的缓存 miss；Claude Design 12-14 关停 (2026-10-18)
 - [Agent 的 3D 工作室：15 个 GitHub 仓库串起生成→搭景→做游戏→上网页（码农猿星球）](02-tools/2026-10-17-agent-3d-studio-15-github-repos.md) — TRELLIS.2/Hunyuan3D-2.1/stable-fast-3d/Meshy MCP 生成资产；Blender MCP/HY-World-2.0/supersplat/NVIDIA USD Agents 搭景；Unity/Godot/Unreal MCP 做游戏；PlayCanvas/three.js/R3F/threejs-skills 上网页；生成易过生产难，MVP 三件套 (2026-10-17)
 - [Obsidian 10 个插件：打造你和 AI 共用的知识库系统（Josh乔希说）](02-tools/2026-10-17-obsidian-10-plugins-ai-knowledge-base.md) — 输入（Agent 对话存笔记/Web Clipper/Docxer/OCR Extractor/小红书导入）→ 整理（Notebook Navigator/Editing Toolbar/Templater/Dataview）→ Agent 调用三场景 + Excalidraw/Mind Map；附新手安装顺序与'不让 Agent 补全'原则 (2026-10-17)
@@ -242,6 +243,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth | 2026-10-18 |
 | 02-tools | Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭 | 2026-10-18 |
 | 02-tools | Agent 的 3D 工作室：15 个 GitHub 仓库串起生成→搭景→做游戏→上网页 | 2026-10-17 |
 | 02-tools | Obsidian 10 个插件：打造你和 AI 共用的知识库系统 | 2026-10-17 |
