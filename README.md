@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭](02-tools/2026-10-18-claude-code-v2-1-302-auto-mode-model-idle-compaction.md) — CLAUDE_CODE_AUTO_MODE_MODEL 替换客户端分类器；/config 可关 Idle compaction；claude -p 第三方供应商默认改 default 模式；修压缩导致的缓存 miss；Claude Design 12-14 关停 (2026-10-18)
 - [Agent 的 3D 工作室：15 个 GitHub 仓库串起生成→搭景→做游戏→上网页（码农猿星球）](02-tools/2026-10-17-agent-3d-studio-15-github-repos.md) — TRELLIS.2/Hunyuan3D-2.1/stable-fast-3d/Meshy MCP 生成资产；Blender MCP/HY-World-2.0/supersplat/NVIDIA USD Agents 搭景；Unity/Godot/Unreal MCP 做游戏；PlayCanvas/three.js/R3F/threejs-skills 上网页；生成易过生产难，MVP 三件套 (2026-10-17)
 - [Obsidian 10 个插件：打造你和 AI 共用的知识库系统（Josh乔希说）](02-tools/2026-10-17-obsidian-10-plugins-ai-knowledge-base.md) — 输入（Agent 对话存笔记/Web Clipper/Docxer/OCR Extractor/小红书导入）→ 整理（Notebook Navigator/Editing Toolbar/Templater/Dataview）→ Agent 调用三场景 + Excalidraw/Mind Map；附新手安装顺序与'不让 Agent 补全'原则 (2026-10-17)
 - [PhotoCraft：Rust 净室重写 Photoshop，CLI 无头修图 + 内置 MCP 让 Agent 修图（Kainy）](02-tools/2026-10-17-photocraft-cli-mcp-headless-image-editing.md) — ArtCraft 套件中的 PhotoCraft 把编辑拆成 500+ 条命令，UI/CLI/MCP 共用；convert 无损回环、run 串命令、batch 批处理（CI 友好）、mcp 接 Claude Code，doc_render_preview 让 Agent 看图自调；读写根目录白名单 (2026-10-17)
@@ -241,6 +242,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭 | 2026-10-18 |
 | 02-tools | Agent 的 3D 工作室：15 个 GitHub 仓库串起生成→搭景→做游戏→上网页 | 2026-10-17 |
 | 02-tools | Obsidian 10 个插件：打造你和 AI 共用的知识库系统 | 2026-10-17 |
 | 02-tools | PhotoCraft：Rust 净室重写 Photoshop，CLI 无头修图 + 内置 MCP 让 Agent 修图 | 2026-10-17 |
@@ -441,5 +443,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭](02-tools/2026-10-18-claude-code-v2-1-302-auto-mode-model-idle-compaction.md) — CLAUDE_CODE_AUTO_MODE_MODEL 替换客户端分类器；/config 可关 Idle compaction；claude -p 第三方供应商默认改 default 模式；修压缩导致的缓存 miss；Claude Design 12-14 关停 (2026-10-18)
