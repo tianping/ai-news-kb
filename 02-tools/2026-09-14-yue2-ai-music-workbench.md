@@ -95,3 +95,28 @@ AINQO TAKE：未来最值得长期使用的 AI 音乐工具，未必是第一遍
 - 翻唱走 SheetSage2 转写 → 改谱 → 重新演绎，零样本
 - 跑分 best-of-8 有筛选预算，别当用户一次调用体验
 - 24GB 显存起点；代码 Apache-2.0 但权重 CC BY-NC 4.0（非商业）
+
+## 补充（2026-10-19）：「AI提效赋能」介绍 + 许可证核实
+
+- **来源**：微信公众号「AI提效赋能」《AI音乐终于不用"抽卡"了：港科大开源YuE2，先写谱、再唱歌》
+- **URL**：https://mp.weixin.qq.com/s/POyai0bqi68yaagVyHAr1A
+
+**比上文多出的信息**：
+- **热度**：GitHub 12.1k Star、1.4k Fork；登过 GitHub Trending 日榜第一（9-14），Hugging Face 全局趋势第 3（9-17）、Text-to-Audio 第 1（9-20）。
+- **翻唱数据**：948 首作品上，带全谱的 YuE2 CLEWS mAP 为 0.647，不给谱只有 0.006；没有针对翻唱做专门微调。
+- **模型家族**：
+  - **YuE2-3B**：歌曲生成，负责符号规划、翻唱、编辑。
+  - **MERT2**：音乐理解。MARBLE 15 项指标里，30 秒版领先 14 项、整曲版领先 13 项；GTZAN 风格识别 91.72%。生成时不需要单独下载。
+  - **SheetSage2**：音频转乐谱。15 项指标领先 12 项；RWC-Pop 人声旋律音级 F1 82.51%。10-06 已上 arXiv（2610.05336）。
+  - 配套：WildSongBench 评测集、ComfyUI 原生节点（有官方 text-to-music 工作流模板）、NOIZ 免费在线体验（yue.noizai.net）、NOIZ 加速推理工具包 YuE2-Turbo、yue2-music Agent Skill。
+- **架构**：AR-NAR 混合 Transformer 主干，自回归预测乐谱和语义 token → flow matching 生成声学潜变量 → VAE 解码成 48 kHz 立体声。论文：arXiv 2609.33757（9-29）。
+- **社区数据（未核实）**：RTX 4060 8GB 跑量化版 1–2 分钟一首；RTX 4090 生成 214 秒的歌约 71 秒。YuE2 Studio 整合包有图形界面，能按显卡推荐量化版本（见本库 [YuE2 Studio 笔记](2026-10-14-yue2-studio-local-ai-music-score-editing.md)）。
+
+**许可证核实（2026-10-19，GitHub README「Use / Terms」节）**：两篇文章说法看起来矛盾，其实都对一半。
+- 代码、Agent Skill、文档：Apache 2.0。
+- 模型权重：**CC BY-NC 4.0 + 附加「创作者许可」**（MODEL_LICENSE）：
+  - **个人用户、内容创作者、音乐人**：可免费使用，生成作品可以变现，不用付费或分成；
+  - **学术研究与教育**：可免费非商业使用；
+  - **公司商用**：要联系团队谈权重商业授权。
+- 附加许可禁止违法、有害、欺骗性或不道德用途；输入、输出及使用责任由用户自负。
+- 所以上文「权重非商业」是指公司层面；「个人可免费商用」是指个人创作者变现生成作品。
