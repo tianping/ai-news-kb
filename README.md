@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Qwen-Image-2.1 本地部署实测：16GB MacBook Air 跑通（AI公园）](02-tools/2026-10-19-qwen-image-2-1-local-deploy-16gb-mac.md) — GGUF+ComfyUI / MLX 4-bit（mflux --low-ram 必加）/ Turbo 蒸馏（viggle 4 步、Z-Image-Turbo 8 步 Apache 2.0）；M4 16GB 出 1024² 峰值 18.33GB、每步 45 秒；2.1 改为研究许可，商用回退 Qwen-Image-2512 (2026-10-19)
 - [Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth（智驭视界）](02-tools/2026-10-18-obsidian-5-plugins-templater-dataview-tasks-git-hearth.md) — 按 obsidianstats 下载量选的通用最小集：Templater 动态模板 / Dataview 用 FROM-WHERE-SORT 查库 / Tasks 跨笔记待办与循环任务 / Obsidian Git 版本备份（非实时同步）/ Hearth 零代码拖拽首页；建议装配顺序 (2026-10-18)
 - [Seedance 2.0 + OpenClaw 爆款短视频流水线](02-tools/2026-10-18-seedance2-openclaw-video-workflow.md) — video-director 分镜 + video-producer 渲染配音 + 发公众号的 5 步工作流 (2026-10-18)
 - [Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭](02-tools/2026-10-18-claude-code-v2-1-302-auto-mode-model-idle-compaction.md) — CLAUDE_CODE_AUTO_MODE_MODEL 替换客户端分类器；/config 可关 Idle compaction；claude -p 第三方供应商默认改 default 模式；修压缩导致的缓存 miss；Claude Design 12-14 关停 (2026-10-18)

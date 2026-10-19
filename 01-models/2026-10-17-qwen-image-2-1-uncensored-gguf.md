@@ -23,3 +23,4 @@
 - 去审查的社区模型：输出没有安全过滤，使用者需自行遵守法律与平台规定；许可证以 Hugging Face 页面及 Qwen-Image 原始许可为准。
 - 来自第三方仓库的权重，下载前留意文件格式（优先 GGUF/safetensors，避免来路不明的 pickle 文件）。
 - 下载量、Likes 数据为原文转述，未核实。
+- 部署实测（GGUF/ComfyUI、MLX、Turbo 蒸馏版，16GB Mac 内存与速度数据）见 [Qwen-Image-2.1 本地部署实测](../02-tools/2026-10-19-qwen-image-2-1-local-deploy-16gb-mac.md)。
