@@ -52,6 +52,36 @@ echo "明天三点和客户开会，记得带合同" | fm respond "提取待办�
 - **和 Ollama / MLX 比**：不是一个赛道。fm 胜在零安装、和系统一体、默认本地隐私；开源本地栈模型可选、能力上限更高。很多人两边都留着。
 - **太占空间**：在系统设置里关掉 Apple 智能可以减少后续占用，但官方没有一键卸载模型的入口。
 
+## 补充（2026-10-19）：「AI公园」实测 10 个用法
+
+- **来源**：微信公众号「AI公园」《苹果在 macOS 27 藏了个离线 AI，不联网不用钱》，译自 Medium @macoclock
+- **URL**：https://mp.weixin.qq.com/s/wqUvTCx-WufMPmKcHOo5Tg
+- **英文原文**：https://medium.com/macoclock/macos-27-has-a-hidden-llm-inside-10-amazing-things-you-can-do-with-it-44a28d8cc042
+- **测试机**：MacBook Air M1 8GB（入门款也能跑）。`fm` 位于 `/usr/bin/fm`。
+
+**子命令全貌**（`fm --help`）：`respond` 单次问答、`chat` 持续对话、`token-count` 数 token、`schema` 生成 JSON 结构、`serve` 本地 API、`quota-usage` 查云端额度。底层模型从 macOS 26 就已存在，但那时只能通过快捷指令的「使用模型」动作调用；27 新增的是可以接管道、写脚本的命令行入口。
+
+**比上文多出的细节**：
+
+1. **一问一答**：`fm respond "Swift 是什么"`。模型作为系统服务懒加载，冷启动后一般一两秒出结果。
+2. **管道**：`cat notes.txt | fm respond "把重点列成三条"`、`pbpaste | fm respond "改写得更正式"`。作者实测它会编造开场白，适合做格式化和粗加工，结论要自己核对。
+3. **会话持久化**：`fm chat` 的会话自动存到 `~/.fm/sessions/`（一小份 JSON，可随时删），退出时会打出恢复命令。
+4. **读图**：`fm respond --image ~/Desktop/menu.png "图里有什么"`。截图描述大致准确，复杂表格识别不了，8GB M1 能跑。
+5. **结构化 JSON**：`fm schema object --name Person --string name --int age` 生成结构文件，再 `fm respond --schema schema.json "提取这段话里的人名和年龄"`；支持嵌套对象和数组。
+6. **打标签模式**：`fm respond --use-case content-tagging "…"`，返回关键词，适合书签、工单、照片说明。
+7. **上下文 4096 token 是硬上限**（指令 + 输入 + 输出合计，约三千英文词），超了直接报错。可以先用 `fm token-count "…"` 数；PCC 约 32K。
+8. **常用参数**：`--instructions`（人设/规则）、`--greedy`（降随机性）、`--temperature`、`--model pcc`。写脚本最稳的组合是 `--instructions` + `--greedy`。
+9. **`fm serve`**：OpenAI 兼容接口（`/v1/chat/completions`），**默认端口 1976**（苹果成立年份），默认只监听 127.0.0.1，加 `--host 0.0.0.0` 开放到局域网，也支持 `--socket` 用 Unix socket；模型名填 `system` 或 `pcc`，不需要 API key。iPhone 可以用快捷指令 POST 过去：`model: system`、`stream: false`，结果取 `choices[0].message.content`。⚠️ **没有密码**，只在家里 Wi‑Fi 或私有组网里开，别暴露到公网。机器越强（M3/M4），回答质量越好。
+10. **`--model pcc`**：请求发到 Private Cloud Compute，无状态、用完即销毁，苹果公开了服务器源码与加密证明供第三方审计；有**每日额度**，绑定 Apple 账户，用 `quota-usage` 查，iCloud+ 可提高上限。（这次实测 PCC 仍可用，和上文「正式版可能已去掉」的说法不一致，以本机为准。）
+
+**能力边界**：
+- 读不到备忘录、短信、日历、文件，也不知道当前时间；但它会自信地声称自己可以访问，属于幻觉。
+- 知识截止约 2024 年 9 月（认为 iPhone 15 是最新款），不能联网。
+- 苹果称它可与 3–4B 级别模型相当，独立评测大致在 Gemini Nano / 小型 Llama 档位；PCC 高一个量级，但追不上云端旗舰。
+- 不替代 70B 本地模型、自定义权重或本地知识库方案。
+
+**作者最常用的三件事**：乱笔记整理成清单、从日志提取字段、长邮件摘要。
+
 ## 备注
 
 - 子命令、端口、PCC 选项是否保留，原文多处注明以本机 `fm --help` 为准，没有核实。
