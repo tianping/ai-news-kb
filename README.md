@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Video as Code：用代码生成 MG 动画（Claude Motion / Fotor Agent，AI产品阿颖）](02-tools/2026-10-20-video-as-code-claude-motion-fotor-agent.md) — 两条路线：视频生成模型擅长写实画面但文字数据难保准、难改；代码生成 = 网页加时间轴，元素可精确编辑；Claude Motion 10-08 推出；Fotor Agent 国内版原生 4K、多轨可编辑工程、1 分钟 4K 不到 30 元（推广向）；价值在组件复用 (2026-10-20)
 - [Qwen-Image-2.1 本地部署实测：16GB MacBook Air 跑通（AI公园）](02-tools/2026-10-19-qwen-image-2-1-local-deploy-16gb-mac.md) — GGUF+ComfyUI / MLX 4-bit（mflux --low-ram 必加）/ Turbo 蒸馏（viggle 4 步、Z-Image-Turbo 8 步 Apache 2.0）；M4 16GB 出 1024² 峰值 18.33GB、每步 45 秒；2.1 改为研究许可，商用回退 Qwen-Image-2512 (2026-10-19)
 - [Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth（智驭视界）](02-tools/2026-10-18-obsidian-5-plugins-templater-dataview-tasks-git-hearth.md) — 按 obsidianstats 下载量选的通用最小集：Templater 动态模板 / Dataview 用 FROM-WHERE-SORT 查库 / Tasks 跨笔记待办与循环任务 / Obsidian Git 版本备份（非实时同步）/ Hearth 零代码拖拽首页；建议装配顺序 (2026-10-18)
 - [Seedance 2.0 + OpenClaw 爆款短视频流水线](02-tools/2026-10-18-seedance2-openclaw-video-workflow.md) — video-director 分镜 + video-producer 渲染配音 + 发公众号的 5 步工作流 (2026-10-18)
