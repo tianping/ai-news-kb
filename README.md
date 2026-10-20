@@ -192,6 +192,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [RoboColiseum 具身评测：Opus 5.5 总分小胜 GPT-6 Astra，大模型「眼高手低」（新智元）](04-papers/2026-10-20-robocoliseum-embodied-llm-benchmark.md) — 78 个仿真任务、四子榜，统一接 Agent2Act；Opus 5.5 76.28% vs Astra 75.99%；指令跟随/空间理解碾压专用策略，通用操作全输给 Paimon；加噪 Sol 暴跌 0.77；去掉历史记录放置阶段「鬼打墙」；Astra 能全身协同和跨本体，灵巧手叠碗、插网线仍失败；平台自评、带宣传 (2026-10-20)
 - [CMU AI Agents 课程（11-768）第一课：Agent 是怎么工作的（AI打工人小伊）](04-papers/2026-10-20-cmu-11-768-agents-lecture-01.md) — Fried & Neubig：Agent = 观察-动作-评价循环；模型只生成动作表示，harness 负责执行，「说读过」≠「真读了」；六项能力（工具调用/长上下文/定制/复杂任务+验证/环境理解/安全）× 训练与 harness 两条路径；删邮件案例：压缩丢约束，安全要落到执行链；从 read_file 单工具小循环起步 (2026-10-20)
 - [常驻智能体怎么做：Lee Robinson 斯坦福 CS146S 讲座（AI打工人小伊）](04-papers/2026-10-20-lee-robinson-cs146s-always-on-agents.md) — Agent Loop Server 与 Firecracker 虚拟机分离、Temporal 持久工作流、单一 SendToUser 接口、动态工具发现与工具选择阶梯、helper 子智能体、独立模型自动审查；稳定前缀命中缓存、趁缓存有效做摘要、分层记忆；点名 OpenClaw 一月 cache miss；「删掉产品」原则 (2026-10-20)
 - [腾讯开源 StoryEngine：多镜头故事视频生成进入「质检模式」（AICV与前沿）](04-papers/2026-10-17-tencent-storyengine-multishot-story-video.md) — 腾讯+NUS：故事状态是权威事实、像素只是可错观察；结构化状态传播+落地渲染合同+尾帧三档门控（reuse/reference/fresh）+预算 3 轮局部修复；60 故事×10 镜头基准 Avg 0.769 vs ViMax 0.627，消融显示视觉落地规划影响最大；依赖多家闭源服务，SPS<0.67 仍是难点 (2026-10-17)
