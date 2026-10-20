@@ -169,6 +169,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Fable 5.5 传将上线：主打「读懂意图」，Gemini 4 Carbon、新 Terra 同步备战（新智元）](03-industry/2026-10-20-fable-5-5-rumor-gemini-carbon-terra.md) — The Information 爆料：新 Claude 推理/直觉超现役全部模型，擅长看穿未明说的目标、修一个 Bug 揪出一整类；10-13 Foundry/LiteLLM 曾登记 claude-fable-5-5 后删除；谷歌 Carbon 内部评价「像 Opus 5.5」；OpenAI 新 Terra 价低于 Sol；均未官宣 (2026-10-20)
 - [Anthropic 反蒸馏防御：被蒸馏数据降 90%～99%；上半年封号 1140 万（探索AGI + 一手核对）](03-industry/2026-10-14-anthropic-distillation-defenses-account-bans.md) — preserved thinking+两阶段分类器（误报<0.1%）+快速封号，蒸馏相关封号数万、常两小时内；完整 vs 摘要推理蒸馏 SWE-bench 80.4% vs 71.8%；H1 封 1140 万为全部违规总数，申诉 39.8 万撤销 4.2 万 (2026-10-14)
 - [Linus Torvalds 用 Claude Code 写内核补丁（新智元）](03-industry/2026-10-14-linus-torvalds-claude-code-kernel-patch.md) — noref-filemap-read-with-llm 分支：RCU 延迟释放省掉 folio 引用计数争抢，8 线程读同一文件吞吐约 3 倍；assoc-array-fixes 用 LLM 拆解+用户态测试，顺带挖出 2013 年起的 3 个旧 Bug (2026-10-14)
 - [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线）；10-10 补机器之心/The Verge 第二来源：30 余位数学家称需数年消化，719 篇手稿仅 42% 形式化、已撤 3 篇，Lichtman 称有数十个菲尔兹级结果（黎曼推进/霍奇特例/四维 Kakeya），多个研究计划与基金申请被清零、年轻学者受冲击最大；OpenAI 披露试了 4000+ 题但未公开模型与提示词 (2026-10-09)
