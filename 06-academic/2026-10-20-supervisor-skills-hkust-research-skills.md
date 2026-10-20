@@ -56,3 +56,4 @@ If you are Codex, use $skill-installer.
 - 和本机已装的 **academic-research-skills（ARS）** 插件功能重叠：ARS 也有 deep-research、论文写作、审稿模拟、引用核验。Supervisor-Skills 的特色是 idea-evaluator（五维 + 生命周期）、六段式 intro、投稿前分级挑错、Draw.io 重建，面向数据科学/AI 顶会。生信论文想试的话，可以挑 idea-evaluator、pre-submission-reviewer、drawio-reconstruction 单独装，避免和 ARS 的 deep-research 同名冲突。
 - 原文末尾有「后台回复关键词领 150+ 科研 Skill 表格」的公众号引流，已略去。
 - 「亿级用户」「7.4k Stars」为原文数字，未核实。
+- 许可证：**CC BY-NC-SA 4.0**（非商业、相同方式共享），据同日 [科研 Skill 选型指南](2026-10-20-research-skills-selection-guide-11-projects.md) 的核对。
