@@ -214,6 +214,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [Anthropic 科学家 Sohl-Dickstein：AGI 若三年内到来，读博与教职规划还有意义吗（腾讯科技）](06-academic/2026-10-20-sohl-dickstein-advice-young-investigator-agi.md) — 斯坦福 6 月演讲：训练算量十年 1000 万倍、2030 年或为 2025 年 1 万倍；Claude 像执行力强但缺直觉的研究生，他已基本不写代码但要会质疑结果；「写作即思考」初稿自己写；信 AGI 将至就别把博士-博后-教职当安全路径；推荐 AI for Science、可解释性、AI 安全、政策治理 (2026-10-20)
 - [插件、AI 与 Obsidian，打通科研知识系统｜Zotero 科研工具箱 08（知微图苑）](06-academic/2026-10-15-zotero-toolbox-08-plugins-ai-obsidian.md) — 系列终篇：插件只装 Zotero 7+ 且认准官方目录；Better BibTeX/Style/PDF Translate 三件套；AI 三接法 PapersGPT/AIdea/MCP for Zotero（数字引用必回原文）；Zotero 管文献、Obsidian 管思考，ZotLit 架桥；按阶段上工具路线图 (2026-10-15)
 - [Obsidian Sidenotes 插件：图夫特风格书边批注（obsidian指南）](06-academic/2026-10-14-obsidian-sidenotes-plugin-margin-notes.md) — 把脚注显示在正文右侧空白处，编辑模式只留小标记；命令面板 Insert sidenote 或兼容 [^1] 脚注模式；推荐设置（隐藏底部脚注/编号、宽度 300–420px、Anchor to text）；适合文献精读 (2026-10-14)
 - [科研人的 Obsidian 实战手册（第 1 期）：把整个科研生涯搬进 Obsidian（知微图苑）](06-academic/2026-10-14-obsidian-research-workflow-series-01.md) — 科研笔记是原材料、要经营关系网而非存文件；本地 .md+Vault+双链；与 Zotero/Pandoc/Word/Notion 分工；十分钟建库+关系图谱；8 期系列预告 (2026-10-14)
