@@ -114,6 +114,7 @@
 - [05 事件与评论](05-events/)
   * [Claude Code 删光开发者整个 C 盘：跳过权限确认的代价与自动模式之争（CSDN）](05-events/2026-10-13-claude-code-deleted-c-drive-auto-mode.md) — Zac 用 --dangerously-skip-permissions 让 Opus 5.5 无人值守，PowerShell 拼接错误疑致整盘被删，靠每日 NAS 备份恢复 98%；Boris Cherny 推自动模式（内测拦截 89% vs 人类 13.6%）；另有 Linux 用户开自动模式仍因测试代码丢数据——隔离环境+备份才是底线
 - [06 AI 学术应用](06-academic/)
+  * [Supervisor-Skills：港科大（广州）骆昱宇把博导科研经验做成 11 个 AI 技能（学知大模型）](06-academic/2026-10-20-supervisor-skills-hkust-research-skills.md) — Handbook + 11 Skills，⭐7.4k，接入豆包办公模式；idea-evaluator 五维（Higher/Faster/Stronger/Cheaper/Broader）给 Accept/Reject；deep-research 引用核验 + MECE；intro-drafter 六段式；pre-submission-reviewer 按 CRITICAL/MAJOR/MINOR 分级；另有 paper-writer 证据门控、figure-designer、drawio-reconstruction
   * [Anthropic 科学家 Sohl-Dickstein：AGI 若三年内到来，读博与教职规划还有意义吗（腾讯科技）](06-academic/2026-10-20-sohl-dickstein-advice-young-investigator-agi.md) — 斯坦福 6 月演讲：训练算量十年 1000 万倍、2030 年或为 2025 年 1 万倍；Claude 像执行力强但缺直觉的研究生，他已基本不写代码但要会质疑结果；「写作即思考」初稿自己写；信 AGI 将至就别把博士-博后-教职当安全路径；推荐 AI for Science、可解释性、AI 安全、政策治理
   * [插件、AI 与 Obsidian，打通科研知识系统｜Zotero 科研工具箱 08（知微图苑）](06-academic/2026-10-15-zotero-toolbox-08-plugins-ai-obsidian.md) — 系列终篇：插件只装 Zotero 7+ 且认准官方目录；Better BibTeX/Style/PDF Translate 三件套；AI 三接法 PapersGPT/AIdea/MCP for Zotero（数字引用必回原文）；Zotero 管文献、Obsidian 管思考，ZotLit 架桥；按阶段上工具路线图
   * [Obsidian Sidenotes 插件：图夫特风格书边批注（obsidian指南）](06-academic/2026-10-14-obsidian-sidenotes-plugin-margin-notes.md) — 把脚注显示在正文右侧空白处，编辑模式只留小标记；命令面板 Insert sidenote 或兼容 [^1] 脚注模式；推荐设置（隐藏底部脚注/编号、宽度 300–420px、Anchor to text）；适合文献精读
