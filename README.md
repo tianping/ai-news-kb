@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [browser-use：让 AI 像真人一样操作浏览器（ITBOX）](02-tools/2026-10-21-browser-use-ai-browser-agent.md) — 开源浏览器 Agent 框架：一句话下任务，模型每步看截图+元素编号表决定操作并自我核实，卡住按规则换路；写死代码与模型判断可混用，页内搜索/选择器查询不耗模型；复用本机登录态、验证码由云浏览器处理；17 家模型含 DeepSeek/Ollama；每步调模型费钱、数据上报默认开；最难 60 题 GPT-6 Astra 77.3%，多数 10–40%；能用普通请求取的数据别开浏览器 (2026-10-21)
 - [onetake：一镜到底的产品片 Skill，60 秒成片没有一帧是拍的（数字生命斯派克）](02-tools/2026-10-21-onetake-one-shot-promo-video-skill.md) — feitangyuan/onetake：把画面交接当设计对象，前一镜必须有东西活到下一镜；probe.py 量连贯度（carry<0.5 判否）+verify_promo.py 验节奏/静止/音质/运动模糊；HTML 复刻界面不录屏、39 个时间纯函数动作、快门多次采样真运动模糊，1080p30 草稿→4K60；八步流程；慢、仅 10–60 秒、配音只有英日、PolyForm 非商用 (2026-10-21)
 - [Claude Duet 上线：Opus 5.5 驱动的 7×24 主动式 Agent（新智元）](02-tools/2026-10-21-claude-duet-proactive-agent-opus-5-5.md) — Anthropic 主动式 Agent，云端 VM+浏览器常驻，晨报列进度/卡点/待拍板事项；继承 Claude 记忆、技能与授权应用，6000+ 连接器；付款/发消息/签署/删除须批准，证券买卖与转账禁止；美国 Pro/Max 候补、预览期不额外收费；Slack 有限、无 M365；71 天内 Grok Bot/Muse/Dots/Duet 四家抢入口 (2026-10-21)
 - [Video as Code：用代码生成 MG 动画（Claude Motion / Fotor Agent，AI产品阿颖）](02-tools/2026-10-20-video-as-code-claude-motion-fotor-agent.md) — 两条路线：视频生成模型擅长写实画面但文字数据难保准、难改；代码生成 = 网页加时间轴，元素可精确编辑；Claude Motion 10-08 推出；Fotor Agent 国内版原生 4K、多轨可编辑工程、1 分钟 4K 不到 30 元（推广向）；价值在组件复用 (2026-10-20)
@@ -255,6 +256,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | browser-use：让 AI 像真人一样操作浏览器 | 2026-10-21 |
 | 02-tools | onetake：一镜到底的产品片 Skill，60 秒成片没有一帧是拍的 | 2026-10-21 |
 | 02-tools | Claude Duet 上线：Opus 5.5 驱动的 7×24 主动式 Agent | 2026-10-21 |
 | 02-tools | Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth | 2026-10-18 |
