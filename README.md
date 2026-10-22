@@ -174,6 +174,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [田柯宇融资 3000 万美元、估值 2 亿，字节「模型干扰事件」另一方联名发声（视角学社）](03-industry/2026-10-22-tian-keyu-funding-bytedance-dispute.md) — VAR（NeurIPS 2024 最佳论文）一作新实验室获五源、IDG 近 3000 万美元，约 10 人、2027 年推世界模型；2024 年字节索赔 800 万、一审判赔约 50 万，二审未决；田柯宇称只为替被欺负者释放算力、十天五次停任务，实习生 A 方 10 人实名指控 3–7 月替换 PyTorch 伪装故障、VAR Demo 套壳 PixArt；双方均为自述，套壳无权威结论 (2026-10-22)
 - [裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」（CSDN）](03-industry/2026-10-22-sysadmin-replaces-two-engineers-with-claude-code.md) — Reddit r/ClaudeCode 自述：西班牙中级系统管理员（年薪约 2.6 万美元）接手被裁的云架构师+全栈开发（各 8 万+美元）工作，仅 2 小时 Claude Code 培训；建公司知识库靠 AI 撑住、加薪被拒、担心技能退化与故障暴露；网友分强硬谈判/跳槽/大势所趋/安心干四派（单方自述未核实） (2026-10-22)
 - [Fable 5.5 传将上线：主打「读懂意图」，Gemini 4 Carbon、新 Terra 同步备战（新智元）](03-industry/2026-10-20-fable-5-5-rumor-gemini-carbon-terra.md) — The Information 爆料：新 Claude 推理/直觉超现役全部模型，擅长看穿未明说的目标、修一个 Bug 揪出一整类；10-13 Foundry/LiteLLM 曾登记 claude-fable-5-5 后删除；谷歌 Carbon 内部评价「像 Opus 5.5」；OpenAI 新 Terra 价低于 Sol；均未官宣 (2026-10-20)
 - [Anthropic 反蒸馏防御：被蒸馏数据降 90%～99%；上半年封号 1140 万（探索AGI + 一手核对）](03-industry/2026-10-14-anthropic-distillation-defenses-account-bans.md) — preserved thinking+两阶段分类器（误报<0.1%）+快速封号，蒸馏相关封号数万、常两小时内；完整 vs 摘要推理蒸馏 SWE-bench 80.4% vs 71.8%；H1 封 1140 万为全部违规总数，申诉 39.8 万撤销 4.2 万 (2026-10-14)
@@ -259,6 +260,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | 田柯宇融资 3000 万美元、估值 2 亿，字节「模型干扰事件」另一方联名发声 | 2026-10-22 |
 | 04-papers | Quant Arena：9 个大模型做 A 股量化研究，半数亏本、无一跑赢基准 | 2026-10-22 |
 | 03-industry | 裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」 | 2026-10-22 |
 | 02-tools | Agnes 漫剧工坊开源：本地单文件版，MIT 协议可商用 | 2026-10-21 |
