@@ -197,6 +197,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [Quant Arena：9 个大模型做 A 股量化研究，半数亏本、无一跑赢基准（机器之心）](04-papers/2026-10-22-quant-arena-llm-a-share-quant-benchmark.md) — EinsiaAI Navers Lab（arXiv 2610.30113）：3042 只 A 股、2022–23 研究期最多 5 次候选、冻结后在封存 2024 行情只评一次；GPT-6 Astra 年化 10.7% 最高仍低于 17.1% 基准，Opus 5.5 4.4%，其余 5 个亏本；信号整体准≠头部选股赚钱（7/9 最高分组跑输均值）；Astra 自学择时躲过 2 月闪崩但无超额；反馈迭代主要改明显错误 (2026-10-22)
 - [RoboColiseum 具身评测：Opus 5.5 总分小胜 GPT-6 Astra，大模型「眼高手低」（新智元）](04-papers/2026-10-20-robocoliseum-embodied-llm-benchmark.md) — 78 个仿真任务、四子榜，统一接 Agent2Act；Opus 5.5 76.28% vs Astra 75.99%；指令跟随/空间理解碾压专用策略，通用操作全输给 Paimon；加噪 Sol 暴跌 0.77；去掉历史记录放置阶段「鬼打墙」；Astra 能全身协同和跨本体，灵巧手叠碗、插网线仍失败；平台自评、带宣传 (2026-10-20)
 - [CMU AI Agents 课程（11-768）第一课：Agent 是怎么工作的（AI打工人小伊）](04-papers/2026-10-20-cmu-11-768-agents-lecture-01.md) — Fried & Neubig：Agent = 观察-动作-评价循环；模型只生成动作表示，harness 负责执行，「说读过」≠「真读了」；六项能力（工具调用/长上下文/定制/复杂任务+验证/环境理解/安全）× 训练与 harness 两条路径；删邮件案例：压缩丢约束，安全要落到执行链；从 read_file 单工具小循环起步 (2026-10-20)
 - [常驻智能体怎么做：Lee Robinson 斯坦福 CS146S 讲座（AI打工人小伊）](04-papers/2026-10-20-lee-robinson-cs146s-always-on-agents.md) — Agent Loop Server 与 Firecracker 虚拟机分离、Temporal 持久工作流、单一 SendToUser 接口、动态工具发现与工具选择阶梯、helper 子智能体、独立模型自动审查；稳定前缀命中缓存、趁缓存有效做摘要、分层记忆；点名 OpenClaw 一月 cache miss；「删掉产品」原则 (2026-10-20)
@@ -258,6 +259,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 04-papers | Quant Arena：9 个大模型做 A 股量化研究，半数亏本、无一跑赢基准 | 2026-10-22 |
 | 03-industry | 裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」 | 2026-10-22 |
 | 02-tools | Agnes 漫剧工坊开源：本地单文件版，MIT 协议可商用 | 2026-10-21 |
 | 02-tools | browser-use：让 AI 像真人一样操作浏览器 | 2026-10-21 |
