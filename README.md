@@ -174,6 +174,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」（CSDN）](03-industry/2026-10-22-sysadmin-replaces-two-engineers-with-claude-code.md) — Reddit r/ClaudeCode 自述：西班牙中级系统管理员（年薪约 2.6 万美元）接手被裁的云架构师+全栈开发（各 8 万+美元）工作，仅 2 小时 Claude Code 培训；建公司知识库靠 AI 撑住、加薪被拒、担心技能退化与故障暴露；网友分强硬谈判/跳槽/大势所趋/安心干四派（单方自述未核实） (2026-10-22)
 - [Fable 5.5 传将上线：主打「读懂意图」，Gemini 4 Carbon、新 Terra 同步备战（新智元）](03-industry/2026-10-20-fable-5-5-rumor-gemini-carbon-terra.md) — The Information 爆料：新 Claude 推理/直觉超现役全部模型，擅长看穿未明说的目标、修一个 Bug 揪出一整类；10-13 Foundry/LiteLLM 曾登记 claude-fable-5-5 后删除；谷歌 Carbon 内部评价「像 Opus 5.5」；OpenAI 新 Terra 价低于 Sol；均未官宣 (2026-10-20)
 - [Anthropic 反蒸馏防御：被蒸馏数据降 90%～99%；上半年封号 1140 万（探索AGI + 一手核对）](03-industry/2026-10-14-anthropic-distillation-defenses-account-bans.md) — preserved thinking+两阶段分类器（误报<0.1%）+快速封号，蒸馏相关封号数万、常两小时内；完整 vs 摘要推理蒸馏 SWE-bench 80.4% vs 71.8%；H1 封 1140 万为全部违规总数，申诉 39.8 万撤销 4.2 万 (2026-10-14)
 - [Linus Torvalds 用 Claude Code 写内核补丁（新智元）](03-industry/2026-10-14-linus-torvalds-claude-code-kernel-patch.md) — noref-filemap-read-with-llm 分支：RCU 延迟释放省掉 folio 引用计数争抢，8 线程读同一文件吞吐约 3 倍；assoc-array-fixes 用 LLM 拆解+用户态测试，顺带挖出 2013 年起的 3 个旧 Bug (2026-10-14)
@@ -257,6 +258,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | 裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」 | 2026-10-22 |
 | 02-tools | Agnes 漫剧工坊开源：本地单文件版，MIT 协议可商用 | 2026-10-21 |
 | 02-tools | browser-use：让 AI 像真人一样操作浏览器 | 2026-10-21 |
 | 02-tools | onetake：一镜到底的产品片 Skill，60 秒成片没有一帧是拍的 | 2026-10-21 |

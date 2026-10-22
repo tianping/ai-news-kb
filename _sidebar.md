@@ -106,6 +106,7 @@
 - [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
 - [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+  * [裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」（CSDN）](03-industry/2026-10-22-sysadmin-replaces-two-engineers-with-claude-code.md) — Reddit r/ClaudeCode 自述：西班牙中级系统管理员（年薪约 2.6 万美元）接手被裁的云架构师+全栈开发（各 8 万+美元）工作，仅 2 小时 Claude Code 培训；建公司知识库靠 AI 撑住、加薪被拒、担心技能退化与故障暴露；网友分强硬谈判/跳槽/大势所趋/安心干四派（单方自述未核实）
   * [Fable 5.5 传将上线：主打「读懂意图」，Gemini 4 Carbon、新 Terra 同步备战（新智元）](03-industry/2026-10-20-fable-5-5-rumor-gemini-carbon-terra.md) — The Information 爆料：新 Claude 推理/直觉超现役全部模型，擅长看穿未明说的目标、修一个 Bug 揪出一整类；10-13 Foundry/LiteLLM 曾登记 claude-fable-5-5 后删除；谷歌 Carbon 内部评价「像 Opus 5.5」；OpenAI 新 Terra 价低于 Sol；均未官宣
 - [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 付费榜单案例：比第一名多1美元即登顶；X 440万曝光+HN一小时40万访客的事件型流量；7天22万美元；500+山寨站但outbid吃掉68%可测金额
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
