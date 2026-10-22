@@ -11,6 +11,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Claude Duet 上线：Opus 5.5 驱动的 7×24 主动式 Agent（新智元）](02-tools/2026-10-21-claude-duet-proactive-agent-opus-5-5.md) — Anthropic 主动式 Agent，云端 VM+浏览器常驻，晨报列进度/卡点/待拍板事项；继承 Claude 记忆、技能与授权应用，6000+ 连接器；付款/发消息/签署/删除须批准，证券买卖与转账禁止；美国 Pro/Max 候补、预览期不额外收费；Slack 有限、无 M365；71 天内 Grok Bot/Muse/Dots/Duet 四家抢入口
   * [Video as Code：用代码生成 MG 动画（Claude Motion / Fotor Agent，AI产品阿颖）](02-tools/2026-10-20-video-as-code-claude-motion-fotor-agent.md) — 两条路线：视频生成模型擅长写实画面但文字数据难保准、难改；代码生成 = 网页加时间轴，元素可精确编辑；Claude Motion 10-08 推出；Fotor Agent 国内版原生 4K、多轨可编辑工程、1 分钟 4K 不到 30 元（推广向）；价值在组件复用
   * [Qwen-Image-2.1 本地部署实测：16GB MacBook Air 跑通（AI公园）](02-tools/2026-10-19-qwen-image-2-1-local-deploy-16gb-mac.md) — GGUF+ComfyUI / MLX 4-bit（mflux --low-ram 必加）/ Turbo 蒸馏（viggle 4 步、Z-Image-Turbo 8 步 Apache 2.0）；M4 16GB 出 1024² 峰值 18.33GB、每步 45 秒；2.1 改为研究许可，商用回退 Qwen-Image-2512
   * [Seedance 2.0 + OpenClaw 爆款短视频流水线](02-tools/2026-10-18-seedance2-openclaw-video-workflow.md) — video-director 分镜 + video-producer 渲染配音 + 发公众号的 5 步工作流

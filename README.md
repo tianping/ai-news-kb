@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude Duet 上线：Opus 5.5 驱动的 7×24 主动式 Agent（新智元）](02-tools/2026-10-21-claude-duet-proactive-agent-opus-5-5.md) — Anthropic 主动式 Agent，云端 VM+浏览器常驻，晨报列进度/卡点/待拍板事项；继承 Claude 记忆、技能与授权应用，6000+ 连接器；付款/发消息/签署/删除须批准，证券买卖与转账禁止；美国 Pro/Max 候补、预览期不额外收费；Slack 有限、无 M365；71 天内 Grok Bot/Muse/Dots/Duet 四家抢入口 (2026-10-21)
 - [Video as Code：用代码生成 MG 动画（Claude Motion / Fotor Agent，AI产品阿颖）](02-tools/2026-10-20-video-as-code-claude-motion-fotor-agent.md) — 两条路线：视频生成模型擅长写实画面但文字数据难保准、难改；代码生成 = 网页加时间轴，元素可精确编辑；Claude Motion 10-08 推出；Fotor Agent 国内版原生 4K、多轨可编辑工程、1 分钟 4K 不到 30 元（推广向）；价值在组件复用 (2026-10-20)
 - [Qwen-Image-2.1 本地部署实测：16GB MacBook Air 跑通（AI公园）](02-tools/2026-10-19-qwen-image-2-1-local-deploy-16gb-mac.md) — GGUF+ComfyUI / MLX 4-bit（mflux --low-ram 必加）/ Turbo 蒸馏（viggle 4 步、Z-Image-Turbo 8 步 Apache 2.0）；M4 16GB 出 1024² 峰值 18.33GB、每步 45 秒；2.1 改为研究许可，商用回退 Qwen-Image-2512 (2026-10-19)
 - [Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth（智驭视界）](02-tools/2026-10-18-obsidian-5-plugins-templater-dataview-tasks-git-hearth.md) — 按 obsidianstats 下载量选的通用最小集：Templater 动态模板 / Dataview 用 FROM-WHERE-SORT 查库 / Tasks 跨笔记待办与循环任务 / Obsidian Git 版本备份（非实时同步）/ Hearth 零代码拖拽首页；建议装配顺序 (2026-10-18)
@@ -253,6 +254,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Claude Duet 上线：Opus 5.5 驱动的 7×24 主动式 Agent | 2026-10-21 |
 | 02-tools | Obsidian 必装 5 插件：Templater、Dataview、Tasks、Git + 黑马 Hearth | 2026-10-18 |
 | 02-tools | Claude Code v2.1.302：自动模式分类器可换模型、空闲压缩可关闭 | 2026-10-18 |
 | 02-tools | Agent 的 3D 工作室：15 个 GitHub 仓库串起生成→搭景→做游戏→上网页 | 2026-10-17 |
