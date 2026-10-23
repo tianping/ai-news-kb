@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills（AI for Frontend）](02-tools/2026-10-23-blender-ai-plugins-loopcut-video-to-blender-skills.md) — LoopCut：Blender 5.2 分支内置 AI 代理，自然语言→bpy 代码先审后执行+截图核查+检查点回退，可用 ChatGPT 登录/API Key/Ollama；Scenario 本地 MCP 默认 127.0.0.1:9876；video-to-blender：参考视频→Geometry/Shader Nodes 程序化 .blend；EL4CTEO/blender-skills：22 个技能覆盖建模/PBR 烘焙/Rigify/LOD 导出/天气/资产 QA，MCP 或 headless 运行 (2026-10-23)
 - [Blender 是什么？程序员为什么值得了解这套 3D 工具（运维开发与AI实战）](02-tools/2026-10-23-blender-for-programmers-agent-automation.md) — 面向程序员的入门：建模→材质灯光相机→动画→渲染（Cycles/EEVEE）→合成；切入点是批量产品图、空间演示、资产处理、Geometry Nodes 规则生成；blender --background --python-exit-code 1 --python 后台跑脚本，bpy.ops 依赖上下文易失败，Agent 接入不一定要 MCP；程序+视觉两层验收；从单物体出图的最小闭环起步 (2026-10-23)
 - [Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP（三次方AIRX）](02-tools/2026-10-23-scenario-for-blender-ai-plugin-mcp.md) — scenario-labs/blender-plugin：六通道生成放进 Blender 视口侧边栏，以视口截图/相机/选中网格为输入、结果自动装回工程（贴材质槽、落 3D 光标、进音序器、写环境）；文字搭灰盒；重拓扑/UV/绑骨/拆件；本地 MCP 接 Claude Code/Cursor；Blender 5.0+、Scenario API Key、按 Creative Units 计费、需开 Allow Online Access；ZIP 与仓库版勿同装 (2026-10-23)
 - [Agnes 漫剧工坊开源：本地单文件版，MIT 协议可商用（动画大丸家）](02-tools/2026-10-21-agnes-manga-studio-open-source.md) — liobububu/agnes-manga-studio v1.0.1：作者把建站平台上的在线漫剧工坊源码用 WorkBuddy 改成本地单文件版，免安装；设置里填 Agnes 国际站密钥→拉模型列表即用；MIT 可商用；后续开源 GIF 表情包工坊、动画大玩家 3.0；原文功能细节少 (2026-10-21)
@@ -263,6 +264,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills | 2026-10-23 |
 | 02-tools | Blender 是什么？程序员为什么值得了解这套 3D 工具 | 2026-10-23 |
 | 02-tools | Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP | 2026-10-23 |
 | 03-industry | 「黑色十月」48 小时：AI 挖洞、AI 蜂群攻击银行、第三方 Agent 闯入华尔街账户 | 2026-10-22 |
