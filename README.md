@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP（三次方AIRX）](02-tools/2026-10-23-scenario-for-blender-ai-plugin-mcp.md) — scenario-labs/blender-plugin：六通道生成放进 Blender 视口侧边栏，以视口截图/相机/选中网格为输入、结果自动装回工程（贴材质槽、落 3D 光标、进音序器、写环境）；文字搭灰盒；重拓扑/UV/绑骨/拆件；本地 MCP 接 Claude Code/Cursor；Blender 5.0+、Scenario API Key、按 Creative Units 计费、需开 Allow Online Access；ZIP 与仓库版勿同装 (2026-10-23)
 - [Agnes 漫剧工坊开源：本地单文件版，MIT 协议可商用（动画大丸家）](02-tools/2026-10-21-agnes-manga-studio-open-source.md) — liobububu/agnes-manga-studio v1.0.1：作者把建站平台上的在线漫剧工坊源码用 WorkBuddy 改成本地单文件版，免安装；设置里填 Agnes 国际站密钥→拉模型列表即用；MIT 可商用；后续开源 GIF 表情包工坊、动画大玩家 3.0；原文功能细节少 (2026-10-21)
 - [browser-use：让 AI 像真人一样操作浏览器（ITBOX）](02-tools/2026-10-21-browser-use-ai-browser-agent.md) — 开源浏览器 Agent 框架：一句话下任务，模型每步看截图+元素编号表决定操作并自我核实，卡住按规则换路；写死代码与模型判断可混用，页内搜索/选择器查询不耗模型；复用本机登录态、验证码由云浏览器处理；17 家模型含 DeepSeek/Ollama；每步调模型费钱、数据上报默认开；最难 60 题 GPT-6 Astra 77.3%，多数 10–40%；能用普通请求取的数据别开浏览器 (2026-10-21)
 - [onetake：一镜到底的产品片 Skill，60 秒成片没有一帧是拍的（数字生命斯派克）](02-tools/2026-10-21-onetake-one-shot-promo-video-skill.md) — feitangyuan/onetake：把画面交接当设计对象，前一镜必须有东西活到下一镜；probe.py 量连贯度（carry<0.5 判否）+verify_promo.py 验节奏/静止/音质/运动模糊；HTML 复刻界面不录屏、39 个时间纯函数动作、快门多次采样真运动模糊，1080p30 草稿→4K60；八步流程；慢、仅 10–60 秒、配音只有英日、PolyForm 非商用 (2026-10-21)
@@ -261,6 +262,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP | 2026-10-23 |
 | 03-industry | 「黑色十月」48 小时：AI 挖洞、AI 蜂群攻击银行、第三方 Agent 闯入华尔街账户 | 2026-10-22 |
 | 03-industry | 田柯宇融资 3000 万美元、估值 2 亿，字节「模型干扰事件」另一方联名发声 | 2026-10-22 |
 | 04-papers | Quant Arena：9 个大模型做 A 股量化研究，半数亏本、无一跑赢基准 | 2026-10-22 |
