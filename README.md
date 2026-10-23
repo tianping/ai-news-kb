@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Codex + Blender 做 IP 角色建模像提线木偶，换付费 Tripo 才像（予贝AI）](02-tools/2026-10-23-codex-blender-vs-tripo-ip-character.md) — 卡通头像转 3D 实测：先生成三视图参考（给 Tripo 拆成正/左/右/背四张）；让 Codex 自装 MCP for Blender、重启后只读测试连接（Connected on port 9876）；Codex 建模特征齐全但不像、越改越差；Tripo 多视角付费生成还原度高（免费仅单图+v2.5）；结论：风格化小场景用 Codex+Blender，高还原角色用 Tripo 做底再回 Blender 调光出图 (2026-10-23)
 - [Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills（AI for Frontend）](02-tools/2026-10-23-blender-ai-plugins-loopcut-video-to-blender-skills.md) — LoopCut：Blender 5.2 分支内置 AI 代理，自然语言→bpy 代码先审后执行+截图核查+检查点回退，可用 ChatGPT 登录/API Key/Ollama；Scenario 本地 MCP 默认 127.0.0.1:9876；video-to-blender：参考视频→Geometry/Shader Nodes 程序化 .blend；EL4CTEO/blender-skills：22 个技能覆盖建模/PBR 烘焙/Rigify/LOD 导出/天气/资产 QA，MCP 或 headless 运行 (2026-10-23)
 - [Blender 是什么？程序员为什么值得了解这套 3D 工具（运维开发与AI实战）](02-tools/2026-10-23-blender-for-programmers-agent-automation.md) — 面向程序员的入门：建模→材质灯光相机→动画→渲染（Cycles/EEVEE）→合成；切入点是批量产品图、空间演示、资产处理、Geometry Nodes 规则生成；blender --background --python-exit-code 1 --python 后台跑脚本，bpy.ops 依赖上下文易失败，Agent 接入不一定要 MCP；程序+视觉两层验收；从单物体出图的最小闭环起步 (2026-10-23)
 - [Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP（三次方AIRX）](02-tools/2026-10-23-scenario-for-blender-ai-plugin-mcp.md) — scenario-labs/blender-plugin：六通道生成放进 Blender 视口侧边栏，以视口截图/相机/选中网格为输入、结果自动装回工程（贴材质槽、落 3D 光标、进音序器、写环境）；文字搭灰盒；重拓扑/UV/绑骨/拆件；本地 MCP 接 Claude Code/Cursor；Blender 5.0+、Scenario API Key、按 Creative Units 计费、需开 Allow Online Access；ZIP 与仓库版勿同装 (2026-10-23)
@@ -264,6 +265,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Codex + Blender 做 IP 角色建模像提线木偶，换付费 Tripo 才像 | 2026-10-23 |
 | 02-tools | Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills | 2026-10-23 |
 | 02-tools | Blender 是什么？程序员为什么值得了解这套 3D 工具 | 2026-10-23 |
 | 02-tools | Scenario for Blender：一个插件打通文生图/视频/3D/PBR/音频/HDRI，附本地 MCP | 2026-10-23 |
