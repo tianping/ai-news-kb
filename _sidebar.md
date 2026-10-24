@@ -11,6 +11,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Obsidian Hovered Table of Content 悬停目录插件](02-tools/2026-10-24-obsidian-hovered-table-of-content-plugin.md) — 悬停图标看笔记目录、预览章节内容和内部链接笔记
   * [Obsidian Link Peek 外链悬浮预览插件](02-tools/2026-10-24-obsidian-link-peek-plugin.md) — 外部网页链接悬浮弹 OG 卡片，与原生页面预览互补
   * [Codex + Blender 做 IP 角色建模像提线木偶，换付费 Tripo 才像（予贝AI）](02-tools/2026-10-23-codex-blender-vs-tripo-ip-character.md) — 卡通头像转 3D 实测：先生成三视图参考（给 Tripo 拆成正/左/右/背四张）；让 Codex 自装 MCP for Blender、重启后只读测试连接（Connected on port 9876）；Codex 建模特征齐全但不像、越改越差；Tripo 多视角付费生成还原度高（免费仅单图+v2.5）；结论：风格化小场景用 Codex+Blender，高还原角色用 Tripo 做底再回 Blender 调光出图
   * [Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills（AI for Frontend）](02-tools/2026-10-23-blender-ai-plugins-loopcut-video-to-blender-skills.md) — LoopCut：Blender 5.2 分支内置 AI 代理，自然语言→bpy 代码先审后执行+截图核查+检查点回退，可用 ChatGPT 登录/API Key/Ollama；Scenario 本地 MCP 默认 127.0.0.1:9876；video-to-blender：参考视频→Geometry/Shader Nodes 程序化 .blend；EL4CTEO/blender-skills：22 个技能覆盖建模/PBR 烘焙/Rigify/LOD 导出/天气/资产 QA，MCP 或 headless 运行
