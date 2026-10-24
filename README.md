@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Obsidian Hovered Table of Content 悬停目录插件](02-tools/2026-10-24-obsidian-hovered-table-of-content-plugin.md) — 悬停图标看笔记目录、预览章节内容和内部链接笔记 (2026-10-24)
 - [Obsidian Link Peek 外链悬浮预览插件](02-tools/2026-10-24-obsidian-link-peek-plugin.md) — 外部网页链接悬浮弹 OG 卡片，与原生页面预览互补 (2026-10-24)
 - [Codex + Blender 做 IP 角色建模像提线木偶，换付费 Tripo 才像（予贝AI）](02-tools/2026-10-23-codex-blender-vs-tripo-ip-character.md) — 卡通头像转 3D 实测：先生成三视图参考（给 Tripo 拆成正/左/右/背四张）；让 Codex 自装 MCP for Blender、重启后只读测试连接（Connected on port 9876）；Codex 建模特征齐全但不像、越改越差；Tripo 多视角付费生成还原度高（免费仅单图+v2.5）；结论：风格化小场景用 Codex+Blender，高还原角色用 Tripo 做底再回 Blender 调光出图 (2026-10-23)
 - [Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills（AI for Frontend）](02-tools/2026-10-23-blender-ai-plugins-loopcut-video-to-blender-skills.md) — LoopCut：Blender 5.2 分支内置 AI 代理，自然语言→bpy 代码先审后执行+截图核查+检查点回退，可用 ChatGPT 登录/API Key/Ollama；Scenario 本地 MCP 默认 127.0.0.1:9876；video-to-blender：参考视频→Geometry/Shader Nodes 程序化 .blend；EL4CTEO/blender-skills：22 个技能覆盖建模/PBR 烘焙/Rigify/LOD 导出/天气/资产 QA，MCP 或 headless 运行 (2026-10-23)
@@ -480,5 +481,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Obsidian Hovered Table of Content 悬停目录插件](02-tools/2026-10-24-obsidian-hovered-table-of-content-plugin.md) — 悬停图标看笔记目录、预览章节内容和内部链接笔记 (2026-10-24)
