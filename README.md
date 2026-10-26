@@ -486,3 +486,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [Anthropic 研究员 Jascha Sohl-Dickstein《人类世的终结》：博士生传统职业规划已失效（新智元）](03-industry/2026-10-26-jascha-sohl-dickstein-end-of-anthropocene-phd-careers.md) — 十年算力涨1000万倍、METR任务时长每几个月翻倍、AI解Erdős难题、2030年算力为2025年1万倍；三条法则：做能被算力放大的事/安全选择不安全/每天用AI但别外包初稿；指数早期个人杠杆巨大 (2026-10-26)
