@@ -95,9 +95,6 @@
 - [Codex + Excalidraw 一句话出片：手绘白板风格视频流水线](02-tools/2026-09-30-codex-excalidraw-whiteboard-video-skill.md) — 萌巧蓄水池：Codex 生图+Excalidraw 白板式风格出片，选题判断与数字查视为 AI 不可替代环节；流程固化为可复用 Skill (2026-09-30)
 - [Opus 5.5 实战案例：《一个房间的四百年》](02-tools/2026-09-30-opus55-room-400-years-video-case.md) — EARS 博主完整复盘：用 Opus 5.5 代码渲染 AI 油画短片（render(t)+Playwright+ffmpeg、timeline.json、单应对齐、whisper 卡点），3'01"/5430帧，附 GitHub 资源清单 (2026-09-30)
 - [Jev 接入 Claude Code、Codex：让 Coding Agent 学会先判断再执行](02-tools/2026-09-22-jev-claude-code-codex-integration.md) — TypeSafe AI 判断型 Agent：不做生成，专补执行型 Agent（Claude Code/Codex）的判断/分析/决策；新户 $5 额度，成本低 40–400 倍输出侧免费，GitHub Skills 一键装；10-12 补沉默王二 Codex 实测：Choice API 决定 Agent 下一步（confidence≥0.8 才执行）、Noul/Choice/Score 三种决策类型、输入 $0.042/百万 Token、开源复刻 kev
-- [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
-- [哈佛24位数学泰斗：论文已死！AI逼学术界退回苏格拉底时代](03-industry/2026-09-30-harvard-24-mathematicians-phd-oral-defense-reform.md) — 哈佛CMSA峰会24位数学家联合签署九条建议：论文文本不再作为博士授予依据，退回苏格拉底式当面口试；鼓励用顶级AI但须公开细节+负全责；与25位菲尔兹奖得主声明《AI在数学中的严重错位》同链
-- [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - [CC Switch：一个应用管 8 款 AI 编程工具的配置文件](02-tools/2026-09-10-cc-switch-ai-tool-config-manager.md) — Rust+Tauri2 开源（约12.9万Star），50+供应商预设一键切换，MCP/Prompts/Skills 统一面板+云同步；SQLite单一数据源+原子写入+自动备份；卸载后原生CLI不受影响；价值在多工具多供应商场景
 - [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可开播；epg/database/api/awesome-iptv分工咬合成完整链路；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里，当检索入口别当服务承诺
 - [srt-whiteboard-animation：SRT 字幕转白板手绘动画 Skill](02-tools/2026-09-03-srt-whiteboard-animation.md) — 每句字幕对应元素依次出场，笔尖连续落墨ink→color；annotation.json按字幕事件排序元素（场景铺垫→人物→动作→反应），protectedRegions防提前露出；预览台逐步确认再渲染；MIT
@@ -191,7 +188,6 @@
 - [OpenAI 10-06 倾泻数百篇数学证明引爆「数学末日」：AHM 呼吁抵制，AGMAI 中立（新智元，含一手核对）](03-industry/2026-10-09-openai-math-release-ahm-boycott-mathocalypse.md) — OpenAI 发布内部模型生成的 372 项重大结果/700+ 文件（含 UGC 证明、L=BPL、矩阵乘法 n^(9/4+o(1))、整数乘法破 n log n、希尔伯特第十问题有理数版），约 8000 题中解掉 5%、每题约 3 小时 GPT-Pro 算力；AHM 斥为'炫耀权力'呼吁抵制，AGMAI（Gowers/Witten）刻意中立，LeCun 称船让我们发现新大陆；Dana Moshkovitz 称证明'像嗑了致幻剂写的'、部分结果附 Lean 证书但无人读懂；密码学缺席。附对新智元 8 处事实校正（722→372、陶哲轩只是转载客座文、漏掉 AGMAI 与 Anthropic 对照路线）；10-10 补机器之心/The Verge 第二来源：30 余位数学家称需数年消化，719 篇手稿仅 42% 形式化、已撤 3 篇，Lichtman 称有数十个菲尔兹级结果（黎曼推进/霍奇特例/四维 Kakeya），多个研究计划与基金申请被清零、年轻学者受冲击最大；OpenAI 披露试了 4000+ 题但未公开模型与提示词 (2026-10-09)
 - [Claude 新订阅必定触发 KYC：国内用户门槛陡升](03-industry/2026-10-08-claude-new-subscription-kyc.md) — 老号被封申诉无果；新开Max必触发KYC、Pro随机触发（群友经验）；作者拟办护照过验证；Haiku 5.5补发，预计Fable 5.5发布后又一轮封号潮 (2026-10-08)
 - [outbid.lol：3小时写完的网站一周进账22万美元](03-industry/2026-10-06-outbid-lol-pay-to-rank-case.md) — 德国程序员 Jonathan Wilke 付费榜单案例；规则一句话、付费为唯一参与方式、榜单即内容；X/HN 事件型流量非SEO；7天22万美元；护城河是「第一个」和受众 (2026-10-06)
-- [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：行政命令要求在联邦公文/官网/报告中以 Super Intelligence/SI 替换 AI 称呼，法定定义暂沿用第15卷第9401(3)条，总统科技助理 60 天内提交立法建议 (2026-09-30)
 - [「敲代码的时代彻底结束了！」微软18年老兵放话：怪不得Win11这么烂](03-industry/2026-09-10-microsoft-ai-coding-typing-code-over.md) — David Fowler（SignalR/NuGet）：AI包揽重复编码，开发者转向架构/需求/安全审核；纳德拉称20-30%代码由AI写；Copilot Agent闭环(建环境→改仓→测试→PR)；WinUI 3开源为AI"可读懂"；Project Zenith=Win11+本地300B大模型开发机；AI写得快≠写得好
 - [英伟达 129 亿收购 Hugging Face：AI 圈 GitHub 改姓黄](03-industry/2026-09-04-nvidia-acquires-hugging-face-129-billion.md) — 英伟达史上最大并购（129.3 亿美元）；去年拒 5 亿入股今年被卖；买的是"开源 AI 超级路由器"；承诺"算力中立"无期限无违约；短期利好开发者基础设施，长期四类默认选项将决定硬件中立能否维持
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开学者三证：观鸟活动减少≠鸟少、54.6%缺失值被赋0导致假相关、换EBD/GBIF数据库复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
@@ -200,6 +196,9 @@
 - [「我已付出 110% 的努力！」工作 1 年就被裁：KPI 全完成也没逃过](03-industry/2026-08-25-junior-layoff-110-effort.md) — 美科技业裁员14.9万+67%，AI 归因11.2万岗位；Junior 成长通道被压缩，英国毕业生岗位140人抢
 - [天工"捂脸跑"夺冠：机器人自己想出来的跑姿](03-industry/2026-08-23-tiangong-face-covering-run.md) — 世界人形机器人运动会400米45.66秒夺冠，仿真迭代涌现的非拟人步态，运控终点是效率不是像人
 - [SSRN 重新分析：Science"光伏让鸟变少"论文证据不足](03-industry/2026-09-07-ssrn-reanalysis-science-solar-birds.md) — 新国大+南开三证：观鸟活动减少≠鸟少、54.6%缺失值赋0导致假相关、换EBD/GBIF复现不出；延伸到AI时代科研质量反思——稀缺的不是数据分析而是好数据和扎实证据
+- [25位菲尔兹奖得主联名抗议AI毁数学圈](03-industry/2026-09-11-fields-medal-ai-math-protest.md) — 陶哲轩/邓煜等25位菲奖得主联名公开信，批评OpenAI/Anthropic把数学难题当Benchmark和公关素材；OpenAI称1万智能体88h破解NS方程，涉嫌利用数学家未公开草稿
+- [哈佛24位数学泰斗：论文已死！AI逼学术界退回苏格拉底时代](03-industry/2026-09-30-harvard-24-mathematicians-phd-oral-defense-reform.md) — 哈佛CMSA峰会24位数学家联合签署九条建议：论文文本不再作为博士授予依据，退回苏格拉底式当面口试；鼓励用顶级AI但须公开细节+负全责；与25位菲尔兹奖得主声明《AI在数学中的严重错位》同链
+- [Declaration — Math and AI（英文全文）](03-industry/2026-09-11-mathandai-declaration-full-text.md) — 联名公开信原文，AI公司解题目标与数学社区目标严重错位，呼吁紧迫应对
 - 大公司动向（OpenAI/Anthropic/Google/Meta/百度/字节等）
 - 创业公司融资与产品
 - 政策与监管
