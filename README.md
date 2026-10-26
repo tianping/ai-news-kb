@@ -206,6 +206,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [开源解锁 GeForce Tensor Core 限速：RTX 4090 特定运算吞吐翻倍（机器之心）](04-papers/2026-10-26-nvidia-geforce-tensor-core-rate-unlock.md) — 利用安全启动固件漏洞改 SS0/SS1 速率寄存器，FP16/BF16 入 FP32 累加吞吐约 2 倍；20/30/40 系均有项目，实际 GEMM +12%~80%，LLM 预填充快约 33% (2026-10-26)
 - [UCLA PhoneBot：旧手机当大脑的 400 美元双足机器人（机器人大讲堂）](04-papers/2026-10-25-ucla-phonebot-400-dollar-biped-robot.md) — 手机经 Wi-Fi 无线控制 13 舵机双足，2017 年荣耀 9 即可；sim-to-real + 步态镜像；填补教具与科研样机之间的价格空白 (2026-10-25)
 - [Quant Arena：9 个大模型做 A 股量化研究，半数亏本、无一跑赢基准（机器之心）](04-papers/2026-10-22-quant-arena-llm-a-share-quant-benchmark.md) — EinsiaAI Navers Lab（arXiv 2610.30113）：3042 只 A 股、2022–23 研究期最多 5 次候选、冻结后在封存 2024 行情只评一次；GPT-6 Astra 年化 10.7% 最高仍低于 17.1% 基准，Opus 5.5 4.4%，其余 5 个亏本；信号整体准≠头部选股赚钱（7/9 最高分组跑输均值）；Astra 自学择时躲过 2 月闪崩但无超额；反馈迭代主要改明显错误 (2026-10-22)
 - [RoboColiseum 具身评测：Opus 5.5 总分小胜 GPT-6 Astra，大模型「眼高手低」（新智元）](04-papers/2026-10-20-robocoliseum-embodied-llm-benchmark.md) — 78 个仿真任务、四子榜，统一接 Agent2Act；Opus 5.5 76.28% vs Astra 75.99%；指令跟随/空间理解碾压专用策略，通用操作全输给 Paimon；加噪 Sol 暴跌 0.77；去掉历史记录放置阶段「鬼打墙」；Astra 能全身协同和跨本体，灵巧手叠碗、插网线仍失败；平台自评、带宣传 (2026-10-20)
@@ -483,5 +484,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [开源解锁 GeForce Tensor Core 限速：RTX 4090 特定运算吞吐翻倍（机器之心）](04-papers/2026-10-26-nvidia-geforce-tensor-core-rate-unlock.md) — 利用安全启动固件漏洞改 SS0/SS1 速率寄存器，FP16/BF16 入 FP32 累加吞吐约 2 倍；20/30/40 系均有项目，实际 GEMM +12%~80%，LLM 预填充快约 33% (2026-10-26)
