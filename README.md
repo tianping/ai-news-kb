@@ -181,6 +181,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Anthropic 研究员 Jascha Sohl-Dickstein《人类世的终结》：博士生传统职业规划已失效（新智元）](03-industry/2026-10-26-jascha-sohl-dickstein-end-of-anthropocene-phd-careers.md) — 十年算力涨1000万倍、METR任务时长每几个月翻倍、AI解Erdős难题、2030年算力为2025年1万倍；三条法则：做能被算力放大的事/安全选择不安全/每天用AI但别外包初稿；指数早期个人杠杆巨大 (2026-10-26)
 - [「黑色十月」48 小时：AI 挖洞、AI 蜂群攻击银行、第三方 Agent 闯入华尔街账户（新智元）](03-industry/2026-10-22-black-october-ai-agent-security-incidents.md) — 标题夸张，实为 10-20 前后二十多起安全事件：PHP2Shell 两个 CVSS 9.2 RCE 补丁前泄露、45 分钟内数万次攻击；GitLab 满分漏洞、LiteLLM 恶意 PyPI/Docker、eMudhra CA 私钥泄露波及 Tailscale；CyberCartel 的 CARLIY0S 用 Claude 指挥+Grok 采集，伪装红队演练攻击拉美 400+ 银行；Axios：大行发现第三方 AI Agent 未授权访问客户账户；白帽 AI 蜂群强行打补丁 (2026-10-22)
 - [田柯宇融资 3000 万美元、估值 2 亿，字节「模型干扰事件」另一方联名发声（视角学社）](03-industry/2026-10-22-tian-keyu-funding-bytedance-dispute.md) — VAR（NeurIPS 2024 最佳论文）一作新实验室获五源、IDG 近 3000 万美元，约 10 人、2027 年推世界模型；2024 年字节索赔 800 万、一审判赔约 50 万，二审未决；田柯宇称只为替被欺负者释放算力、十天五次停任务，实习生 A 方 10 人实名指控 3–7 月替换 PyTorch 伪装故障、VAR Demo 套壳 PixArt；双方均为自述，套壳无权威结论 (2026-10-22)
 - [裁掉两名高薪工程师，花 2 小时教系统管理员用 Claude Code「接盘」（CSDN）](03-industry/2026-10-22-sysadmin-replaces-two-engineers-with-claude-code.md) — Reddit r/ClaudeCode 自述：西班牙中级系统管理员（年薪约 2.6 万美元）接手被裁的云架构师+全栈开发（各 8 万+美元）工作，仅 2 小时 Claude Code 培训；建公司知识库靠 AI 撑住、加薪被拒、担心技能退化与故障暴露；网友分强硬谈判/跳槽/大势所趋/安心干四派（单方自述未核实） (2026-10-22)
@@ -487,4 +488,3 @@
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
 
-- [Anthropic 研究员 Jascha Sohl-Dickstein《人类世的终结》：博士生传统职业规划已失效（新智元）](03-industry/2026-10-26-jascha-sohl-dickstein-end-of-anthropocene-phd-careers.md) — 十年算力涨1000万倍、METR任务时长每几个月翻倍、AI解Erdős难题、2030年算力为2025年1万倍；三条法则：做能被算力放大的事/安全选择不安全/每天用AI但别外包初稿；指数早期个人杠杆巨大 (2026-10-26)
