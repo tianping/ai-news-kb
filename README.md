@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [scroll-world：用一个 skill 做出 3D 滚动穿行特效网页](02-tools/2026-10-27-scroll-world-3d-scroll-website-skill.md) — Codex/Claude Code skill（oso95/scroll-world）：AI 生成镜头穿行视频+滚动控制播放进度做品牌故事网页，非实时3D；依赖 Monid/Higgsfield/FFmpeg 付费生成；分镜→静态图→视频（用实际首尾帧接缝）→模板接入→本地验收 (2026-10-27)
 - [Ollama v0.40.9：Mac 上用 Phonon 本地流式语音合成（养虾农户）](02-tools/2026-10-26-ollama-v0409-phonon-tts-mac.md) — Apple Silicon 上 ollama run phonon 边生成边朗读；Phonon 104MB/14 变体、5 种欧洲语言无中文；OpenAI 兼容 /v1/audio/speech 流式；同版 d3 决策模型走 /v1/systemone 返回概率、Flint 上 Linux/Windows、三项修复 (2026-10-26)
 - [Obsidian Maps of the Ideaverse 关系图谱插件（艾康的AI自留地）](02-tools/2026-10-25-obsidian-maps-of-the-ideaverse-plugin.md) — Nick Milo 免费开源插件：时间重放知识库生长，涌现/重力/星域/意义建构多视图，Focus 聚焦单条笔记的关联 (2026-10-25)
 - [Obsidian Hovered Table of Content 悬停目录插件](02-tools/2026-10-24-obsidian-hovered-table-of-content-plugin.md) — 悬停图标看笔记目录、预览章节内容和内部链接笔记 (2026-10-24)
@@ -272,6 +273,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | scroll-world：用一个 skill 做出 3D 滚动穿行特效网页 | 2026-10-27 |
 | 02-tools | Codex + Blender 做 IP 角色建模像提线木偶，换付费 Tripo 才像 | 2026-10-23 |
 | 02-tools | Blender 四个 AI 插件：LoopCut、Scenario、video-to-blender、Blender Skills | 2026-10-23 |
 | 02-tools | Blender 是什么？程序员为什么值得了解这套 3D 工具 | 2026-10-23 |
@@ -486,7 +488,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-
-
-- [scroll-world：用一个 skill 做出 3D 滚动穿行特效网页](02-tools/2026-10-27-scroll-world-3d-scroll-website-skill.md) — Codex/Claude Code skill（oso95/scroll-world）：AI 生成镜头穿行视频+滚动控制播放进度做品牌故事网页，非实时3D；依赖 Monid/Higgsfield/FFmpeg 付费生成；分镜→静态图→视频（用实际首尾帧接缝）→模板接入→本地验收 (2026-10-27)
