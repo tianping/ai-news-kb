@@ -488,3 +488,5 @@
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
 
+
+- [scroll-world：用一个 skill 做出 3D 滚动穿行特效网页](02-tools/2026-10-27-scroll-world-3d-scroll-website-skill.md) — Codex/Claude Code skill（oso95/scroll-world）：AI 生成镜头穿行视频+滚动控制播放进度做品牌故事网页，非实时3D；依赖 Monid/Higgsfield/FFmpeg 付费生成；分镜→静态图→视频（用实际首尾帧接缝）→模板接入→本地验收 (2026-10-27)
