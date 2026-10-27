@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Ollama v0.40.9：Mac 上用 Phonon 本地流式语音合成（养虾农户）](02-tools/2026-10-26-ollama-v0409-phonon-tts-mac.md) — Apple Silicon 上 ollama run phonon 边生成边朗读；Phonon 104MB/14 变体、5 种欧洲语言无中文；OpenAI 兼容 /v1/audio/speech 流式；同版 d3 决策模型走 /v1/systemone 返回概率、Flint 上 Linux/Windows、三项修复 (2026-10-26)
 - [Obsidian Maps of the Ideaverse 关系图谱插件（艾康的AI自留地）](02-tools/2026-10-25-obsidian-maps-of-the-ideaverse-plugin.md) — Nick Milo 免费开源插件：时间重放知识库生长，涌现/重力/星域/意义建构多视图，Focus 聚焦单条笔记的关联 (2026-10-25)
 - [Obsidian Hovered Table of Content 悬停目录插件](02-tools/2026-10-24-obsidian-hovered-table-of-content-plugin.md) — 悬停图标看笔记目录、预览章节内容和内部链接笔记 (2026-10-24)
 - [Obsidian Link Peek 外链悬浮预览插件](02-tools/2026-10-24-obsidian-link-peek-plugin.md) — 外部网页链接悬浮弹 OG 卡片，与原生页面预览互补 (2026-10-24)
