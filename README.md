@@ -496,3 +496,5 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
+
+- [用 Obsidian 管理孩子的错题本：AI 录入 + 间隔重复复习（蛋仔成长笔记）](02-tools/2026-10-28-obsidian-mistake-notebook-spaced-repetition.md) — 作业帮拍题→AI 按模板生成题目/正解/解析/错解（须核对）；一篇笔记多题，用知识点/题型/错因标签检索；错题卡练解题、知识卡练概念；Spaced Repetition 插件 SR 注释（日期,间隔,ease）自动排复习；按错因回补形成闭环 (2026-10-28)
