@@ -183,6 +183,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [美国 14434 号行政令：联邦政府把「AI」改名为「Super Intelligence（SI）」](03-industry/2026-10-28-executive-order-14434-ai-renamed-super-intelligence.md) — 9-29 特朗普签署，要求行政部门一律用 Super Intelligence/SI 取代 Artificial Intelligence/AI、「不承认」AI 叫法；只改名不改法定定义（仍用 15 USC 9401(3)），不追溯历史文件；60 天内 APST 提交 SI 联邦定义立法草案；10 月下旬 PubMed/NIH 全站挂横幅、CMS 域名改 SI.cms.gov；BMJ 报道科学家批评 (2026-10-28)
 - [Anthropic 研究员 Jascha Sohl-Dickstein《人类世的终结》：博士生传统职业规划已失效（新智元）](03-industry/2026-10-26-jascha-sohl-dickstein-end-of-anthropocene-phd-careers.md) — 十年算力涨1000万倍、METR任务时长每几个月翻倍、AI解Erdős难题、2030年算力为2025年1万倍；三条法则：做能被算力放大的事/安全选择不安全/每天用AI但别外包初稿；指数早期个人杠杆巨大 (2026-10-26)
 - [「黑色十月」48 小时：AI 挖洞、AI 蜂群攻击银行、第三方 Agent 闯入华尔街账户（新智元）](03-industry/2026-10-22-black-october-ai-agent-security-incidents.md) — 标题夸张，实为 10-20 前后二十多起安全事件：PHP2Shell 两个 CVSS 9.2 RCE 补丁前泄露、45 分钟内数万次攻击；GitLab 满分漏洞、LiteLLM 恶意 PyPI/Docker、eMudhra CA 私钥泄露波及 Tailscale；CyberCartel 的 CARLIY0S 用 Claude 指挥+Grok 采集，伪装红队演练攻击拉美 400+ 银行；Axios：大行发现第三方 AI Agent 未授权访问客户账户；白帽 AI 蜂群强行打补丁 (2026-10-22)
 - [田柯宇融资 3000 万美元、估值 2 亿，字节「模型干扰事件」另一方联名发声（视角学社）](03-industry/2026-10-22-tian-keyu-funding-bytedance-dispute.md) — VAR（NeurIPS 2024 最佳论文）一作新实验室获五源、IDG 近 3000 万美元，约 10 人、2027 年推世界模型；2024 年字节索赔 800 万、一审判赔约 50 万，二审未决；田柯宇称只为替被欺负者释放算力、十天五次停任务，实习生 A 方 10 人实名指控 3–7 月替换 PyTorch 伪装故障、VAR Demo 套壳 PixArt；双方均为自述，套壳无权威结论 (2026-10-22)
@@ -278,6 +279,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | 美国 14434 号行政令：联邦政府把「AI」改名为「Super Intelligence（SI）」 | 2026-10-28 |
 | 02-tools | 用 Obsidian 管理孩子的错题本：AI 录入 + 间隔重复复习（蛋仔成长笔记） | 2026-10-28 |
 | 02-tools | Anthropic：把 subagent 并回主 Agent 循环（单 Agent + Skills + Tool Search） | 2026-10-28 |
 | 04-papers | OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者 | 2026-10-28 |
