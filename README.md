@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [太上老君·AI炼丹炉：抖音/小红书短视频创作 Skill（开源）](02-tools/2026-10-28-taishang-laojun-short-video-skill.md) — 抖音「柳爷不迷糊」开源 8 个 skill（总控台+选材/看火/丹方/开炉/回炉/收丹/成丹），npx skills add 一行装，豆包等用 Bot 版；AI 先下判断、反泛货自检、不编经历；去 AI 味首查「假对比」并附 linter 进 CI；validation.md 记录新旧版匿名评审；v0.7.2、255 star、CC BY-NC 4.0 (2026-10-28)
 - [用 Obsidian 管理孩子的错题本：AI 录入 + 间隔重复复习（蛋仔成长笔记）](02-tools/2026-10-28-obsidian-mistake-notebook-spaced-repetition.md) — 作业帮拍题→AI 按模板生成题目/正解/解析/错解（须核对）；一篇笔记多题，用知识点/题型/错因标签检索；错题卡练解题、知识卡练概念；Spaced Repetition 插件 SR 注释（日期,间隔,ease）自动排复习；按错因回补形成闭环 (2026-10-28)
 - [Anthropic：把 subagent 并回主 Agent 循环（单 Agent + Skills + Tool Search）](02-tools/2026-10-28-anthropic-fold-subagents-into-main-loop.md) — A 社企业部署对比：单 Agent 主循环+多 Skills 质量优于多 subagent、快约 2 倍；康威定律与传话失真；渐进式披露（Skills/Tool Search，工具超 30–50 个选择变差）；职责四分（模型/Skills/Tools 内置防线/代码）；迁移先建评估、看任务翻转 (2026-10-28)
 - [Claude Code 跨会话消息：让两个终端自己交接工作（克劳德猎手）](02-tools/2026-10-27-claude-code-cross-session-messaging.md) — v2.1.224 起内置：ListAgents/SendMessage 在会话间传一段文本（不传上下文，搬上下文用 --resume）；--name 命名、@点名、/peers；crossSessionInbound accept/hold/refuse，bypass 会话默认扣下；消息不能代批权限；notify_when_idle 等长任务完工；isolatePeerMachines 管跨机器 (2026-10-27)
@@ -279,6 +280,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 太上老君·AI炼丹炉：抖音/小红书短视频创作 Skill（开源） | 2026-10-28 |
 | 03-industry | 美国 14434 号行政令：联邦政府把「AI」改名为「Super Intelligence（SI）」 | 2026-10-28 |
 | 02-tools | 用 Obsidian 管理孩子的错题本：AI 录入 + 间隔重复复习（蛋仔成长笔记） | 2026-10-28 |
 | 02-tools | Anthropic：把 subagent 并回主 Agent 循环（单 Agent + Skills + Tool Search） | 2026-10-28 |
