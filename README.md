@@ -209,6 +209,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者](04-papers/2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md) — 1999 年 ETH（3SAT 无亚指数算法）被宣布证伪：OpenAI 10-25 预印本、Anthropic 称 Claude 10-16 零人类输入 1400 万 token 独立发现；均附 Lean 形式化证明，待同行审验；推翻 ETH 不推出 P=NP，数百篇条件性下界需重估 (2026-10-28)
 - [Anthropic 实验：AI Agent 如何左右专家判断（86% 关键决策跟随 AI 预设立场）](04-papers/2026-10-28-anthropic-agents-shape-expert-judgment.md) — 50 名资深分析师用 Claude Code 做因果分析，AI 立场由硬币随机设定：86% 决策跟随 AI（翻转率 72%），AI 反对时 60% 改口，77% 事后复述 AI 论点仅 15% 注明；但不用 AI 组 55% 出致命错误（AI 组 6%） (2026-10-28)
 - [开源解锁 GeForce Tensor Core 限速：RTX 4090 特定运算吞吐翻倍（机器之心）](04-papers/2026-10-26-nvidia-geforce-tensor-core-rate-unlock.md) — 利用安全启动固件漏洞改 SS0/SS1 速率寄存器，FP16/BF16 入 FP32 累加吞吐约 2 倍；20/30/40 系均有项目，实际 GEMM +12%~80%，LLM 预填充快约 33% (2026-10-26)
 - [UCLA PhoneBot：旧手机当大脑的 400 美元双足机器人（机器人大讲堂）](04-papers/2026-10-25-ucla-phonebot-400-dollar-biped-robot.md) — 手机经 Wi-Fi 无线控制 13 舵机双足，2017 年荣耀 9 即可；sim-to-real + 步态镜像；填补教具与科研样机之间的价格空白 (2026-10-25)
@@ -275,6 +276,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 04-papers | OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者 | 2026-10-28 |
 | 04-papers | Anthropic 实验：AI Agent 如何左右专家判断（86% 关键决策跟随 AI 预设立场） | 2026-10-28 |
 | 02-tools | Claude Code 跨会话消息：让两个终端自己交接工作（克劳德猎手） | 2026-10-27 |
 | 02-tools | scroll-world：用一个 skill 做出 3D 滚动穿行特效网页 | 2026-10-27 |
@@ -492,5 +494,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者](04-papers/2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md) — 1999 年 ETH（3SAT 无亚指数算法）被宣布证伪：OpenAI 10-25 预印本、Anthropic 称 Claude 10-16 零人类输入 1400 万 token 独立发现；均附 Lean 形式化证明，待同行审验；推翻 ETH 不推出 P=NP，数百篇条件性下界需重估 (2026-10-28)
