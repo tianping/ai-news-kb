@@ -9,6 +9,8 @@
 
 > 🔗 **与 [OpenMontage](2026-10-28-openmontage-agentic-video-production.md) 正好互补**：炼丹炉管「拍什么、怎么说」（选题、逐字稿、标题），OpenMontage 管「怎么做出来」（分镜、素材生成、配音、剪辑、渲染）。可以先用炼丹炉定稿，再交给 OpenMontage 出成片。
 
+> 🖥️ **HPC 本地整合方案**：见 [在 McCleary 上整合炼丹炉 + OpenMontage（待执行）](2026-10-28-hpc-local-video-taishang-openmontage-plan.md)
+
 ## 一句话
 
 这是一套给 AI 智能体装的短视频创作技能，帮「不知道拍啥、不会写稿」的人做内容。它先弄清你是谁、想吸引谁，再把别人的爆款和你自己的经历「炼」成一条能直接念的口播稿。方法来自作者对自己作品的口述复盘，传的是判断方式，不是句式模板。

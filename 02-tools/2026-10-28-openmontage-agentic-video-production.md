@@ -9,6 +9,8 @@
 
 > 🔗 **与「太上老君炼丹炉」正好互补**：[炼丹炉](2026-10-28-taishang-laojun-short-video-skill.md)管**内容层**，负责找对标、拆爆款、选题、写口播稿、起标题，回答「拍什么、怎么说」；OpenMontage 管**制作层**，负责调研、分镜、生成或找素材、配音配乐、剪辑、渲染，回答「怎么把视频做出来」。可以先用炼丹炉定选题和逐字稿，再交给 OpenMontage 做成片。两者都能装进 Claude Code、Codex、Cursor。
 
+> 🖥️ **HPC 本地整合方案**：见 [在 McCleary 上整合炼丹炉 + OpenMontage（待执行）](2026-10-28-hpc-local-video-taishang-openmontage-plan.md)
+
 ## 一句话
 
 你用大白话描述想要的视频，AI 助手就会按一套完整的制作流程，自己调研、写脚本、生成或检索素材、配旁白和音乐、加字幕、剪辑并渲染出成片。
