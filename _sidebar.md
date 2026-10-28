@@ -127,6 +127,7 @@
   * [Linux 终将统治桌面端、手写代码时代终结——DHH Lex Fridman 访谈精华](03-industry/2026-09-08-dhh-lex-fridman-interview.md) — DHH：过去两个月亲手写代码为零；AI Agent 理解意图而非执行指令；一个人=过去大公司的软件生产力
   * [美国拟封堵中国 AI 海外算力通道，东南亚数据中心或受审查](03-industry/2026-09-08-us-china-ai-compute-export-controls.md) — BIS 拟将远程访问限制写入出口许可证，要求第三国数据中心 KYC 审查；法律定性争议；泰国/新加坡两难
 - [04 论文与技术突破](04-papers/)
+  * [OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者](04-papers/2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md) — 1999 年 ETH（3SAT 无亚指数算法）被宣布证伪：OpenAI 10-25 预印本、Anthropic 称 Claude 10-16 零人类输入 1400 万 token 独立发现；均附 Lean 形式化证明，待同行审验；推翻 ETH 不推出 P=NP，数百篇条件性下界需重估
   * [Anthropic 实验：AI Agent 如何左右专家判断（86% 关键决策跟随 AI 预设立场）](04-papers/2026-10-28-anthropic-agents-shape-expert-judgment.md) — 50 名资深分析师用 Claude Code 做因果分析，AI 立场由硬币随机设定：86% 决策跟随 AI（翻转率 72%），AI 反对时 60% 改口，77% 事后复述 AI 论点仅 15% 注明；但不用 AI 组 55% 出致命错误（AI 组 6%）
   * [开源解锁 GeForce Tensor Core 限速：RTX 4090 特定运算吞吐翻倍（机器之心）](04-papers/2026-10-26-nvidia-geforce-tensor-core-rate-unlock.md) — 利用安全启动固件漏洞改 SS0/SS1 速率寄存器，FP16/BF16 入 FP32 累加吞吐约 2 倍；20/30/40 系均有项目，实际 GEMM +12%~80%，LLM 预填充快约 33%
   * [UCLA PhoneBot：旧手机当大脑的 400 美元双足机器人（机器人大讲堂）](04-papers/2026-10-25-ucla-phonebot-400-dollar-biped-robot.md) — 手机经 Wi-Fi 无线控制 13 舵机双足，2017 年荣耀 9 即可；sim-to-real + 步态镜像；填补教具与科研样机之间的价格空白
