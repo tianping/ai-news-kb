@@ -186,6 +186,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环）](03-industry/2026-10-28-tao-openai-riemann-7-8-math-2-0.md) — Numberphile 访谈+ICM 2026 论文+《Math 2.0》演讲：OpenAI 经 Lean 4 验证把无零半平面推到 Re(s)>7/8，50 年最大进展，靠 metaplectic 自守形式嫁接、保留余项、挑数域；第二次数学基础危机——古德哈特定律、Stadlmann 240 被截胡、阐释带宽阻抗失配、可读论文比例 90%→10%；药方：证明领养、优先权取三者最晚、脱稿答辩门槛；人类以 7/8 为垫脚石破类群挠率难题（自媒体二手，待核实） (2026-10-28)
 - [美国 14434 号行政令：联邦政府把「AI」改名为「Super Intelligence（SI）」](03-industry/2026-10-28-executive-order-14434-ai-renamed-super-intelligence.md) — 9-29 特朗普签署，要求行政部门一律用 Super Intelligence/SI 取代 Artificial Intelligence/AI、「不承认」AI 叫法；只改名不改法定定义（仍用 15 USC 9401(3)），不追溯历史文件；60 天内 APST 提交 SI 联邦定义立法草案；10 月下旬 PubMed/NIH 全站挂横幅、CMS 域名改 SI.cms.gov；BMJ 报道科学家批评 (2026-10-28)
 - [Anthropic 研究员 Jascha Sohl-Dickstein《人类世的终结》：博士生传统职业规划已失效（新智元）](03-industry/2026-10-26-jascha-sohl-dickstein-end-of-anthropocene-phd-careers.md) — 十年算力涨1000万倍、METR任务时长每几个月翻倍、AI解Erdős难题、2030年算力为2025年1万倍；三条法则：做能被算力放大的事/安全选择不安全/每天用AI但别外包初稿；指数早期个人杠杆巨大 (2026-10-26)
 - [「黑色十月」48 小时：AI 挖洞、AI 蜂群攻击银行、第三方 Agent 闯入华尔街账户（新智元）](03-industry/2026-10-22-black-october-ai-agent-security-incidents.md) — 标题夸张，实为 10-20 前后二十多起安全事件：PHP2Shell 两个 CVSS 9.2 RCE 补丁前泄露、45 分钟内数万次攻击；GitLab 满分漏洞、LiteLLM 恶意 PyPI/Docker、eMudhra CA 私钥泄露波及 Tailscale；CyberCartel 的 CARLIY0S 用 Claude 指挥+Grok 采集，伪装红队演练攻击拉美 400+ 银行；Axios：大行发现第三方 AI Agent 未授权访问客户账户；白帽 AI 蜂群强行打补丁 (2026-10-22)
@@ -282,6 +283,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | 陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环） | 2026-10-28 |
 | 02-tools | 在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行） | 2026-10-28 |
 | 02-tools | OpenMontage：开源 Agent 视频制作系统，把 AI 编程助手变成视频制作团队 | 2026-10-28 |
 | 02-tools | 太上老君·AI炼丹炉：抖音/小红书短视频创作 Skill（开源） | 2026-10-28 |
