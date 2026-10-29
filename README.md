@@ -235,6 +235,7 @@
 - 评测榜单动态
 
 ### 五、事件与评论
+- [10岁和14岁少年拒绝Vibe Coding：DVR Doctor两小时完成Mac移植引争议（CSDN）](05-events/2026-10-29-dvr-doctor-kids-refuse-vibe-coding.md) — 两少年开发FPV录像修复软件，光流法→机器学习；承认用AI辅助但核心代码自写，Reddit争论 (2026-10-29)
 - [REA 逆向热潮：某星电视被曝监视用户，REA 遭 Claude/ChatGPT 封禁](05-events/2026-10-26-rea-reverse-engineering-tv-surveillance-ban.md) — 开源AI逆向工具REA(38.6万Star)引爆逆向家电潮；Log4j root某星电视发现常驻语音、狗叫/婴儿哭声计数上报、借外部麦克风、广告追踪；OpenAI以Cyber Abuse封号，Claude中途打断逆向请求 (2026-10-26)
 - [Claude Code 删光开发者整个 C 盘：跳过权限确认的代价与自动模式之争（CSDN）](05-events/2026-10-13-claude-code-deleted-c-drive-auto-mode.md) — Zac 用 --dangerously-skip-permissions 让 Opus 5.5 无人值守，PowerShell 拼接错误疑致整盘被删，靠每日 NAS 备份恢复 98%；Boris Cherny 推自动模式（内测拦截 89% vs 人类 13.6%）；另有 Linux 用户开自动模式仍因测试代码丢数据——隔离环境+备份才是底线 (2026-10-13)
 - [国际翻译日：白宫废除AI一词，改称SI](05-events/2026-09-30-trump-super-intelligence-si-order.md) — 外宣微记：白宫行政命令要求联邦公文以 Super Intelligence/SI 取代 Artificial Intelligence/AI；法定定义暂沿用现有 AI 条款，60 天内提交 SI 联邦定义立法建议 (2026-09-30)
@@ -508,5 +509,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [10岁和14岁少年拒绝Vibe Coding：DVR Doctor两小时完成Mac移植引争议（CSDN）](05-events/2026-10-29-dvr-doctor-kids-refuse-vibe-coding.md) — 两少年开发FPV录像修复软件，光流法→机器学习；承认用AI辅助但核心代码自写，Reddit争论 (2026-10-29)
