@@ -248,6 +248,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [耶鲁博士课Claude Code for Accounting Research：AI进实证研究的6个做法（学术AI大模型）](06-academic/2026-10-29-yale-claude-code-accounting-research.md) — John Barrios：具体化任务、记录样本变化、失败追问、流程做成Skill、只批注不改写；推荐audit-econ (2026-10-29)
 - [科研 Skill 怎么选：按六类任务整理 11 个 GitHub 项目（ZenResearch）](06-academic/2026-10-20-research-skills-selection-guide-11-projects.md) — 同类装太多会触发冲突、上下文冗余；ARS 全流程 / ARIS 自动 ML 实验（cross-model review）/ Supervisor-Skills 选题 / PaperSpine 论证脊柱 / Scientific Agent Skills 组学数据库 / Auto-Empirical 因果推断（router 按需调用）/ Nature Skills / Claim-evidence 写作 / Deep Research 信源核查；医学三套搭配；装前 5 问（是否重叠、有无脚本依赖、能否项目级安装、结果能否核查） (2026-10-20)
 - [Supervisor-Skills：港科大（广州）骆昱宇把博导科研经验做成 11 个 AI 技能（学知大模型）](06-academic/2026-10-20-supervisor-skills-hkust-research-skills.md) — Handbook + 11 Skills，⭐7.4k，接入豆包办公模式；idea-evaluator 五维（Higher/Faster/Stronger/Cheaper/Broader）给 Accept/Reject；deep-research 引用核验 + MECE；intro-drafter 六段式；pre-submission-reviewer 按 CRITICAL/MAJOR/MINOR 分级；另有 paper-writer 证据门控、figure-designer、drawio-reconstruction (2026-10-20)
 - [Anthropic 科学家 Sohl-Dickstein：AGI 若三年内到来，读博与教职规划还有意义吗（腾讯科技）](06-academic/2026-10-20-sohl-dickstein-advice-young-investigator-agi.md) — 斯坦福 6 月演讲：训练算量十年 1000 万倍、2030 年或为 2025 年 1 万倍；Claude 像执行力强但缺直觉的研究生，他已基本不写代码但要会质疑结果；「写作即思考」初稿自己写；信 AGI 将至就别把博士-博后-教职当安全路径；推荐 AI for Science、可解释性、AI 安全、政策治理 (2026-10-20)
@@ -509,5 +510,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [耶鲁博士课Claude Code for Accounting Research：AI进实证研究的6个做法（学术AI大模型）](06-academic/2026-10-29-yale-claude-code-accounting-research.md) — John Barrios：具体化任务、记录样本变化、失败追问、流程做成Skill、只批注不改写；推荐audit-econ (2026-10-29)
