@@ -74,3 +74,4 @@ Claude Code 从 **v2.1.224** 起内置了跨会话消息：一个会话可以直
 
 - 版本号和设置项以官方文档为准，功能可能随版本变化。
 - 本机环境（McCleary）的 Claude Code 里已经能看到 `ListAgents` 和 `SendMessage` 工具。
+- 相关笔记：[Claude 上了 CarPlay，苹果只给它一张嘴](2026-10-30-claude-carplay-voice-mode.md)（同一公众号）
