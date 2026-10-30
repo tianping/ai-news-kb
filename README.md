@@ -515,3 +515,5 @@
 
 
 
+
+- [编辑如何一眼看出论文是AI写的：七个破绽 + academic-prose-refine（学术AI大模型）](06-academic/2026-10-30-academic-prose-refine-ai-writing-signs.md) — 段落过整齐、对称标签、冒号分号乱用、只复述不讨论、句式单一、总结多分析少、过度防御；开源Skill逐节改写并保留结论与引用 (2026-10-30)
