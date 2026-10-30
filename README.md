@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示 (2026-10-30)
 - [在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行）](02-tools/2026-10-28-hpc-local-video-taishang-openmontage-plan.md) — Claude Code 当整合层：炼丹炉出选题与逐字稿 → OpenMontage 分镜/素材/Piper 中文配音/Remotion 渲染；现有 FFmpeg、Node 26、GPU 分区、Noto Sans SC；第一步免费路线跑通（验证 Remotion Chromium、计算节点联网），第二步 sbatch 跑 Wan 2.2 5B；风险：Chromium 依赖、gibbs 92%、本地画质；尚未执行 (2026-10-28)
 - [OpenMontage：开源 Agent 视频制作系统，把 AI 编程助手变成视频制作团队](02-tools/2026-10-28-openmontage-agentic-video-production.md) — 7.3 万 star、AGPL-3.0；AI 助手即导演，research→script→scene_plan→assets→edit→compose，YAML 清单+Markdown 导演技能；12 条流程/100+ 工具/60+ 供应商 7 维打分；贴参考视频仿拍、免费素材库 CLIP 检索拼剪真视频；60 秒动画短片 1.33 美元；与「太上老君炼丹炉」互补（炼丹炉管选题写稿，OpenMontage 管成片） (2026-10-28)
 - [太上老君·AI炼丹炉：抖音/小红书短视频创作 Skill（开源）](02-tools/2026-10-28-taishang-laojun-short-video-skill.md) — 抖音「柳爷不迷糊」开源 8 个 skill（总控台+选材/看火/丹方/开炉/回炉/收丹/成丹），npx skills add 一行装，豆包等用 Bot 版；AI 先下判断、反泛货自检、不编经历；去 AI 味首查「假对比」并附 linter 进 CI；validation.md 记录新旧版匿名评审；v0.7.2、255 star、CC BY-NC 4.0 (2026-10-28)
@@ -514,5 +515,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示 (2026-10-30)
