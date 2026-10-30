@@ -186,6 +186,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [49岁清华教授唐杰身家约275亿：从2万元论文奖金到中国教授首富（文汇教育）](03-industry/2026-10-29-tang-jie-zhipu-richest-professor.md) — 胡润榜新人，智谱上市后市值冲上万亿再回落；AMiner起家、KEG人才网络 (2026-10-29)
 - [“编程面试已死”：Anthropic 工程经理取消传统编程面试，给初级工程师的建议（CSDN）](03-industry/2026-10-29-anthropic-felix-rieseberg-coding-interview-dead.md) — Felix Rieseberg（Claude.ai/Cowork/Claude Code Desktop）：Claude 已能通过编程题，面试失去预测力；进取心胜过资历——对准业务目标、提大胆想法、周末做原型、只做一个好点子、用新人视角；案例：两名新人周末原型→8 天上线 Claude Code 图形界面 (2026-10-29)
 - [陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环）](03-industry/2026-10-28-tao-openai-riemann-7-8-math-2-0.md) — Numberphile 访谈+ICM 2026 论文+《Math 2.0》演讲：OpenAI 经 Lean 4 验证把无零半平面推到 Re(s)>7/8，50 年最大进展，靠 metaplectic 自守形式嫁接、保留余项、挑数域；第二次数学基础危机——古德哈特定律、Stadlmann 240 被截胡、阐释带宽阻抗失配、可读论文比例 90%→10%；药方：证明领养、优先权取三者最晚、脱稿答辩门槛；人类以 7/8 为垫脚石破类群挠率难题（自媒体二手，待核实） (2026-10-28)
 - [美国 14434 号行政令：联邦政府把「AI」改名为「Super Intelligence（SI）」](03-industry/2026-10-28-executive-order-14434-ai-renamed-super-intelligence.md) — 9-29 特朗普签署，要求行政部门一律用 Super Intelligence/SI 取代 Artificial Intelligence/AI、「不承认」AI 叫法；只改名不改法定定义（仍用 15 USC 9401(3)），不追溯历史文件；60 天内 APST 提交 SI 联邦定义立法草案；10 月下旬 PubMed/NIH 全站挂横幅、CMS 域名改 SI.cms.gov；BMJ 报道科学家批评 (2026-10-28)
@@ -514,4 +515,3 @@
 
 
 
-- [49岁清华教授唐杰身家约275亿：从2万元论文奖金到中国教授首富（文汇教育）](03-industry/2026-10-29-tang-jie-zhipu-richest-professor.md) — 胡润榜新人，智谱上市后市值冲上万亿再回落；AMiner起家、KEG人才网络 (2026-10-29)
