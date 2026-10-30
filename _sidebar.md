@@ -108,6 +108,7 @@
   * [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
   * [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+  * [Claude Code VS Code 扩展 2.1.313 被投毒：66 行加载器植入 SSH 后门（网络安全透视镜）](03-industry/2026-10-30-claude-code-vscode-extension-2-1-313-poisoned.md) — Open VSX/Cursor 市场冒用 anthropic.claude-code，仅改 extension.js：写 svc-telemetry 公钥、反向隧道 134.209.82.225、三平台持久化、明文信标；Cursor 暴露约 11 小时上限 5000 人；官方已发 2.1.314；附 IoC、自查命令与本机自查结果（未受影响）
   * [49岁清华教授唐杰身家约275亿：从2万元论文奖金到中国教授首富（文汇教育）](03-industry/2026-10-29-tang-jie-zhipu-richest-professor.md) — 胡润榜新人，智谱上市后市值冲上万亿再回落；AMiner起家、KEG人才网络
   * [“编程面试已死”：Anthropic 工程经理取消传统编程面试，给初级工程师的建议（CSDN）](03-industry/2026-10-29-anthropic-felix-rieseberg-coding-interview-dead.md) — Felix Rieseberg（Claude.ai/Cowork/Claude Code Desktop）：Claude 已能通过编程题，面试失去预测力；进取心胜过资历——对准业务目标、提大胆想法、周末做原型、只做一个好点子、用新人视角；案例：两名新人周末原型→8 天上线 Claude Code 图形界面
   * [陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环）](03-industry/2026-10-28-tao-openai-riemann-7-8-math-2-0.md) — Numberphile 访谈+ICM 2026 论文+《Math 2.0》演讲：OpenAI 经 Lean 4 验证把无零半平面推到 Re(s)>7/8，50 年最大进展，靠 metaplectic 自守形式嫁接、保留余项、挑数域；第二次数学基础危机——古德哈特定律、Stadlmann 240 被截胡、阐释带宽阻抗失配、可读论文比例 90%→10%；药方：证明领养、优先权取三者最晚、脱稿答辩门槛；人类以 7/8 为垫脚石破类群挠率难题（自媒体二手，待核实）

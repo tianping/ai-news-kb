@@ -49,3 +49,4 @@ Barrios 的问题：当 AI 能更快帮我们产出图表和论文时，研究�
 - 这套方法对生信分析同样适用：具体化任务（数据单位 + 处理 + 交付物）、记录每步样本变化、保留失败名单追问原因、反复流程做成 Skill、独立会话只批注不改写
 - 文中「对科研人的启示」部分的演示用的是 Codex，课程本身用 Claude Code
 - 正文由 fetch_wechat.py 抓取；课程原始链接文中未给出
+- 相关笔记：[编辑如何一眼看出论文是AI写的：七个破绽 + academic-prose-refine](2026-10-30-academic-prose-refine-ai-writing-signs.md)（同一公众号）
