@@ -187,6 +187,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供 (2026-10-31)
 - [Claude Code VS Code 扩展 2.1.313 被投毒：66 行加载器植入 SSH 后门（网络安全透视镜）](03-industry/2026-10-30-claude-code-vscode-extension-2-1-313-poisoned.md) — Open VSX/Cursor 市场冒用 anthropic.claude-code，仅改 extension.js：写 svc-telemetry 公钥、反向隧道 134.209.82.225、三平台持久化、明文信标；Cursor 暴露约 11 小时上限 5000 人；官方已发 2.1.314；附 IoC、自查命令与本机自查结果（未受影响） (2026-10-30)
 - [49岁清华教授唐杰身家约275亿：从2万元论文奖金到中国教授首富（文汇教育）](03-industry/2026-10-29-tang-jie-zhipu-richest-professor.md) — 胡润榜新人，智谱上市后市值冲上万亿再回落；AMiner起家、KEG人才网络 (2026-10-29)
 - [“编程面试已死”：Anthropic 工程经理取消传统编程面试，给初级工程师的建议（CSDN）](03-industry/2026-10-29-anthropic-felix-rieseberg-coding-interview-dead.md) — Felix Rieseberg（Claude.ai/Cowork/Claude Code Desktop）：Claude 已能通过编程题，面试失去预测力；进取心胜过资历——对准业务目标、提大胆想法、周末做原型、只做一个好点子、用新人视角；案例：两名新人周末原型→8 天上线 Claude Code 图形界面 (2026-10-29)
@@ -516,5 +517,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供 (2026-10-31)
