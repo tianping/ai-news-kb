@@ -189,6 +189,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击 (2026-10-31)
 - [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供 (2026-10-31)
 - [Claude Code VS Code 扩展 2.1.313 被投毒：66 行加载器植入 SSH 后门（网络安全透视镜）](03-industry/2026-10-30-claude-code-vscode-extension-2-1-313-poisoned.md) — Open VSX/Cursor 市场冒用 anthropic.claude-code，仅改 extension.js：写 svc-telemetry 公钥、反向隧道 134.209.82.225、三平台持久化、明文信标；Cursor 暴露约 11 小时上限 5000 人；官方已发 2.1.314；附 IoC、自查命令与本机自查结果（未受影响） (2026-10-30)
 - [49岁清华教授唐杰身家约275亿：从2万元论文奖金到中国教授首富（文汇教育）](03-industry/2026-10-29-tang-jie-zhipu-richest-professor.md) — 胡润榜新人，智谱上市后市值冲上万亿再回落；AMiner起家、KEG人才网络 (2026-10-29)
@@ -294,6 +295,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露） | 2026-10-31 |
 | 03-industry | 陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环） | 2026-10-28 |
 | 02-tools | 在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行） | 2026-10-28 |
 | 02-tools | OpenMontage：开源 Agent 视频制作系统，把 AI 编程助手变成视频制作团队 | 2026-10-28 |
@@ -521,4 +523,4 @@
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
 
-- [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击 (2026-10-31)
+
