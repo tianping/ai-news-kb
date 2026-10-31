@@ -520,3 +520,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击 (2026-10-31)
