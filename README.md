@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Obsidian 同步插件 WeChat Inbox Sync（老陈自救记）](02-tools/2026-10-31-obsidian-wechat-inbox-sync-plugin.md) — 微信小程序当收件箱→CloudBase中转→Obsidian生成Markdown；免费每日5次，视频需Pro；云端同步完即清理，需定期开电脑 (2026-10-31)
 - [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示 (2026-10-30)
 - [在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行）](02-tools/2026-10-28-hpc-local-video-taishang-openmontage-plan.md) — Claude Code 当整合层：炼丹炉出选题与逐字稿 → OpenMontage 分镜/素材/Piper 中文配音/Remotion 渲染；现有 FFmpeg、Node 26、GPU 分区、Noto Sans SC；第一步免费路线跑通（验证 Remotion Chromium、计算节点联网），第二步 sbatch 跑 Wan 2.2 5B；风险：Chromium 依赖、gibbs 92%、本地画质；尚未执行 (2026-10-28)
 - [OpenMontage：开源 Agent 视频制作系统，把 AI 编程助手变成视频制作团队](02-tools/2026-10-28-openmontage-agentic-video-production.md) — 7.3 万 star、AGPL-3.0；AI 助手即导演，research→script→scene_plan→assets→edit→compose，YAML 清单+Markdown 导演技能；12 条流程/100+ 工具/60+ 供应商 7 维打分；贴参考视频仿拍、免费素材库 CLIP 检索拼剪真视频；60 秒动画短片 1.33 美元；与「太上老君炼丹炉」互补（炼丹炉管选题写稿，OpenMontage 管成片） (2026-10-28)

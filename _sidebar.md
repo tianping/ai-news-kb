@@ -11,6 +11,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Obsidian 同步插件 WeChat Inbox Sync（老陈自救记）](02-tools/2026-10-31-obsidian-wechat-inbox-sync-plugin.md) — 微信小程序当收件箱→CloudBase中转→Obsidian生成Markdown；免费每日5次，视频需Pro；云端同步完即清理，需定期开电脑
   * [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示
   * [在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行）](02-tools/2026-10-28-hpc-local-video-taishang-openmontage-plan.md) — Claude Code 当整合层：炼丹炉出选题与逐字稿 → OpenMontage 分镜/素材/Piper 中文配音/Remotion 渲染；现有 FFmpeg、Node 26、GPU 分区、Noto Sans SC；第一步免费路线跑通（验证 Remotion Chromium、计算节点联网），第二步 sbatch 跑 Wan 2.2 5B；风险：Chromium 依赖、gibbs 92%、本地画质；尚未执行
   * [OpenMontage：开源 Agent 视频制作系统，把 AI 编程助手变成视频制作团队](02-tools/2026-10-28-openmontage-agentic-video-production.md) — 7.3 万 star、AGPL-3.0；AI 助手即导演，research→script→scene_plan→assets→edit→compose，YAML 清单+Markdown 导演技能；12 条流程/100+ 工具/60+ 供应商 7 维打分；贴参考视频仿拍、免费素材库 CLIP 检索拼剪真视频；60 秒动画短片 1.33 美元；与「太上老君炼丹炉」互补（炼丹炉管选题写稿，OpenMontage 管成片）
