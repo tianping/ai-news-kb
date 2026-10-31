@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Faceplugin：号称全球首个完全免费开源的人脸识别 SDK](02-tools/2026-10-31-faceplugin-open-source-face-recognition.md) — 纯本地、CPU 可跑、Python 接口，开源版可免费商用，精度弱于 InsightFace/商业 SDK (2026-10-31)
 - [Obsidian 同步插件 WeChat Inbox Sync（老陈自救记）](02-tools/2026-10-31-obsidian-wechat-inbox-sync-plugin.md) — 微信小程序当收件箱→CloudBase中转→Obsidian生成Markdown；免费每日5次，视频需Pro；云端同步完即清理，需定期开电脑 (2026-10-31)
 - [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示 (2026-10-30)
 - [在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行）](02-tools/2026-10-28-hpc-local-video-taishang-openmontage-plan.md) — Claude Code 当整合层：炼丹炉出选题与逐字稿 → OpenMontage 分镜/素材/Piper 中文配音/Remotion 渲染；现有 FFmpeg、Node 26、GPU 分区、Noto Sans SC；第一步免费路线跑通（验证 Remotion Chromium、计算节点联网），第二步 sbatch 跑 Wan 2.2 5B；风险：Chromium 依赖、gibbs 92%、本地画质；尚未执行 (2026-10-28)
@@ -519,4 +520,3 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
-- [Faceplugin：号称全球首个完全免费开源的人脸识别 SDK](02-tools/2026-10-31-faceplugin-open-source-face-recognition.md) — 纯本地、CPU 可跑、Python 接口，开源版可免费商用，精度弱于 InsightFace/商业 SDK (2026-10-31)
