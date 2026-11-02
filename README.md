@@ -522,3 +522,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN）](02-tools/2026-11-02-dave-plummer-chatgpt-pdp11-4mb-ram.md) — ChatGPT+EasyEDA 设计 Q-Bus 内存板：MachXO2 FPGA 控制器+4×1MB ISSI；首次烧 FPGA，修好 16 位总线字节选择 bug 后通过测试并启动 UNIX 多用户；原装内存约 1000 美元/MB (2026-11-02)
