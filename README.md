@@ -190,6 +190,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说）](03-industry/2026-11-02-anthropic-claude-text-watermark-legacy-models.md) — 水印扩展到 Mythos 5、Opus 4.7/4.6、Sonnet 4.6；基于 SynthID-Text 变体，调整用词嵌入、不含身份信息，托管云平台不可关；Opus/Sonnet 4.6 改采样参数可绕过；检测仅向监管/研究/教育等机构审核开放；推手为欧盟 AI 法案 (2026-11-02)
 - [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击 (2026-10-31)
 - [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供 (2026-10-31)
 - [Claude Code VS Code 扩展 2.1.313 被投毒：66 行加载器植入 SSH 后门（网络安全透视镜）](03-industry/2026-10-30-claude-code-vscode-extension-2-1-313-poisoned.md) — Open VSX/Cursor 市场冒用 anthropic.claude-code，仅改 extension.js：写 svc-telemetry 公钥、反向隧道 134.209.82.225、三平台持久化、明文信标；Cursor 暴露约 11 小时上限 5000 人；官方已发 2.1.314；附 IoC、自查命令与本机自查结果（未受影响） (2026-10-30)
@@ -297,6 +298,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说） | 2026-11-02 |
 | 06-academic | 斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体） | 2026-11-02 |
 | 02-tools | 前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN） | 2026-11-02 |
 | 03-industry | Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露） | 2026-10-31 |
@@ -526,5 +528,3 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
-
-- [Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说）](03-industry/2026-11-02-anthropic-claude-text-watermark-legacy-models.md) — 水印扩展到 Mythos 5、Opus 4.7/4.6、Sonnet 4.6；基于 SynthID-Text 变体，调整用词嵌入、不含身份信息，托管云平台不可关；Opus/Sonnet 4.6 改采样参数可绕过；检测仅向监管/研究/教育等机构审核开放；推手为欧盟 AI 法案 (2026-11-02)
