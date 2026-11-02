@@ -258,6 +258,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体）](06-academic/2026-11-02-yiqing-xu-statsclaw-scaling-reproducibility.md) — StatsClaw 9 agent 信息隔离（Builder/Tester/Simulator 互不可见）保证统计包可靠；Claude Code Skills 三层复现流水线：92 篇 IV 论文 5 年手工→几分钟/篇，384 篇顶刊 3523 模型成功率 87%；均开源 (2026-11-02)
 - [编辑如何一眼看出论文是AI写的：七个破绽 + academic-prose-refine（学术AI大模型）](06-academic/2026-10-30-academic-prose-refine-ai-writing-signs.md) — 段落过整齐、对称标签、冒号分号乱用、只复述不讨论、句式单一、总结多分析少、过度防御；开源Skill逐节改写并保留结论与引用 (2026-10-30)
 - [耶鲁博士课Claude Code for Accounting Research：AI进实证研究的6个做法（学术AI大模型）](06-academic/2026-10-29-yale-claude-code-accounting-research.md) — John Barrios：具体化任务、记录样本变化、失败追问、流程做成Skill、只批注不改写；推荐audit-econ (2026-10-29)
 - [科研 Skill 怎么选：按六类任务整理 11 个 GitHub 项目（ZenResearch）](06-academic/2026-10-20-research-skills-selection-guide-11-projects.md) — 同类装太多会触发冲突、上下文冗余；ARS 全流程 / ARIS 自动 ML 实验（cross-model review）/ Supervisor-Skills 选题 / PaperSpine 论证脊柱 / Scientific Agent Skills 组学数据库 / Auto-Empirical 因果推断（router 按需调用）/ Nature Skills / Claim-evidence 写作 / Deep Research 信源核查；医学三套搭配；装前 5 问（是否重叠、有无脚本依赖、能否项目级安装、结果能否核查） (2026-10-20)
@@ -296,6 +297,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 06-academic | 斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体） | 2026-11-02 |
 | 02-tools | 前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN） | 2026-11-02 |
 | 03-industry | Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露） | 2026-10-31 |
 | 03-industry | 陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环） | 2026-10-28 |
@@ -524,5 +526,3 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
-
-- [斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体）](06-academic/2026-11-02-yiqing-xu-statsclaw-scaling-reproducibility.md) — StatsClaw 9 agent 信息隔离（Builder/Tester/Simulator 互不可见）保证统计包可靠；Claude Code Skills 三层复现流水线：92 篇 IV 论文 5 年手工→几分钟/篇，384 篇顶刊 3523 模型成功率 87%；均开源 (2026-11-02)
