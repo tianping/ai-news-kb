@@ -112,6 +112,7 @@
   * [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
   * [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+  * [Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说）](03-industry/2026-11-02-anthropic-claude-text-watermark-legacy-models.md) — 水印扩展到 Mythos 5、Opus 4.7/4.6、Sonnet 4.6；基于 SynthID-Text 变体，调整用词嵌入、不含身份信息，托管云平台不可关；Opus/Sonnet 4.6 改采样参数可绕过；检测仅向监管/研究/教育等机构审核开放；推手为欧盟 AI 法案
   * [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击
   * [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供
   * [Claude Code VS Code 扩展 2.1.313 被投毒：66 行加载器植入 SSH 后门（网络安全透视镜）](03-industry/2026-10-30-claude-code-vscode-extension-2-1-313-poisoned.md) — Open VSX/Cursor 市场冒用 anthropic.claude-code，仅改 extension.js：写 svc-telemetry 公钥、反向隧道 134.209.82.225、三平台持久化、明文信标；Cursor 暴露约 11 小时上限 5000 人；官方已发 2.1.314；附 IoC、自查命令与本机自查结果（未受影响）
