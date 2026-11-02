@@ -524,3 +524,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体）](06-academic/2026-11-02-yiqing-xu-statsclaw-scaling-reproducibility.md) — StatsClaw 9 agent 信息隔离（Builder/Tester/Simulator 互不可见）保证统计包可靠；Claude Code Skills 三层复现流水线：92 篇 IV 论文 5 年手工→几分钟/篇，384 篇顶刊 3523 模型成功率 87%；均开源 (2026-11-02)
