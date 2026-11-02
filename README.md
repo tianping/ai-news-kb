@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN）](02-tools/2026-11-02-dave-plummer-chatgpt-pdp11-4mb-ram.md) — ChatGPT+EasyEDA 设计 Q-Bus 内存板：MachXO2 FPGA 控制器+4×1MB ISSI；首次烧 FPGA，修好 16 位总线字节选择 bug 后通过测试并启动 UNIX 多用户；原装内存约 1000 美元/MB (2026-11-02)
 - [Faceplugin：号称全球首个完全免费开源的人脸识别 SDK](02-tools/2026-10-31-faceplugin-open-source-face-recognition.md) — 纯本地、CPU 可跑、Python 接口，开源版可免费商用，精度弱于 InsightFace/商业 SDK (2026-10-31)
 - [Obsidian 同步插件 WeChat Inbox Sync（老陈自救记）](02-tools/2026-10-31-obsidian-wechat-inbox-sync-plugin.md) — 微信小程序当收件箱→CloudBase中转→Obsidian生成Markdown；免费每日5次，视频需Pro；云端同步完即清理，需定期开电脑 (2026-10-31)
 - [Claude 上了 CarPlay，苹果只给它一张嘴（克劳德猎手）](02-tools/2026-10-30-claude-carplay-voice-mode.md) — 9月初悄悄上线、10-29官方公布；只能语音问答，没有输入框和文字，不能控车、不支持唤醒词；iOS 26.4开放语音对话应用类别，对话给第三方、车控留给Siri；同批更新：33种语言、多账号切换、平板并排显示 (2026-10-30)
@@ -295,6 +296,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN） | 2026-11-02 |
 | 03-industry | Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露） | 2026-10-31 |
 | 03-industry | 陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破与 Math 2.0：数学「英雄时代」落幕（算力星环） | 2026-10-28 |
 | 02-tools | 在 McCleary HPC 上整合「太上老君炼丹炉」+ OpenMontage 本地制作视频（方案，待执行） | 2026-10-28 |
@@ -522,5 +524,3 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
-
-- [前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN）](02-tools/2026-11-02-dave-plummer-chatgpt-pdp11-4mb-ram.md) — ChatGPT+EasyEDA 设计 Q-Bus 内存板：MachXO2 FPGA 控制器+4×1MB ISSI；首次烧 FPGA，修好 16 位总线字节选择 bug 后通过测试并启动 UNIX 多用户；原装内存约 1000 美元/MB (2026-11-02)
