@@ -528,3 +528,5 @@
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
 
+
+- [用 Codex 爆改家里电视：1 秒开机、去掉开机广告（AIGC创意猎人）](02-tools/2026-11-03-codex-android-tv-remove-boot-ads.md) — ADB 授权让 Codex 操作 Android 9 电视，免刷机免 Root；停广告服务+把本地广告缓存换成 1 秒无声黑屏，放开 Projectivy 自启动；YouTube 用 Fire TV 版跑通，Netflix 只能用手机版（Widevine L3 标清、遥控适配差）；先查后改、先备份、重启验收 (2026-11-03)
