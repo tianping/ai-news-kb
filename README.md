@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [仓颉.Skill 3.0：把任何视频（含画面）蒸馏成 Agent Skill](02-tools/2026-11-04-cangjie-skill-3-video-distill.md) — video-downloader 多模态转写 + 仓颉蒸馏，LongCat-2.5 驱动实测 (2026-11-04)
 - [WorkBuddy 上线浏览器操控：读文档、填报销、体验网站、手机派活（苍何）](02-tools/2026-11-03-workbuddy-browser-use.md) — 独立标签页组+独立光标在已登录浏览器里干活，四个实战场景与开启方法 (2026-11-03)
 - [用 Codex 爆改家里电视：1 秒开机、去掉开机广告（AIGC创意猎人）](02-tools/2026-11-03-codex-android-tv-remove-boot-ads.md) — ADB 授权让 Codex 操作 Android 9 电视，免刷机免 Root；停广告服务+把本地广告缓存换成 1 秒无声黑屏，放开 Projectivy 自启动；YouTube 用 Fire TV 版跑通，Netflix 只能用手机版（Widevine L3 标清、遥控适配差）；先查后改、先备份、重启验收 (2026-11-03)
 - [前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN）](02-tools/2026-11-02-dave-plummer-chatgpt-pdp11-4mb-ram.md) — ChatGPT+EasyEDA 设计 Q-Bus 内存板：MachXO2 FPGA 控制器+4×1MB ISSI；首次烧 FPGA，修好 16 位总线字节选择 bug 后通过测试并启动 UNIX 多用户；原装内存约 1000 美元/MB (2026-11-02)
@@ -530,5 +531,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [仓颉.Skill 3.0：把任何视频（含画面）蒸馏成 Agent Skill](02-tools/2026-11-04-cangjie-skill-3-video-distill.md) — video-downloader 多模态转写 + 仓颉蒸馏，LongCat-2.5 驱动实测 (2026-11-04)
