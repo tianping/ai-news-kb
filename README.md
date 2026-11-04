@@ -193,6 +193,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [甲骨文被报道取消与腾讯约 70 亿美元的 AI 芯片租赁协议](03-industry/2026-11-04-oracle-cancels-tencent-ai-chip-lease.md) — 5 年租约、约 10 万枚芯片放东南亚数据中心，签约一月后夹在美方关切与广东国产芯片要求之间被取消（FT，路透未能独立核实） (2026-11-04)
 - [Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说）](03-industry/2026-11-02-anthropic-claude-text-watermark-legacy-models.md) — 水印扩展到 Mythos 5、Opus 4.7/4.6、Sonnet 4.6；基于 SynthID-Text 变体，调整用词嵌入、不含身份信息，托管云平台不可关；Opus/Sonnet 4.6 改采样参数可绕过；检测仅向监管/研究/教育等机构审核开放；推手为欧盟 AI 法案 (2026-11-02)
 - [Java JSSE 9.1 分漏洞 CVE-2026-91403 核实（eMudhra 证书私钥泄露）](03-industry/2026-10-31-java-jsse-cve-2026-91403-emudhra.md) — 主体属实；实为 eMudhra 中间 CA 私钥泄露导致的证书拉黑，非 TLS 实现层远程攻击 (2026-10-31)
 - [Anthropic 公开 Claude「自我评估」机制：回复后在后台自评风险并上报（新智元）](03-industry/2026-10-31-anthropic-claude-self-assessment-safety-reporting.md) — 每轮回答后同一模型借 KV 缓存多生成约 10 token 输出风险 JSON（1–10 级），开销 <2%，自 Fable 5 起默认开启、ZDR 可免；后台记录比当场拦截更难绕过（24 条中识别 21 条）；1% 误报下召回 78%、严重违规 94%，模型越大越准；争议：误报规模、自审串供 (2026-10-31)
@@ -531,5 +532,3 @@
 - [Virtual Biotech：斯坦福 Science 多智能体药物研发框架，8G 显卡复现 + 病理组学番外](02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md) — 小罗碎碎念：H100+Claude 原版每案例 $50-59，博主用 RTX 4060 8G 零 API 复现；12 个 MCP 服务器封装十余数据库；OS HR=1.62 逐位吻合；番外接 GHIST（H&E→空间基因表达）验证 tau 判定，预测 tau 系统性偏低，PD-L1 预测失败 (2026-10-01)
 
 - [GPT-6 Astra 6小时解开尘封217年拿破仑密信：1809年马尔蒙军事密码](02-tools/2026-10-01-gpt6-astra-cracks-217-year-napoleonic-cipher.md) — Carter Church（SentinelOne）用 Astra 智能体工作流（图像转录→33锚点→模拟退火求解→整词符号→原图验证）破解 Cryptiana 未解清单密信；同批 Enigma MVUEH/FMNGI、ADFGVX 案例对比，外部验证程度不一 (2026-10-01)
-
-- [甲骨文被报道取消与腾讯约 70 亿美元的 AI 芯片租赁协议](03-industry/2026-11-04-oracle-cancels-tencent-ai-chip-lease.md) — 5 年租约、约 10 万枚芯片放东南亚数据中心，签约一月后夹在美方关切与广东国产芯片要求之间被取消（FT，路透未能独立核实） (2026-11-04)
