@@ -11,6 +11,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [lifetrail：用 Claude Opus 5.5 做历史人物 3D 人生轨迹视频的 Skill](02-tools/2026-11-05-lifetrail-skill-historical-figure-video.md) — Three.js+Playwright+edge-tts+ffmpeg 约千行代码；8 阶段流水线含独立史料核查（每个里程碑≥2 个非维基来源）与 47 条踩坑清单；已做李白苏轼等 6 人
   * [仓颉.Skill 3.0：把任何视频（含画面）蒸馏成 Agent Skill](02-tools/2026-11-04-cangjie-skill-3-video-distill.md) — video-downloader 多模态转写 + 仓颉蒸馏，LongCat-2.5 驱动实测
   * [WorkBuddy 上线浏览器操控：读文档、填报销、体验网站、手机派活（苍何）](02-tools/2026-11-03-workbuddy-browser-use.md) — 独立标签页组+独立光标在已登录浏览器里干活，四个实战场景与开启方法
   * [用 Codex 爆改家里电视：1 秒开机、去掉开机广告（AIGC创意猎人）](02-tools/2026-11-03-codex-android-tv-remove-boot-ads.md) — ADB 授权让 Codex 操作 Android 9 电视，免刷机免 Root；停广告服务+把本地广告缓存换成 1 秒无声黑屏，放开 Projectivy 自启动；YouTube 用 Fire TV 版跑通，Netflix 只能用手机版（Widevine L3 标清、遥控适配差）；先查后改、先备份、重启验收
