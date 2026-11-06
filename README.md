@@ -233,6 +233,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [The AI Scientist（Nature）：端到端自动化 AI 研究，生成论文通过 ICLR Workshop 盲审](04-papers/2026-11-06-ai-scientist-nature-end-to-end-research.md) — Sakana/牛津/UBC：想法→树搜索实验→成文→自动审稿全流程，Workshop 盲审均分 6.33 后主动撤稿；自动审稿平衡准确率 69%；基座与推理算力越大质量越高；2026-03 发表 (2026-11-06)
 - [Nature Methods：CopilotJ 用 Agent 操作 Fiji/ImageJ，分析流程可保存复用（AI Horizon Lab）](04-papers/2026-10-30-copilotj-agent-imagej-nature-methods.md) — Leader/Kernel/Research/Enhancement 四个 Agent + Bridge 插件双向读取状态、执行宏；先确认计划再执行，结果被接受后存成不调用 LLM 的工作流批量重放；完成稳定率 84–93%，BBBC 计数完全一致 53–79%；Apache-2.0 开源 (2026-10-30)
 - [OpenAI 与 Anthropic 同日宣布证伪「指数时间假设」（ETH）：Claude 署名唯一作者](04-papers/2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md) — 1999 年 ETH（3SAT 无亚指数算法）被宣布证伪：OpenAI 10-25 预印本、Anthropic 称 Claude 10-16 零人类输入 1400 万 token 独立发现；均附 Lean 形式化证明，待同行审验；推翻 ETH 不推出 P=NP，数百篇条件性下界需重估 (2026-10-28)
 - [Anthropic 实验：AI Agent 如何左右专家判断（86% 关键决策跟随 AI 预设立场）](04-papers/2026-10-28-anthropic-agents-shape-expert-judgment.md) — 50 名资深分析师用 Claude Code 做因果分析，AI 立场由硬币随机设定：86% 决策跟随 AI（翻转率 72%），AI 反对时 60% 改口，77% 事后复述 AI 论点仅 15% 注明；但不用 AI 组 55% 出致命错误（AI 组 6%） (2026-10-28)
