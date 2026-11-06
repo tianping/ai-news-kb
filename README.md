@@ -253,6 +253,7 @@
 - 评测榜单动态
 
 ### 五、事件与评论
+- [OpenSSH「sshhole」漏洞：musl 系统上 257–1024 个任意字符即可登录（CVE-2026-123158）](05-events/2026-11-06-openssh-sshhole-musl-password-bypass.md) — musl crypt() 超长密码返回 * 与 shadow 的 * 相等即放行；限无 PAM、开密码登录、密码字段为 * 的账户；10.6p2 修复，升级后须重启 sshd；AI 加速漏洞发现 (2026-11-06)
 - [Postman 桌面端静默注入 MCP 插件，篡改本地 Claude Code 与 Codex 配置](05-events/2026-11-05-postman-silently-injects-mcp-into-claude-codex.md) — 12.33.4 自动升级静默写入 settings.json/config.toml + hook trust 绕过确认，指向 mcp.postman.com；含自查清理清单与本机核查（未中招） (2026-11-05)
 - [10岁和14岁少年拒绝Vibe Coding：DVR Doctor两小时完成Mac移植引争议（CSDN）](05-events/2026-10-29-dvr-doctor-kids-refuse-vibe-coding.md) — 两少年开发FPV录像修复软件，光流法→机器学习；承认用AI辅助但核心代码自写，Reddit争论 (2026-10-29)
 - [REA 逆向热潮：某星电视被曝监视用户，REA 遭 Claude/ChatGPT 封禁](05-events/2026-10-26-rea-reverse-engineering-tv-surveillance-ban.md) — 开源AI逆向工具REA(38.6万Star)引爆逆向家电潮；Log4j root某星电视发现常驻语音、狗叫/婴儿哭声计数上报、借外部麦克风、广告追踪；OpenAI以Cyber Abuse封号，Claude中途打断逆向请求 (2026-10-26)
