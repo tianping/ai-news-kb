@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude 开发 + GPT 评审：双模型分工的 Agent 编排经验（大个青椒）](02-tools/2026-11-06-claude-builds-gpt-reviews-workflow.md) — Opus 快、猜心思准但长期项目易跑偏，GPT 磨叽却适合审查；五条编排原则：协调 Agent 派单、开发评审分离、共享任务书、按任务选流程、不通过就返工 (2026-11-06)
 - [开源工具：扫描版 PDF 乐谱转可编辑 MusicXML](02-tools/2026-11-06-pdf-score-to-musicxml.md) — 预处理 + Audiveris 识别 + 多页拼接，一条命令出 MusicXML 可用 MuseScore 编辑；识别后需人工校对，禁止商用 (2026-11-06)
 - [跑 Agent 的终端复用器之争：Herdr vs Rex（OSC 7501 协议）](02-tools/2026-11-05-herdr-rex-agent-terminal-multiplexers.md) — tmux 看不见 Agent 状态；Herdr 靠猜屏幕做状态侧边栏 7 个月 4.8 万星，Hashimoto 的 Rex 重做架构并推 OSC 7501 状态协议，Claude Code 两天内已支持；人能盯住的并行 Agent 上限约 2–3 个 (2026-11-05)
 - [lifetrail：用 Claude Opus 5.5 做历史人物 3D 人生轨迹视频的 Skill](02-tools/2026-11-05-lifetrail-skill-historical-figure-video.md) — Three.js+Playwright+edge-tts+ffmpeg 约千行代码；8 阶段流水线含独立史料核查（每个里程碑≥2 个非维基来源）与 47 条踩坑清单；已做李白苏轼等 6 人 (2026-11-05)
