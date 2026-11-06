@@ -53,6 +53,54 @@
 
 与 OX Security、BleepingComputer、The Hacker News、Threat Landscape（均 11-05）报道一致：CVE-2026-123158，OpenSSH 10.6p2 于 11-05 发布修复，影响无 PAM 的 musl 系统，Alpine 默认配置受影响。（英文报道多写作「*sshole」。）
 
+## 补充：应急通报细节（网络安全透视镜，2026-11-06）
+
+- **原文**：https://mp.weixin.qq.com/s/fgFiBiMf3-wrCYBcNWxCLw
+- 上报：Wakefield 研究员 Özgün Kültekin，11-04 上报，11-05 发布补丁，响应不到 48 小时
+- 编号：安恒 CERT 收录为 **WM-202611-000001**，CVSS 3.1 **9.8**（严重）。该文称发稿时 MITRE 尚未分配 CVE，但 OX Security 等英文报道已使用 CVE-2026-123158，以英文报道为准
+- **受影响版本**：OpenSSH **7.3p1 – 10.6p1**（2016-07 引入借盐逻辑起）；Alpine 3.16–3.24 及 edge（3.16 起 root 默认改为 `*`；3.15 及更早为 `!`，默认 root 不触发）
+- **源头三处历史代码**：
+  1. musl 2012-08 提交 b3c4cc12：`crypt()` 失败统一返回字符串 `*`（防旧程序不查 NULL 崩溃）
+  2. musl 同月提交 88bf5a8a：SHA-256/512 口令上限 `KEY_MAX 256`（防超长口令 DoS）
+  3. OpenSSH 2016 为修 CVE-2016-6210（用户名枚举侧信道）引入 `pick_salt()` 借盐；`MAX_PASSWORD_LEN 1024` 决定了 257–1024 的窗口
+- **为什么要第二次**：`shadow_pw()` 返回指向 musl `getspnam()` 静态缓冲区的指针，第一次 `pick_salt()` 扫描账户表时覆盖了它；第二次直接用缓存盐值，`pw_password` 保持为 `*`。⚠️ 安全评估只在单次连接测一次会误判为不受影响
+- **补丁**：`auth-passwd.c` 新增 `MIN_PASSWORD_HASH_LEN 4`，`strcmp` 前要求 `strlen(pw_password) >= 4`
+- **不受影响**：所有 glibc/libxcrypt 发行版（失败返回 `*0`/`*1`/NULL，与 `*` 不等）、启用 PAM、OpenBSD/FreeBSD/macOS/Windows、Dropbear（OpenWrt 默认）、Go x/crypto/ssh、libssh、tinyssh、密码字段为 `!`/`!!` 或正常哈希的账户
+- **PoC 现状**：GitHub 已有 3 个公开仓库——`predkambrij/sshhole-repro`（Docker 复现）、`SkrudjReal/sshhole-exploit`（paramiko，支持检测/执行命令/交互 shell）、`leonjza/sshhole-lab`（靶场）；Exploit-DB、Nuclei、Metasploit 暂未收录；**暂无在野利用报告**
+
+### 自查命令
+
+```bash
+ldd --version 2>&1 | head -1          # 是否 musl
+sshd -V 2>&1 | head -1                # 是否 < 10.6p2
+sshd -T 2>/dev/null | grep -Ei '^(usepam|passwordauthentication|permitrootlogin)'
+awk -F: '$2 == "*" {print "star_account:" $1}' /etc/shadow
+awk -F: '$2 ~ /^\$[56]\$/ {print "salt_donor:" $1}' /etc/shadow
+```
+
+musl + 版本 < 10.6p2 + usepam no + passwordauthentication yes + 同时存在星号账户与 `$5$`/`$6$` 账户 → 受影响。
+
+### 入侵痕迹
+
+```bash
+grep -Ei 'Accepted password' /var/log/messages /var/log/auth.log 2>/dev/null
+```
+
+本应只用密钥登录的账户（`alpine`、`deploy`、`root`）出现 `Accepted password` → 按已被入侵处理：查新增账户、`~/.ssh/authorized_keys` 变更、doas/sudo 提权记录、异常外联进程。日志特征：同一会话先一次密码失败、紧接一次成功。
+
+### 修复与缓解
+
+```bash
+# Alpine 升级
+apk update && apk upgrade openssh && rc-service sshd restart
+
+# 暂不能升级（先确认密钥登录可用、留有带外控制台）
+printf 'PasswordAuthentication no\nKbdInteractiveAuthentication no\nPermitRootLogin prohibit-password\n' > /etc/ssh/sshd_config.d/00-sshhole-mitigation.conf
+sshd -t && rc-service sshd restart
+```
+
+⚠️ **不要把 shadow 里的 `*` 手改成 `!`**：无 PAM 模式下 `!` 前缀账户被视为全局锁定，公钥登录也会一起失效。
+
 ## 本机核查（McCleary）
 
 RHEL 8.10，GNU libc 2.28，OpenSSH 8.0p1 —— **glibc 系统，不受影响**。
