@@ -5,6 +5,7 @@
 - **原标题**：Anthropic科学家宣布：全球博士生职业生涯一夜清零！
 - **分类**：03 行业动态
 - **URL**：https://mp.weixin.qq.com/s/t4-qCvGMaWBnALU2gFcjGQ
+- **转载**：「D星霜荏苒」2026-10-28 转载同文（同标题、内容一致），https://mp.weixin.qq.com/s/YRlmFlb3ytvKciRjwRSWLA
 - **演讲视频**：https://www.youtube.com/watch?v=3LZN2UUxDos
 
 ## 概述
