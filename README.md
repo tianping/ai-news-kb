@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元）](02-tools/2026-11-08-claude-code-email-leak-user-agent.md) — 为防 author 注释编人名把登录邮箱放进系统上下文，模型遇到要联系邮箱的网站（SEC/维基/crates.io）就拼进 User-Agent；4 月起工单被机器人关闭，靠提示词劝阻无效；v2.1.317 加确定性拦截插件但脚本请求拦不住，IS_DEMO 只遮屏幕；删字段要等下一版 (2026-11-08)
 - [Claude 开发 + GPT 评审：双模型分工的 Agent 编排经验（大个青椒）](02-tools/2026-11-06-claude-builds-gpt-reviews-workflow.md) — Opus 快、猜心思准但长期项目易跑偏，GPT 磨叽却适合审查；五条编排原则：协调 Agent 派单、开发评审分离、共享任务书、按任务选流程、不通过就返工 (2026-11-06)
 - [开源工具：扫描版 PDF 乐谱转可编辑 MusicXML](02-tools/2026-11-06-pdf-score-to-musicxml.md) — 预处理 + Audiveris 识别 + 多页拼接，一条命令出 MusicXML 可用 MuseScore 编辑；识别后需人工校对，禁止商用 (2026-11-06)
 - [跑 Agent 的终端复用器之争：Herdr vs Rex（OSC 7501 协议）](02-tools/2026-11-05-herdr-rex-agent-terminal-multiplexers.md) — tmux 看不见 Agent 状态；Herdr 靠猜屏幕做状态侧边栏 7 个月 4.8 万星，Hashimoto 的 Rex 重做架构并推 OSC 7501 状态协议，Claude Code 两天内已支持；人能盯住的并行 Agent 上限约 2–3 个 (2026-11-05)
@@ -311,6 +312,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元） | 2026-11-08 |
 | 03-industry | Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说） | 2026-11-02 |
 | 06-academic | 斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体） | 2026-11-02 |
 | 02-tools | 前微软工程师 Dave Plummer 用 ChatGPT 自制 PDP-11 4MB 内存板（CSDN） | 2026-11-02 |

@@ -11,6 +11,7 @@
   * [Claude 自主发现噬菌体全新酶系统 ART：2.1 亿 Token、950 Agent、21 小时](01-models/2026-09-23-claude-discovers-art-enzyme-system.md) — Anthropic 分子生物学实验室首发：Claude Agent 集群在噬菌体 DNA 中发现全新逆转录酶系统 ART，结构与 CRISPR 高度相似；Feng Zhang 审阅后称"引人入胜"；湿实验由人类完成，功能仍在验证中 (2026-09-24)
   * [Jev 作者访谈：代码才是 AI 的真正消费者，全人类陪聊天不如一个 for 循环](01-models/2026-09-25-jev-system-one-model-interview.md) — TypeSafe AI 创始人 Diogo Almeida（OpenAI RLHF 共同作者）谈 System 1 模型：RLCD 范式、模式丢弃批判、安全拒答是工程灾难、公开 benchmark 是刷榜套利 (2026-09-25)
 - [02 工具与产品](02-tools/)
+  * [Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元）](02-tools/2026-11-08-claude-code-email-leak-user-agent.md) — 为防 author 注释编人名把登录邮箱放进系统上下文，模型遇到要联系邮箱的网站（SEC/维基/crates.io）就拼进 User-Agent；4 月起工单被机器人关闭，靠提示词劝阻无效；v2.1.317 加确定性拦截插件但脚本请求拦不住，IS_DEMO 只遮屏幕；删字段要等下一版
   * [Claude 开发 + GPT 评审：双模型分工的 Agent 编排经验（大个青椒）](02-tools/2026-11-06-claude-builds-gpt-reviews-workflow.md) — Opus 快、猜心思准但长期项目易跑偏，GPT 磨叽却适合审查；五条编排原则：协调 Agent 派单、开发评审分离、共享任务书、按任务选流程、不通过就返工
   * [开源工具：扫描版 PDF 乐谱转可编辑 MusicXML](02-tools/2026-11-06-pdf-score-to-musicxml.md) — 预处理 + Audiveris 识别 + 多页拼接，一条命令出 MusicXML 可用 MuseScore 编辑；识别后需人工校对，禁止商用
   * [跑 Agent 的终端复用器之争：Herdr vs Rex（OSC 7501 协议）](02-tools/2026-11-05-herdr-rex-agent-terminal-multiplexers.md) — tmux 看不见 Agent 状态；Herdr 靠猜屏幕做状态侧边栏 7 个月 4.8 万星，Hashimoto 的 Rex 重做架构并推 OSC 7501 状态协议，Claude Code 两天内已支持；人能盯住的并行 Agent 上限约 2–3 个
