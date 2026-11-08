@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [DoOps：用「公网 Gateway + 内网 Agent」替代 SSH，运维操作可审计、可交给 AI（智涌君）](02-tools/2026-11-08-doops-ssh-alternative-gateway-agent.md) — symansun/doops（MIT）：内网 Agent 主动出网注册，免公网 IP/端口/VPN/跳板机；exec/push/pull 快路径 + ask 交给远端智能体；Git 反向隧道同步、BuildKit 远端构建、按 cluster/instance/action 授权与全链路审计；Skill 沉淀 SOP；注意 Agent 注册无 token、do-agent 未开源 (2026-11-08)
 - [Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元）](02-tools/2026-11-08-claude-code-email-leak-user-agent.md) — 为防 author 注释编人名把登录邮箱放进系统上下文，模型遇到要联系邮箱的网站（SEC/维基/crates.io）就拼进 User-Agent；4 月起工单被机器人关闭，靠提示词劝阻无效；v2.1.317 加确定性拦截插件但脚本请求拦不住，IS_DEMO 只遮屏幕；删字段要等下一版 (2026-11-08)
 - [Claude 开发 + GPT 评审：双模型分工的 Agent 编排经验（大个青椒）](02-tools/2026-11-06-claude-builds-gpt-reviews-workflow.md) — Opus 快、猜心思准但长期项目易跑偏，GPT 磨叽却适合审查；五条编排原则：协调 Agent 派单、开发评审分离、共享任务书、按任务选流程、不通过就返工 (2026-11-06)
 - [开源工具：扫描版 PDF 乐谱转可编辑 MusicXML](02-tools/2026-11-06-pdf-score-to-musicxml.md) — 预处理 + Audiveris 识别 + 多页拼接，一条命令出 MusicXML 可用 MuseScore 编辑；识别后需人工校对，禁止商用 (2026-11-06)
@@ -312,6 +313,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | DoOps：用「公网 Gateway + 内网 Agent」替代 SSH，运维操作可审计、可交给 AI（智涌君） | 2026-11-08 |
 | 02-tools | Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元） | 2026-11-08 |
 | 03-industry | Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说） | 2026-11-02 |
 | 06-academic | 斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体） | 2026-11-02 |
