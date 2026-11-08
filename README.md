@@ -273,6 +273,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [科研绘图只留 3 个 Skill：scientific-visualization、nature-figure、paper-illustration 实测（学术AI大模型）](06-academic/2026-11-08-three-research-figure-skills-demo.md) — 按材料选：有数据要比较用 scientific-visualization（算法相对差距热力图）；多组结果组成论文图用 nature-figure（双面板回归系数图，Python/R 可选、出 SVG）；方法框架示意图用 paper-illustration（生图模型出 PNG） (2026-11-08)
 - [3 篇 Nature 子刊博士拒哈佛博后去做 AI 制药：Sohl-Dickstein 演讲的生命科学解读（生物学霸）](06-academic/2026-11-04-sohl-dickstein-life-science-phd-ai-careers.md) — 三条曲线抽走「用时间换不可替代性」前提；把领域先验变成壁垒、执行外包判断留下；押注翻译层、干湿闭环关键节点、工具与自动化平台 (2026-11-04)
 - [斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体）](06-academic/2026-11-02-yiqing-xu-statsclaw-scaling-reproducibility.md) — StatsClaw 9 agent 信息隔离（Builder/Tester/Simulator 互不可见）保证统计包可靠；Claude Code Skills 三层复现流水线：92 篇 IV 论文 5 年手工→几分钟/篇，384 篇顶刊 3523 模型成功率 87%；均开源 (2026-11-02)
 - [编辑如何一眼看出论文是AI写的：七个破绽 + academic-prose-refine（学术AI大模型）](06-academic/2026-10-30-academic-prose-refine-ai-writing-signs.md) — 段落过整齐、对称标签、冒号分号乱用、只复述不讨论、句式单一、总结多分析少、过度防御；开源Skill逐节改写并保留结论与引用 (2026-10-30)
@@ -313,6 +314,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 06-academic | 科研绘图只留 3 个 Skill：scientific-visualization、nature-figure、paper-illustration 实测（学术AI大模型） | 2026-11-08 |
 | 02-tools | DoOps：用「公网 Gateway + 内网 Agent」替代 SSH，运维操作可审计、可交给 AI（智涌君） | 2026-11-08 |
 | 02-tools | Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元） | 2026-11-08 |
 | 03-industry | Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说） | 2026-11-02 |
