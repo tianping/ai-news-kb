@@ -123,6 +123,7 @@
   * [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
   * [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+  * [币安 63 亿美元被盗案细节：15 美元手续费、三分半钟，EIP-7702 授权让币安“关不掉”黑客](03-industry/2026-11-09-binance-hack-eip-7702-delegation.md) — 假招聘诱骗工程师下载恶意代码（社工+设备入侵+AI）；用热钱包 Binance 14 签名设 EIP-7702 代理授权，3.5 分钟后一笔转走约 25 亿美元，累计约 36 亿；授权在链上，关提现也撤销不了；币安称自担损失
   * [黄仁勋承认婚外情：美国国会介入，英伟达启动独立调查（一亩三分地Warald）](03-industry/2026-11-08-jensen-huang-affair-congress-nvidia-probe.md) — 内部备忘录草稿认错致歉、表态留任并配合国安调查、董事会启动调查；关联人为 Megaspeed 前高管 Alice Huang，该公司涉嫌帮实体规避出口禁令走私英伟达芯片；众议院三委员会主席要求 11-18 闭门简报，两党关注国家安全
   * [甲骨文被报道取消与腾讯约 70 亿美元的 AI 芯片租赁协议](03-industry/2026-11-04-oracle-cancels-tencent-ai-chip-lease.md) — 5 年租约、约 10 万枚芯片放东南亚数据中心，签约一月后夹在美方关切与广东国产芯片要求之间被取消（FT，路透未能独立核实）
   * [Anthropic 确认 11 月 3 日起对旧版 Claude 添加隐形文本水印（瓢虫说）](03-industry/2026-11-02-anthropic-claude-text-watermark-legacy-models.md) — 水印扩展到 Mythos 5、Opus 4.7/4.6、Sonnet 4.6；基于 SynthID-Text 变体，调整用词嵌入、不含身份信息，托管云平台不可关；Opus/Sonnet 4.6 改采样参数可绕过；检测仅向监管/研究/教育等机构审核开放；推手为欧盟 AI 法案
