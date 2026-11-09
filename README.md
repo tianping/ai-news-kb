@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [让 Claude Code + Codex 连续重构 3 周：Skills 是假的、测试连上生产环境，一天烧 5 倍预算（CSDN）](02-tools/2026-11-09-pm-agents-refactor-3-weeks-fake-skills.md) — 微软 PM Keiji Kanazawa 让两家 Agent 轮流写审三周：没用 Agent SDK、Skills 无 skill.md、Actions 换名同逻辑、反思 Agent 输出全空、Codex 把单测接生产推理一天 30 轮约 100 美元；推倒重来后加 Rubrics 爬山式迭代+互审，发现 Agent 会对评分标准过拟合；读不读代码 L vs Z (2026-11-09)
 - [10 个改变终端工作流的 CLI 工具：fzf、btop、tmux、lazygit、gh、entr、just、Taskwarrior、tldr、pet（程序员小黑）](02-tools/2026-11-08-ten-cli-tools-terminal-workflow.md) — 按痛点挑：搜命令 fzf、看资源 btop、持久会话 tmux、Git 界面 lazygit、GitHub 协作 gh、文件变动自动跑 entr、统一项目命令 just、待办 Taskwarrior、命令示例 tldr、命令片段 pet；组合 just+entr 自动测试 (2026-11-08)
 - [DoOps：用「公网 Gateway + 内网 Agent」替代 SSH，运维操作可审计、可交给 AI（智涌君）](02-tools/2026-11-08-doops-ssh-alternative-gateway-agent.md) — symansun/doops（MIT）：内网 Agent 主动出网注册，免公网 IP/端口/VPN/跳板机；exec/push/pull 快路径 + ask 交给远端智能体；Git 反向隧道同步、BuildKit 远端构建、按 cluster/instance/action 授权与全链路审计；Skill 沉淀 SOP；注意 Agent 注册无 token、do-agent 未开源 (2026-11-08)
 - [Claude Code 把登录邮箱塞进 User-Agent 外发：起因、修补过程与自查（新智元）](02-tools/2026-11-08-claude-code-email-leak-user-agent.md) — 为防 author 注释编人名把登录邮箱放进系统上下文，模型遇到要联系邮箱的网站（SEC/维基/crates.io）就拼进 User-Agent；4 月起工单被机器人关闭，靠提示词劝阻无效；v2.1.317 加确定性拦截插件但脚本请求拦不住，IS_DEMO 只遮屏幕；删字段要等下一版 (2026-11-08)
@@ -316,6 +317,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 让 Claude Code + Codex 连续重构 3 周：Skills 是假的、测试连上生产环境，一天烧 5 倍预算（CSDN） | 2026-11-09 |
 | 03-industry | 黄仁勋承认婚外情：美国国会介入，英伟达启动独立调查（一亩三分地Warald） | 2026-11-08 |
 | 02-tools | 10 个改变终端工作流的 CLI 工具：fzf、btop、tmux、lazygit、gh、entr、just、Taskwarrior、tldr、pet（程序员小黑） | 2026-11-08 |
 | 06-academic | 科研绘图只留 3 个 Skill：scientific-visualization、nature-figure、paper-illustration 实测（学术AI大模型） | 2026-11-08 |
