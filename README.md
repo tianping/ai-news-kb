@@ -263,6 +263,7 @@
 - 评测榜单动态
 
 ### 五、事件与评论
+- [10 亿 Token 画出 1.1 万只“假鸟”：AI 伪科普正在污染常识（APPSO）](05-events/2026-11-11-ai-bird-sticker-library-pseudo-science.md) — 花叔全球鸟类贴纸库：Vibe Coding 烧 10 亿 Token 画 11064 种鸟；参考照仅 1986 种开放许可，AI 审 AI，3388 张低于自设及格线仍公开，无鸟类学专家审校（游隼细爪、葵花鹦鹉翼羽错）；AI 修图造出红翅黑鹂假记录、双头虾科普书召回；eBird/麦考利禁 AI 增补细节，iNaturalist 标记后降为 Casual (2026-11-11)
 - [OpenSSH「sshhole」漏洞：musl 系统上 257–1024 个任意字符即可登录（CVE-2026-123158）](05-events/2026-11-06-openssh-sshhole-musl-password-bypass.md) — musl crypt() 超长密码返回 * 与 shadow 的 * 相等即放行；限无 PAM、开密码登录、密码字段为 * 的账户；10.6p2 修复，升级后须重启 sshd；AI 加速漏洞发现 (2026-11-06)
 - [Postman 桌面端静默注入 MCP 插件，篡改本地 Claude Code 与 Codex 配置](05-events/2026-11-05-postman-silently-injects-mcp-into-claude-codex.md) — 12.33.4 自动升级静默写入 settings.json/config.toml + hook trust 绕过确认，指向 mcp.postman.com；含自查清理清单与本机核查（未中招） (2026-11-05)
 - [10岁和14岁少年拒绝Vibe Coding：DVR Doctor两小时完成Mac移植引争议（CSDN）](05-events/2026-10-29-dvr-doctor-kids-refuse-vibe-coding.md) — 两少年开发FPV录像修复软件，光流法→机器学习；承认用AI辅助但核心代码自写，Reddit争论 (2026-10-29)
@@ -319,6 +320,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 05-events | 10 亿 Token 画出 1.1 万只“假鸟”：AI 伪科普正在污染常识（APPSO） | 2026-11-11 |
 | 03-industry | 黄仁勋事件推动三部对华芯片法案：MATCH 法案要管已装机设备的原厂服务（合规视点） | 2026-11-10 |
 | 03-industry | 币安 63 亿美元被盗案细节：15 美元手续费、三分半钟，EIP-7702 授权让币安“关不掉”黑客 | 2026-11-09 |
 | 02-tools | 让 Claude Code + Codex 连续重构 3 周：Skills 是假的、测试连上生产环境，一天烧 5 倍预算（CSDN） | 2026-11-09 |
