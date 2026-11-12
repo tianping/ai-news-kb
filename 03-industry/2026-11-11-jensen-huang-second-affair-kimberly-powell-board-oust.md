@@ -4,6 +4,7 @@
 
 - **日期**：2026-11-11
 - **分类**：03-industry 行业动态 / 黄仁勋事件后续
+- **同日观点解读**：["做空局"解读：Culper 报告、鹰派围猎、二代接班与期权大单（美股投资网）](2026-11-11-jensen-huang-short-seller-politics-options-meiguwe.md)
 - **前情**：[黄仁勋承认婚外情：国会介入、英伟达启动调查](2026-11-08-jensen-huang-affair-congress-nvidia-probe.md) · [三部对华芯片法案与 MATCH 法案](2026-11-10-us-chip-bills-match-act-servicing-china-fabs.md) · [女方黄乐（Alice Huang）背景](2026-11-11-huang-le-alice-huang-background-megaspeed.md)
 
 ## 一、第二段婚外情（《纽约时报》11-11 报道）
