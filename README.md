@@ -201,6 +201,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告）](03-industry/2026-11-12-grok-build-apps-leak-passive-dns.md) — 37,571 个在线应用中 35,578 个免登录可开；随机子域名 xxxx.grok.me 进被动 DNS 库可检索，发布面板预选「任何持有链接的人」；泄露 SpaceXSI 入职计划/594 客户销售地图/X 广告提案、特斯拉 22 人绩效奖金、ICU 资料、明文密码；AI 生成的鉴权先入团队再查成员；11-08 报告无回复，Ars 问询后才下架自家 24 款；一月前 Meta Muse 同样问题；核实：标题「SpaceX 工资」夸大 (2026-11-12)
 - [“拯救黄仁勋”：马斯克等大佬集体声援，要求调查后交股东投票；董事会罢免只需 6 票（华尔街见闻）](03-industry/2026-11-12-save-jensen-musk-tycoons-board-vote.md) — Baker 提调查后股东投票、马斯克附和；Sweeney 称堪比苹果解雇乔布斯；Patel 认为真风险在国会查 GPU 销售；章程第 32 条在任董事过半数（6/11）即可罢免，无超级投票权，黄持股 3.58% vs 其他董事 0.31%；核实：WSJ 称部分董事倾向 Kress 过渡，董事会连夜开会未决 (2026-11-12)
 - [黄仁勋风波的"做空局"解读：Culper 报告、鹰派围猎、二代接班与期权大单（美股投资网）](03-industry/2026-11-11-jensen-huang-short-seller-politics-options-meiguwe.md) — Culper 5-13 做空报告已点名 Alice Huang；持股仅 3.58%、子女在核心岗位；11-18 国会闭门简报；期权 140/165 美元大单；核实：Trump 实称 FBI 在查，Dan Niles 抄底但也说老黄可能出局，开会的是董事会不是股东 (2026-11-11)
 - [黄仁勋再曝第二段婚外情：女方为直属副总裁 Kimberly Powell，董事会准备罢免（新智元）](03-industry/2026-11-11-jensen-huang-second-affair-kimberly-powell-board-oust.md) — NYT：Powell 48 岁、医疗副总裁、直接汇报，GTC 酒店被拍；WSJ/路透：董事会准备罢免、周三开会；Kress 接任仅为推测；同周 Anthropic 路演称 Mythos 3 天把模型 prompt processing 移植到 AMD MI355X（未独立验证） (2026-11-11)
@@ -324,6 +325,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 03-industry | Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告） | 2026-11-12 |
 | 03-industry | “拯救黄仁勋”：马斯克等大佬集体声援，要求调查后交股东投票；董事会罢免只需 6 票（华尔街见闻） | 2026-11-12 |
 | 03-industry | 黄仁勋风波的"做空局"解读：Culper 报告、鹰派围猎、二代接班与期权大单（美股投资网） | 2026-11-11 |
 | 03-industry | 黄仁勋再曝第二段婚外情：女方为直属副总裁 Kimberly Powell，董事会准备罢免（新智元） | 2026-11-11 |
