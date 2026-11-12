@@ -5,6 +5,7 @@
 - **分类**：03-industry 行业动态 / 黄仁勋事件后续
 - **原文**：https://mp.weixin.qq.com/s/7x1QqlDc3GldGDtEEU9DWg
 - **前情**：[黄仁勋承认婚外情：国会介入、英伟达启动调查](2026-11-08-jensen-huang-affair-congress-nvidia-probe.md) · [三部对华芯片法案与 MATCH 法案](2026-11-10-us-chip-bills-match-act-servicing-china-fabs.md) · history-kb《从黄仁勋承认出轨看完美伴侣人设的崩塌》
+- **后续**：[黄仁勋再曝第二段婚外情：Kimberly Powell，董事会准备罢免](2026-11-11-jensen-huang-second-affair-kimberly-powell-board-oust.md)
 
 ## 个人背景（据原文，多为网传或旧友说法）
 

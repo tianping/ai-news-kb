@@ -123,6 +123,7 @@
   * [iptv-org/iptv：13.6万Star，不存视频、只收全球公开直播频道链接](02-tools/2026-09-09-iptv-org-iptv-global-channels.md) — 主列表index.m3u粘贴进支持直播的播放器即可；epg/database/api/awesome-iptv分工咬合；GitHub Actions持续更新；法律边界写得像范本；链接保质期不在仓库手里
   * [MiniMax H3 开源34天生态全景：从3.78GB量化到Redis作者纯C实现](02-tools/2026-09-07-minimax-h3-open-source-ecosystem-34days.md) — 四挑战(加速/量化/增强/突破768p)+16芯片同日适配+antirez h3.c Mac跑通；VRAM是幌子主机内存才是瓶颈
 - [03 行业动态](03-industry/)
+  * [黄仁勋再曝第二段婚外情：女方为直属副总裁 Kimberly Powell，董事会准备罢免（新智元）](03-industry/2026-11-11-jensen-huang-second-affair-kimberly-powell-board-oust.md) — NYT：Powell 48 岁、医疗副总裁、直接汇报，GTC 酒店被拍；WSJ/路透：董事会准备罢免、周三开会；Kress 接任仅为推测；同周 Anthropic 路演称 Mythos 3 天把模型 prompt processing 移植到 AMD MI355X（未独立验证）
   * [黄仁勋事件女方黄乐（Alice Huang）背景：湖南湘潭、和熙投资、第七大道到 Megaspeed（易简财经）](03-industry/2026-11-11-huang-le-alice-huang-background-megaspeed.md) — 网传湘潭江南中学 1993 级、实际约 49 岁；2015 任和熙投资副总（创始人康伟，2018 被证监会罚 1810 万，2026 春节前据传被刑拘）；2019 第七大道 10 亿收购黄乐实控游戏公司；2023 接手 7Road International 改名 Megaspeed、8 个月后退出；路透/CNA 证实 2023-03 改名，海峡时报：新美两地调查出口违规；未被起诉定罪
   * [黄仁勋事件推动三部对华芯片法案：MATCH 法案要管已装机设备的原厂服务（合规视点）](03-industry/2026-11-10-us-chip-bills-match-act-servicing-china-fabs.md) — AI 监督法案管许可（冻结 18 个月、只放行落后两代，正卡 H200）、芯片安全法案管去向（信号回传/现场清点）、MATCH 法案管设备与原厂服务（中芯/长存/长鑫/华为/华虹设施需许可，盟友 150 天等效管制否则 FDPR）；ASML/荷兰反对；60 万颗滞港库存≠数十万颗许可量；11-17 财报、11-18 闭门简报、12 月 NDAA 文本
   * [币安 63 亿美元被盗案细节：15 美元手续费、三分半钟，EIP-7702 授权让币安“关不掉”黑客](03-industry/2026-11-09-binance-hack-eip-7702-delegation.md) — 假招聘诱骗工程师下载恶意代码（社工+设备入侵+AI）；用热钱包 Binance 14 签名设 EIP-7702 代理授权，3.5 分钟后一笔转走约 25 亿美元，累计约 36 亿；授权在链上，关提现也撤销不了；币安称自担损失
