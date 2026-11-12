@@ -4,6 +4,7 @@
 
 - **日期**：2026-11-12
 - **分类**：03-industry 行业动态 / 黄仁勋事件后续
+- **后续**：11-12 盘前黄仁勋辞任 CEO 并退出董事会，见[英伟达 33 年来首次换帅](2026-11-12-jensen-huang-resigns-kress-interim-ceo.md)
 - **前情**：[第二段婚外情与董事会准备罢免（新智元）](2026-11-11-jensen-huang-second-affair-kimberly-powell-board-oust.md) · ["做空局"解读（美股投资网）](2026-11-11-jensen-huang-short-seller-politics-options-meiguwe.md) · [女方黄乐背景](2026-11-11-huang-le-alice-huang-background-megaspeed.md) · [承认婚外情、国会介入](2026-11-08-jensen-huang-affair-congress-nvidia-probe.md)
 
 ## 一、事件进展
