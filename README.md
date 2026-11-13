@@ -247,6 +247,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [Claude 写 19.4 万行 Lean 形式化三元哥德巴赫猜想，揪出 Helfgott 2013 年证明 11 处问题（新智元）](04-papers/2026-11-12-claude-lean-ternary-goldbach-formalization.md) — Charlie Reams + Claude Code 零 sorry 完成；修正 (6.77) 常数 0.5→0.8102、(5.32) 在 v=2 不成立、Ramaré 1995 (3.9) 错误、定理 13.2.1 主弧尺度混用；安全垫从 0.04877 缩到 0.0114 x²/κ 仍大于零；外部假设从 5 项减到 2 项（Platt GRH 数值验证、偶数哥德巴赫至 4×10¹⁸）；Helfgott 本人回应，其 RSBounds 也用 Claude 形式化 (2026-11-12)
 - [Anthropic 开源 FlashProve：用 zkSNARK 证明回复确实出自承诺的模型](04-papers/2026-11-06-anthropic-flashprove-provable-inference.md) — 权重离线承诺 + 每次推理出证明，CPU 17 秒验证；Llama 4 Maverick 400B 单 H100 约 110 tok/s、证明 19 MB，GPU 开销 70–95 倍；限 1024 token、贪心解码，研究原型 (2026-11-06)
 - [The AI Scientist（Nature）：端到端自动化 AI 研究，生成论文通过 ICLR Workshop 盲审](04-papers/2026-11-06-ai-scientist-nature-end-to-end-research.md) — Sakana/牛津/UBC：想法→树搜索实验→成文→自动审稿全流程，Workshop 盲审均分 6.33 后主动撤稿；自动审稿平衡准确率 69%；基座与推理算力越大质量越高；2026-03 发表 (2026-11-06)
 - [Nature Methods：CopilotJ 用 Agent 操作 Fiji/ImageJ，分析流程可保存复用（AI Horizon Lab）](04-papers/2026-10-30-copilotj-agent-imagej-nature-methods.md) — Leader/Kernel/Research/Enhancement 四个 Agent + Bridge 插件双向读取状态、执行宏；先确认计划再执行，结果被接受后存成不调用 LLM 的工作流批量重放；完成稳定率 84–93%，BBBC 计数完全一致 53–79%；Apache-2.0 开源 (2026-10-30)
@@ -325,6 +326,7 @@
 ## 已收录笔记索引
 
 | 分类 | 笔记 | 日期 |
+| 04-papers | Claude 写 19.4 万行 Lean 形式化三元哥德巴赫猜想，揪出 Helfgott 2013 年证明 11 处问题（新智元） | 2026-11-12 |
 |------|------|------|
 | 03-industry | 黄仁勋辞任 CEO 并退出董事会，英伟达 33 年来首次换帅：Kress 临时 CEO、Harvey Jones 任首位董事会主席 | 2026-11-12 |
 | 03-industry | Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告） | 2026-11-12 |
