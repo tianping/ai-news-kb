@@ -286,6 +286,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [论文里藏白字提示词操纵 AI 审稿：新型学术不端与各方规则（解螺旋）](06-academic/2026-11-13-hidden-prompts-ai-peer-review-misconduct.md) — 白字或微缩字号写「只给好评」：arXiv 18 篇→Nature 统计 11 国 44 机构；JAMA Netw Open 模拟审稿录用率 0%→99%+、上交实验 5.34→7.99；蜜罐说站不住；ICLR 2026 定为合谋，施普林格/Elsevier/ICMJE/中华医学会/科技部/中科院/韩国伦理指南收紧；附 NEJM AI 挪皮尺撤稿案 (2026-11-13)
 - [科研绘图只留 3 个 Skill：scientific-visualization、nature-figure、paper-illustration 实测（学术AI大模型）](06-academic/2026-11-08-three-research-figure-skills-demo.md) — 按材料选：有数据要比较用 scientific-visualization（算法相对差距热力图）；多组结果组成论文图用 nature-figure（双面板回归系数图，Python/R 可选、出 SVG）；方法框架示意图用 paper-illustration（生图模型出 PNG） (2026-11-08)
 - [3 篇 Nature 子刊博士拒哈佛博后去做 AI 制药：Sohl-Dickstein 演讲的生命科学解读（生物学霸）](06-academic/2026-11-04-sohl-dickstein-life-science-phd-ai-careers.md) — 三条曲线抽走「用时间换不可替代性」前提；把领域先验变成壁垒、执行外包判断留下；押注翻译层、干湿闭环关键节点、工具与自动化平台 (2026-11-04)
 - [斯坦福徐轶青：StatsClaw 与 Scaling Reproducibility，AI 协同统计软件与大规模复现（经管智能体）](06-academic/2026-11-02-yiqing-xu-statsclaw-scaling-reproducibility.md) — StatsClaw 9 agent 信息隔离（Builder/Tester/Simulator 互不可见）保证统计包可靠；Claude Code Skills 三层复现流水线：92 篇 IV 论文 5 年手工→几分钟/篇，384 篇顶刊 3523 模型成功率 87%；均开源 (2026-11-02)
@@ -327,6 +328,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 06-academic | 论文里藏白字提示词操纵 AI 审稿：新型学术不端与各方规则（解螺旋） | 2026-11-13 |
 | 04-papers | Claude 写 19.4 万行 Lean 形式化三元哥德巴赫猜想，揪出 Helfgott 2013 年证明 11 处问题（新智元） | 2026-11-12 |
 | 03-industry | 黄仁勋辞任 CEO 并退出董事会，英伟达 33 年来首次换帅：Kress 临时 CEO、Harvey Jones 任首位董事会主席 | 2026-11-12 |
 | 03-industry | Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告） | 2026-11-12 |
