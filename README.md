@@ -201,6 +201,7 @@
 - 今日之事，终成历史
 
 ### 三、行业动态
+- [黄仁勋出轨就下台，马斯克为何没事？关键在“谁管得了 CEO”（果壳）](03-industry/2026-11-13-jensen-huang-vs-musk-governance.md) — 英伟达 11 人董事会除黄外全独立、过半数即可无理由罢免，黄持股约 3.6% 一股一票；马斯克与 Neuralink 高管 Zilis 试管生 4 子、称非恋爱被公司接受，SpaceX 同股不同权约 82% 投票权兼 CEO/CTO/董事长；症结是利益冲突与下属能否说不；麦当劳 Easterbrook 退还 1.05 亿、英特尔 Krzanich 先例；规则没人执行只是一张纸 (2026-11-13)
 - [黄仁勋辞任 CEO 并退出董事会，英伟达 33 年来首次换帅：Kress 临时 CEO、Harvey Jones 任首位董事会主席](03-industry/2026-11-12-jensen-huang-resigns-kress-interim-ceo.md) — 11-12 盘前公告辞去总裁/CEO/董事即刻生效；CFO Kress 临时 CEO 兼 CFO；前 Synopsys CEO Harvey Jones 为首位董事会主席；盘前跌约 10.5%；第二段关系涉直属下属+安保处理视频是转折点；不设 COO、60 人直接汇报、无双重股权；候选传 Ian Buck/Johny Srouji；11-17 财报照常；核实：官方公告用 resigned (2026-11-12)
 - [Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告）](03-industry/2026-11-12-grok-build-apps-leak-passive-dns.md) — 37,571 个在线应用中 35,578 个免登录可开；随机子域名 xxxx.grok.me 进被动 DNS 库可检索，发布面板预选「任何持有链接的人」；泄露 SpaceXSI 入职计划/594 客户销售地图/X 广告提案、特斯拉 22 人绩效奖金、ICU 资料、明文密码；AI 生成的鉴权先入团队再查成员；11-08 报告无回复，Ars 问询后才下架自家 24 款；一月前 Meta Muse 同样问题；核实：标题「SpaceX 工资」夸大 (2026-11-12)
 - [“拯救黄仁勋”：马斯克等大佬集体声援，要求调查后交股东投票；董事会罢免只需 6 票（华尔街见闻）](03-industry/2026-11-12-save-jensen-musk-tycoons-board-vote.md) — Baker 提调查后股东投票、马斯克附和；Sweeney 称堪比苹果解雇乔布斯；Patel 认为真风险在国会查 GPU 销售；章程第 32 条在任董事过半数（6/11）即可罢免，无超级投票权，黄持股 3.58% vs 其他董事 0.31%；核实：WSJ 称部分董事倾向 Kress 过渡，董事会连夜开会未决 (2026-11-12)
