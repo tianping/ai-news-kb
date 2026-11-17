@@ -293,6 +293,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [WorkBuddy + Zotero + Obsidian：自动下载、批量精读论文，搭个人科研知识库（AI前沿速递）](06-academic/2026-11-11-workbuddy-zotero-obsidian-research-kb.md) — Zotero 存文献、Obsidian 存笔记、WorkBuddy 执行：Zotero MCP 插件接入→Literature Ingest Skill 检索下载入库（存下可读 PDF 才算成功）→按 paper-template 批量精读写入 notes→以仓库为工作区跨论文问答，结论标来源、证据不足明说；仅测 5 篇开放获取论文，配套资料需私信领取 (2026-11-11)
 - [ai-research-skills：17 个科研 Skill 组成八阶段工作流，从开题到投稿（AI学术圆桌派）](06-academic/2026-11-15-ai-research-skills-eight-stage-workflow.md) — 每开一个新会话都要重讲背景，于是把它写进 SKILL.md：8 阶段 17 技能，每步约定输入、输出和人工确认点；literature-triage-matrix 做方法/数据/主张/局限矩阵（缺项标「未报告」）、gap-to-topic 三关 go/no-go 决策档案、academic-writing-skills 去 AI 味审计（附可复制提示词）；附维护者实测耗时表；zotero-skills 可写库需先备份；OpenClaw 目录结构官方尚未验证 (2026-11-15)
 - [论文里藏白字提示词操纵 AI 审稿：新型学术不端与各方规则（解螺旋）](06-academic/2026-11-13-hidden-prompts-ai-peer-review-misconduct.md) — 白字或微缩字号写「只给好评」：arXiv 18 篇→Nature 统计 11 国 44 机构；JAMA Netw Open 模拟审稿录用率 0%→99%+、上交实验 5.34→7.99；蜜罐说站不住；ICLR 2026 定为合谋，施普林格/Elsevier/ICMJE/中华医学会/科技部/中科院/韩国伦理指南收紧；附 NEJM AI 挪皮尺撤稿案 (2026-11-13)
 - [科研绘图只留 3 个 Skill：scientific-visualization、nature-figure、paper-illustration 实测（学术AI大模型）](06-academic/2026-11-08-three-research-figure-skills-demo.md) — 按材料选：有数据要比较用 scientific-visualization（算法相对差距热力图）；多组结果组成论文图用 nature-figure（双面板回归系数图，Python/R 可选、出 SVG）；方法框架示意图用 paper-illustration（生图模型出 PNG） (2026-11-08)
