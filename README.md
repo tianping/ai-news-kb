@@ -345,6 +345,7 @@
 | 03-industry | 黄仁勋辞任 CEO 并退出董事会，英伟达 33 年来首次换帅：Kress 临时 CEO、Harvey Jones 任首位董事会主席 | 2026-11-12 |
 | 03-industry | Grok Build 生成的 3.5 万个应用无需登录可打开：被动 DNS 暴露链接，SpaceXSI 自家机密也泄露（Claroc 报告） | 2026-11-12 |
 | 03-industry | “拯救黄仁勋”：马斯克等大佬集体声援，要求调查后交股东投票；董事会罢免只需 6 票（华尔街见闻） | 2026-11-12 |
+| 06-academic | WorkBuddy + Zotero + Obsidian：自动下载、批量精读论文，搭个人科研知识库（AI前沿速递） | 2026-11-11 |
 | 03-industry | 黄仁勋风波的"做空局"解读：Culper 报告、鹰派围猎、二代接班与期权大单（美股投资网） | 2026-11-11 |
 | 03-industry | 黄仁勋再曝第二段婚外情：女方为直属副总裁 Kimberly Powell，董事会准备罢免（新智元） | 2026-11-11 |
 | 03-industry | 黄仁勋事件女方黄乐（Alice Huang）背景：湖南湘潭、和熙投资、第七大道到 Megaspeed（易简财经） | 2026-11-11 |
