@@ -341,6 +341,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Claude Code 有 4 种 Agent 模式，多数人只用了一种（AI 效能加速） | 2026-11-19 |
 | 02-tools | Codex + Blender + Three.js 搭一个可自由探索的 3D 世界（虾蛄AI） | 2026-11-18 |
 | 02-tools | blender-skills：94 个 Blender 技能，把 Claude Code / Cursor 变成技术美术团队（晚风逐云开） | 2026-11-18 |
 | 03-industry | 黄仁勋提出回任，英伟达董事会拒绝：声明爱国也没用（极客BIM设计工坊） | 2026-11-17 |
