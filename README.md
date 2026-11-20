@@ -260,6 +260,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [Anthropic 数学家 Alpöge 宣称与 Claude 证明黎曼猜想：只交 1737 万行 Lean 代码（新智元）](04-papers/2026-11-20-riemann-hypothesis-claude-lean-proof-claim.md) — 宣称阶段待核验：约 6 周、AI 草稿超 25 万页不发布，只放 14 卷 1737 万行 Lean（Mathlib 的 8 倍），题面直接调用 Mathlib 的 RH 定义并推出狄利克雷 L 函数 GRH；GPT-6.2 Astra 扫描题面无偷换、无 sorry/自定义公理，尚待完整编译；路线：Stepanov 重数法 + theta 提升代替求导，Claude 把链长设为 √X，O(2,n) 原生自守行列式、迭代 Parseval 锁符号；前情 8 月临界线比例 67.2% (2026-11-20)
 - [Claude 写 19.4 万行 Lean 形式化三元哥德巴赫猜想，揪出 Helfgott 2013 年证明 11 处问题（新智元）](04-papers/2026-11-12-claude-lean-ternary-goldbach-formalization.md) — Charlie Reams + Claude Code 零 sorry 完成；修正 (6.77) 常数 0.5→0.8102、(5.32) 在 v=2 不成立、Ramaré 1995 (3.9) 错误、定理 13.2.1 主弧尺度混用；安全垫从 0.04877 缩到 0.0114 x²/κ 仍大于零；外部假设从 5 项减到 2 项（Platt GRH 数值验证、偶数哥德巴赫至 4×10¹⁸）；Helfgott 本人回应，其 RSBounds 也用 Claude 形式化 (2026-11-12)
 - [Anthropic 开源 FlashProve：用 zkSNARK 证明回复确实出自承诺的模型](04-papers/2026-11-06-anthropic-flashprove-provable-inference.md) — 权重离线承诺 + 每次推理出证明，CPU 17 秒验证；Llama 4 Maverick 400B 单 H100 约 110 tok/s、证明 19 MB，GPU 开销 70–95 倍；限 1024 token、贪心解码，研究原型 (2026-11-06)
 - [The AI Scientist（Nature）：端到端自动化 AI 研究，生成论文通过 ICLR Workshop 盲审](04-papers/2026-11-06-ai-scientist-nature-end-to-end-research.md) — Sakana/牛津/UBC：想法→树搜索实验→成文→自动审稿全流程，Workshop 盲审均分 6.33 后主动撤稿；自动审稿平衡准确率 69%；基座与推理算力越大质量越高；2026-03 发表 (2026-11-06)
