@@ -60,7 +60,7 @@ Anthropic 数学家 **Levent Alpöge** 宣布，他和 Claude 用约六周找到
   - 题面检查目前靠另一个 AI（GPT-6.2 Astra）扫描，人工核对还没完成。
   - 没有人类可读的论文，数学界短期内很难从思路层面评价。
   - 时间点和 Anthropic 上市重合，需要和宣传分开看。
-- 同类事件：[Claude Lean 形式化三元哥德巴赫](2026-11-12-claude-lean-ternary-goldbach-formalization.md)、[OpenAI 与 Anthropic 宣布证伪 ETH](2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md)。
+- 同类事件：[Claude Lean 形式化三元哥德巴赫](2026-11-12-claude-lean-ternary-goldbach-formalization.md)、[OpenAI 与 Anthropic 宣布证伪 ETH](2026-10-28-eth-exponential-time-hypothesis-refuted-openai-anthropic.md)、[陶哲轩谈 OpenAI「准黎曼猜想」7/8 突破](../03-industry/2026-10-28-tao-openai-riemann-7-8-math-2-0.md)。
 
 ## 后续跟进
 
