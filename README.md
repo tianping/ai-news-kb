@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Suno AI 音乐最火的 10 个 skill（财智双修）](02-tools/2026-11-22-suno-top-10-skills.md) — melody-prompt 一句成歌 / lyric-weaver 歌词扩写 / genre-blender 风格融合（要有主次）/ beat-forge 先定 BPM 与 groove / vocal-magic 声线塑形 / hook-maker 副歌钩子 / mood-shifter 同曲换氛围 / soundtrack-lab 场景配乐 / cover-remix 保旋律换编曲 / stem-craft 人声伴奏拆分；附各条输入建议与提示词示例；原文无安装来源，更像 10 类玩法 (2026-11-22)
 - [Suno 怎么加和声：一个圆括号就够了（Ai音乐宝）](02-tools/2026-11-22-suno-harmony-parentheses.md) — 歌词句尾加圆括号 (1–3 字) 当和声唱出来，一行最多一处；方括号是指令不唱、单独一行；坑：(whispered) 会被唱出来，改成单独一行 [Whispered]；男女和声在音乐风格写 Male Vocals, Female Background Vocals；副歌加厚用 [Chorus: layered harmonies] (2026-11-22)
 - [Claude Code 有 4 种 Agent 模式，多数人只用了一种（AI 效能加速）](02-tools/2026-11-19-claude-code-four-agent-modes.md) — 单会话（你盯得住的小改动）/ Subagent（.claude/agents/*.md，description 当契约、tools 最小权限、日志活给 haiku，辐射状互不相通）/ Agent Teams（CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1，共享任务清单+inboxes 点对点，Token 随人数线性涨）/ Routines（定时≥1h、Webhook、GitHub 事件，/schedule，仅推 claude/ 分支）；权限模式是正交开关，Auto 分类器约 17% 漏报，绿灯≠做对，永远读 Diff (2026-11-19)
 - [Codex + Blender + Three.js 搭一个可自由探索的 3D 世界（虾蛄AI）](02-tools/2026-11-18-codex-blender-threejs-explorable-3d-world.md) — 参考图拆成 18 件道具分组建模（Blender Python，MCP 断了改后台脚本）；简单物件代码建、复杂造型用混元 3D、Megascans/GLB 现成素材改；每件三视图共 54 张验收返修；减面 46.3 万→22.5 万、GLB 30.2MB；Three.js 按包围盒落地、四套光照+摄影模式；人物 86MB→5.3MB、23 根骨骼、CMU 动捕、Rapier 物理；可跑跳、开船、采矿、钓鱼 (2026-11-18)
@@ -346,6 +347,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Suno AI 音乐最火的 10 个 skill（财智双修） | 2026-11-22 |
 | 02-tools | Suno 怎么加和声：一个圆括号就够了（Ai音乐宝） | 2026-11-22 |
 | 03-industry | 海外租算力的门刚焊死，Kimi 就宕机了：国产大模型的算力剪刀差（AI真知） | 2026-11-20 |
 | 03-industry | AMD 遭 Hunterbrook 做空报告暴跌 7.7%，同日 Anthropic 上市（卢克文工作室） | 2026-11-20 |
