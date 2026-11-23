@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale）](02-tools/2026-11-22-bitcoin-utxo-ticket-ledger-multi-agent-rsi.md) — Kiki 开发者 @0xmiracle 跑 1000+ Agent：共享状态表（账户模型）千级并发失控，改用 UTXO 式一次性任务单——天然防重用/全链路血缘/无锁并发；四条代码硬规则：首槽位才是指令（防注入）、根单花进 end 级联叫停+无单不放行、交接必须点名、查账判完结+退单 20 次熔断；每张单自动 Git 提交附单号；五阶路线：自主开单/规则赛马/动态信用/验收者复审/算力预算结算；目前仅底层账本跑通 (2026-11-22)
 - [Suno AI 音乐最火的 10 个 skill（财智双修）](02-tools/2026-11-22-suno-top-10-skills.md) — melody-prompt 一句成歌 / lyric-weaver 歌词扩写 / genre-blender 风格融合（要有主次）/ beat-forge 先定 BPM 与 groove / vocal-magic 声线塑形 / hook-maker 副歌钩子 / mood-shifter 同曲换氛围 / soundtrack-lab 场景配乐 / cover-remix 保旋律换编曲 / stem-craft 人声伴奏拆分；附各条输入建议与提示词示例；原文无安装来源，更像 10 类玩法 (2026-11-22)
 - [Suno 怎么加和声：一个圆括号就够了（Ai音乐宝）](02-tools/2026-11-22-suno-harmony-parentheses.md) — 歌词句尾加圆括号 (1–3 字) 当和声唱出来，一行最多一处；方括号是指令不唱、单独一行；坑：(whispered) 会被唱出来，改成单独一行 [Whispered]；男女和声在音乐风格写 Male Vocals, Female Background Vocals；副歌加厚用 [Chorus: layered harmonies] (2026-11-22)
 - [Claude Code 有 4 种 Agent 模式，多数人只用了一种（AI 效能加速）](02-tools/2026-11-19-claude-code-four-agent-modes.md) — 单会话（你盯得住的小改动）/ Subagent（.claude/agents/*.md，description 当契约、tools 最小权限、日志活给 haiku，辐射状互不相通）/ Agent Teams（CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1，共享任务清单+inboxes 点对点，Token 随人数线性涨）/ Routines（定时≥1h、Webhook、GitHub 事件，/schedule，仅推 claude/ 分支）；权限模式是正交开关，Auto 分类器约 17% 漏报，绿灯≠做对，永远读 Diff (2026-11-19)
@@ -347,6 +348,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale） | 2026-11-22 |
 | 02-tools | Suno AI 音乐最火的 10 个 skill（财智双修） | 2026-11-22 |
 | 02-tools | Suno 怎么加和声：一个圆括号就够了（Ai音乐宝） | 2026-11-22 |
 | 03-industry | 海外租算力的门刚焊死，Kimi 就宕机了：国产大模型的算力剪刀差（AI真知） | 2026-11-20 |
