@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Concat：免费开源本地视频剪辑器，内置 MCP 让 AI Agent 一句话剪片（AI简研社）](02-tools/2026-11-22-concat-open-source-video-editor-mcp.md) — jub0t/Concat（AGPL-3.0，约 19.6K star，Rust，Beta 0.2.12）：对标剪映，免账号/无水印/无会员/不上传；自动字幕、人声分离、TTS+声音克隆（仅桌面）、抠像绿幕、100+ 特效转场、关键帧、4K60 10-bit 导出；macOS/Windows/Linux/Android/iOS；`concat --mcp` 内置 MCP + JSON-RPC 让 Claude 等 Agent 剪片；原文称「跟豆包说需求」不准确，推广向无实测 (2026-11-22)
 - [用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale）](02-tools/2026-11-22-bitcoin-utxo-ticket-ledger-multi-agent-rsi.md) — Kiki 开发者 @0xmiracle 跑 1000+ Agent：共享状态表（账户模型）千级并发失控，改用 UTXO 式一次性任务单——天然防重用/全链路血缘/无锁并发；四条代码硬规则：首槽位才是指令（防注入）、根单花进 end 级联叫停+无单不放行、交接必须点名、查账判完结+退单 20 次熔断；每张单自动 Git 提交附单号；五阶路线：自主开单/规则赛马/动态信用/验收者复审/算力预算结算；目前仅底层账本跑通 (2026-11-22)
 - [Suno AI 音乐最火的 10 个 skill（财智双修）](02-tools/2026-11-22-suno-top-10-skills.md) — melody-prompt 一句成歌 / lyric-weaver 歌词扩写 / genre-blender 风格融合（要有主次）/ beat-forge 先定 BPM 与 groove / vocal-magic 声线塑形 / hook-maker 副歌钩子 / mood-shifter 同曲换氛围 / soundtrack-lab 场景配乐 / cover-remix 保旋律换编曲 / stem-craft 人声伴奏拆分；附各条输入建议与提示词示例；原文无安装来源，更像 10 类玩法 (2026-11-22)
 - [Suno 怎么加和声：一个圆括号就够了（Ai音乐宝）](02-tools/2026-11-22-suno-harmony-parentheses.md) — 歌词句尾加圆括号 (1–3 字) 当和声唱出来，一行最多一处；方括号是指令不唱、单独一行；坑：(whispered) 会被唱出来，改成单独一行 [Whispered]；男女和声在音乐风格写 Male Vocals, Female Background Vocals；副歌加厚用 [Chorus: layered harmonies] (2026-11-22)
@@ -348,6 +349,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Concat：免费开源本地视频剪辑器，内置 MCP 让 AI Agent 一句话剪片（AI简研社） | 2026-11-22 |
 | 02-tools | 用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale） | 2026-11-22 |
 | 02-tools | Suno AI 音乐最火的 10 个 skill（财智双修） | 2026-11-22 |
 | 02-tools | Suno 怎么加和声：一个圆括号就够了（Ai音乐宝） | 2026-11-22 |
