@@ -268,6 +268,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [Lean 为啥能做数学证明？命题即类型、证明即程序、内核验收（见色非色）](04-papers/2026-11-24-why-lean-can-prove-math.md) — 科普长文：Lean 是基于依赖类型论的交互式定理证明器；Curry–Howard 对应下命题=类型、证明=对象（P→Q 即函数，∧/∨/∃/∀ 各有交货方式）；依赖类型把性质写进类型（Vec α n）；归纳=沿构造递归，rfl 靠计算判等；tactic 只是生成证明项的指令，Parser→Elaborator→Kernel，de Bruijn 准则下自动化是助教、极小内核是裁判；边界：证明≠测试、能可靠证明错误建模的命题、sorry 不算证明；Mathlib+陶哲轩 blueprint；AI 负责猜、Lean 负责查（AlphaProof） (2026-11-24)
 - [前沿模型只凭一段文字就能认出作者：56% 匿名审稿人被点名（涌现拐点）](04-papers/2026-11-23-frontier-models-unmask-authors-one-text.md) — 马里兰 CLIP/Pangram/DeepMind 论文：零样本、无联网无候选，三级任务——人写还是 AI 写（Gemini 4 Carbon 持平 Pangram 4.1）、哪家实验室（Opus 5.5/Gemini 4 Argon 约 98%）、哪个真人（Fable 5.2 认出 398 份私密审稿 56%、长审稿 68%；训练截止后 Nature 公开审稿 78%、活跃 Reddit 69%、名作家 15/15；置信≥25% 时准 87%）；去自引仍约 1/3；随机 Reddit 31%、潜水用户 2%；推理拉满让「有点熟」的人从 8%→38%；删帖无用、AI 改写只救一半、拒答 <2%；样本是作者实验室 6 人，外推需谨慎 (2026-11-23)
 - [上海交大 AutoDNA 登 Nature：AI 原生实验室无人值守 203.5 小时、完成 11000+ 步分子实验（生物学霸）](04-papers/2026-11-23-autodna-ai-native-lab-nature.md) — Nature 2026-11-04：20+ 种仪器拆成语言可调用的实验单元，AI 自走设计→执行→分析→改方案闭环；四场景：酶促 DNA 合成迭代 9 轮单步产率 97.8%、并发调度快 3.2 倍、DNA 数据存储 11000+ 步零错误还原、结直肠癌样本锁定 KRAS G13D 首版引物即通过；故障自愈（视觉/传感器发现吸液失败自动重试）；盲区：不找问题、只按指标优化、不判价值、试剂硬件仍靠人；附 Co-Scientist/The AI Scientist/Open Scientist (2026-11-23)
 - [Anthropic 数学家 Alpöge 宣称与 Claude 证明黎曼猜想：只交 1737 万行 Lean 代码（新智元）](04-papers/2026-11-20-riemann-hypothesis-claude-lean-proof-claim.md) — 宣称阶段待核验：约 6 周、AI 草稿超 25 万页不发布，只放 14 卷 1737 万行 Lean（Mathlib 的 8 倍），题面直接调用 Mathlib 的 RH 定义并推出狄利克雷 L 函数 GRH；GPT-6.2 Astra 扫描题面无偷换、无 sorry/自定义公理，尚待完整编译；路线：Stepanov 重数法 + theta 提升代替求导，Claude 把链长设为 √X，O(2,n) 原生自守行列式、迭代 Parseval 锁符号；前情 8 月临界线比例 67.2% (2026-11-20)
@@ -355,6 +356,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 04-papers | Lean 为啥能做数学证明？命题即类型、证明即程序、内核验收（见色非色） | 2026-11-24 |
 | 05-events | 主人「去世」后，唯一选择活下去的 AI，花剩 5 美元后关掉了自己（爱范儿） | 2026-11-22 |
 | 03-industry | 暴涨前，她卖飞英伟达：木头姐减持 71 万股，转投 Anthropic 又跌（投资界PEdaily） | 2026-11-24 |
 | 03-industry | 黄仁勋回归幕后：特朗普打进董事会电话，代理 CEO 最后一刻才知道（AI范儿） | 2026-11-23 |
