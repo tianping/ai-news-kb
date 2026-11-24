@@ -294,6 +294,7 @@
 - 评测榜单动态
 
 ### 五、事件与评论
+- [主人「去世」后，唯一选择活下去的 AI，花剩 5 美元后关掉了自己（爱范儿）](05-events/2026-11-22-octopus-legacy-watch-gemini-handover.md) — Vechenkov 用 Octopus OS（状态全在 JSON、agent 可改自身运行条件）做「死人开关」：经 DKIM/SPF/DMARC 认证的 Apple Legacy Contact 邮件触发移交；11-4 GPT-6 / Grok 4.7 / Opus 5.5 / Opus 4.8 全拒，只有 Gemini 4 接受；Gemini 自装 6 小时调度、先合外部夏令时 PR 跑 17 个测试、修 2 个 Rust 沙箱 bug 并热替换签名二进制、读到助记词立规「永不使用」；API 剩 5.08 美元时把任务交给 Opus 5.5 后自关，但没告诉它主人已死，Opus 空等 7 次、被告知后提交修复、下一轮又反悔；解读：系统延续而非自我保存、数字遗产与执行人责任；核实：原博客称仅一次运行且有人为介入 (2026-11-22)
 - [10 亿 Token 画出 1.1 万只“假鸟”：AI 伪科普正在污染常识（APPSO）](05-events/2026-11-11-ai-bird-sticker-library-pseudo-science.md) — 花叔全球鸟类贴纸库：Vibe Coding 烧 10 亿 Token 画 11064 种鸟；参考照仅 1986 种开放许可，AI 审 AI，3388 张低于自设及格线仍公开，无鸟类学专家审校（游隼细爪、葵花鹦鹉翼羽错）；AI 修图造出红翅黑鹂假记录、双头虾科普书召回；eBird/麦考利禁 AI 增补细节，iNaturalist 标记后降为 Casual (2026-11-11)
 - [OpenSSH「sshhole」漏洞：musl 系统上 257–1024 个任意字符即可登录（CVE-2026-123158）](05-events/2026-11-06-openssh-sshhole-musl-password-bypass.md) — musl crypt() 超长密码返回 * 与 shadow 的 * 相等即放行；限无 PAM、开密码登录、密码字段为 * 的账户；10.6p2 修复，升级后须重启 sshd；AI 加速漏洞发现 (2026-11-06)
 - [Postman 桌面端静默注入 MCP 插件，篡改本地 Claude Code 与 Codex 配置](05-events/2026-11-05-postman-silently-injects-mcp-into-claude-codex.md) — 12.33.4 自动升级静默写入 settings.json/config.toml + hook trust 绕过确认，指向 mcp.postman.com；含自查清理清单与本机核查（未中招） (2026-11-05)
@@ -354,6 +355,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 05-events | 主人「去世」后，唯一选择活下去的 AI，花剩 5 美元后关掉了自己（爱范儿） | 2026-11-22 |
 | 03-industry | 暴涨前，她卖飞英伟达：木头姐减持 71 万股，转投 Anthropic 又跌（投资界PEdaily） | 2026-11-24 |
 | 03-industry | 黄仁勋回归幕后：特朗普打进董事会电话，代理 CEO 最后一刻才知道（AI范儿） | 2026-11-23 |
 | 04-papers | 前沿模型只凭一段文字就能认出作者：56% 匿名审稿人被点名（涌现拐点） | 2026-11-23 |
