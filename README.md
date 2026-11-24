@@ -266,6 +266,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [前沿模型只凭一段文字就能认出作者：56% 匿名审稿人被点名（涌现拐点）](04-papers/2026-11-23-frontier-models-unmask-authors-one-text.md) — 马里兰 CLIP/Pangram/DeepMind 论文：零样本、无联网无候选，三级任务——人写还是 AI 写（Gemini 4 Carbon 持平 Pangram 4.1）、哪家实验室（Opus 5.5/Gemini 4 Argon 约 98%）、哪个真人（Fable 5.2 认出 398 份私密审稿 56%、长审稿 68%；训练截止后 Nature 公开审稿 78%、活跃 Reddit 69%、名作家 15/15；置信≥25% 时准 87%）；去自引仍约 1/3；随机 Reddit 31%、潜水用户 2%；推理拉满让「有点熟」的人从 8%→38%；删帖无用、AI 改写只救一半、拒答 <2%；样本是作者实验室 6 人，外推需谨慎 (2026-11-23)
 - [上海交大 AutoDNA 登 Nature：AI 原生实验室无人值守 203.5 小时、完成 11000+ 步分子实验（生物学霸）](04-papers/2026-11-23-autodna-ai-native-lab-nature.md) — Nature 2026-11-04：20+ 种仪器拆成语言可调用的实验单元，AI 自走设计→执行→分析→改方案闭环；四场景：酶促 DNA 合成迭代 9 轮单步产率 97.8%、并发调度快 3.2 倍、DNA 数据存储 11000+ 步零错误还原、结直肠癌样本锁定 KRAS G13D 首版引物即通过；故障自愈（视觉/传感器发现吸液失败自动重试）；盲区：不找问题、只按指标优化、不判价值、试剂硬件仍靠人；附 Co-Scientist/The AI Scientist/Open Scientist (2026-11-23)
 - [Anthropic 数学家 Alpöge 宣称与 Claude 证明黎曼猜想：只交 1737 万行 Lean 代码（新智元）](04-papers/2026-11-20-riemann-hypothesis-claude-lean-proof-claim.md) — 宣称阶段待核验：约 6 周、AI 草稿超 25 万页不发布，只放 14 卷 1737 万行 Lean（Mathlib 的 8 倍），题面直接调用 Mathlib 的 RH 定义并推出狄利克雷 L 函数 GRH；GPT-6.2 Astra 扫描题面无偷换、无 sorry/自定义公理，尚待完整编译；路线：Stepanov 重数法 + theta 提升代替求导，Claude 把链长设为 √X，O(2,n) 原生自守行列式、迭代 Parseval 锁符号；前情 8 月临界线比例 67.2% (2026-11-20)
 - [Claude 写 19.4 万行 Lean 形式化三元哥德巴赫猜想，揪出 Helfgott 2013 年证明 11 处问题（新智元）](04-papers/2026-11-12-claude-lean-ternary-goldbach-formalization.md) — Charlie Reams + Claude Code 零 sorry 完成；修正 (6.77) 常数 0.5→0.8102、(5.32) 在 v=2 不成立、Ramaré 1995 (3.9) 错误、定理 13.2.1 主弧尺度混用；安全垫从 0.04877 缩到 0.0114 x²/κ 仍大于零；外部假设从 5 项减到 2 项（Platt GRH 数值验证、偶数哥德巴赫至 4×10¹⁸）；Helfgott 本人回应，其 RSBounds 也用 Claude 形式化 (2026-11-12)
@@ -351,6 +352,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 04-papers | 前沿模型只凭一段文字就能认出作者：56% 匿名审稿人被点名（涌现拐点） | 2026-11-23 |
 | 03-industry | 英伟达恢复黄仁勋 CEO 职务，本人回应（凤凰网） | 2026-11-23 |
 | 04-papers | 上海交大 AutoDNA 登 Nature：AI 原生实验室无人值守 203.5 小时、完成 11000+ 步分子实验（生物学霸） | 2026-11-23 |
 | 02-tools | Concat：免费开源本地视频剪辑器，内置 MCP 让 AI Agent 一句话剪片（AI简研社） | 2026-11-22 |
