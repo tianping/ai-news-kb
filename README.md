@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [Reveric（幻界）：小说到成片一站式 AI 创作工作台，整部作品就是智能体的工作区（天若源码教程实战）](02-tools/2026-11-25-reveric-ai-novel-shortdrama-workbench.md) — looplj/reveric（AxonHub 作者，2026-10-22 建仓，AGPLv3，Flutter，mac/Win/Android，数据存本地 SQLite，主分支 unstable）：把小说→剧本→分镜→生图→视频→剪辑六步收进一个桌面应用；五模块=小说编辑器（设定库人物势力伏笔地图关联、提取关键事实核验连续性防吃书）/剧本编辑器（左原著右剧本）/无限画布（分镜与提示词节点）/3D 导演台（站位机位运镜时间轴预演）/六轨剪辑台（剪刃分割波纹删除导出）；卖点是作品即工作区——前文设定伏笔由 AI 自己检索，不用贴 prompt，可写长期规则与装技能；接 OpenAI/Claude/Gemini/DeepSeek/智谱/Kimi/即梦/可灵与自建 Ollama；注意：早期无实测、README 顶部含 aff 赞助链接、生成费用自付 (2026-11-25)
 - [SenseNova 6.8 Code2Video：商汤开源 27B 代码驱动视频模型，不采样、写程序再渲染（布鲁斯AI）](02-tools/2026-11-25-sensenova-code2video-open-source.md) — OpenSenseNova/SenseNova-6.8-Code2Video（27B，Qwen3.8-27B 底座，512K 上下文）：模型输出可执行程序再渲染，每帧是 t 的纯函数故可复现——翻牌屏改三轮只动被点名的部分；只做纯代码实现的短视频（动态图形/科普/风格化 2D3D/程序化音频），写实不做；四步闭环含「把联系表读回去自检」，八份领域指南；部署须同配 reasoning-parser qwen3 与 tool-call-parser qwen3_coder，Claude Code 须手改五项（524288/80%/65536/max-turns 2000/10h），实测可跑 10 小时 2000 轮；两段式 prompt 先用强模型扩写；局限：一次制作数小时、无评测基准、与闭源差距明显、仓库无 LICENSE (2026-11-25)
 - [iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码）](02-tools/2026-11-25-iphone-use-codex-real-device-automation.md) — zhongerxin/iPhone-use（亦支持 WorkBuddy、豆包工作）：链路 Codex→本地 MCP→USB→WebDriverAgent→真机，开 App/读控件树/点击滑动/中文长文本/批处理/侧边栏实时屏幕，控件定位失败回退截图坐标点击；失败恢复设计是精华——复用 WDA 服务与连接、结果不确定先读状态而非重放、滚动查找减往返；门槛：macOS+完整 Xcode+可签名 Apple 开发团队+USB 解锁真机+开发者模式，须自行签名运行 WDA Runner；链路走本机 USB/loopback，但默认向 PostHog/GA4 发匿名统计，IPHONE_USE_ANALYTICS=0 或 DO_NOT_TRACK=1 关闭；红线：认证交本人、发送/提交/付款保留确认 (2026-11-25)
 - [懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN）](02-tools/2026-11-25-esp32-claude-dumb-tv-remote-control.md) — Quentin Santos：无网老电视 HDMI 接台式机，ESP32-C3+红外收发读取 RC-5 编码经 Wi-Fi 触发脚本，Claude Opus 5.5 写大部分代码；四彩色键：看剧/ES-DE 模拟器（DuckStation、PCSX2、Dolphin、Cemu）/10 小时壁炉/Steam Big Picture；窗口跑错屏改 Multiseat 两个独立 X 会话，Claude 写管理面板（虚拟遥控器同步音量、远程命令、虚拟手柄、画面串流）；开手柄自动切游戏、关最后一只回壁炉；约 10 小时，Claude 需严格监督（跑偏、留 bug、治标修复） (2026-11-25)
@@ -362,6 +363,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | Reveric（幻界）：小说到成片一站式 AI 创作工作台，整部作品就是智能体的工作区（天若源码教程实战） | 2026-11-25 |
 | 02-tools | SenseNova 6.8 Code2Video：商汤开源 27B 代码驱动视频模型，不采样、写程序再渲染（布鲁斯AI） | 2026-11-25 |
 | 02-tools | iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码） | 2026-11-25 |
 | 04-papers | 英伟达 CPU-ARC：把大模型的推理过程编译成 Python，之后交给 CPU 跑（向量猎人） | 2026-11-25 |
