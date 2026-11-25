@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN）](02-tools/2026-11-25-esp32-claude-dumb-tv-remote-control.md) — Quentin Santos：无网老电视 HDMI 接台式机，ESP32-C3+红外收发读取 RC-5 编码经 Wi-Fi 触发脚本，Claude Opus 5.5 写大部分代码；四彩色键：看剧/ES-DE 模拟器（DuckStation、PCSX2、Dolphin、Cemu）/10 小时壁炉/Steam Big Picture；窗口跑错屏改 Multiseat 两个独立 X 会话，Claude 写管理面板（虚拟遥控器同步音量、远程命令、虚拟手柄、画面串流）；开手柄自动切游戏、关最后一只回壁炉；约 10 小时，Claude 需严格监督（跑偏、留 bug、治标修复） (2026-11-25)
 - [Concat：免费开源本地视频剪辑器，内置 MCP 让 AI Agent 一句话剪片（AI简研社）](02-tools/2026-11-22-concat-open-source-video-editor-mcp.md) — jub0t/Concat（AGPL-3.0，约 19.6K star，Rust，Beta 0.2.12）：对标剪映，免账号/无水印/无会员/不上传；自动字幕、人声分离、TTS+声音克隆（仅桌面）、抠像绿幕、100+ 特效转场、关键帧、4K60 10-bit 导出；macOS/Windows/Linux/Android/iOS；`concat --mcp` 内置 MCP + JSON-RPC 让 Claude 等 Agent 剪片；原文称「跟豆包说需求」不准确，推广向无实测 (2026-11-22)
 - [用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale）](02-tools/2026-11-22-bitcoin-utxo-ticket-ledger-multi-agent-rsi.md) — Kiki 开发者 @0xmiracle 跑 1000+ Agent：共享状态表（账户模型）千级并发失控，改用 UTXO 式一次性任务单——天然防重用/全链路血缘/无锁并发；四条代码硬规则：首槽位才是指令（防注入）、根单花进 end 级联叫停+无单不放行、交接必须点名、查账判完结+退单 20 次熔断；每张单自动 Git 提交附单号；五阶路线：自主开单/规则赛马/动态信用/验收者复审/算力预算结算；目前仅底层账本跑通 (2026-11-22)
 - [Suno AI 音乐最火的 10 个 skill（财智双修）](02-tools/2026-11-22-suno-top-10-skills.md) — melody-prompt 一句成歌 / lyric-weaver 歌词扩写 / genre-blender 风格融合（要有主次）/ beat-forge 先定 BPM 与 groove / vocal-magic 声线塑形 / hook-maker 副歌钩子 / mood-shifter 同曲换氛围 / soundtrack-lab 场景配乐 / cover-remix 保旋律换编曲 / stem-craft 人声伴奏拆分；附各条输入建议与提示词示例；原文无安装来源，更像 10 类玩法 (2026-11-22)
@@ -357,6 +358,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN） | 2026-11-25 |
 | 03-industry | 深圳会晤之后，特朗普为何力挺黄仁勋回归：中国市场与国产替代的账（国防时报第1军事） | 2026-11-24 |
 | 04-papers | Lean 为啥能做数学证明？命题即类型、证明即程序、内核验收（见色非色） | 2026-11-24 |
 | 05-events | 主人「去世」后，唯一选择活下去的 AI，花剩 5 美元后关掉了自己（爱范儿） | 2026-11-22 |
