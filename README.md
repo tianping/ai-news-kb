@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码）](02-tools/2026-11-25-iphone-use-codex-real-device-automation.md) — zhongerxin/iPhone-use（亦支持 WorkBuddy、豆包工作）：链路 Codex→本地 MCP→USB→WebDriverAgent→真机，开 App/读控件树/点击滑动/中文长文本/批处理/侧边栏实时屏幕，控件定位失败回退截图坐标点击；失败恢复设计是精华——复用 WDA 服务与连接、结果不确定先读状态而非重放、滚动查找减往返；门槛：macOS+完整 Xcode+可签名 Apple 开发团队+USB 解锁真机+开发者模式，须自行签名运行 WDA Runner；链路走本机 USB/loopback，但默认向 PostHog/GA4 发匿名统计，IPHONE_USE_ANALYTICS=0 或 DO_NOT_TRACK=1 关闭；红线：认证交本人、发送/提交/付款保留确认 (2026-11-25)
 - [懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN）](02-tools/2026-11-25-esp32-claude-dumb-tv-remote-control.md) — Quentin Santos：无网老电视 HDMI 接台式机，ESP32-C3+红外收发读取 RC-5 编码经 Wi-Fi 触发脚本，Claude Opus 5.5 写大部分代码；四彩色键：看剧/ES-DE 模拟器（DuckStation、PCSX2、Dolphin、Cemu）/10 小时壁炉/Steam Big Picture；窗口跑错屏改 Multiseat 两个独立 X 会话，Claude 写管理面板（虚拟遥控器同步音量、远程命令、虚拟手柄、画面串流）；开手柄自动切游戏、关最后一只回壁炉；约 10 小时，Claude 需严格监督（跑偏、留 bug、治标修复） (2026-11-25)
 - [Concat：免费开源本地视频剪辑器，内置 MCP 让 AI Agent 一句话剪片（AI简研社）](02-tools/2026-11-22-concat-open-source-video-editor-mcp.md) — jub0t/Concat（AGPL-3.0，约 19.6K star，Rust，Beta 0.2.12）：对标剪映，免账号/无水印/无会员/不上传；自动字幕、人声分离、TTS+声音克隆（仅桌面）、抠像绿幕、100+ 特效转场、关键帧、4K60 10-bit 导出；macOS/Windows/Linux/Android/iOS；`concat --mcp` 内置 MCP + JSON-RPC 让 Claude 等 Agent 剪片；原文称「跟豆包说需求」不准确，推广向无实测 (2026-11-22)
 - [用比特币 UTXO 账本管千级 Agent 的自我进化（RSI）：一次性任务单架构（Datawhale）](02-tools/2026-11-22-bitcoin-utxo-ticket-ledger-multi-agent-rsi.md) — Kiki 开发者 @0xmiracle 跑 1000+ Agent：共享状态表（账户模型）千级并发失控，改用 UTXO 式一次性任务单——天然防重用/全链路血缘/无锁并发；四条代码硬规则：首槽位才是指令（防注入）、根单花进 end 级联叫停+无单不放行、交接必须点名、查账判完结+退单 20 次熔断；每张单自动 Git 提交附单号；五阶路线：自主开单/规则赛马/动态信用/验收者复审/算力预算结算；目前仅底层账本跑通 (2026-11-22)
@@ -360,6 +361,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码） | 2026-11-25 |
 | 04-papers | 英伟达 CPU-ARC：把大模型的推理过程编译成 Python，之后交给 CPU 跑（向量猎人） | 2026-11-25 |
 | 04-papers | 通用大模型开始直接做蛋白质设计：GPT-6 与 Claude 的两条路线，专有模型分工被重写（DeepTech深科技） | 2026-11-25 |
 | 02-tools | 懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN） | 2026-11-25 |
