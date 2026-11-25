@@ -270,6 +270,7 @@
 - AI 安全与对齐讨论
 
 ### 四、论文与技术突破
+- [通用大模型开始直接做蛋白质设计：GPT-6 与 Claude 的两条路线，专有模型分工被重写（DeepTech深科技）](04-papers/2026-11-25-general-llms-protein-design-vs-specialized-models.md) — 起点是 Phylo 研究员 Xinming Tu 测出新版 Claude 预测冷门细菌蛋白序列超过专门的蛋白质语言模型（接触图精度仍不及 ESM-2）；OpenAI 路线是模型自己推理+写代码，四类任务有湿实验数据、小分子对接匹配率 92–97% 远超 DiffDock，但承认骨架之外仍需 SolubleMPNN 填序列、从头预测完整结构仍落后 AlphaFold，且「能结合」不等于能成药；Anthropic 路线是智能体自主调度 7+ 开源工具连跑 24–48 小时，1320 个设计由 Twist/Adaptyv 验证命中 27%、RBX1 最强 3.9 nM 胜过大赛冠军 45 nM；月之暗面走工具调度（Kimi 接 BioMaster）；Google 7 月解散重组 AlphaFold 团队，Isomorphic Labs 却融资 50 亿美元；差距在私有失败数据，两家都在建湿实验室；Uehara/Pačesa/Kosinski 三方分歧 (2026-11-25)
 - [Lean 为啥能做数学证明？命题即类型、证明即程序、内核验收（见色非色）](04-papers/2026-11-24-why-lean-can-prove-math.md) — 科普长文：Lean 是基于依赖类型论的交互式定理证明器；Curry–Howard 对应下命题=类型、证明=对象（P→Q 即函数，∧/∨/∃/∀ 各有交货方式）；依赖类型把性质写进类型（Vec α n）；归纳=沿构造递归，rfl 靠计算判等；tactic 只是生成证明项的指令，Parser→Elaborator→Kernel，de Bruijn 准则下自动化是助教、极小内核是裁判；边界：证明≠测试、能可靠证明错误建模的命题、sorry 不算证明；Mathlib+陶哲轩 blueprint；AI 负责猜、Lean 负责查（AlphaProof） (2026-11-24)
 - [前沿模型只凭一段文字就能认出作者：56% 匿名审稿人被点名（涌现拐点）](04-papers/2026-11-23-frontier-models-unmask-authors-one-text.md) — 马里兰 CLIP/Pangram/DeepMind 论文：零样本、无联网无候选，三级任务——人写还是 AI 写（Gemini 4 Carbon 持平 Pangram 4.1）、哪家实验室（Opus 5.5/Gemini 4 Argon 约 98%）、哪个真人（Fable 5.2 认出 398 份私密审稿 56%、长审稿 68%；训练截止后 Nature 公开审稿 78%、活跃 Reddit 69%、名作家 15/15；置信≥25% 时准 87%）；去自引仍约 1/3；随机 Reddit 31%、潜水用户 2%；推理拉满让「有点熟」的人从 8%→38%；删帖无用、AI 改写只救一半、拒答 <2%；样本是作者实验室 6 人，外推需谨慎 (2026-11-23)
 - [上海交大 AutoDNA 登 Nature：AI 原生实验室无人值守 203.5 小时、完成 11000+ 步分子实验（生物学霸）](04-papers/2026-11-23-autodna-ai-native-lab-nature.md) — Nature 2026-11-04：20+ 种仪器拆成语言可调用的实验单元，AI 自走设计→执行→分析→改方案闭环；四场景：酶促 DNA 合成迭代 9 轮单步产率 97.8%、并发调度快 3.2 倍、DNA 数据存储 11000+ 步零错误还原、结直肠癌样本锁定 KRAS G13D 首版引物即通过；故障自愈（视觉/传感器发现吸液失败自动重试）；盲区：不找问题、只按指标优化、不判价值、试剂硬件仍靠人；附 Co-Scientist/The AI Scientist/Open Scientist (2026-11-23)
@@ -358,6 +359,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 04-papers | 通用大模型开始直接做蛋白质设计：GPT-6 与 Claude 的两条路线，专有模型分工被重写（DeepTech深科技） | 2026-11-25 |
 | 02-tools | 懒得下沙发：程序员花 10 小时用 ESP32 + Claude 让老电视遥控器控制电脑（CSDN） | 2026-11-25 |
 | 03-industry | 深圳会晤之后，特朗普为何力挺黄仁勋回归：中国市场与国产替代的账（国防时报第1军事） | 2026-11-24 |
 | 04-papers | Lean 为啥能做数学证明？命题即类型、证明即程序、内核验收（见色非色） | 2026-11-24 |
