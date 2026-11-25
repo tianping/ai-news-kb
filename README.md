@@ -32,6 +32,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [ffmpeg-skill：给编程智能体一个本地视频剪辑工具箱，42 个工具 + 改完自己复检（KuaiZApp）](02-tools/2026-11-25-ffmpeg-skill-agent-video-editing.md) — kajisho5/ffmpeg-skill（MIT，纯 Python 标准库，零云零 Key）：SKILL.md + 脚本，四个核心抽象——probe 先测量禁止猜参数、工具只收命名参数不接受 shell 字符串或任意 filter graph、contract --json 从 argparse 运行时派生（CI 查漂移）、执行后复探产物核对时长尺寸音轨并出缩略图；能力含无损切拼/去静音/横转竖/烧字幕与逐词高亮/HDR→SDR/响度 -14 LUFS/多机位对齐/平台交付检查/project.json 批量渲染/本地审片页（中英日韩，点编号写意见一键复制给智能体）；MCP 默认只暴露 12 个核心工具，FFMPEG_SKILL_MCP_FULL=1 列全 42；输出覆盖输入被拒、改文件须 --overwrite；局限：无时间线界面、不做创意判断、转写需另装语音引擎、setup 依赖 brew/winget/apt 且需 Node 16+ 与 Python 3.10+、仅 12 个工具标稳定、作者自评验证纪律「部分符合」、showcase 九段为 Veo 生成 (2026-11-25)
 - [Reveric（幻界）：小说到成片一站式 AI 创作工作台，整部作品就是智能体的工作区（天若源码教程实战）](02-tools/2026-11-25-reveric-ai-novel-shortdrama-workbench.md) — looplj/reveric（AxonHub 作者，2026-10-22 建仓，AGPLv3，Flutter，mac/Win/Android，数据存本地 SQLite，主分支 unstable）：把小说→剧本→分镜→生图→视频→剪辑六步收进一个桌面应用；五模块=小说编辑器（设定库人物势力伏笔地图关联、提取关键事实核验连续性防吃书）/剧本编辑器（左原著右剧本）/无限画布（分镜与提示词节点）/3D 导演台（站位机位运镜时间轴预演）/六轨剪辑台（剪刃分割波纹删除导出）；卖点是作品即工作区——前文设定伏笔由 AI 自己检索，不用贴 prompt，可写长期规则与装技能；接 OpenAI/Claude/Gemini/DeepSeek/智谱/Kimi/即梦/可灵与自建 Ollama；注意：早期无实测、README 顶部含 aff 赞助链接、生成费用自付 (2026-11-25)
 - [SenseNova 6.8 Code2Video：商汤开源 27B 代码驱动视频模型，不采样、写程序再渲染（布鲁斯AI）](02-tools/2026-11-25-sensenova-code2video-open-source.md) — OpenSenseNova/SenseNova-6.8-Code2Video（27B，Qwen3.8-27B 底座，512K 上下文）：模型输出可执行程序再渲染，每帧是 t 的纯函数故可复现——翻牌屏改三轮只动被点名的部分；只做纯代码实现的短视频（动态图形/科普/风格化 2D3D/程序化音频），写实不做；四步闭环含「把联系表读回去自检」，八份领域指南；部署须同配 reasoning-parser qwen3 与 tool-call-parser qwen3_coder，Claude Code 须手改五项（524288/80%/65536/max-turns 2000/10h），实测可跑 10 小时 2000 轮；两段式 prompt 先用强模型扩写；局限：一次制作数小时、无评测基准、与闭源差距明显、仓库无 LICENSE (2026-11-25)
 - [iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码）](02-tools/2026-11-25-iphone-use-codex-real-device-automation.md) — zhongerxin/iPhone-use（亦支持 WorkBuddy、豆包工作）：链路 Codex→本地 MCP→USB→WebDriverAgent→真机，开 App/读控件树/点击滑动/中文长文本/批处理/侧边栏实时屏幕，控件定位失败回退截图坐标点击；失败恢复设计是精华——复用 WDA 服务与连接、结果不确定先读状态而非重放、滚动查找减往返；门槛：macOS+完整 Xcode+可签名 Apple 开发团队+USB 解锁真机+开发者模式，须自行签名运行 WDA Runner；链路走本机 USB/loopback，但默认向 PostHog/GA4 发匿名统计，IPHONE_USE_ANALYTICS=0 或 DO_NOT_TRACK=1 关闭；红线：认证交本人、发送/提交/付款保留确认 (2026-11-25)
@@ -363,6 +364,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | ffmpeg-skill：给编程智能体一个本地视频剪辑工具箱，42 个工具 + 改完自己复检（KuaiZApp） | 2026-11-25 |
 | 02-tools | Reveric（幻界）：小说到成片一站式 AI 创作工作台，整部作品就是智能体的工作区（天若源码教程实战） | 2026-11-25 |
 | 02-tools | SenseNova 6.8 Code2Video：商汤开源 27B 代码驱动视频模型，不采样、写程序再渲染（布鲁斯AI） | 2026-11-25 |
 | 02-tools | iPhone Use：让 Codex 通过 USB 操作真实 iPhone（聊点源码） | 2026-11-25 |
