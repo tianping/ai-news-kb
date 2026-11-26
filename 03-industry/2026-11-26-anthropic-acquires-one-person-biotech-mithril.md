@@ -5,7 +5,7 @@
 - **原文（公众号）**：https://mp.weixin.qq.com/s/tYre8ZjbufFc64YW4jiQDA
 - **英文原文**：Heidi Ledford, *Anthropic bought a one-person, AI-powered biotech: is this drug discovery's future?*, **Nature** 新闻版块，2026-11-11，doi:10.1038/d41586-026-03640-9
 - **分类**：行业动态 / AI 制药 / Anthropic
-- **相关**：[Virtual Biotech：斯坦福 Science 多智能体药物研发框架](../02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md)（同一个 James Zou 团队） · [通用大模型直接做蛋白质设计](../04-papers/2026-11-25-general-llm-protein-design.md)
+- **相关**：[Virtual Biotech：斯坦福 Science 多智能体药物研发框架](../02-tools/2026-10-01-virtual-biotech-multagent-science-drug-discovery-repro.md)（同一个 James Zou 团队） · [通用大模型直接做蛋白质设计](../04-papers/2026-11-25-general-llms-protein-design-vs-specialized-models.md)
 
 ## 事实
 
