@@ -325,6 +325,7 @@
 - 个人观察与思考
 
 ### 六、AI学术应用
+- [JFS 整理的 159 个免费金融与会计研究数据源：八大板块与取数清单（经管智能体）](06-academic/2026-11-26-jfs-159-free-finance-datasets.md) — Joint Finance Seminar 组织者（含伊尔梅瑙工大助理教授 Gerrit Köchling）维护的 Free data sources for finance and accounting research，159 条逐个验过链接、最近一次检查 2026-11（原址已核对可访问）；先分清四种「免费」：直接下载 / 免费注册 / 仅限非商业学术用途 / 需申请或只能在线查询；八大板块——资产定价（French 库、AQR、Shiller 1871 起、Damodaran 1928 起、Welch–Goyal、JKP 153 特征 93 国、HXZ q 因子、Baker–Wurgler 情绪、Cboe VIX 族）、公司与会计（清洗过的 10-K 全文、CEO 强制变更、CFO 离职、薪酬 delta/vega、Loughran–McDonald 词典）、银行信贷与家庭（纽约联储资产负债表与家庭债务面板、FDIC、CFPB 投诉、Fannie/Freddie 贷款级）、创新与年轻企业（KPS 专利价值、Ewens 组织资本、Census）、监管政治与政策不确定性（EPU 1900 起、地缘政治风险、政治关联）、ESG 气候（Sautner 电话会气候暴露 34 国逾万家公司、生物多样性风险、碳价不确定性）、文化注意力与新闻（WSJ 主题注意力、Google Trends、社交媒体注意力）、宏观与国际（FRED/FRED-MD、BIS、JST 18 国 1870 起、World Bank、IMF）；用法：按研究问题反查而非按类别翻，拿到后核对覆盖区间与更新频率、确认条款、记原始出处；附可直接用的取数筛选提示词 (2026-11-26)
 - [WorkBuddy + Zotero + Obsidian：自动下载、批量精读论文，搭个人科研知识库（AI前沿速递）](06-academic/2026-11-11-workbuddy-zotero-obsidian-research-kb.md) — Zotero 存文献、Obsidian 存笔记、WorkBuddy 执行：Zotero MCP 插件接入→Literature Ingest Skill 检索下载入库（存下可读 PDF 才算成功）→按 paper-template 批量精读写入 notes→以仓库为工作区跨论文问答，结论标来源、证据不足明说；仅测 5 篇开放获取论文，配套资料需私信领取 (2026-11-11)
 - [ai-research-skills：17 个科研 Skill 组成八阶段工作流，从开题到投稿（AI学术圆桌派）](06-academic/2026-11-15-ai-research-skills-eight-stage-workflow.md) — 每开一个新会话都要重讲背景，于是把它写进 SKILL.md：8 阶段 17 技能，每步约定输入、输出和人工确认点；literature-triage-matrix 做方法/数据/主张/局限矩阵（缺项标「未报告」）、gap-to-topic 三关 go/no-go 决策档案、academic-writing-skills 去 AI 味审计（附可复制提示词）；附维护者实测耗时表；zotero-skills 可写库需先备份；OpenClaw 目录结构官方尚未验证 (2026-11-15)
 - [论文里藏白字提示词操纵 AI 审稿：新型学术不端与各方规则（解螺旋）](06-academic/2026-11-13-hidden-prompts-ai-peer-review-misconduct.md) — 白字或微缩字号写「只给好评」：arXiv 18 篇→Nature 统计 11 国 44 机构；JAMA Netw Open 模拟审稿录用率 0%→99%+、上交实验 5.34→7.99；蜜罐说站不住；ICLR 2026 定为合谋，施普林格/Elsevier/ICMJE/中华医学会/科技部/中科院/韩国伦理指南收紧；附 NEJM AI 挪皮尺撤稿案 (2026-11-13)
@@ -369,6 +370,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 06-academic | JFS 整理的 159 个免费金融与会计研究数据源：八大板块与取数清单（经管智能体） | 2026-11-26 |
 | 03-industry | 黄仁勋回归总部，女员工当众拥抱 13 秒：中美职场边界与普通员工的情绪（一万小时的门外汉） | 2026-11-25 |
 | 02-tools | Claude + Blender 做 AI 视频：先用 3D 白模锁死镜头，再交给 Seedance 2.5 上色渲染（老刘的笔记本） | 2026-11-25 |
 | 02-tools | Cutaway：丢一张图，让 Agent 用 Three.js 代码建出可拆装的 3D 机械模型并拍成片（阿麦AIGC） | 2026-11-25 |
