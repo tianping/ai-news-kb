@@ -33,6 +33,7 @@
 - 开源模型动态
 
 ### 二、工具与产品
+- [用 Gemini Neon + Blender MCP 做 3D 资产：配置、分步建模与五个坑（老金独立开发）](02-tools/2026-11-27-gemini-neon-blender-mcp-3d-assets.md) — ahujasid/mcp-for-blender（原 blender-mcp，MIT，约 3.6 万 star，PyPI 包 mcp-for-blender 已核对为官方）：Cursor/Antigravity 里的 Gemini Neon 写 bpy 脚本、经 localhost:9876 驱动本地 Blender，look 回传渲染图自查穿模比例；装法 uv 官方渠道 + mcp.json 写 uvx 绝对路径 + install-addon，两边彻底重启；第一句给齐造型/材质/光线/用途，按 Collection 分步建每步看四视图；附道具/建筑/局部调整三个 Prompt；五个坑：GUI 不继承 PATH、Cycles+Metal 并发 look 卡死先用 EEVEE、同时只能连一个客户端、中文界面按 node.type 找 BSDF、Solid 视图看不到材质；可接 Poly Haven/Sketchfab/Tripo/Meshy
 - [StableGen：Blender 免费插件，一句话生成网格、贴图、骨骼（晚风逐云开）](02-tools/2026-11-27-stablegen-blender-ai-mesh-texture-rig.md) — sakalond/StableGen（GPL-3.0，约 1.7K star，2025-05 建仓、非原文说的「上线不久」）：TRELLIS.2 建网格 → SkinTokens 绑骨加蒙皮 → 环绕相机逐方向生成并参考已画方向投影成贴图（接缝连贯），可只补贴图或涂选局部重画；Marigold 估 PBR、LATO.2 低模重拓扑、Make Solid 去内壳；导出 glTF（Godot/网页）/FBX（UE/Unity）/多色 3MF，Mixamo 动作可重定向；需 Blender 4.2–4.5 或 5.1+（5.0 不支持）+ ComfyUI，SDXL 约 8GB、Qwen Image 16GB+；注意 Qwen Image 2.1、Bria FIBO 2.0 仅限非商用，DINOv3 另有许可；原文无实测
 - [Blueprint：Claude Code 把建筑草图写成可修改的 Blender 场景（极客BIM设计工坊）](02-tools/2026-11-26-blueprint-claude-code-sketch-to-blender-house.md) — Nyxera0x/blueprint（MIT，约 126 star，已核对；与昨天收录的 cutaway 同一作者、同一套「不导入原图、用代码逐件重建、每轮渲染与参考图并置」方法论）：Claude Code 读草图/平面图/参考图，按草图上的尺寸标注（非像素比例）转成米制，再写 Blender 脚本把地基柱梁椽地板榻榻米障子生成为独立对象，所以「移一根柱子/换一组材料」是脚本动作而非重新抽卡；参考图三四张固定材料灯光家具朝向，每轮低分辨率渲染与参考并置按差异修改（六轮处理色调、视线、泳池岩石穿出、屋顶连接件外露）；输出含逐件搭建动画与入室镜头、声音绑定构件落下时点；案例：14×14 米带枫树庭院住宅手绘草图，公寓宣传册平面图被自动识别把门放到房间中央、须按比例尺人工复核——AI 能转几何关系但几何关系仍需人检查；踩坑：场景 3200 万面其中 3000 万来自 9 棵针叶树，加运动模糊爆显存，减面+预烘焙带倒角飞行构件后峰值降到约 5.5GB；依赖 Blender 4.2+、Python 图像库、ffmpeg、示例用 N 卡跑 Cycles；边界明确——适合概念阶段空间推演与建筑动画原型，不是 BIM 正向设计/施工图，尺寸缺失、门窗识别出错、结构设备法规无法自动补全；原文系项目说明转述，无作者实测 (2026-11-26)
 - [Claude + Blender 做 AI 视频：先用 3D 白模锁死镜头，再交给 Seedance 2.5 上色渲染（老刘的笔记本）](02-tools/2026-11-25-claude-blender-3d-reference-ai-video-workflow.md) — Blender 管骨架构图运镜、视频模型管画质光影声音：入门版 Higgsfield 插件在侧边栏对话建场景（提示词必写 low poly 防爆显存，推荐 Opus 5.5，等 5–10 分钟，Scene Builder 打字加戏），MP4/H.264 Render Animation 导出参考；视觉锚点=角色设定图+从 Blender 截图用 Nano Banana Pro 2K 重绘的场景剧照（保证门窗位置对得上）；Seedance 2.5 Prompter Skill 写提示词、逐个标注素材身份；生成前核对图号顺序/时长对齐/先跑 Draft 再放 1080p；进阶版 Claude Connectors 接 Blender MCP（拖包两次、Allow Online Access、Start MCP Bridge Server、问 Am I connected 自检），先出 Seedream 5.0 概念图再反向建 barebone 骨架，粗分镜+参考图交 Claude Code 排走位；10 秒追逐戏锁死俯拍→俯冲→横摇→上仰一镜到底，加双角色干声样本锁音色；全链路依赖 Higgsfield 付费订阅 (2026-11-25)
@@ -375,6 +376,7 @@
 
 | 分类 | 笔记 | 日期 |
 |------|------|------|
+| 02-tools | 用 Gemini Neon + Blender MCP 做 3D 资产：配置、分步建模与五个坑（老金独立开发） | 2026-11-27 |
 | 01-models | 未发布的 Claude Opus 5.6 被灰度测出：《最后一张无聊的 PPT》与一批纯代码动画（APPSO） | 2026-11-27 |
 | 02-tools | StableGen：Blender 免费插件，一句话生成网格、贴图、骨骼（晚风逐云开） | 2026-11-27 |
 | 02-tools | Blueprint：Claude Code 把建筑草图写成可修改的 Blender 场景（极客BIM设计工坊） | 2026-11-26 |
