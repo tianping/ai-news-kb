@@ -114,3 +114,31 @@ make setup
 
 - 这篇基本是一篇质量不错的通读整理，没有实测，也没有本笔记已有信息之外的独立验证
 - 最有价值的新增是两组数字：预算阈值（$0.50 / $10）和那几条更便宜的示例成本；以及把局限集中列了出来——尤其「免费路径做不了真正的动态生成」这条，和本笔记原来的判断一致
+
+---
+
+## 补充（2026-11-27）：AI工具匠的完整教程
+
+来源：公众号「AI工具匠」《69k Star：全球首个开源智能体视频制作系统——OpenMontage 完整教程》（https://mp.weixin.qq.com/s/yYq2lxDvSEYTqVOK7vjVaA ）。主体与本笔记重合，以下只记新增部分。
+
+### 仓库现状核对（2026-11-27，GitHub API）
+
+- `calesthio/OpenMontage` 已**永久重定向**到 `OpenMontageInc/OpenMontage`——解决了 11-25 补充里「两个地址都能打开」的疑问：组织改名，旧地址保留跳转
+- Star **83,698**，许可 AGPL-3.0，最近 push 2026-11-16
+- 标题里的「69k Star」（正文写 68,996）已过时，原文应是较早写成或照搬旧数据
+
+### 新增细节
+
+- **Backlot 看板命令**：`python -m backlot open` 打开全部项目看板，`python -m backlot open <project-id>` 看单个制作；跑完可点 **▶ REPLAY RUN** 从头回放整条生产过程
+- **Windows 无 make 的手动安装**：`py -3 -m venv .venv` → 激活 `.venv\Scripts\Activate.ps1` → `pip install -r requirements.txt` → `cd remotion-composer; npm install` → `pip install piper-tts` → 复制 `.env.example` 为 `.env`
+- **本地 GPU 生成**：`make install-gpu`，并设 `VIDEO_GEN_LOCAL_ENABLED=true`
+- **可选 Key 清单**：FAL / Kling / Pexels / Suno / ElevenLabs / OpenAI / xAI / Google / ARK（火山方舟）/ HeyGen / Runway，全部可选
+- **多助手共用同一契约**：仓库里分别有 `CLAUDE.md`、`CURSOR.md`、`CODEX.md`、`COPILOT.md`，都指向同一份 `AGENT_GUIDE.md`
+- **流水线多一条**：除本笔记表中 11 条外，该文还列了「角色动画」
+- **更多官方成品**：科幻预告片《SIGNAL FROM TOMORROW》、Blender 3D 展示《OBJECTS IN OVERDRIVE》（每支都附 prompt、流水线、工具和成本，可复现）
+- **示例提示词**（真实素材路线）：「做一支 75 秒的雨夜城市生活纪录片，只用真实素材、不要旁白、挽歌氛围、配乐」
+
+### 点评
+
+- 教程型搬运，无实测；有用的是 Backlot 命令、Windows 安装和本地 GPU 开关这几条可操作信息
+- 本库 OpenMontage 已有多篇：[08-10 K的算法笔记本](2026-08-10-openmontage-agentic-video.md)、[09-08 视频工作室](2026-09-08-openmontage-ai-video-studio.md)、本篇（主笔记）及 [HPC 整合方案](2026-10-28-hpc-local-video-taishang-openmontage-plan.md)；之后同主题文章继续补到本篇，不再新建
